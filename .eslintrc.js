@@ -86,6 +86,5 @@ module.exports = {
       },
     ],
     "css-modules/no-undef-class": "error",
-    "@typescript-eslint/no-explicit-any": "off",
   },
 };

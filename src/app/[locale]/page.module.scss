@@ -1,4 +1,154 @@
-.page {
-  .main {
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 720px;
+
+  .heroSectionImage {
+    object-fit: cover;
+    min-height: 720px;
+    max-height: 720px;
   }
+
+  .heroSectionBox {
+    position: absolute;
+    top: 106px;
+    left: 80px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .qualityStars {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 258px;
+      height: 32px;
+
+      .qualityText {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        letter-spacing: -0.02em;
+        color: var(--primary);
+      }
+    }
+
+    .heroSectionContent {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+
+      .heroSectionContentTitle {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 115%;
+        letter-spacing: -0.02em;
+        color: var(--primary);
+      }
+    }
+  }
+
+  .reviewBox {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-sizing: border-box;
+
+    .imageMessageBox {
+      max-width: 604px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .imageBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 140px;
+
+        .reviewImage {
+          border-radius: 99px;
+          width: 48px;
+          height: 48px;
+        }
+
+        .nameText {
+          font-family: var(--font-family);
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: var(--primary);
+        }
+
+        .dateText {
+          font-family: var(--font-family);
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: var(--primary-a50);
+        }
+      }
+
+      .messageText {
+        width: 100%;
+        height: 48px;
+        max-width: 400px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: var(--primary);
+      }
+    }
+
+    .logoBox {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 64px 0 0 0;
+      width: 172px;
+      height: 132px;
+      background: var(--background);
+    }
+  }
+}
+
+.actionButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 99px;
+  padding: 20px 28px;
+  width: 224px;
+  height: 64px;
+  background: var(--accent);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

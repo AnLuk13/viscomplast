@@ -9,7 +9,7 @@ function FacebookIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_2001_960)">
+      <g clipPath="url(#clip0_2001_960)">
         <path
           d="M14.5 0C6.79999 0 0.5 6.31124 0.5 14.0844C0.5 21.1125 5.62399 26.9458 12.316 28V18.1607H8.75999V14.0844H12.316V10.9779C12.316 7.44979 14.402 5.51004 17.608 5.51004C19.134 5.51004 20.73 5.7771 20.73 5.7771V9.24899H18.966C17.23 9.24899 16.684 10.3313 16.684 11.4418V14.0844H20.576L19.946 18.1607H16.684V28C19.9829 27.4768 22.9871 25.7869 25.1538 23.2349C27.3206 20.6832 28.5075 17.4376 28.5 14.0844C28.5 6.31124 22.2 0 14.5 0Z"
           fill="#18437E"
@@ -28,8 +28,8 @@ function FacebookIcon() {
           y2="-0.00518336"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0062E0" />
-          <stop offset="1" stop-color="#19AFFF" />
+          <stop stopColor="#0062E0" />
+          <stop offset="1" stopColor="#19AFFF" />
         </linearGradient>
         <clipPath id="clip0_2001_960">
           <rect

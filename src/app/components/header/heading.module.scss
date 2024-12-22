@@ -1,0 +1,130 @@
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+
+  .headerSection {
+    padding: 10px 80px;
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: var(--primary);
+
+    .headerContentBox {
+      width: 100%;
+      height: 56px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logoScheduleBox {
+        max-width: 400px;
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .scheduleBox {
+          width: 263px;
+          height: 48px;
+
+          .scheduleTitle {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: -0.02em;
+            color: var(--secondary);
+          }
+
+          .scheduleTextBox {
+            max-width: 263px;
+            width: 100%;
+            height: 24px;
+            display: flex;
+            justify-content: space-between;
+
+            .scheduleText {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: -0.02em;
+              color: var(--accent);
+            }
+          }
+        }
+      }
+
+      .socialBox {
+        height: 32px;
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .phoneBox {
+          width: 111px;
+          height: 24px;
+          display: flex;
+          justify-content: space-between;
+
+          .phoneText {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: -0.02em;
+            color: var(--secondary);
+          }
+        }
+
+        .socialLinks {
+          max-width: 148px;
+          width: 100%;
+          height: 28px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+
+  .navigationSection {
+    padding: 10px 40px;
+    width: 100%;
+    height: 44px;
+    background: var(--secondary);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navigationContent {
+      max-width: 904px;
+      width: 100%;
+      height: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .navLink {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: var(--primary);
+        text-decoration: none;
+      }
+    }
+  }
+}
