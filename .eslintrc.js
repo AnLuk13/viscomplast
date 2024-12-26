@@ -85,6 +85,6 @@ module.exports = {
         argsIgnorePattern: "^_",
       },
     ],
-    "css-modules/no-undef-class": "off",
+    "css-modules/no-undef-class": "warn",
   },
 };
