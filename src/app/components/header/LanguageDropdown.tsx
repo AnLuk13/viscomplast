@@ -4,6 +4,7 @@ import React from "react";
 import Select from "react-select";
 import { usePathname, useRouter } from "@/i18n/routing";
 import { useLocale } from "next-intl";
+import { languageStyles } from "@/app/lib/consts/customStyles";
 
 function LanguageDropdown({
   showMobileSidebar,
@@ -36,79 +37,10 @@ function LanguageDropdown({
     ),
   }));
 
-  const customStyles = {
-    control: (provided, state) => ({
-      ...provided,
-      backgroundColor: "var(--background)",
-      borderRadius: "99px",
-      padding: 4,
-      display: "flex",
-      width: 48,
-      boxSizing: "contain",
-      border: "none",
-      boxShadow: state.isFocused ? "none" : "none",
-      "&:hover": {
-        border: "none",
-        boxShadow: "none",
-      },
-      "&:focus": {
-        border: "none",
-        outline: "none",
-        boxShadow: "none",
-      },
-      "&:active": {
-        border: "none",
-        outline: "none",
-        boxShadow: "none",
-      },
-    }),
-    menu: (provided) => ({
-      ...provided,
-      padding: 0,
-      ...(!showMobileSidebar && { top: "-140px" }),
-    }),
-    menuList: (provided) => ({
-      ...provided,
-      padding: 0,
-      borderRadius: 4,
-    }),
-    valueContainer: (provided) => ({
-      ...provided,
-      padding: 0,
-    }),
-    indicatorSeparator: () => ({ display: "none" }),
-    dropdownIndicator: (provided) => ({
-      ...provided,
-      color: "#000",
-      padding: 0,
-      "&:hover": {
-        color: "#000",
-        cursor: "pointer",
-      },
-    }),
-    singleValue: (provided) => ({
-      ...provided,
-      width: 24,
-      height: 24,
-      display: "flex",
-      alignItems: "center",
-      padding: 0,
-      cursor: "pointer",
-    }),
-    option: (provided, state) => ({
-      ...provided,
-      cursor: "pointer",
-      "&:hover": {
-        backgroundColor: state.isSelected ? {} : "var(--background)", // Red hover for non-selected items
-      },
-      backgroundColor: state.isSelected ? "#519eff" : "transparent", // Red hover for non-selected items
-    }),
-  };
-
   return (
     <Select
       options={languageOptions}
-      styles={customStyles}
+      styles={languageStyles}
       defaultValue={languageOptions.find((opt) => opt.value === locale)}
       isSearchable={false}
       onChange={(selected) => {
