@@ -42,6 +42,7 @@ export const navTabs: NavTab[] = [
     options: [
       { value: "asdasdrty", label: "asfafdad" },
       { value: "asdasdjk", label: "asfafweqwe" },
+      { value: "asdasdasd", label: "asdasdasdasd" },
     ],
   },
 ];

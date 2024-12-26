@@ -11,7 +11,11 @@ function DropdownMenu({ items, handleItemClick }: DropdownMenuProps) {
   return (
     <ul className={styles.dropdownMenu}>
       {items.map((subItem) => (
-        <li key={subItem.path} onClick={handleItemClick}>
+        <li
+          key={subItem.path}
+          onClick={handleItemClick}
+          className={styles.dropdownMenuItem}
+        >
           <Link href={subItem.path} className={styles.navigationLinks}>
             {subItem.label}
           </Link>

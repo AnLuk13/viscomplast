@@ -17,8 +17,6 @@ function Heading() {
   const [showMobileSidebar, setShowMobileSidebar] = useState<boolean>(true);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
-  console.log(showMobileSidebar);
-
   const handleItemClick = () => {
     setShowMobileSidebar(true);
     setActiveDropdown(null);

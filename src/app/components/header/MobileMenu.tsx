@@ -47,37 +47,41 @@ function MobileMenu({
     <div
       className={`${styles.mobileMenu} ${showMobileSidebar ? "" : styles.show}`}
     >
-      {navTabs.map((item) => (
-        <div
-          key={item.label}
-          className={item.type === "dropdown" ? styles.dropdown : ""}
-        >
-          {item.type === "link" ? (
-            <Link href={item.href!} className={styles.navigationLinks}>
-              {item.label}
-            </Link>
-          ) : (
-            <>
-              <button
-                type="button"
-                onClick={() => toggleDropdown(item.defaultValue!.label)}
-                className={styles.navigationLinks}
-              >
-                {item.defaultValue?.label} ▼
-              </button>
-              {activeDropdown === item.defaultValue?.label && (
-                <DropdownMenu
-                  items={item.options!.map((option) => ({
-                    label: option.label,
-                    path: `/${option.value}`,
-                  }))}
-                  handleItemClick={handleItemClick}
-                />
-              )}
-            </>
-          )}
-        </div>
-      ))}
+      <div className={styles.mobileNavContainer}>
+        {navTabs.map((item) => (
+          <div
+            key={item.label}
+            className={
+              item.type === "dropdown" ? styles.dropdown : styles.fitContent
+            }
+          >
+            {item.type === "link" ? (
+              <Link href={item.href!} className={styles.navigationLinks}>
+                {item.label}
+              </Link>
+            ) : (
+              <>
+                <button
+                  type="button"
+                  onClick={() => toggleDropdown(item.defaultValue!.label)}
+                  className={styles.navigationLinks}
+                >
+                  {item.defaultValue?.label} ↓
+                </button>
+                {activeDropdown === item.defaultValue?.label && (
+                  <DropdownMenu
+                    items={item.options!.map((option) => ({
+                      label: option.label,
+                      path: `/${option.value}`,
+                    }))}
+                    handleItemClick={handleItemClick}
+                  />
+                )}
+              </>
+            )}
+          </div>
+        ))}
+      </div>
       <div className={styles.detailsContainer}>
         <ScheduleBox props={{ display: "block" }} />
         <div className={styles.socialsLanguageBox}>
