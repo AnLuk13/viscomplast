@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import LanguageDropdown from "@/app/components/header/LanguageDropdown";
 import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import DropdownMenu from "@/app/components/header/DropdownMenu";
@@ -21,6 +21,7 @@ function MobileMenu({
   setActiveDropdown,
   handleItemClick,
 }: DesktopMenuProps) {
+  const [isTwoColumn, setIsTwoColumn] = useState(false);
   useEffect(() => {
     const handleResize = () => {
       if (!showMobileSidebar && window.innerWidth <= 1200) {
@@ -28,6 +29,7 @@ function MobileMenu({
       } else {
         document.body.style.overflow = "auto";
       }
+      setIsTwoColumn(window.innerHeight < 650);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
