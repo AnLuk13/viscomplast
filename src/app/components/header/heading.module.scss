@@ -214,10 +214,10 @@
     .detailsContainer {
       display: flex;
       flex-direction: column;
-      position: fixed;
-      bottom: 30px;
+      //position: fixed;
+      //bottom: 30px;
       gap: 32px;
-      width: 90%;
+      width: 100%;
 
       .socialsLanguageBox {
         width: 100%;
@@ -264,6 +264,7 @@
       display: flex;
       flex-direction: column;
       gap: 14px;
+      margin-bottom: 8px;
 
       .fitContent {
         width: fit-content;

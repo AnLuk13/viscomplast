@@ -47,52 +47,62 @@ function MobileMenu({
     <div
       className={`${styles.mobileMenu} ${showMobileSidebar ? "" : styles.show}`}
     >
-      <div className={styles.mobileNavContainer}>
-        {navTabs.map((item) => (
-          <div
-            key={item.label}
-            className={
-              item.type === "dropdown" ? styles.dropdown : styles.fitContent
-            }
-          >
-            {item.type === "link" ? (
-              <Link href={item.href!} className={styles.navigationLinks}>
-                {item.label}
-              </Link>
-            ) : (
-              <>
-                <button
-                  type="button"
-                  onClick={() => toggleDropdown(item.defaultValue!.label)}
-                  className={styles.navigationLinks}
-                >
-                  {item.defaultValue?.label} ↓
-                </button>
-                {activeDropdown === item.defaultValue?.label && (
-                  <DropdownMenu
-                    items={item.options!.map((option) => ({
-                      label: option.label,
-                      path: `/${option.value}`,
-                    }))}
-                    handleItemClick={handleItemClick}
-                  />
-                )}
-              </>
-            )}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          width: "100%",
+          height: "calc(100% - 76px)",
+        }}
+      >
+        <div className={styles.mobileNavContainer}>
+          {navTabs.map((item) => (
+            <div
+              key={item.label}
+              className={
+                item.type === "dropdown" ? styles.dropdown : styles.fitContent
+              }
+            >
+              {item.type === "link" ? (
+                <Link href={item.href!} className={styles.navigationLinks}>
+                  {item.label}
+                </Link>
+              ) : (
+                <>
+                  <button
+                    type="button"
+                    onClick={() => toggleDropdown(item.defaultValue!.label)}
+                    className={styles.navigationLinks}
+                  >
+                    {item.defaultValue?.label} ↓
+                  </button>
+                  {activeDropdown === item.defaultValue?.label && (
+                    <DropdownMenu
+                      items={item.options!.map((option) => ({
+                        label: option.label,
+                        path: `/${option.value}`,
+                      }))}
+                      handleItemClick={handleItemClick}
+                    />
+                  )}
+                </>
+              )}
+            </div>
+          ))}
+        </div>
+        <div className={styles.detailsContainer}>
+          <ScheduleBox props={{ display: "block" }} />
+          <div className={styles.socialsLanguageBox}>
+            <div className={styles.mobileSocialLinks}>
+              {socialLinks.map(({ href, Icon }) => (
+                <a key={href} href={href}>
+                  <Icon />
+                </a>
+              ))}
+            </div>
+            <LanguageDropdown showMobileSidebar={showMobileSidebar} />
           </div>
-        ))}
-      </div>
-      <div className={styles.detailsContainer}>
-        <ScheduleBox props={{ display: "block" }} />
-        <div className={styles.socialsLanguageBox}>
-          <div className={styles.mobileSocialLinks}>
-            {socialLinks.map(({ href, Icon }) => (
-              <a key={href} href={href}>
-                <Icon />
-              </a>
-            ))}
-          </div>
-          <LanguageDropdown showMobileSidebar={showMobileSidebar} />
         </div>
       </div>
     </div>
