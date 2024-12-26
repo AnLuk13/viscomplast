@@ -16,7 +16,7 @@ function CatalogCard({
     <div className={styles.card}>
       <Image
         priority
-        src={imageUrl}
+        src={imageUrl.src}
         alt="Card section"
         fill
         sizes="100vw"
