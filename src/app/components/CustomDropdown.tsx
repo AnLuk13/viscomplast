@@ -100,6 +100,7 @@ function CustomDropdown({ options, defaultValue }) {
         IndicatorSeparator: null,
       }}
       isSearchable={false}
+      instanceId="nav-select"
     />
   );
 }

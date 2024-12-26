@@ -1,0 +1,129 @@
+.catalogSection {
+  background: var(--secondary);
+
+  .titleBox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .catalogSectionTitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--primary);
+    text-transform: uppercase;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+
+    @media (min-width: 1350px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    .cardImage {
+      position: absolute;
+      object-position: center;
+      object-fit: cover;
+      min-height: 600px;
+      max-height: 600px;
+      user-select: none;
+    }
+
+    .cardTitle {
+      position: absolute;
+      padding: 16px 20px;
+      font-family: var(--font-family);
+      font-weight: 200;
+      font-size: 48px;
+      line-height: 133%;
+      letter-spacing: -0.02em;
+      color: var(--primary);
+    }
+
+    .listItemContainer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .listItemBox {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 76px;
+      border-bottom: 1px solid var(--primary-a50);
+      padding: 16px 20px;
+      box-sizing: border-box;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .listItem {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: var(--primary);
+      }
+
+      span {
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      .actionButton {
+        border-radius: 99px;
+        padding: 8px;
+        width: 44px;
+        height: 44px;
+        background-color: var(--accent);
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        svg {
+          width: 16px;
+          height: 16px;
+          stroke: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .titleBox {
+    padding: 0 6px;
+
+    .catalogSectionTitle {
+      font-size: 36px !important;
+      text-align: center;
+      padding: 32px 0 !important;
+    }
+  }
+}

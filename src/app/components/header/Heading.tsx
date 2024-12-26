@@ -1,96 +1,89 @@
-import React from "react";
+"use client";
+
 import Logo from "@/app/components/svg-icons/Logo";
 import PhoneIcon from "@/app/components/svg-icons/PhoneIcon";
-import FacebookIcon from "@/app/components/svg-icons/socials/FacebookIcon";
-import InstagramIcon from "@/app/components/svg-icons/socials/InstagramIcon";
-import WhatsappIcon from "@/app/components/svg-icons/socials/WhatsappIcon";
-import ViberIcon from "@/app/components/svg-icons/socials/ViberIcon";
 import LanguageDropdown from "@/app/components/header/LanguageDropdown";
 import { Link } from "@/i18n/routing";
 import CustomDropdown from "@/app/components/CustomDropdown";
+import React, { useState } from "react";
+import BurgerMenu from "@/app/components/header/BurgerMenu";
+import MobileMenu from "@/app/components/header/MobileMenu";
+import ScheduleBox from "@/app/components/header/ScheduleBox";
+import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import styles from "./heading.module.scss";
 
 function Heading() {
+  const [showMobileSidebar, setShowMobileSidebar] = useState<boolean>(true);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
+  const handleItemClick = () => {
+    setShowMobileSidebar(true);
+    setActiveDropdown(null);
+  };
   return (
     <header className={styles.header}>
       <div className={styles.headerSection}>
         <div className={styles.headerContentBox}>
           <div className={styles.logoScheduleBox}>
-            <Logo />
-            <div className={styles.scheduleBox}>
-              <div className={styles.scheduleTitle}>Program de lucru:</div>
-              <div className={styles.scheduleTextBox}>
-                <div className={styles.scheduleText}>Ln - Vn: 9:00 - 17:00</div>
-                <div className={styles.scheduleText}>Sb: 9:00 - 12:00</div>
-              </div>
-            </div>
+            <Link href="/" style={{ cursor: "pointer" }}>
+              <Logo />
+            </Link>
+            <ScheduleBox props={{}} />
           </div>
           <div className={styles.socialBox}>
-            <div className={styles.phoneBox}>
-              <PhoneIcon />
-              <div className={styles.phoneText}>060466177</div>
-            </div>
-            <div className={styles.phoneBox}>
-              <PhoneIcon />
-              <div className={styles.phoneText}>060414041</div>
+            <div className={styles.phoneContainer}>
+              {["060466177", "060414041"].map((phone) => (
+                <div key={phone} className={styles.phoneBox}>
+                  <div className={styles.phoneIconBox}>
+                    <PhoneIcon />
+                  </div>
+                  <div className={styles.phoneText}>{phone}</div>
+                </div>
+              ))}
             </div>
             <div className={styles.socialLinks}>
-              <a href="https://www.facebook.com/Viscomplast/">
-                <FacebookIcon />
-              </a>
-              <a href="https://www.instagram.com/viscomplast">
-                <InstagramIcon />
-              </a>
-              <a href="https://api.whatsapp.com/send/?phone=37360414041&text&type=phone_number&app_absent=0">
-                <WhatsappIcon />
-              </a>
-              <a href="viber://chat?number=%2B37360414041">
-                <ViberIcon />
-              </a>
+              {socialLinks.map(({ href, Icon }) => (
+                <a key={href} href={href}>
+                  <Icon />
+                </a>
+              ))}
             </div>
-            <LanguageDropdown />
+            <div className={styles.languageDropdown}>
+              <LanguageDropdown showMobileSidebar />
+            </div>
+            <BurgerMenu
+              showMobileSidebar={showMobileSidebar}
+              setShowMobileSidebar={setShowMobileSidebar}
+              setActiveDropdown={setActiveDropdown}
+            />
           </div>
         </div>
       </div>
+      <MobileMenu
+        showMobileSidebar={showMobileSidebar}
+        activeDropdown={activeDropdown}
+        setActiveDropdown={setActiveDropdown}
+        handleItemClick={handleItemClick}
+      />
       <nav className={styles.navigationSection}>
         <div className={styles.navigationContent}>
-          <Link className={styles.navLink} href="/">
-            Acasă
-          </Link>
-          <CustomDropdown
-            options={[
-              { value: "dsfsdf", label: "asfafasdasd" },
-              { value: "dsfsadfdgdg", label: "asfaf" },
-            ]}
-            defaultValue={{ value: "Ferestre", label: "Ferestre" }}
-          />
-          <CustomDropdown
-            options={[
-              { value: "awew", label: "asfaf" },
-              { value: "yutyut", label: "asfaf" },
-            ]}
-            defaultValue={{ value: "Uși", label: "Uși" }}
-          />
-          <CustomDropdown
-            options={[
-              { value: "nm,jj", label: "asfaf" },
-              { value: "fyuyrtytry", label: "asfaf" },
-            ]}
-            defaultValue={{ value: "Glisante", label: "Glisante" }}
-          />
-          <Link className={styles.navLink} href="/">
-            Închideri terase
-          </Link>
-          <Link className={styles.navLink} href="/">
-            Fațade aluminiu
-          </Link>
-          <CustomDropdown
-            options={[
-              { value: "asdasd", label: "asfaf" },
-              { value: "asdasd", label: "asfaf" },
-            ]}
-            defaultValue={{ value: "Export", label: "Export" }}
-          />
+          {navTabs.map((tab) =>
+            tab.type === "link" ? (
+              <Link
+                key={tab.label}
+                className={styles.navLink}
+                href={tab.href || "/"}
+              >
+                {tab.label}
+              </Link>
+            ) : (
+              <CustomDropdown
+                key={tab.label}
+                options={tab.options || []}
+                defaultValue={tab.defaultValue}
+              />
+            ),
+          )}
         </div>
       </nav>
     </header>

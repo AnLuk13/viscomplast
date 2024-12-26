@@ -1,0 +1,136 @@
+.offerSection {
+  background: var(--background);
+  padding: 72px 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  box-sizing: border-box;
+
+  .titleBox {
+    display: flex;
+    justify-content: center;
+
+    .offerSectionTitle {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 48px;
+      color: var(--secondary);
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      max-width: 700px;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  .stepsContainer {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .offerCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 432px;
+      justify-content: space-between;
+
+      .stepNumber {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 122%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--primary);
+        border-radius: 999px;
+        width: 80px;
+        height: 80px;
+        background-color: #18437e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        border: 1px solid var(--secondary-a50);
+        border-radius: 48px;
+        padding: 24px;
+        width: 308px;
+        height: 320px;
+        background: var(--primary);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .cardContent {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          .cardTitle {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 122%;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: var(--secondary);
+          }
+
+          .cardDescription {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 156%;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: var(--secondary);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .offerSection {
+    padding: 32px 0 0 0;
+    gap: 32px;
+
+    .titleBox {
+      padding: 0 6px;
+    }
+
+    .offerSectionTitle {
+      text-align: center;
+      font-size: 36px !important;
+    }
+
+    .stepsContainer {
+      gap: 0 !important;
+
+      .offerCard {
+        width: 100% !important;
+        height: 320px !important;
+
+        .stepNumber {
+          display: none !important;
+        }
+
+        .card {
+          width: 100% !important;
+          border-radius: 0 !important;
+          border: none !important;
+          border-top: 1px solid var(--secondary-a50) !important;
+        }
+      }
+    }
+  }
+}

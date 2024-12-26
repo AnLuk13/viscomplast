@@ -6,14 +6,17 @@ import Heading from "@/app/components/header/Heading";
 
 export default async function LocaleLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  const langParams = await params;
   const messages = await getMessages();
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <html lang="ro">
+      <html lang={langParams.locale || "ro"}>
         <body>
           <Heading />
           {children}

@@ -31,68 +31,68 @@
         justify-content: space-between;
         align-items: center;
 
-        .scheduleBox {
-          width: 263px;
-          height: 48px;
-
-          .scheduleTitle {
-            font-family: var(--font-family);
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 150%;
-            letter-spacing: -0.02em;
-            color: var(--secondary);
-          }
-
-          .scheduleTextBox {
-            max-width: 263px;
-            width: 100%;
-            height: 24px;
-            display: flex;
-            justify-content: space-between;
-
-            .scheduleText {
-              font-family: var(--font-family);
-              font-weight: 400;
-              font-size: 16px;
-              line-height: 150%;
-              letter-spacing: -0.02em;
-              color: var(--accent);
-            }
-          }
-        }
+        //.scheduleBox {
+        //  width: 263px;
+        //  height: 48px;
+        //
+        //  .scheduleTitle {
+        //    font-family: var(--font-family);
+        //    font-weight: 700;
+        //    font-size: 16px;
+        //    line-height: 150%;
+        //    letter-spacing: -0.02em;
+        //    color: var(--secondary);
+        //  }
+        //
+        //  .scheduleTextBox {
+        //    max-width: 263px;
+        //    width: 100%;
+        //    height: 24px;
+        //    display: flex;
+        //    justify-content: space-between;
+        //
+        //    .scheduleText {
+        //      font-family: var(--font-family);
+        //      font-weight: 400;
+        //      font-size: 16px;
+        //      line-height: 150%;
+        //      letter-spacing: -0.02em;
+        //      color: var(--accent);
+        //    }
+        //  }
+        //}
       }
 
       .socialBox {
-        height: 32px;
+        //height: 32px;
         max-width: 600px;
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        .phoneBox {
-          width: 111px;
-          height: 24px;
+        .phoneContainer {
           display: flex;
-          justify-content: space-between;
-
-          .phoneText {
-            font-family: var(--font-family);
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 150%;
-            letter-spacing: -0.02em;
-            color: var(--secondary);
-          }
-        }
-
-        .socialLinks {
-          max-width: 148px;
+          align-items: center;
+          max-width: 253px;
           width: 100%;
-          height: 28px;
-          display: flex;
           justify-content: space-between;
+
+          .phoneBox {
+            width: 111px;
+            height: 24px;
+            display: flex;
+            justify-content: space-between;
+
+            .phoneText {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: -0.02em;
+              color: var(--secondary);
+            }
+          }
         }
       }
     }
@@ -124,6 +124,203 @@
         letter-spacing: -0.02em;
         color: var(--primary);
         text-decoration: none;
+      }
+    }
+  }
+
+  .mobileMenu {
+    display: none;
+  }
+}
+
+.scheduleBox {
+  width: 263px;
+  height: 48px;
+
+  .scheduleTitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: var(--secondary);
+  }
+
+  .scheduleTextBox {
+    max-width: 263px;
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    .scheduleText {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: -0.02em;
+      color: var(--accent);
+    }
+  }
+}
+
+.socialLinks {
+  max-width: 148px;
+  width: 100%;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .headerSection {
+    padding: 10px 16px !important;
+    border-bottom: 1px solid var(--secondary);
+  }
+
+  .phoneIconBox,
+  .scheduleBox,
+  .languageDropdown {
+    display: none;
+  }
+
+  .socialLinks {
+    opacity: 0;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+
+  .navigationSection {
+    display: none !important;
+  }
+
+  .phoneContainer {
+    flex-direction: column;
+    width: fit-content !important;
+  }
+
+  .phoneBox {
+    width: fit-content !important;
+  }
+
+  .logoScheduleBox {
+    width: fit-content !important;
+    max-width: fit-content !important;
+  }
+
+  .socialBox {
+    max-width: 150px !important;
+  }
+
+  .mobileMenu {
+    position: fixed;
+    top: 76px;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+    transition: right 0.3s ease;
+    z-index: 3;
+    display: flex !important;
+    flex-direction: column;
+    padding: 5% 5%;
+    min-width: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    box-sizing: border-box;
+    overscroll-behavior: contain;
+
+    &.show {
+      right: 0;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+    }
+
+    .detailsContainer {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      bottom: 30px;
+      gap: 32px;
+      width: 90%;
+
+      .socialsLanguageBox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .mobileSocialLinks {
+          max-width: 148px;
+          width: 100%;
+          height: 28px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+
+      &Menu {
+        position: static;
+        margin-top: 12px;
+        top: 40px;
+        left: 0;
+        padding: 0 8px;
+        list-style-type: none;
+        display: block;
+        background-color: white;
+        min-width: 180px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+        right: 0;
+        text-align: left;
+        border-radius: 8px;
+
+        li {
+          padding: 12px 0;
+        }
+      }
+    }
+
+    .navigationLinks {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 122%;
+      letter-spacing: -0.02em;
+      color: var(--secondary);
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.5s all ease-in-out;
+      position: relative;
+      text-transform: uppercase;
+      background: transparent;
+      border: none;
+      padding: 0;
+
+      &::before {
+        content: "";
+        background-color: white;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        height: 2px;
+        width: 0;
+        transition: 0.3s ease-in-out;
+      }
+
+      &:hover::before {
+        background-color: var(--secondary);
+        width: 100%;
       }
     }
   }
