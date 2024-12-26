@@ -1,6 +1,6 @@
 import React from "react";
 
-function BlinkIcon({ color }) {
+function BlinkIcon({ color }: { color: string }) {
   return (
     <div style={{ height: 48 }}>
       <svg

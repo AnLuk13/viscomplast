@@ -45,7 +45,7 @@ function LanguageDropdown({
       isSearchable={false}
       onChange={(selected) => {
         if (showMobileSidebar) {
-          router.push(pathname, { locale: selected.value, scroll: false });
+          router.push(pathname, { locale: selected?.value, scroll: false });
         }
       }}
       instanceId="language-select"

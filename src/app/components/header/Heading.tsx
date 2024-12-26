@@ -81,7 +81,7 @@ function Heading() {
               <CustomDropdown
                 key={tab.label}
                 options={tab.options || []}
-                defaultValue={tab.defaultValue}
+                defaultValue={tab.defaultValue!}
               />
             ),
           )}

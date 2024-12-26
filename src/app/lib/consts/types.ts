@@ -2,8 +2,8 @@ export type NavTab = {
   type: "link" | "dropdown";
   label: string;
   href?: string; // Only for 'link'
-  defaultValue?: { value: string; label: string }; // Only for 'dropdown'
-  options?: { value: string; label: string }[]; // Only for 'dropdown'
+  defaultValue?: Option; // Only for 'dropdown'
+  options?: Option[]; // Only for 'dropdown'
 };
 
 export type Option = {

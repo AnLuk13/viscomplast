@@ -21,7 +21,7 @@ function CustomDropdown({ options, defaultValue }: CustomDropdownProps) {
       value={defaultValue}
       defaultValue={defaultValue}
       onChange={(selected) => {
-        router.push(`/${selected.value}`);
+        router.push(`/${selected?.value}`);
       }}
       components={{
         IndicatorSeparator: null,
