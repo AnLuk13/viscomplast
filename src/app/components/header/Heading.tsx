@@ -14,13 +14,14 @@ import type { NavTab } from "@/app/lib/consts/types";
 import styles from "./heading.module.scss";
 
 function Heading() {
-  const [showMobileSidebar, setShowMobileSidebar] = useState<boolean>(true);
+  const [isMobileNav, setIsMobileNav] = useState<boolean>(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   const handleItemClick = () => {
-    setShowMobileSidebar(true);
+    setIsMobileNav(false);
     setActiveDropdown(null);
   };
+
   return (
     <header className={styles.header}>
       <div className={styles.headerSection}>
@@ -50,18 +51,18 @@ function Heading() {
               ))}
             </div>
             <div className={styles.languageDropdown}>
-              <LanguageDropdown showMobileSidebar />
+              <LanguageDropdown isMobileNav={false} />
             </div>
             <BurgerMenu
-              showMobileSidebar={showMobileSidebar}
-              setShowMobileSidebar={setShowMobileSidebar}
+              isMobileNav={isMobileNav}
+              setIsMobileNav={setIsMobileNav}
               setActiveDropdown={setActiveDropdown}
             />
           </div>
         </div>
       </div>
       <MobileMenu
-        showMobileSidebar={showMobileSidebar}
+        isMobileNav={isMobileNav}
         activeDropdown={activeDropdown}
         setActiveDropdown={setActiveDropdown}
         handleItemClick={handleItemClick}

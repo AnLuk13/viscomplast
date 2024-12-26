@@ -117,6 +117,15 @@
 }
 
 @media (max-width: 860px) {
+  .card {
+    height: 466px !important;
+
+    .cardImage {
+      min-height: 466px !important;
+      max-height: 466px !important;
+    }
+  }
+
   .titleBox {
     padding: 0 6px;
 

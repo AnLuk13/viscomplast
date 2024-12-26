@@ -5,11 +5,7 @@ import Select from "react-select";
 import { usePathname, useRouter } from "@/i18n/routing";
 import { useLocale } from "next-intl";
 
-function LanguageDropdown({
-  showMobileSidebar,
-}: {
-  showMobileSidebar: boolean;
-}) {
+function LanguageDropdown({ isMobileNav }: { isMobileNav: boolean }) {
   const pathname = usePathname();
   const locale = useLocale();
   const router = useRouter();
@@ -37,7 +33,7 @@ function LanguageDropdown({
   }));
 
   const languageStyles = {
-    control: (provided, state) => ({
+    control: (provided) => ({
       ...provided,
       backgroundColor: "var(--background)",
       borderRadius: "99px",
@@ -46,7 +42,7 @@ function LanguageDropdown({
       width: 48,
       boxSizing: "contain",
       border: "none",
-      boxShadow: state.isFocused ? "none" : "none",
+      boxShadow: "none",
       "&:hover": {
         border: "none",
         boxShadow: "none",
@@ -65,7 +61,7 @@ function LanguageDropdown({
     menu: (provided) => ({
       ...provided,
       padding: 0,
-      ...(!showMobileSidebar && { top: "-140px" }),
+      ...(isMobileNav && { top: "-140px" }),
     }),
     menuList: (provided) => ({
       ...provided,
@@ -112,9 +108,7 @@ function LanguageDropdown({
       defaultValue={languageOptions.find((opt) => opt.value === locale)}
       isSearchable={false}
       onChange={(selected) => {
-        if (showMobileSidebar) {
-          router.push(pathname, { locale: selected?.value, scroll: false });
-        }
+        router.push(pathname, { locale: selected?.value, scroll: false });
       }}
       instanceId="language-select"
     />

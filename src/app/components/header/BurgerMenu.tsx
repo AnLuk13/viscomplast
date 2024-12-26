@@ -4,27 +4,25 @@ import React from "react";
 import styles from "./mobileMenu.module.scss";
 
 interface MobileMenuProps {
-  showMobileSidebar: boolean;
-  setShowMobileSidebar: React.Dispatch<React.SetStateAction<boolean>>;
+  isMobileNav: boolean;
+  setIsMobileNav: React.Dispatch<React.SetStateAction<boolean>>;
   setActiveDropdown: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
 function BurgerMenu({
-  showMobileSidebar,
-  setShowMobileSidebar,
+  isMobileNav,
+  setIsMobileNav,
   setActiveDropdown,
 }: MobileMenuProps) {
   return (
     <div
-      className={`${styles.mobileMenuIcon} ${
-        !showMobileSidebar ? styles.active : ""
-      }`}
+      className={`${styles.mobileMenuIcon} ${isMobileNav ? styles.active : ""}`}
       onClick={() => {
-        setShowMobileSidebar((prev) => !prev);
+        setIsMobileNav((prev) => !prev);
         setActiveDropdown(null);
       }}
     >
-      {Array.from({ length: 2 + (showMobileSidebar ? 1 : 0) }, (_, i) => (
+      {Array.from({ length: 2 + (!isMobileNav ? 1 : 0) }, (_, i) => (
         <div
           key={i}
           className={

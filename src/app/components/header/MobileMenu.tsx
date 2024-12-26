@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import LanguageDropdown from "@/app/components/header/LanguageDropdown";
 import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import DropdownMenu from "@/app/components/header/DropdownMenu";
@@ -9,27 +9,25 @@ import ScheduleBox from "@/app/components/header/ScheduleBox";
 import styles from "./heading.module.scss";
 
 interface DesktopMenuProps {
-  showMobileSidebar: boolean;
+  isMobileNav: boolean;
   activeDropdown: string | null;
   setActiveDropdown: React.Dispatch<React.SetStateAction<string | null>>;
   handleItemClick: () => void;
 }
 
 function MobileMenu({
-  showMobileSidebar,
+  isMobileNav,
   activeDropdown,
   setActiveDropdown,
   handleItemClick,
 }: DesktopMenuProps) {
-  const [isTwoColumn, setIsTwoColumn] = useState(false);
   useEffect(() => {
     const handleResize = () => {
-      if (!showMobileSidebar && window.innerWidth <= 1200) {
+      if (isMobileNav && window.innerWidth <= 1200) {
         document.body.style.overflow = "hidden";
       } else {
         document.body.style.overflow = "auto";
       }
-      setIsTwoColumn(window.innerHeight < 650);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -37,26 +35,16 @@ function MobileMenu({
       document.body.style.overflow = "auto";
       window.removeEventListener("resize", handleResize);
     };
-  }, [showMobileSidebar]);
+  }, [isMobileNav]);
 
   const toggleDropdown = (label: string) => {
     setActiveDropdown((prev) => (prev === label ? null : label));
   };
 
   return (
-    <div
-      className={`${styles.mobileMenu} ${showMobileSidebar ? "" : styles.show}`}
-    >
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-          width: "100%",
-          height: "calc(100% - 76px)",
-        }}
-      >
-        <div className={styles.mobileNavContainer}>
+    <div className={`${styles.mobileMenu} ${!isMobileNav ? "" : styles.show}`}>
+      <div className={styles.mobileMenuContainer}>
+        <div className={styles.mobileNavTabsContainer}>
           {navTabs.map((item) => (
             <div
               key={item.label}
@@ -101,7 +89,7 @@ function MobileMenu({
                 </a>
               ))}
             </div>
-            <LanguageDropdown showMobileSidebar={showMobileSidebar} />
+            <LanguageDropdown isMobileNav />
           </div>
         </div>
       </div>
