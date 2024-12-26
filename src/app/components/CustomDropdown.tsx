@@ -4,7 +4,12 @@ import React from "react";
 import Select from "react-select";
 import { useRouter } from "@/i18n/routing";
 
-function CustomDropdown({ options, defaultValue }) {
+type CustomDropdownProps = {
+  options: { value: string; label: string }[]; // Define the shape of each option
+  defaultValue: { value: string; label: string }; // Define the shape of the defaultValue
+};
+
+function CustomDropdown({ options, defaultValue }: CustomDropdownProps) {
   const router = useRouter();
   const customStyles = {
     control: (provided, state) => ({

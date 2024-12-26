@@ -10,6 +10,7 @@ import BurgerMenu from "@/app/components/header/BurgerMenu";
 import MobileMenu from "@/app/components/header/MobileMenu";
 import ScheduleBox from "@/app/components/header/ScheduleBox";
 import { navTabs, socialLinks } from "@/app/lib/consts/common";
+import type { NavTab } from "@/app/lib/consts/types";
 import styles from "./heading.module.scss";
 
 function Heading() {
@@ -67,7 +68,7 @@ function Heading() {
       />
       <nav className={styles.navigationSection}>
         <div className={styles.navigationContent}>
-          {navTabs.map((tab) =>
+          {navTabs.map((tab: NavTab) =>
             tab.type === "link" ? (
               <Link
                 key={tab.label}
