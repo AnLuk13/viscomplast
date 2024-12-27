@@ -193,7 +193,6 @@
     transition: right 0.3s ease;
     z-index: 3;
     display: flex !important;
-    //flex-direction: column;
     padding: 5% 5%;
     //min-width: auto;
     //justify-content: flex-start;
@@ -221,8 +220,6 @@
     .detailsContainer {
       display: flex;
       flex-direction: column;
-      //position: fixed;
-      //bottom: 30px;
       gap: 32px;
       width: 100%;
 
@@ -253,12 +250,8 @@
         padding: 0 8px;
         list-style-type: none;
         display: block;
-        //background-color: white;
-        //min-width: 50%;
-        //box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         z-index: 999;
         text-align: left;
-        //border-radius: 8px;
 
         .dropdownMenuItem {
           padding: 7px 0;
@@ -315,13 +308,16 @@
   }
 }
 
+// adjust the max-height if mobileNavTabsContainer
+// has more navLinks options
 @media (max-height: 700px) {
   .mobileNavTabsContainer {
     padding: 16px 0;
     width: 100%;
-    height: 340px;
+    height: 360px;
     overflow: scroll;
     border-bottom: 1px solid var(--secondary);
     border-top: 1px solid var(--secondary);
+    box-sizing: border-box;
   }
 }

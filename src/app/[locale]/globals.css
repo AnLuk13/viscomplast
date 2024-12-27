@@ -13,3 +13,16 @@
   --second-family: "Inter", sans-serif;
   --third-family: "SF Pro", sans-serif;
 }
+
+.react-tel-input .selected-flag {
+  background: var(--primary) !important;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag,
+.react-tel-input .country-list .search {
+  background: var(--primary) !important;
+}
+
+.react-tel-input .country-list .country.highlight {
+  background-color: var(--background) !important;
+}
