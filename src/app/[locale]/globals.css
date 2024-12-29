@@ -24,6 +24,14 @@
 }
 
 .react-tel-input .country-list .country.highlight {
+  background-color: #c4dfff !important;
+
+  &:hover {
+    background-color: #c4dfff !important;
+  }
+}
+
+.react-tel-input .country-list .country:hover {
   background-color: var(--background) !important;
 }
 

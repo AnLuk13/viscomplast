@@ -49,7 +49,9 @@ function Heading() {
                   <div className={styles.phoneIconBox}>
                     <PhoneIcon />
                   </div>
-                  <div className={styles.phoneText}>{phone}</div>
+                  <a href={`tel:${phone}`} className={styles.phoneText}>
+                    {phone}
+                  </a>
                 </div>
               ))}
             </div>

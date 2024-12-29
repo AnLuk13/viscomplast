@@ -96,6 +96,11 @@
             gap: 16px;
 
             .input {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 156%;
+              letter-spacing: -0.02em;
               border: 1px solid var(--secondary-a50);
               border-radius: 99px;
               padding: 10px 24px;

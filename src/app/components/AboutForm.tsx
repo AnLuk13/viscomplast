@@ -51,7 +51,7 @@ function AboutForm() {
               inputStyle={{
                 border: "1px solid var(--secondary-a50)",
                 borderRadius: "99px",
-                padding: "10px 20px 10px 64px",
+                padding: "10px 20px 10px 70px",
                 maxWidth: "374px",
                 width: "100%",
                 height: "60px",
@@ -67,7 +67,7 @@ function AboutForm() {
               }}
               dropdownStyle={{
                 left: 0,
-                top: 50,
+                top: 49,
                 width: 320,
                 background: "var(--primary)",
               }}
