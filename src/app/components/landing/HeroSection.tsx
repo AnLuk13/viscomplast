@@ -5,7 +5,7 @@ import styles from "@/app/styles/heroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
 import ArrowIcon from "@/app/components/svg-icons/ArrowIcon";
-import Logo from "@/app/components/svg-icons/Logo";
+import Logo from "@/app/components/svg-icons/logo/Logo";
 
 function HeroSection() {
   return (

@@ -26,3 +26,14 @@
 .react-tel-input .country-list .country.highlight {
   background-color: var(--background) !important;
 }
+
+.react-tel-input .country-list .search {
+  display: flex;
+  padding: 10px 10px 6px 10px !important;
+  box-sizing: border-box;
+}
+
+.react-tel-input .country-list .country-name {
+  font-size: 16px;
+  font-family: var(--font-family);
+}

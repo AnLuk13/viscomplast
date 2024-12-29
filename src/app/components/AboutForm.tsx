@@ -68,12 +68,15 @@ function AboutForm() {
               dropdownStyle={{
                 left: 0,
                 top: 50,
-                width: 374,
+                width: 320,
                 background: "var(--primary)",
               }}
               searchStyle={{
-                width: 320,
+                maxWidth: 320,
+                width: "100%",
                 background: "var(--primary)",
+                fontSize: "16px",
+                fontFamily: "var(--font-family)",
               }}
               onChange={(phone) => handleInputChange("phone", phone)}
             />

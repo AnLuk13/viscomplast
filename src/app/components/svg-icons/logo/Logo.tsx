@@ -1,10 +1,17 @@
 import React from "react";
 
-function Logo() {
+function Logo({ width }) {
   return (
-    <div style={{ minWidth: 84 }}>
+    <div
+      style={{
+        minWidth: width,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <svg
-        width="84"
+        width={width}
         height="56"
         viewBox="0 0 84 56"
         fill="none"

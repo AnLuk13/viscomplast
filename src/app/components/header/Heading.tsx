@@ -1,11 +1,11 @@
 "use client";
 
-import Logo from "@/app/components/svg-icons/Logo";
+import Logo from "@/app/components/svg-icons/logo/Logo";
 import PhoneIcon from "@/app/components/svg-icons/PhoneIcon";
 import LanguageDropdown from "@/app/components/header/LanguageDropdown";
 import { Link } from "@/i18n/routing";
 import CustomDropdown from "@/app/components/CustomDropdown";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import BurgerMenu from "@/app/components/header/BurgerMenu";
 import MobileMenu from "@/app/components/header/MobileMenu";
 import ScheduleBox from "@/app/components/header/ScheduleBox";
@@ -16,6 +16,16 @@ import styles from "./heading.module.scss";
 function Heading() {
   const [isMobileNav, setIsMobileNav] = useState<boolean>(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [isLargeScreen, setIsLargeScreen] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 1200);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleItemClick = () => {
     setIsMobileNav(false);
@@ -28,7 +38,7 @@ function Heading() {
         <div className={styles.headerContentBox}>
           <div className={styles.logoScheduleBox}>
             <Link href="/" style={{ cursor: "pointer" }}>
-              <Logo />
+              <Logo width={isLargeScreen ? 84 : 72} />
             </Link>
             <ScheduleBox props={{}} />
           </div>
