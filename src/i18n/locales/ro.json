@@ -1,9 +1,19 @@
 {
   "home": {
-    "title": "Salut lume!",
-    "about": "Mergi la pagina despre"
-  },
-  "about": {
-    "title": "Despre"
+    "heroSection": {
+      "titleLine1": "Ferestre și uși",
+      "titleLine2": "din PVC și aluminiu",
+      "buttonText": "Solicită oferta",
+      "review": {
+        "name": "Emilia C.",
+        "date": "28.03.2024",
+        "text": "“Un review hardcodat de la un user foarte satisfacut de serviciile companiei VISCOMPLAST.”",
+        "qualityText": "excelent"
+      }
+    },
+    "sponsorSection": {
+      "title": "Partenerii noștri",
+      "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
+    }
   }
 }

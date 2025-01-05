@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "@/i18n/routing";
-import styles from "./heading.module.scss";
+import styles from "../../styles/heading.module.scss";
 
 interface DropdownMenuProps {
   items: { label: string; path: string }[];

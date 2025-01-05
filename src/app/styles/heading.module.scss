@@ -22,6 +22,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 24px;
 
       .logoScheduleBox {
         max-width: 400px;
@@ -39,6 +40,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 16px;
 
         .phoneContainer {
           display: flex;
@@ -46,6 +48,7 @@
           max-width: 253px;
           width: 100%;
           justify-content: space-between;
+          gap: 16px;
 
           .phoneBox {
             width: 111px;
@@ -140,9 +143,10 @@
   height: 28px;
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .headerSection {
     padding: 10px 16px !important;
     border-bottom: 1px solid var(--secondary);
@@ -169,6 +173,7 @@
   .phoneContainer {
     flex-direction: column;
     width: fit-content !important;
+    gap: 0 !important;
   }
 
   .phoneBox {
@@ -195,10 +200,6 @@
     z-index: 3;
     display: flex !important;
     padding: 5% 5%;
-    //min-width: auto;
-    //justify-content: flex-start;
-    //align-items: flex-start;
-    //gap: 14px;
     box-sizing: border-box;
     overscroll-behavior: contain;
 

@@ -5,11 +5,14 @@ import styles from "@/app/styles/heroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
 import ArrowIcon from "@/app/components/svg-icons/ArrowIcon";
-import Logo from "@/app/components/svg-icons/logo/Logo";
+import { useTranslations } from "next-intl";
+import LargeLogo from "@/app/components/svg-icons/logo/LargeLogo";
+import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 
 function HeroSection() {
+  const t = useTranslations("home.heroSection");
   return (
-    <div className={styles.heroSection}>
+    <section className={styles.heroSection}>
       <Image
         priority
         src="/assets/images/hero-section.png"
@@ -26,19 +29,19 @@ function HeroSection() {
             .map(() => (
               <StarIcon key={Math.random()} />
             ))}
-          <div className={styles.qualityText}>excelent</div>
+          <div className={styles.qualityText}>{t("review.qualityText")}</div>
         </div>
         <div className={styles.heroSectionContent}>
           <div>
             <div className={styles.heroSectionContentTitle}>
-              Ferestre și uși
+              {t("titleLine1")}
             </div>
             <div className={styles.heroSectionContentTitle}>
-              din PVC și aluminiu
+              {t("titleLine2")}
             </div>
           </div>
           <button className={styles.actionButton} type="button">
-            Solicită oferta <ArrowIcon />
+            {t("buttonText")} <ArrowIcon />
           </button>
         </div>
       </div>
@@ -54,20 +57,24 @@ function HeroSection() {
               className={styles.reviewImage}
             />
             <div className={styles.flexColumn}>
-              <div className={styles.nameText}>Emilia C.</div>
-              <div className={styles.dateText}>28.03.2024</div>
+              <div className={styles.nameText}>{t("review.name")}</div>
+              <div className={styles.dateText}>{t("review.date")}</div>
             </div>
           </div>
-          <div className={styles.messageText}>
-            “Un review hardcodat de la un user foarte satisfacut de serviciile
-            companiei VISCOMPLAST.”
-          </div>
+          <div className={styles.messageText}>{t("review.text")}</div>
         </div>
-        <div className={styles.logoBox}>
-          <Logo />
+        <div
+          className={styles.logoBox}
+          style={
+            useIsLargeScreen(860)
+              ? { height: 132, width: 172, borderRadius: "64px 0 0 0" }
+              : { height: 80, width: 100, borderRadius: "36px 0 0 0" }
+          }
+        >
+          <LargeLogo width={useIsLargeScreen(860) ? 126 : 72} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

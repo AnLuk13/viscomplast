@@ -6,7 +6,7 @@ import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import DropdownMenu from "@/app/components/header/DropdownMenu";
 import { Link } from "@/i18n/routing";
 import ScheduleBox from "@/app/components/header/ScheduleBox";
-import styles from "./heading.module.scss";
+import styles from "../../styles/heading.module.scss";
 
 interface DesktopMenuProps {
   isMobileNav: boolean;

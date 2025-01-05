@@ -1,9 +1,19 @@
 {
   "home": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  },
-  "about": {
-   "title": "About"
+    "heroSection": {
+      "titleLine1": "Windows and doors",
+      "titleLine2": "made of PVC and aluminum",
+      "buttonText": "Request an offer",
+      "review": {
+        "name": "Emilia C.",
+        "date": "28.03.2024",
+        "text": "“A hardcoded review from a very satisfied customer of VISCOMPLAST's services.”",
+        "qualityText": "excellent"
+      }
+    },
+    "sponsorSection": {
+      "title": "Our Partners",
+      "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
+    }
   }
 }

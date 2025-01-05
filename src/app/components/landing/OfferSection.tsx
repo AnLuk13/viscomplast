@@ -8,7 +8,7 @@ import { offerSteps } from "@/app/lib/consts/common";
 
 function OfferSection() {
   return (
-    <div className={styles.offerSection}>
+    <section className={styles.offerSection}>
       <div className={styles.titleBox}>
         <div className={styles.offerSectionTitle}>
           <BlinkIcon color="#18437E" />
@@ -26,7 +26,7 @@ function OfferSection() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

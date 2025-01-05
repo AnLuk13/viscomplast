@@ -5,27 +5,19 @@ import PhoneIcon from "@/app/components/svg-icons/PhoneIcon";
 import LanguageDropdown from "@/app/components/header/LanguageDropdown";
 import { Link } from "@/i18n/routing";
 import CustomDropdown from "@/app/components/CustomDropdown";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import BurgerMenu from "@/app/components/header/BurgerMenu";
 import MobileMenu from "@/app/components/header/MobileMenu";
 import ScheduleBox from "@/app/components/header/ScheduleBox";
 import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import type { NavTab } from "@/app/lib/consts/types";
-import styles from "./heading.module.scss";
+import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
+import styles from "../../styles/heading.module.scss";
 
 function Heading() {
   const [isMobileNav, setIsMobileNav] = useState<boolean>(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [isLargeScreen, setIsLargeScreen] = useState(true);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsLargeScreen(window.innerWidth > 1200);
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  const isLargeScreen = useIsLargeScreen();
 
   const handleItemClick = () => {
     setIsMobileNav(false);

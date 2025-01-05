@@ -1,9 +1,9 @@
 import React from "react";
 
-function LargeLogo() {
+function LargeLogo({ width }) {
   return (
     <svg
-      width="341"
+      width={width}
       height="229"
       viewBox="0 0 341 229"
       fill="none"

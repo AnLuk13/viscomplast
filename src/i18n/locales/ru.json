@@ -1,9 +1,19 @@
 {
   "home": {
-    "title": "Привет мир!",
-    "about": "Перейти на страницу о нас"
-  },
-  "about": {
-    "title": "Про нас"
+    "heroSection": {
+      "titleLine1": "Окна и двери",
+      "titleLine2": "из ПВХ и алюминия",
+      "buttonText": "Запросить предложение",
+      "review": {
+        "name": "Емилия К.",
+        "date": "28.03.2024",
+        "text": "“Жестко закодированный отзыв от очень довольного услугами компании VISCOMPLAST клиента.”",
+        "qualityText": "отлично"
+      }
+    },
+    "sponsorSection": {
+      "title": "Наши партнеры",
+      "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. В производстве конструкций мы используем только качественную фурнитуру <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
+    }
   }
 }

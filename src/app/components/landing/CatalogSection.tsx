@@ -8,7 +8,7 @@ import { catalogCards } from "@/app/lib/consts/common";
 
 function CatalogSection() {
   return (
-    <div className={styles.catalogSection}>
+    <section className={styles.catalogSection}>
       <div className={styles.titleBox}>
         <div className={styles.catalogSectionTitle}>
           <BlinkIcon color="#F3F8FF" />
@@ -28,7 +28,7 @@ function CatalogSection() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

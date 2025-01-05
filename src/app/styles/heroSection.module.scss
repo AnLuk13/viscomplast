@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 16px;
 
     .qualityStars {
       display: flex;
@@ -62,7 +63,6 @@
     bottom: 0;
     height: 132px;
     display: flex;
-    justify-content: space-between;
     padding: 20px 80px;
     box-sizing: border-box;
 
@@ -124,9 +124,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      border-radius: 64px 0 0 0;
-      width: 172px;
-      height: 132px;
       background: var(--background);
     }
   }
@@ -158,9 +155,35 @@
 }
 
 @media (max-width: 860px) {
+  .heroSection {
+    height: 564px !important;
+
+    .heroSectionImage {
+      min-height: 564px !important;
+    }
+  }
+
   .heroSectionBox {
-    height: 296px !important;
+    height: 274px !important;
     left: 16px !important;
+
+    .heroSectionContent {
+      gap: 28px !important;
+    }
+  }
+
+  .heroSectionContentTitle {
+    font-size: 52px !important;
+  }
+
+  .actionButton {
+    width: 175px !important;
+    height: 48px !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    padding: 12px 20px !important;
   }
 
   .reviewBox {
@@ -168,6 +191,7 @@
     max-height: 200px;
     padding-left: 16px !important;
     padding-right: 182px !important;
+    padding-bottom: 12px !important;
 
     .messageText {
       height: fit-content !important;
@@ -183,13 +207,15 @@
   }
 }
 
-@media (min-width: 501px) and (max-width: 860px) {
-  .heroSectionContentTitle {
-    font-size: 52px !important;
-  }
-}
-
 @media (max-width: 500px) {
+  .heroSectionBox {
+    height: 224px !important;
+
+    .heroSectionContent {
+      gap: 24px !important;
+    }
+  }
+
   .heroSectionContentTitle {
     font-size: 32px !important;
   }

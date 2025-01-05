@@ -5,6 +5,7 @@ import styles from "@/app/styles/sponsorsSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import ramplast from "../../../../public/assets/images/sponsors/ramplast.png";
 import veka from "../../../../public/assets/images/sponsors/veka.png";
 import gealan from "../../../../public/assets/images/sponsors/gealan.png";
@@ -15,6 +16,8 @@ const Marquee = dynamic(() =>
 );
 
 function SponsorsSection() {
+  const t = useTranslations("home.sponsorSection");
+
   const sponsors = [
     { src: ramplast, alt: "Ramplast" },
     { src: veka, alt: "Veka" },
@@ -23,18 +26,31 @@ function SponsorsSection() {
   ];
 
   return (
-    <div className={styles.sponsorsSection}>
+    <section className={styles.sponsorsSection}>
       <div className={styles.sponsorsSectionTitle}>
         <BlinkIcon color="#18437E" />
-        <div>Partenerii noștri</div>
+        <div>{t("title")}</div>
         <BlinkIcon color="#18437E" />
       </div>
       <div className={styles.description}>
-        Oferim o gamă completă de servicii pentru producția și instalarea
-        structurilor <b>PVC</b> și <b>ALUMINIU</b> utilizând sisteme de profil
-        <b> RAMPLAST</b>, <b>GEALAN</b>, <b>VEKA</b> și <b>KURTOGLU</b>. La
-        fabricarea structurilor utilizăm doar feronerie de înaltă calitate
-        <b> WINKHAUS</b> și <b>G-U</b>.
+        {t.rich("description", {
+          // eslint-disable-next-line react/no-unstable-nested-components
+          PVC: (chunks) => <b key="PVC">{chunks}</b>,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          ALUMINIU: (chunks) => <b key="ALUMINIU">{chunks}</b>,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          RAMPLAST: (chunks) => <b key="RAMPLAST">{chunks}</b>,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          GEALAN: (chunks) => <b key="GEALAN">{chunks}</b>,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          VEKA: (chunks) => <b key="VEKA">{chunks}</b>,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          KURTOGLU: (chunks) => <b key="KURTOGLU">{chunks}</b>,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          WINKHAUS: (chunks) => <b key="WINKHAUS">{chunks}</b>,
+          // eslint-disable-next-line react/no-unstable-nested-components
+          GU: (chunks) => <b key="GU">{chunks}</b>,
+        })}
       </div>
       <Marquee
         gradient
@@ -54,7 +70,7 @@ function SponsorsSection() {
           />
         ))}
       </Marquee>
-    </div>
+    </section>
   );
 }
 
