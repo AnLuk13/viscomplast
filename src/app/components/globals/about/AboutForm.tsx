@@ -5,7 +5,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import ArrowIcon from "@/app/components/svg-icons/ArrowIcon";
-import styles from "@/app/styles/aboutSection.module.scss";
+import styles from "@/app/styles/globals/aboutSection.module.scss";
 
 function AboutForm() {
   const [formData, setFormData] = useState({ name: "", phone: "" });

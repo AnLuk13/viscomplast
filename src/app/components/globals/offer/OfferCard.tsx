@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/app/styles/offerSection.module.scss";
+import styles from "@/app/styles/globals/offerSection.module.scss";
 
 function OfferCard({
   stepNumber,

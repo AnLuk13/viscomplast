@@ -148,6 +148,11 @@
 }
 
 @media (max-width: 860px) {
+  .aboutSectionTitle {
+    max-width: 380px !important;
+    font-size: 36px !important;
+  }
+
   .card {
     min-height: 500px !important;
     max-height: 720px !important;

@@ -37,7 +37,7 @@ export async function generateMetadata({
     description: localizedDescription[locale],
     keywords: [
       "uși",
-      "ferestre",
+      "ferestre-pvc",
       "viscomplast",
       "veka",
       "gealan",

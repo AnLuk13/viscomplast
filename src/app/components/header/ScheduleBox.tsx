@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import React from "react";
-import styles from "@/app/styles/heading.module.scss";
+import styles from "@/app/styles/header/heading.module.scss";
 
 function ScheduleBox({ props }: { props: CSSProperties | undefined }) {
   return (

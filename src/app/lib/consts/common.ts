@@ -12,8 +12,8 @@ export const navTabs: NavTab[] = [
     label: "Ferestre",
     defaultValue: { value: "Ferestre", label: "Ferestre" },
     options: [
-      { value: "dsfsdf", label: "asfafasdasd" },
-      { value: "dsfsadfdgdg", label: "asfaf" },
+      { value: "/ferestre-pvc", label: "PVC" },
+      { value: "/ferestre-aluminiu", label: "Aluminiu" },
     ],
   },
   {
@@ -21,8 +21,8 @@ export const navTabs: NavTab[] = [
     label: "Uși",
     defaultValue: { value: "Uși", label: "Uși" },
     options: [
-      { value: "awew", label: "asfafui" },
-      { value: "yutyut", label: "asfafsdf" },
+      { value: "/usi-pvc", label: "PVC" },
+      { value: "/usi-aluminiu", label: "Aluminiu" },
     ],
   },
   {
@@ -30,8 +30,9 @@ export const navTabs: NavTab[] = [
     label: "Glisante",
     defaultValue: { value: "Glisante", label: "Glisante" },
     options: [
-      { value: "nm,jj", label: "asfaf132" },
-      { value: "fyuyrtytry", label: "asfafwer" },
+      { value: "/glisante-pvc", label: "PVC" },
+      { value: "/glisante-aluminiu", label: "Aluminiu" },
+      { value: "/glisante-veka-motion", label: "Veka Motion" },
     ],
   },
   { type: "link", label: "Închideri terase", href: "/" },
@@ -66,7 +67,7 @@ export const catalogCards = [
     imageUrl: test,
   },
   {
-    title: "Aluminiu",
+    title: "Uși",
     items: ["PVC", "ALUMINIU"],
     imageUrl: test,
   },
@@ -121,7 +122,7 @@ export const offerSteps = [
 
 export const menuLinks = [
   { label: "Acasă", href: "/" },
-  { label: "Ferestre", href: "/ferestre" },
+  { label: "Ferestre", href: "/ferestre-pvc" },
   { label: "Uși", href: "/usi" },
   { label: "Glisante", href: "/glisante" },
   { label: "Închideri terase", href: "/terase" },

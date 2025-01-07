@@ -8,6 +8,7 @@
   height: 777px;
 
   .sliderSectionTitle {
+    box-sizing: border-box;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 48px;
@@ -99,8 +100,10 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 860px) {
   .sliderSectionTitle {
-    font-size: 40px !important;
+    padding: 0 10px;
+    max-width: 380px !important;
+    font-size: 36px !important;
   }
 }

@@ -1,4 +1,4 @@
-import styles from "@/app/styles/catalogSection.module.scss";
+import styles from "@/app/styles/landing/catalogSection.module.scss";
 import LinkArrowIcon from "@/app/components/svg-icons/LinkArrowIcon";
 import Image from "next/image";
 import React from "react";

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import styles from "../../styles/burgerMenu.module.scss";
+import styles from "../../styles/header/burgerMenu.module.scss";
 
 interface MobileMenuProps {
   isMobileNav: boolean;

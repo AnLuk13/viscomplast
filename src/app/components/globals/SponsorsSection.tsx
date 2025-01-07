@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import styles from "@/app/styles/sponsorsSection.module.scss";
+import styles from "@/app/styles/globals/sponsorsSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import dynamic from "next/dynamic";
 import Image from "next/image";
@@ -15,7 +15,7 @@ const Marquee = dynamic(() =>
   import("react-fast-marquee").then((mod) => mod.default),
 );
 
-function SponsorsSection() {
+function SponsorsSection({ color }: string) {
   const t = useTranslations("home.sponsorSection");
 
   const sponsors = [
@@ -26,7 +26,7 @@ function SponsorsSection() {
   ];
 
   return (
-    <section className={styles.sponsorsSection}>
+    <section className={styles.sponsorsSection} style={{ background: color }}>
       <div className={styles.sponsorsSectionTitle}>
         <BlinkIcon color="#18437E" />
         <div>{t("title")}</div>
@@ -54,7 +54,7 @@ function SponsorsSection() {
       </div>
       <Marquee
         gradient
-        gradientColor="#e3efff"
+        gradientColor={color}
         gradientWidth={100}
         autoFill
         className={styles.marquee}

@@ -2,6 +2,7 @@
   background: var(--secondary);
 
   .titleBox {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
   }
@@ -127,9 +128,10 @@
   }
 
   .titleBox {
-    padding: 0 6px;
+    padding: 0 10px;
 
     .catalogSectionTitle {
+      max-width: 600px !important;
       font-size: 36px !important;
       text-align: center;
       padding: 32px 0 !important;

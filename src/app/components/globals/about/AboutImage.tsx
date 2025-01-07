@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "@/app/styles/aboutSection.module.scss";
+import styles from "@/app/styles/globals/aboutSection.module.scss";
 
 function AboutImage({ src }: { src: string }) {
   return (

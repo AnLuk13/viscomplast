@@ -1,0 +1,18 @@
+.catalogHeroButton {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+  border-radius: 99px;
+  padding: 18px 28px;
+  width: 207px;
+  height: 64px;
+  background: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  cursor: pointer;
+}

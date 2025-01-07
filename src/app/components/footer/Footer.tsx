@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import styles from "@/app/styles/footer.module.scss";
+import styles from "@/app/styles/footer/footer.module.scss";
 import LargeLogo from "@/app/components/svg-icons/logo/LargeLogo";
 import MediumLogo from "@/app/components/svg-icons/logo/MediumLogo";
 import { contactInfo, infoLinks, menuLinks } from "@/app/lib/consts/common";

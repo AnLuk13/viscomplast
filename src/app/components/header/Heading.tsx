@@ -4,7 +4,7 @@ import Logo from "@/app/components/svg-icons/logo/Logo";
 import PhoneIcon from "@/app/components/svg-icons/PhoneIcon";
 import LanguageDropdown from "@/app/components/header/LanguageDropdown";
 import { Link } from "@/i18n/routing";
-import CustomDropdown from "@/app/components/CustomDropdown";
+import CustomDropdown from "@/app/components/header/CustomDropdown";
 import React, { useState } from "react";
 import BurgerMenu from "@/app/components/header/BurgerMenu";
 import MobileMenu from "@/app/components/header/MobileMenu";
@@ -12,7 +12,7 @@ import ScheduleBox from "@/app/components/header/ScheduleBox";
 import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import type { NavTab } from "@/app/lib/consts/types";
 import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
-import styles from "../../styles/heading.module.scss";
+import styles from "../../styles/header/heading.module.scss";
 
 function Heading() {
   const [isMobileNav, setIsMobileNav] = useState<boolean>(false);

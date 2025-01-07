@@ -1,11 +1,22 @@
 import React from "react";
+import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 
 function BlinkIcon({ color }: { color: string }) {
+  const isLargeScreen = useIsLargeScreen(860);
+  const size = isLargeScreen ? 48 : 32;
+
   return (
-    <div style={{ height: 48 }}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: size,
+      }}
+    >
       <svg
-        width="48"
-        height="48"
+        width={size}
+        height={size}
         viewBox="0 0 48 48"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

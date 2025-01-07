@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import styles from "@/app/styles/catalogSection.module.scss";
-import CatalogCard from "@/app/components/CatalogCard";
+import styles from "@/app/styles/landing/catalogSection.module.scss";
+import CatalogCard from "@/app/components/landing/catalog/CatalogCard";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import { catalogCards } from "@/app/lib/consts/common";
 

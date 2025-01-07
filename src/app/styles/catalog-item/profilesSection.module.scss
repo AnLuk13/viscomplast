@@ -1,0 +1,198 @@
+.profilesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary);
+
+  .sectionTitle {
+    max-width: 382px;
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 0;
+    text-transform: uppercase;
+  }
+
+  .profilesContainer {
+    width: 100%;
+    background: var(--primary);
+
+    .profilesGrid {
+      display: flex;
+      flex-direction: column;
+      padding: 0 80px 48px;
+      gap: 48px;
+      justify-content: center;
+
+      .profileCard {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background: var(--primary-a5);
+        border-radius: 12px;
+        width: 100%;
+
+        &.even {
+          flex-direction: row;
+        }
+
+        &.odd {
+          flex-direction: row-reverse;
+        }
+
+        .profileImage {
+          position: relative !important;
+          box-sizing: border-box;
+          height: 592px !important;
+          width: 50% !important;
+          object-fit: cover;
+
+          @media (max-width: 518px) {
+            height: 200px !important;
+          }
+
+          @media (min-width: 519px) and (max-width: 600px) {
+            height: 300px !important;
+          }
+
+          @media (min-width: 601px) and (max-width: 720px) {
+            height: 400px !important;
+          }
+
+          @media (min-width: 721px) and (max-width: 860px) {
+            height: 500px !important;
+          }
+
+          @media (max-width: 860px) {
+            min-width: 343px !important;
+            width: 100% !important;
+          }
+        }
+
+        .profileCardContent {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          justify-content: space-between;
+          height: 592px;
+          background: var(--white);
+          border-radius: 48px;
+
+          .tabs {
+            display: flex;
+            justify-content: space-between;
+
+            .tab {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: -0.02em;
+              color: var(--secondary);
+              border: none;
+              border-bottom: 1px solid var(--background);
+              width: 320px;
+              height: 64px;
+              flex: 1;
+              text-align: center;
+              cursor: pointer;
+              background: var(--white);
+              transition: background 0.3s ease;
+              padding: 0;
+
+              &:first-child {
+                border-radius: 30px 0 0 0;
+              }
+
+              &:nth-child(2) {
+                border-radius: 0 30px 0 0;
+              }
+
+              &.activeTab {
+                border-bottom: 2px solid var(--accent);
+              }
+            }
+          }
+
+          .profileInfoBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 432px;
+            padding: 48px;
+            gap: 10px;
+
+            .profileInfoTitle {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 48px;
+              line-height: 133%;
+              letter-spacing: -0.02em;
+              color: var(--secondary);
+            }
+          }
+
+          .profileDescription {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: -0.02em;
+            color: var(--secondary);
+          }
+
+          .profileCharacteristics {
+            list-style-type: disc;
+            padding-left: 20px;
+
+            li {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: -0.02em;
+              color: var(--secondary);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .sectionTitle {
+    max-width: 295px !important;
+    font-size: 36px !important;
+  }
+
+  .profileCard {
+    flex-direction: column !important;
+
+    .profileCardContent {
+      min-width: 343px !important;
+      width: 100% !important;
+      border-radius: 0 0 48px 48px !important;
+      height: 552px !important;
+
+      .profileInfoBox {
+        height: 448px !important;
+        padding: 24px !important;
+
+        .profileInfoTitle {
+          font-size: 36px !important;
+          line-height: 122%;
+          letter-spacing: -0.02em;
+          color: var(--secondary);
+        }
+      }
+    }
+  }
+}

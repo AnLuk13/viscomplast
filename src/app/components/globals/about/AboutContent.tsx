@@ -1,6 +1,6 @@
 import React from "react";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
-import styles from "@/app/styles/aboutSection.module.scss";
+import styles from "@/app/styles/globals/aboutSection.module.scss";
 
 function AboutContent() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import styles from "@/app/styles/sliderSection.module.scss";
+import styles from "@/app/styles/globals/sliderSection.module.scss";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import default styles
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";

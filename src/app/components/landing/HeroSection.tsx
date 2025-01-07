@@ -1,13 +1,13 @@
 "use client";
 
 import React from "react";
-import styles from "@/app/styles/heroSection.module.scss";
+import styles from "@/app/styles/landing/heroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
-import ArrowIcon from "@/app/components/svg-icons/ArrowIcon";
 import { useTranslations } from "next-intl";
 import LargeLogo from "@/app/components/svg-icons/logo/LargeLogo";
 import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
+import OfferButton from "@/app/components/buttons/OfferButton";
 
 function HeroSection() {
   const t = useTranslations("home.heroSection");
@@ -40,9 +40,7 @@ function HeroSection() {
               {t("titleLine2")}
             </div>
           </div>
-          <button className={styles.actionButton} type="button">
-            {t("buttonText")} <ArrowIcon />
-          </button>
+          <OfferButton text={t("buttonText")} />
         </div>
       </div>
       <div className={styles.reviewBox}>

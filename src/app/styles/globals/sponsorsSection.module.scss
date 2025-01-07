@@ -5,7 +5,7 @@
   padding: 48px 0;
   width: 100%;
   height: 392px;
-  background: var(--background);
+  //background: var(--background);
   align-items: center;
   box-sizing: border-box;
 
@@ -56,6 +56,7 @@
   }
 
   .sponsorsSectionTitle {
+    max-width: 480px !important;
     font-size: 36px !important;
     text-align: center;
     padding: 0 6px;
