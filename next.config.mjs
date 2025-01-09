@@ -5,7 +5,14 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['flagcdn.com'],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'flagcdn.com',
+                port: '',
+                pathname: '/**',
+            },
+        ],
     },
     eslint: {
         ignoreDuringBuilds: true, // Add this line to ignore ESLint errors in production build

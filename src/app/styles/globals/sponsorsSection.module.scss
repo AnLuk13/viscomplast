@@ -5,7 +5,6 @@
   padding: 48px 0;
   width: 100%;
   height: 392px;
-  //background: var(--background);
   align-items: center;
   box-sizing: border-box;
 
@@ -19,8 +18,9 @@
     letter-spacing: -0.02em;
     color: var(--secondary);
     text-transform: uppercase;
-    max-width: 578px;
-    width: 100%;
+    //max-width: 578px;
+    gap: clamp(16px, 5vw, 32px);
+    //width: 100%;
     justify-content: space-between;
   }
 
@@ -56,7 +56,7 @@
   }
 
   .sponsorsSectionTitle {
-    max-width: 480px !important;
+    max-width: fit-content !important;
     font-size: 36px !important;
     text-align: center;
     padding: 0 6px;

@@ -36,7 +36,7 @@ const sliderImages = [
   },
 ];
 
-function SliderSection() {
+function SliderSection({ content }) {
   const carouselRef = useRef<Carousel>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -60,7 +60,7 @@ function SliderSection() {
     <section className={styles.sliderSection}>
       <div className={styles.sliderSectionTitle}>
         <BlinkIcon color="#18437E" />
-        <div>Portofoliu</div>
+        <div>{content("sliderSection.title")}</div>
         <BlinkIcon color="#18437E" />
       </div>
       <Carousel
@@ -105,7 +105,7 @@ function SliderSection() {
           <LeftArrow />
         </button>
         <button type="button" className={styles.viewAllButton}>
-          Vezi toate
+          {content("sliderSection.buttons.viewAll")}
         </button>
         <button type="button" className={styles.navButton} onClick={handleNext}>
           <RightArrow />

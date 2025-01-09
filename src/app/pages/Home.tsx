@@ -9,18 +9,20 @@ import AboutSection from "@/app/components/globals/AboutSection";
 import SliderSection from "@/app/components/globals/SliderSection";
 import Footer from "@/app/components/footer/Footer";
 import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
+import { useTranslations } from "next-intl";
 
 function Home() {
   const isLargeScreen = useIsLargeScreen();
+  const t = useTranslations("home");
 
   return (
     <main>
-      <HeroSection isLargeScreen={isLargeScreen} />
-      <SponsorsSection color="var(--background)" />
-      <CatalogSection />
-      <OfferSection color="var(--background)" />
-      <AboutSection showAboutInfo />
-      <SliderSection />
+      <HeroSection content={t} isLargeScreen={isLargeScreen} />
+      <SponsorsSection content={t} color="var(--background)" />
+      <CatalogSection content={t} />
+      <OfferSection content={t} color="var(--background)" />
+      <AboutSection content={t} showAboutInfo />
+      <SliderSection content={t} />
       <Footer />
     </main>
   );

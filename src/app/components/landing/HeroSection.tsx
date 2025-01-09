@@ -4,13 +4,11 @@ import React from "react";
 import styles from "@/app/styles/landing/heroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
-import { useTranslations } from "next-intl";
 import LargeLogo from "@/app/components/svg-icons/logo/LargeLogo";
 import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 import OfferButton from "@/app/components/buttons/OfferButton";
 
-function HeroSection() {
-  const t = useTranslations("home.heroSection");
+function HeroSection({ content }) {
   return (
     <section className={styles.heroSection}>
       <Image
@@ -29,25 +27,26 @@ function HeroSection() {
             .map(() => (
               <StarIcon key={Math.random()} />
             ))}
-          <div className={styles.qualityText}>{t("review.qualityText")}</div>
+          <div className={styles.qualityText}>
+            {content("heroSection.review.qualityText")}
+          </div>
         </div>
         <div className={styles.heroSectionContent}>
           <div>
             <div className={styles.heroSectionContentTitle}>
-              {t("titleLine1")}
+              {content("heroSection.titleLine1")}
             </div>
             <div className={styles.heroSectionContentTitle}>
-              {t("titleLine2")}
+              {content("heroSection.titleLine2")}
             </div>
           </div>
-          <OfferButton text={t("buttonText")} />
+          <OfferButton />
         </div>
       </div>
       <div className={styles.reviewBox}>
         <div className={styles.imageMessageBox}>
           <div className={styles.imageBox}>
             <Image
-              sizes="100vw"
               alt="Logo"
               width={48}
               height={48}
@@ -55,11 +54,17 @@ function HeroSection() {
               className={styles.reviewImage}
             />
             <div className={styles.flexColumn}>
-              <div className={styles.nameText}>{t("review.name")}</div>
-              <div className={styles.dateText}>{t("review.date")}</div>
+              <div className={styles.nameText}>
+                {content("heroSection.review.name")}
+              </div>
+              <div className={styles.dateText}>
+                {content("heroSection.review.date")}
+              </div>
             </div>
           </div>
-          <div className={styles.messageText}>{t("review.text")}</div>
+          <div className={styles.messageText}>
+            {content("heroSection.review.text")}
+          </div>
         </div>
         <div
           className={styles.logoBox}

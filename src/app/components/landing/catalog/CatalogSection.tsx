@@ -4,22 +4,24 @@ import React from "react";
 import styles from "@/app/styles/landing/catalogSection.module.scss";
 import CatalogCard from "@/app/components/landing/catalog/CatalogCard";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
-import { catalogCards } from "@/app/lib/consts/common";
 
-function CatalogSection() {
+function CatalogSection({ content }) {
   return (
     <section className={styles.catalogSection}>
       <div className={styles.titleBox}>
         <div className={styles.catalogSectionTitle}>
           <BlinkIcon color="#F3F8FF" />
           <div>
-            Catalog <b>Viscomplast</b>
+            {content.rich("catalogSection.title", {
+              // eslint-disable-next-line react/no-unstable-nested-components
+              b: (chunk) => <b>{chunk}</b>,
+            })}
           </div>
           <BlinkIcon color="#F3F8FF" />
         </div>
       </div>
       <div className={styles.gridContainer}>
-        {catalogCards.map((item) => (
+        {content.raw("catalogSection.catalogCards").map((item) => (
           <CatalogCard
             key={item.title}
             title={item.title}

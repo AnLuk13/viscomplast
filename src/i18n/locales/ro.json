@@ -3,7 +3,6 @@
     "heroSection": {
       "titleLine1": "Ferestre și uși",
       "titleLine2": "din PVC și aluminiu",
-      "buttonText": "Solicită oferta",
       "review": {
         "name": "Emilia C.",
         "date": "28.03.2024",
@@ -14,6 +13,450 @@
     "sponsorSection": {
       "title": "Partenerii noștri",
       "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
+    },
+    "catalogSection": {
+      "title": "Catalog <b>Viscomplast</b>",
+      "catalogCards": [
+        {
+          "title": "Ferestre",
+          "items": ["PVC", "ALUMINIU"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Uși",
+          "items": ["PVC", "ALUMINIU"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Glisante",
+          "items": ["PVC", "ALUMINIU", "VEKA MOTION"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Închideri Terase",
+          "items": ["ALUMINIU"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Fațade",
+          "items": ["ALUMINIU"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Export",
+          "items": ["ITALIA", "IRLANDA", "FRANȚA / BELGIA"],
+          "imageUrl": "/assets/images/hero-section.png"
+        }
+      ]
+    },
+    "offerSection": {
+      "title": "Ce servicii oferim?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Consultanție și Proiectare",
+          "description": "Managerii de vânzări vă vor ajuta să alegeți profilul, sticla, culoarea, feroneria pentru proiectul dumneavoastră. După care veți primi o ofertă de preț, cu toate detaliile discutate."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Măsurare",
+          "description": "La confirmarea comenzii, inginerul se va deplasa la dumneavoastră pentru a efectua măsurătorile finale."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Producere",
+          "description": "În funcție de complexitatea proiectului, termenul de execuție variază între 5 și 15 zile lucrătoare."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Instalare",
+          "description": "O echipă de montatori profesioniști se va deplasa la dumneavoastră pentru a vă instala tâmplăria în siguranță."
+        }
+      ]
+    },
+    "aboutSection": {
+      "aboutTitle": "Despre noi",
+      "aboutDescription": [
+        "Suntem o companie clădită pe valorile unui business de familie al cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
+        "Muncim împreună pentru a oferi servicii de calitate, un produs bun și pentru a construi relații de lungă durată. Consider că suntem mai puternici datorită abilităților complementare ale membrilor familiei și totodată datorită valorilor pe care ne bazăm: corectitudine, excelență, ambiție, eficiență și împlinire personală.",
+        "Strategia pe care am abordat-o încă de la început este aceea a unei creșteri naturale și organice, orientată absolut către client. Nu există problemă care nu poate fi soluționată în raport cu cerințele clientului."
+      ],
+      "formTitle": "Solicită oferta",
+      "formFields": {
+        "namePlaceholder": "Numele Dvs.",
+        "privacyText": "Datele dvs. rămân confidențiale"
+      },
+      "formSubmit": "Solicită oferta"
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
     }
-  }
+  },
+  "ferestrePvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din PVC",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul WHS by VEKA",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori.",
+          "characteristics": [
+            "Marcă România",
+            "Profil Clasa B",
+            "Adâncime de 60 mm",
+            "4 camere",
+            "Etanșare în două rânduri de garnituri",
+            "Pantă interioară de 5 grade",
+            "Două rânduri de sticlă de 24mm",
+            "Feronerie germană Winkhaus",
+            "Armătură de oțel zincat de 1,5mm",
+            "Coeficient termic de 1,67 W/m2K"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KBE by VEKA",
+          "description": "Sistemul KBE by VEKA oferă performanțe excelente și eficiență energetică. Este ideal pentru proiecte rezidențiale moderne.",
+          "characteristics": [
+            "Marcă Germania",
+            "Profil Clasa A",
+            "Adâncime de 70 mm",
+            "5 camere",
+            "Izolare fonică și termică avansată",
+            "Geam termoizolant de 44mm",
+            "Feronerie germană GU",
+            "Armătură de oțel zincat de 2mm",
+            "Coeficient termic de 1,5 W/m2K"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul Salamander",
+          "description": "Sistemul Salamander oferă un design elegant și rezistență ridicată. Perfect pentru case moderne și clădiri comerciale.",
+          "characteristics": [
+            "Marcă Germania",
+            "Profil Clasa A+",
+            "Adâncime de 82 mm",
+            "6 camere",
+            "Izolare fonică de până la 48dB",
+            "Geam termoizolant triplu",
+            "Feronerie germană Roto",
+            "Coeficient termic de 1,2 W/m2K"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "offerSection": {
+      "title": "Ce servicii oferim?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Consultanție și Proiectare",
+          "description": "Managerii de vânzări vă vor ajuta să alegeți profilul, sticla, culoarea, feroneria pentru proiectul dumneavoastră. După care veți primi o ofertă de preț, cu toate detaliile discutate."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Măsurare",
+          "description": "La confirmarea comenzii, inginerul se va deplasa la dumneavoastră pentru a efectua măsurătorile finale."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Producere",
+          "description": "În funcție de complexitatea proiectului, termenul de execuție variază între 5 și 15 zile lucrătoare."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Instalare",
+          "description": "O echipă de montatori profesioniști se va deplasa la dumneavoastră pentru a vă instala tâmplăria în siguranță."
+        }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    },
+    "aboutSection": {
+      "aboutTitle": "Despre noi",
+      "aboutDescription": [
+        "Suntem o companie clădită pe valorile unui business de familie al cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
+        "Muncim împreună pentru a oferi servicii de calitate, un produs bun și pentru a construi relații de lungă durată. Consider că suntem mai puternici datorită abilităților complementare ale membrilor familiei și totodată datorită valorilor pe care ne bazăm: corectitudine, excelență, ambiție, eficiență și împlinire personală.",
+        "Strategia pe care am abordat-o încă de la început este aceea a unei creșteri naturale și organice, orientată absolut către client. Nu există problemă care nu poate fi soluționată în raport cu cerințele clientului."
+      ],
+      "formTitle": "Solicită oferta",
+      "formFields": {
+        "namePlaceholder": "Numele Dvs.",
+        "privacyText": "Datele dvs. rămân confidențiale"
+      },
+      "formSubmit": "Solicită oferta"
+    },
+    "sponsorSection": {
+      "title": "Partenerii noștri",
+      "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
+    }
+  },
+  "ferestreAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "offerSection": {
+      "title": "Ce servicii oferim?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Consultanță și Proiectare",
+          "description": "Managerii noștri de vânzări vă vor ajuta să alegeți profilul, sticla, culoarea și feroneria pentru proiectul dumneavoastră. Veți primi apoi o ofertă de preț cu toate detaliile discutate."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Măsurare",
+          "description": "După confirmarea comenzii, inginerul va veni pentru a efectua măsurătorile finale."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Producție",
+          "description": "În funcție de complexitatea proiectului, termenul de execuție variază între 5 și 15 zile lucrătoare."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Instalare",
+          "description": "O echipă de montatori profesioniști va veni pentru a instala tâmplăria în siguranță."
+        }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    },
+    "aboutSection": {
+      "aboutTitle": "Despre noi",
+      "aboutDescription": [
+        "Suntem o companie clădită pe valorile unui business de familie a cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
+        "Muncim împreună pentru a oferi servicii de calitate, un produs bun și pentru a construi relații de lungă durată. Considerăm că suntem mai puternici datorită abilităților complementare ale membrilor familiei și valorilor pe care ne bazăm: corectitudine, excelență, ambiție, eficiență și împlinire personală.",
+        "Strategia pe care am abordat-o de la început este una de creștere naturală și organică, orientată absolut către client. Nu există problemă care să nu poată fi soluționată în raport cu cerințele clientului."
+      ],
+      "formTitle": "Solicită oferta",
+      "formFields": {
+        "namePlaceholder": "Numele dvs.",
+        "privacyText": "Datele dvs. rămân confidențiale"
+      },
+      "formSubmit": "Solicită oferta"
+    },
+    "sponsorSection": {
+      "title": "Partenerii noștri",
+      "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>aluminiu</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
+    }
+  },
+  "header": {
+    "navTabs": [
+      { "type": "link", "label": "Acasă", "href": "/" },
+      {
+        "type": "dropdown",
+        "label": "Ferestre",
+        "defaultValue": { "value": "Ferestre", "label": "Ferestre" },
+        "options": [
+          { "value": "/ferestre-pvc", "label": "PVC" },
+          { "value": "/ferestre-aluminiu", "label": "Aluminiu" }
+        ]
+      },
+      {
+        "type": "dropdown",
+        "label": "Uși",
+        "defaultValue": { "value": "Uși", "label": "Uși" },
+        "options": [
+          { "value": "/usi-pvc", "label": "PVC" },
+          { "value": "/usi-aluminiu", "label": "Aluminiu" }
+        ]
+      },
+      {
+        "type": "dropdown",
+        "label": "Glisante",
+        "defaultValue": { "value": "Glisante", "label": "Glisante" },
+        "options": [
+          { "value": "/glisante-pvc", "label": "PVC" },
+          { "value": "/glisante-aluminiu", "label": "Aluminiu" },
+          { "value": "/glisante-veka-motion", "label": "Veka Motion" }
+        ]
+      },
+      { "type": "link", "label": "Închideri terase", "href": "/inchideri-terase" },
+      { "type": "link", "label": "Fațade aluminiu", "href": "/fatade-aluminiu" },
+      {
+        "type": "dropdown",
+        "label": "Export",
+        "defaultValue": { "value": "Export", "label": "Export" },
+        "options": [
+          { "value": "asdasdrty", "label": "asfafdad" },
+          { "value": "asdasdjk", "label": "asfafweqwe" },
+          { "value": "asdasdasd", "label": "asdasdasdasd" },
+          { "value": "sdfsdfsdf", "label": "sdfasdfasdf" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "menu": {
+      "title": "Meniu",
+      "links": [
+        { "label": "Acasă", "href": "/" },
+        { "label": "Ferestre", "href": "/ferestre-pvc" },
+        { "label": "Uși", "href": "/usi" },
+        { "label": "Glisante", "href": "/glisante" },
+        { "label": "Închideri terase", "href": "/terase" },
+        { "label": "Fațade aluminiu", "href": "/fatade" },
+        { "label": "Export", "href": "/export" }
+      ]
+    },
+    "info": {
+      "title": "Informații",
+      "links": [
+        { "label": "Politica de Confidențialitate", "href": "/confidentialitate" },
+        { "label": "Termeni și Condiții", "href": "/termeni" }
+      ]
+    },
+    "contact": {
+      "title": "Contacte",
+      "details": [
+        { "label": "+ (373) 60 414 041", "type": "phone", "href": "tel:+37360414041" },
+        { "label": "+ (373) 60 466 177", "type": "phone", "href": "tel:+37360466177" },
+        {
+          "label": "Soseaua Hâncești 256/3, Chișinău",
+          "type": "address",
+          "href": "https://maps.app.goo.gl/zFWoBqPYUvfEfE2B6"
+        },
+        { "label": "infoviscomplast@gmail.com", "type": "email", "href": "mailto:infoviscomplast@gmail.com" }
+      ]
+    },
+    "developedBy": "Dezvoltat de @NiceGuy"
+  },
+  "offerBtn": "Solicită oferta"
 }
+

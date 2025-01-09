@@ -5,6 +5,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 
+    @media (min-width: 720px) and (max-width: 846px) {
+      grid-template-columns: repeat(auto-fit, minmax(423px, 1fr));
+    }
+
     @media (min-width: 1080px) {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -22,8 +26,9 @@
       text-transform: uppercase;
       display: flex;
       align-items: center;
-      max-width: 415px;
-      width: 100%;
+      //max-width: 415px;
+      //width: 100%;
+      gap: clamp(16px, 5vw, 32px);
       justify-content: space-between;
       text-align: center;
     }
@@ -32,6 +37,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @media (min-width: 720px) and (max-width: 845px) {
+        height: 600px !important;
+      }
 
       .image {
         width: 100%;
@@ -149,13 +158,13 @@
 
 @media (max-width: 860px) {
   .aboutSectionTitle {
-    max-width: 380px !important;
+    //max-width: 380px !important;
     font-size: 36px !important;
   }
 
   .card {
     min-height: 500px !important;
-    max-height: 720px !important;
+    max-height: 860px !important;
     height: auto !important;
   }
 
@@ -168,7 +177,7 @@
   }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 719px) {
   .imageBox {
     height: 420px !important;
   }

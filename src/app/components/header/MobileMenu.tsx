@@ -2,10 +2,10 @@
 
 import React, { useEffect } from "react";
 import LanguageDropdown from "@/app/components/header/LanguageDropdown";
-import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import DropdownMenu from "@/app/components/header/DropdownMenu";
 import { Link } from "@/i18n/routing";
 import ScheduleBox from "@/app/components/header/ScheduleBox";
+import { socialLinks } from "@/app/lib/consts/common";
 import styles from "../../styles/header/heading.module.scss";
 
 interface DesktopMenuProps {
@@ -16,6 +16,7 @@ interface DesktopMenuProps {
 }
 
 function MobileMenu({
+  content,
   isMobileNav,
   activeDropdown,
   setActiveDropdown,
@@ -45,7 +46,7 @@ function MobileMenu({
     <div className={`${styles.mobileMenu} ${!isMobileNav ? "" : styles.show}`}>
       <div className={styles.mobileMenuContainer}>
         <div className={styles.mobileNavTabsContainer}>
-          {navTabs.map((item) => (
+          {content.raw("navTabs").map((item) => (
             <div
               key={item.label}
               className={
@@ -88,9 +89,9 @@ function MobileMenu({
           <div className={styles.socialsLanguageBox}>
             <div className={styles.mobileSocialLinks}>
               {socialLinks.map(({ href, Icon }) => (
-                <a key={href} href={href}>
+                <Link target="_blank" key={href} href={href}>
                   <Icon />
-                </a>
+                </Link>
               ))}
             </div>
             <LanguageDropdown isMobileNav />

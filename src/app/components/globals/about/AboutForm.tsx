@@ -7,7 +7,7 @@ import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import ArrowIcon from "@/app/components/svg-icons/ArrowIcon";
 import styles from "@/app/styles/globals/aboutSection.module.scss";
 
-function AboutForm() {
+function AboutForm({ content }) {
   const [formData, setFormData] = useState({ name: "", phone: "" });
 
   const handleInputChange = (field: "name" | "phone", value: string) => {
@@ -30,7 +30,7 @@ function AboutForm() {
           style={{ color: "var(--secondary)" }}
         >
           <BlinkIcon color="#18437e" />
-          <div>Solicită oferta</div>
+          <div>{content("aboutSection.formTitle")}</div>
           <BlinkIcon color="#18437e" />
         </div>
         <form className={styles.form} onSubmit={handleSubmit}>
@@ -39,7 +39,7 @@ function AboutForm() {
               id="name"
               name="name"
               type="text"
-              placeholder="Numele Dvs."
+              placeholder={content("aboutSection.formFields.namePlaceholder")}
               className={styles.input}
               onChange={(event) =>
                 handleInputChange("name", event.target.value)
@@ -81,11 +81,11 @@ function AboutForm() {
               onChange={(phone) => handleInputChange("phone", phone)}
             />
             <div className={styles.privacyText}>
-              Datele dvs. rămân confidențiale
+              {content("aboutSection.formFields.privacyText")}
             </div>
           </div>
           <button type="submit" className={styles.submitButton}>
-            Solicită oferta <ArrowIcon />
+            {content("aboutSection.formSubmit")} <ArrowIcon />
           </button>
         </form>
       </div>

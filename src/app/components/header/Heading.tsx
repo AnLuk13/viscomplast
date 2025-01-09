@@ -9,12 +9,14 @@ import React, { useState } from "react";
 import BurgerMenu from "@/app/components/header/BurgerMenu";
 import MobileMenu from "@/app/components/header/MobileMenu";
 import ScheduleBox from "@/app/components/header/ScheduleBox";
-import { navTabs, socialLinks } from "@/app/lib/consts/common";
 import type { NavTab } from "@/app/lib/consts/types";
 import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
+import { useTranslations } from "next-intl";
+import { socialLinks } from "@/app/lib/consts/common";
 import styles from "../../styles/header/heading.module.scss";
 
 function Heading() {
+  const t = useTranslations("header");
   const [isMobileNav, setIsMobileNav] = useState<boolean>(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const isLargeScreen = useIsLargeScreen();
@@ -49,9 +51,9 @@ function Heading() {
             </div>
             <div className={styles.socialLinks}>
               {socialLinks.map(({ href, Icon }) => (
-                <a key={href} href={href}>
+                <Link target="_blank" key={href} href={href}>
                   <Icon />
-                </a>
+                </Link>
               ))}
             </div>
             <div className={styles.languageDropdown}>
@@ -66,6 +68,7 @@ function Heading() {
         </div>
       </div>
       <MobileMenu
+        content={t}
         isMobileNav={isMobileNav}
         activeDropdown={activeDropdown}
         setActiveDropdown={setActiveDropdown}
@@ -73,7 +76,7 @@ function Heading() {
       />
       <nav className={styles.navigationSection}>
         <div className={styles.navigationContent}>
-          {navTabs.map((tab: NavTab) =>
+          {t.raw("navTabs").map((tab: NavTab) =>
             tab.type === "link" ? (
               <Link
                 key={tab.label}

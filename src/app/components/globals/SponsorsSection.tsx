@@ -5,7 +5,6 @@ import styles from "@/app/styles/globals/sponsorsSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
 import ramplast from "../../../../public/assets/images/sponsors/ramplast.png";
 import veka from "../../../../public/assets/images/sponsors/veka.png";
 import gealan from "../../../../public/assets/images/sponsors/gealan.png";
@@ -15,9 +14,7 @@ const Marquee = dynamic(() =>
   import("react-fast-marquee").then((mod) => mod.default),
 );
 
-function SponsorsSection({ color }: string) {
-  const t = useTranslations("home.sponsorSection");
-
+function SponsorsSection({ content, color }: { color: string }) {
   const sponsors = [
     { src: ramplast, alt: "Ramplast" },
     { src: veka, alt: "Veka" },
@@ -29,11 +26,11 @@ function SponsorsSection({ color }: string) {
     <section className={styles.sponsorsSection} style={{ background: color }}>
       <div className={styles.sponsorsSectionTitle}>
         <BlinkIcon color="#18437E" />
-        <div>{t("title")}</div>
+        <div>{content("sponsorSection.title")}</div>
         <BlinkIcon color="#18437E" />
       </div>
       <div className={styles.description}>
-        {t.rich("description", {
+        {content.rich("sponsorSection.description", {
           // eslint-disable-next-line react/no-unstable-nested-components
           PVC: (chunks) => <b key="PVC">{chunks}</b>,
           // eslint-disable-next-line react/no-unstable-nested-components

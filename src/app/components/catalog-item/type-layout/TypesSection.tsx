@@ -2,7 +2,6 @@ import React from "react";
 import styles from "@/app/styles/catalog-item/typesSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import TypeCard from "@/app/components/catalog-item/type-layout/TypeCard";
-import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 
 type TypeLayoutProps = {
   data: {
@@ -11,22 +10,14 @@ type TypeLayoutProps = {
     name: string;
     description?: string | undefined;
   }[];
-  titleObj: { title: string; width: number; smallWidth: number };
+  title: string;
 };
-function TypesSection({ data, titleObj }: TypeLayoutProps) {
-  const isLargeScreen = useIsLargeScreen(860);
+function TypesSection({ data, title }: TypeLayoutProps) {
   return (
     <div className={styles.typesSection}>
-      <div
-        className={styles.sectionTitle}
-        style={
-          isLargeScreen
-            ? { maxWidth: titleObj.width }
-            : { maxWidth: titleObj.smallWidth }
-        }
-      >
+      <div className={styles.typesSectionTitle}>
         <BlinkIcon color="#18437E" />
-        <div>{titleObj.title}</div>
+        <div>{title}</div>
         <BlinkIcon color="#18437E" />
       </div>
       <div className={styles.cardsBox}>

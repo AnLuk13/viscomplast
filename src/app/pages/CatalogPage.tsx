@@ -10,23 +10,26 @@ import SliderSection from "@/app/components/globals/SliderSection";
 import AboutSection from "@/app/components/globals/AboutSection";
 import SponsorsSection from "@/app/components/globals/SponsorsSection";
 import Footer from "@/app/components/footer/Footer";
+import { useTranslations } from "next-intl";
 
-function CatalogItem() {
+function CatalogPage({ route }: { route: string }) {
+  const t = useTranslations(route);
+
   return (
     <main>
-      <CatalogHeroSection />
-      <ProfilesSection />
-      <HardwareSection />
-      <ColorsSection />
-      <GlassesSection />
-      <HandlesSection />
-      <OfferSection color="var(--primary)" />
-      <SliderSection />
-      <AboutSection showAboutInfo={false} />
-      <SponsorsSection color="var(--primary)" />
+      <CatalogHeroSection content={t} />
+      <ProfilesSection content={t} />
+      <HardwareSection content={t} />
+      <ColorsSection content={t} />
+      <GlassesSection content={t} />
+      <HandlesSection content={t} />
+      <OfferSection content={t} color="var(--primary)" />
+      <SliderSection content={t} />
+      <AboutSection content={t} showAboutInfo={false} />
+      <SponsorsSection content={t} color="var(--primary)" />
       <Footer />
     </main>
   );
 }
 
-export default CatalogItem;
+export default CatalogPage;

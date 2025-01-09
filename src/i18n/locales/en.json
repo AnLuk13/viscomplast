@@ -3,7 +3,6 @@
     "heroSection": {
       "titleLine1": "Windows and doors",
       "titleLine2": "made of PVC and aluminum",
-      "buttonText": "Request an offer",
       "review": {
         "name": "Emilia C.",
         "date": "28.03.2024",
@@ -14,6 +13,451 @@
     "sponsorSection": {
       "title": "Our Partners",
       "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
+    },
+    "catalogSection": {
+      "title": "Catalog <b>Viscomplast</b>",
+      "catalogCards": [
+        {
+          "title": "Windows",
+          "items": ["PVC", "ALUMINUM"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Doors",
+          "items": ["PVC", "ALUMINUM"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Sliding",
+          "items": ["PVC", "ALUMINUM", "VEKA MOTION"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Terrace Closures",
+          "items": ["ALUMINUM"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Facades",
+          "items": ["ALUMINUM"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Export",
+          "items": ["ITALY", "IRELAND", "FRANCE / BELGIUM"],
+          "imageUrl": "/assets/images/hero-section.png"
+        }
+      ]
+    },
+    "offerSection": {
+      "title": "What services do we offer?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Consultation and Design",
+          "description": "Our sales managers will help you choose the profile, glass, color, and hardware for your project. You will then receive a price offer with all the discussed details."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Measurement",
+          "description": "Once the order is confirmed, the engineer will visit you to perform the final measurements."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Production",
+          "description": "Depending on the complexity of the project, the execution time varies between 5 and 15 working days."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Installation",
+          "description": "A team of professional installers will come to safely install your joinery."
+        }
+      ]
+    },
+    "aboutSection": {
+      "aboutTitle": "About Us",
+      "aboutDescription": [
+        "We are a company built on the values of a family business with the intention to produce PVC and Aluminum joinery at the highest level.",
+        "We work together to offer quality services, a good product, and to build long-term relationships. We believe we are stronger due to the complementary skills of our family members and the values we rely on: fairness, excellence, ambition, efficiency, and personal fulfillment.",
+        "The strategy we have approached from the beginning is one of natural and organic growth, absolutely customer-oriented. There is no problem that cannot be solved in relation to the customer's requirements."
+      ],
+      "formTitle": "Request an Offer",
+      "formFields": {
+        "namePlaceholder": "Your Name",
+        "privacyText": "Your data will remain confidential"
+      },
+      "formSubmit": "Request an Offer"
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
     }
-  }
+  },
+  "ferestrePvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "PVC Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "WHS Profile by VEKA",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers.",
+          "characteristics": [
+            "Romania Brand",
+            "Class B Profile",
+            "60 mm Depth",
+            "4 Chambers",
+            "Sealing in two rows of gaskets",
+            "5-degree internal slope",
+            "Two rows of 24mm glass",
+            "German Winkhaus hardware",
+            "1.5mm galvanized steel reinforcement",
+            "Thermal coefficient of 1.67 W/m2K"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KBE Profile by VEKA",
+          "description": "The KBE system by VEKA offers excellent performance and energy efficiency. It is ideal for modern residential projects.",
+          "characteristics": [
+            "German Brand",
+            "Class A Profile",
+            "70 mm Depth",
+            "5 Chambers",
+            "Advanced thermal and sound insulation",
+            "44mm thermal insulating glass",
+            "German GU hardware",
+            "2mm galvanized steel reinforcement",
+            "Thermal coefficient of 1.5 W/m2K"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Salamander Profile",
+          "description": "The Salamander system offers an elegant design and high durability. Perfect for modern homes and commercial buildings.",
+          "characteristics": [
+            "German Brand",
+            "Class A+ Profile",
+            "82 mm Depth",
+            "6 Chambers",
+            "Sound insulation up to 48dB",
+            "Triple thermal insulating glass",
+            "German Roto hardware",
+            "Thermal coefficient of 1.2 W/m2K"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "offerSection": {
+      "title": "What services do we offer?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Consultation and Design",
+          "description": "Our sales managers will help you choose the profile, glass, color, and hardware for your project. You will then receive a price offer with all the discussed details."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Measurement",
+          "description": "Once the order is confirmed, the engineer will visit you to perform the final measurements."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Production",
+          "description": "Depending on the complexity of the project, the execution time varies between 5 and 15 working days."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Installation",
+          "description": "A team of professional installers will come to safely install your joinery."
+        }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    },
+    "aboutSection": {
+      "aboutTitle": "About Us",
+      "aboutDescription": [
+        "We are a company built on the values of a family business with the intention to produce PVC and Aluminum joinery at the highest level.",
+        "We work together to offer quality services, a good product, and to build long-term relationships. We believe we are stronger due to the complementary skills of our family members and the values we rely on: fairness, excellence, ambition, efficiency, and personal fulfillment.",
+        "The strategy we have approached from the beginning is one of natural and organic growth, absolutely customer-oriented. There is no problem that cannot be solved in relation to the customer's requirements."
+      ],
+      "formTitle": "Request an Offer",
+      "formFields": {
+        "namePlaceholder": "Your Name",
+        "privacyText": "Your data will remain confidential"
+      },
+      "formSubmit": "Request an Offer"
+    },
+    "sponsorSection": {
+      "title": "Our Partners",
+      "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
+    }
+  },
+  "ferestreAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "offerSection": {
+      "title": "What services do we offer?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Consultation and Design",
+          "description": "Our sales managers will help you choose the profile, glass, color, and hardware for your project. You will then receive a price offer with all the discussed details."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Measurement",
+          "description": "Once the order is confirmed, the engineer will visit you to perform the final measurements."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Production",
+          "description": "Depending on the complexity of the project, the execution time varies between 5 and 15 working days."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Installation",
+          "description": "A team of professional installers will come to safely install your joinery."
+        }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    },
+    "aboutSection": {
+      "aboutTitle": "About Us",
+      "aboutDescription": [
+        "We are a company built on the values of a family business with the intention to produce PVC and Aluminum joinery at the highest level.",
+        "We work together to offer quality services, a good product, and to build long-term relationships. We believe we are stronger due to the complementary skills of our family members and the values we rely on: fairness, excellence, ambition, efficiency, and personal fulfillment.",
+        "The strategy we have approached from the beginning is one of natural and organic growth, absolutely customer-oriented. There is no problem that cannot be solved in relation to the customer's requirements."
+      ],
+      "formTitle": "Request an Offer",
+      "formFields": {
+        "namePlaceholder": "Your Name",
+        "privacyText": "Your data will remain confidential"
+      },
+      "formSubmit": "Request an Offer"
+    },
+    "sponsorSection": {
+      "title": "Our Partners",
+      "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
+    }
+  },
+  "header": {
+    "navTabs": [
+      { "type": "link", "label": "Home", "href": "/" },
+      {
+        "type": "dropdown",
+        "label": "Windows",
+        "defaultValue": { "value": "Windows", "label": "Windows" },
+        "options": [
+          { "value": "/ferestre-pvc", "label": "PVC" },
+          { "value": "/ferestre-aluminiu", "label": "Aluminum" }
+        ]
+      },
+      {
+        "type": "dropdown",
+        "label": "Doors",
+        "defaultValue": { "value": "Doors", "label": "Doors" },
+        "options": [
+          { "value": "/usi-pvc", "label": "PVC" },
+          { "value": "/usi-aluminiu", "label": "Aluminum" }
+        ]
+      },
+      {
+        "type": "dropdown",
+        "label": "Sliding Systems",
+        "defaultValue": { "value": "Sliding Systems", "label": "Sliding Systems" },
+        "options": [
+          { "value": "/glisante-pvc", "label": "PVC" },
+          { "value": "/glisante-aluminiu", "label": "Aluminum" },
+          { "value": "/glisante-veka-motion", "label": "Veka Motion" }
+        ]
+      },
+      { "type": "link", "label": "Terrace Closures", "href": "/inchideri-terase" },
+      { "type": "link", "label": "Aluminum Facades", "href": "/fatade-aluminiu" },
+      {
+        "type": "dropdown",
+        "label": "Export",
+        "defaultValue": { "value": "Export", "label": "Export" },
+        "options": [
+          { "value": "asdasdrty", "label": "asfafdad" },
+          { "value": "asdasdjk", "label": "asfafweqwe" },
+          { "value": "asdasdasd", "label": "asdasdasdasd" },
+          { "value": "sdfsdfsdf", "label": "sdfasdfasdf" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "menu": {
+      "title": "Menu",
+      "links": [
+        { "label": "Home", "href": "/" },
+        { "label": "Windows", "href": "/ferestre-pvc" },
+        { "label": "Doors", "href": "/usi" },
+        { "label": "Sliding Systems", "href": "/glisante" },
+        { "label": "Terrace Closures", "href": "/terase" },
+        { "label": "Aluminum Facades", "href": "/fatade" },
+        { "label": "Export", "href": "/export" }
+      ]
+    },
+    "info": {
+      "title": "Information",
+      "links": [
+        { "label": "Privacy Policy", "href": "/confidentialitate" },
+        { "label": "Terms and Conditions", "href": "/termeni" }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "details": [
+        { "label": "+ (373) 60 414 041", "type": "phone", "href": "tel:+37360414041" },
+        { "label": "+ (373) 60 466 177", "type": "phone", "href": "tel:+37360466177" },
+        {
+          "label": "Soseaua Hâncești 256/3, Chișinău",
+          "type": "address",
+          "href": "https://maps.app.goo.gl/zFWoBqPYUvfEfE2B6"
+        },
+        { "label": "infoviscomplast@gmail.com", "type": "email", "href": "mailto:infoviscomplast@gmail.com" }
+      ]
+    },
+    "developedBy": "Developed by @NiceGuy"
+  },
+  "offerBtn": "Request an offer"
 }

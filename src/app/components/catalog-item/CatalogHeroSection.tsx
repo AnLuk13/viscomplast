@@ -6,7 +6,7 @@ import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
 import OfferButton from "@/app/components/buttons/OfferButton";
 
-function CatalogHeroSection() {
+function CatalogHeroSection({ content }) {
   return (
     <section className={styles.catalogHeroSection}>
       <Image
@@ -25,10 +25,14 @@ function CatalogHeroSection() {
             .map(() => (
               <StarIcon key={Math.random()} />
             ))}
-          <div className={styles.qualityText}>excellent</div>
+          <div className={styles.qualityText}>
+            {content(`catalogHeroSection.qualityText`)}
+          </div>
         </div>
-        <div className={styles.catalogHeroTitle}>Ferestre din PVC</div>
-        <OfferButton text="Solicită oferta" />
+        <div className={styles.catalogHeroTitle}>
+          {content(`catalogHeroSection.catalogHeroTitle`)}
+        </div>
+        <OfferButton />
       </div>
     </section>
   );

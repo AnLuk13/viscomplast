@@ -16,6 +16,7 @@ type ProfileCardProps = {
   activeToggle: "description" | "characteristics";
   onToggle: (id: number, toggle: "description" | "characteristics") => void;
   isEven: boolean;
+  togglers: { description: string; characteristics: string };
 };
 
 function ProfileCard({
@@ -23,6 +24,7 @@ function ProfileCard({
   activeToggle,
   onToggle,
   isEven,
+  togglers,
 }: ProfileCardProps) {
   return (
     <div
@@ -46,7 +48,7 @@ function ProfileCard({
             }`}
             onClick={() => onToggle(profile.id, "description")}
           >
-            Descriere
+            {togglers.description}
           </button>
           <button
             type="button"
@@ -55,7 +57,7 @@ function ProfileCard({
             }`}
             onClick={() => onToggle(profile.id, "characteristics")}
           >
-            Caracteristici
+            {togglers.characteristics}
           </button>
         </div>
         <div className={styles.profileInfoBox}>
@@ -71,7 +73,7 @@ function ProfileCard({
               ))}
             </ul>
           )}
-          <OfferButton text="Solicită oferta" />
+          <OfferButton />
         </div>
       </div>
     </div>

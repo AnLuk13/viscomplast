@@ -3,7 +3,6 @@
     "heroSection": {
       "titleLine1": "Окна и двери",
       "titleLine2": "из ПВХ и алюминия",
-      "buttonText": "Запросить предложение",
       "review": {
         "name": "Емилия К.",
         "date": "28.03.2024",
@@ -14,6 +13,452 @@
     "sponsorSection": {
       "title": "Наши партнеры",
       "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. В производстве конструкций мы используем только качественную фурнитуру <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
+    },
+    "catalogSection": {
+      "title": "Каталог <b>Viscomplast</b>",
+      "catalogCards": [
+        {
+          "title": "Окна",
+          "items": ["ПВХ", "АЛЮМИНИЙ"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Двери",
+          "items": ["ПВХ", "АЛЮМИНИЙ"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Раздвижные",
+          "items": ["ПВХ", "АЛЮМИНИЙ", "VEKA MOTION"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Закрытие террас",
+          "items": ["АЛЮМИНИЙ"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Фасады",
+          "items": ["АЛЮМИНИЙ"],
+          "imageUrl": "/assets/images/hero-section.png"
+        },
+        {
+          "title": "Экспорт",
+          "items": ["ИТАЛИЯ", "ИРЛАНДИЯ", "ФРАНЦИЯ / БЕЛЬГИЯ"],
+          "imageUrl": "/assets/images/hero-section.png"
+        }
+      ]
+    },
+    "offerSection": {
+      "title": "Какие услуги мы предлагаем?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Консультация и проектирование",
+          "description": "Наши менеджеры по продажам помогут вам выбрать профиль, стекло, цвет и фурнитуру для вашего проекта. Затем вы получите ценовое предложение со всеми обсужденными деталями."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Замеры",
+          "description": "После подтверждения заказа инженер приедет к вам для проведения окончательных замеров."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Производство",
+          "description": "В зависимости от сложности проекта срок выполнения варьируется от 5 до 15 рабочих дней."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Установка",
+          "description": "Команда профессиональных монтажников приедет к вам, чтобы безопасно установить изделия."
+        }
+      ]
+    },
+    "aboutSection": {
+      "aboutTitle": "О нас",
+      "aboutDescription": [
+        "Мы — компания, основанная на ценностях семейного бизнеса с целью производить окна и двери из ПВХ и алюминия высочайшего качества.",
+        "Мы работаем вместе, чтобы предлагать качественные услуги, хороший продукт и строить долгосрочные отношения. Мы считаем, что становимся сильнее благодаря взаимодополняющим навыкам членов нашей семьи и ценностям, на которых мы основываемся: честность, совершенство, амбиции, эффективность и личное удовлетворение.",
+        "Стратегия, которую мы выбрали с самого начала, — это естественный и органический рост, ориентированный исключительно на клиента. Не существует проблемы, которую нельзя решить в соответствии с требованиями клиента."
+      ],
+      "formTitle": "Запросить предложение",
+      "formFields": {
+        "namePlaceholder": "Ваше Имя",
+        "privacyText": "Ваши данные останутся конфиденциальными"
+      },
+      "formSubmit": "Запросить предложение"
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
     }
-  }
+  },
+  "ferestrePvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Окна из ПВХ",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль WHS от VEKA",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Предназначена для производства окон в стандартных конфигурациях для потребителей.",
+          "characteristics": [
+            "Бренд Румыния",
+            "Профиль класса B",
+            "Глубина 60 мм",
+            "4 камеры",
+            "Уплотнение в два ряда прокладок",
+            "5-градусный внутренний уклон",
+            "Два ряда стекол по 24мм",
+            "Немецкая фурнитура Winkhaus",
+            "Оцинкированное армирование 1,5мм",
+            "Тепловой коэффициент 1,67 W/m2K"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KBE от VEKA",
+          "description": "Система KBE от VEKA предлагает отличные характеристики и энергоэффективность. Идеально подходит для современных жилых проектов.",
+          "characteristics": [
+            "Бренд Германия",
+            "Профиль класса A",
+            "Глубина 70 мм",
+            "5 камер",
+            "Продвинутая звуковая и тепловая изоляция",
+            "44мм теплоизоляционное стекло",
+            "Немецкая фурнитура GU",
+            "Оцинкованное армирование 2мм",
+            "Тепловой коэффициент 1,5 W/m2K"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль Salamander",
+          "description": "Система Salamander предлагает элегантный дизайн и высокую прочность. Идеально подходит для современных домов и коммерческих зданий.",
+          "characteristics": [
+            "Бренд Германия",
+            "Профиль класса A+",
+            "Глубина 82 мм",
+            "6 камер",
+            "Звукоизоляция до 48дБ",
+            "Тройное теплоизоляционное стекло",
+            "Немецкая фурнитура Roto",
+            "Тепловой коэффициент 1,2 W/m2K"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для изготовления окон в стандартных конфигурациях для потребителей. Использование профильных систем с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "offerSection": {
+      "title": "Какие услуги мы предлагаем?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Консультация и проектирование",
+          "description": "Наши менеджеры по продажам помогут вам выбрать профиль, стекло, цвет и фурнитуру для вашего проекта. Затем вы получите ценовое предложение со всеми обсужденными деталями."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Замеры",
+          "description": "После подтверждения заказа инженер приедет к вам для проведения окончательных замеров."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Производство",
+          "description": "В зависимости от сложности проекта срок выполнения варьируется от 5 до 15 рабочих дней."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Установка",
+          "description": "Команда профессиональных монтажников приедет к вам, чтобы безопасно установить изделия."
+        }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    },
+    "aboutSection": {
+      "aboutTitle": "О нас",
+      "aboutDescription": [
+        "Мы — компания, основанная на ценностях семейного бизнеса с целью производить окна и двери из ПВХ и алюминия высочайшего качества.",
+        "Мы работаем вместе, чтобы предлагать качественные услуги, хороший продукт и строить долгосрочные отношения. Мы считаем, что становимся сильнее благодаря взаимодополняющим навыкам членов нашей семьи и ценностям, на которых мы основываемся: честность, совершенство, амбиции, эффективность и личное удовлетворение.",
+        "Стратегия, которую мы выбрали с самого начала, — это естественный и органический рост, ориентированный исключительно на клиента. Не существует проблемы, которую нельзя решить в соответствии с требованиями клиента."
+      ],
+      "formTitle": "Запросить предложение",
+      "formFields": {
+        "namePlaceholder": "Ваше Имя",
+        "privacyText": "Ваши данные останутся конфиденциальными"
+      },
+      "formSubmit": "Запросить предложение"
+    },
+    "sponsorSection": {
+      "title": "Наши партнеры",
+      "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. В производстве конструкций мы используем только качественную фурнитуру <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
+    }
+  },
+  "ferestreAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "offerSection": {
+      "title": "Какие услуги мы предлагаем?",
+      "offerSteps": [
+        {
+          "stepNumber": 1,
+          "title": "Консультация и проектирование",
+          "description": "Наши менеджеры помогут вам выбрать профиль, стекло, цвет и фурнитуру для вашего проекта. Затем вы получите ценовое предложение со всеми обсужденными деталями."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Замер",
+          "description": "После подтверждения заказа инженер приедет к вам, чтобы провести финальные замеры."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Производство",
+          "description": "В зависимости от сложности проекта срок выполнения варьируется от 5 до 15 рабочих дней."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Установка",
+          "description": "Команда профессиональных монтажников приедет к вам для безопасной установки конструкций."
+        }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    },
+    "aboutSection": {
+      "aboutTitle": "О нас",
+      "aboutDescription": [
+        "Мы - компания, основанная на семейных ценностях, с целью производить конструкции из ПВХ и алюминия на самом высоком уровне.",
+        "Мы работаем вместе, чтобы предоставить качественные услуги, хороший продукт и построить долгосрочные отношения. Мы считаем, что сильны благодаря дополнительным навыкам членов семьи и ценностям, на которых мы основываемся: честность, стремление к совершенству, амбиции, эффективность и личное удовлетворение.",
+        "Стратегия, которую мы выбрали с самого начала, - это естественный и органический рост, полностью ориентированный на клиента. Нет такой проблемы, которую нельзя было бы решить в соответствии с требованиями клиента."
+      ],
+      "formTitle": "Запросить предложение",
+      "formFields": {
+        "namePlaceholder": "Ваше имя",
+        "privacyText": "Ваши данные останутся конфиденциальными"
+      },
+      "formSubmit": "Запросить предложение"
+    },
+    "sponsorSection": {
+      "title": "Наши партнеры",
+      "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. При производстве конструкций мы используем только качественную фурнитуру от <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
+    }
+  },
+  "header": {
+    "navTabs": [
+      { "type": "link", "label": "Главная", "href": "/" },
+      {
+        "type": "dropdown",
+        "label": "Окна",
+        "defaultValue": { "value": "Окна", "label": "Окна" },
+        "options": [
+          { "value": "/ferestre-pvc", "label": "ПВХ" },
+          { "value": "/ferestre-aluminiu", "label": "Алюминий" }
+        ]
+      },
+      {
+        "type": "dropdown",
+        "label": "Двери",
+        "defaultValue": { "value": "Двери", "label": "Двери" },
+        "options": [
+          { "value": "/usi-pvc", "label": "ПВХ" },
+          { "value": "/usi-aluminiu", "label": "Алюминий" }
+        ]
+      },
+      {
+        "type": "dropdown",
+        "label": "Раздвижные системы",
+        "defaultValue": { "value": "Раздвижные системы", "label": "Раздвижные системы" },
+        "options": [
+          { "value": "/glisante-pvc", "label": "ПВХ" },
+          { "value": "/glisante-aluminiu", "label": "Алюминий" },
+          { "value": "/glisante-veka-motion", "label": "Veka Motion" }
+        ]
+      },
+      { "type": "link", "label": "Закрытия террас", "href": "/inchideri-terase" },
+      { "type": "link", "label": "Алюминиевые фасады", "href": "/fatade-aluminiu" },
+      {
+        "type": "dropdown",
+        "label": "Экспорт",
+        "defaultValue": { "value": "Экспорт", "label": "Экспорт" },
+        "options": [
+          { "value": "asdasdrty", "label": "asfafdad" },
+          { "value": "asdasdjk", "label": "asfafweqwe" },
+          { "value": "asdasdasd", "label": "asdasdasdasd" },
+          { "value": "sdfsdfsdf", "label": "sdfasdfasdf" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "menu": {
+      "title": "Меню",
+      "links": [
+        { "label": "Главная", "href": "/" },
+        { "label": "Окна", "href": "/ferestre-pvc" },
+        { "label": "Двери", "href": "/usi" },
+        { "label": "Раздвижные системы", "href": "/glisante" },
+        { "label": "Террасные конструкции", "href": "/terase" },
+        { "label": "Алюминиевые фасады", "href": "/fatade" },
+        { "label": "Экспорт", "href": "/export" }
+      ]
+    },
+    "info": {
+      "title": "Информация",
+      "links": [
+        { "label": "Политика конфиденциальности", "href": "/confidentialitate" },
+        { "label": "Условия и положения", "href": "/termeni" }
+      ]
+    },
+    "contact": {
+      "title": "Контакты",
+      "details": [
+        { "label": "+ (373) 60 414 041", "type": "phone", "href": "tel:+37360414041" },
+        { "label": "+ (373) 60 466 177", "type": "phone", "href": "tel:+37360466177" },
+        {
+          "label": "Сосеуа Хынчешть 256/3, Кишинев",
+          "type": "address",
+          "href": "https://maps.app.goo.gl/zFWoBqPYUvfEfE2B6"
+        },
+        { "label": "infoviscomplast@gmail.com", "type": "email", "href": "mailto:infoviscomplast@gmail.com" }
+      ]
+    },
+    "developedBy": "Разработано @NiceGuy"
+  },
+  "offerBtn": "Запросить предложение"
 }
+

@@ -12,6 +12,7 @@
     justify-content: center;
 
     .offerSectionTitle {
+      text-align: center;
       font-family: var(--font-family);
       font-weight: 400;
       font-size: 48px;
@@ -19,8 +20,9 @@
       text-transform: uppercase;
       display: flex;
       align-items: center;
-      max-width: 602px;
-      width: 100%;
+      //max-width: 602px;
+      //width: 100%;
+      gap: clamp(16px, 5vw, 32px);
       justify-content: space-between;
     }
   }
