@@ -8,6 +8,7 @@ import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import RightArrow from "@/app/components/svg-icons/slider/RightArrow";
 import LeftArrow from "@/app/components/svg-icons/slider/LeftArrow";
 import Image from "next/image";
+import { v4 as uuidv4 } from "uuid";
 
 const sliderImages = [
   {
@@ -83,7 +84,7 @@ function SliderSection({ content }) {
       >
         {sliderImages.map((image, index) => (
           <div
-            key={`slider-image-${image}`}
+            key={uuidv4()}
             className={`${styles.slide} ${
               currentSlide === index ? styles.centerSlide : styles.sideSlide
             }`}

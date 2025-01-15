@@ -1,8 +1,7 @@
 import React from "react";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import styles from "@/app/styles/globals/aboutSection.module.scss";
-import { meta } from "eslint-plugin-react/lib/rules/jsx-props-no-spread-multi";
-import description = meta.docs.description;
+import { v4 as uuidv4 } from "uuid";
 
 function AboutContent({ content }) {
   return (
@@ -14,7 +13,7 @@ function AboutContent({ content }) {
       </div>
       <div className={styles.descriptionBox}>
         {content.raw("aboutSection.aboutDescription").map((descriptionText) => (
-          <div key="description" className={styles.description}>
+          <div key={uuidv4()} className={styles.description}>
             {descriptionText}
           </div>
         ))}

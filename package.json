@@ -18,7 +18,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-select": "^5.9.0",
     "react-spinners": "^0.15.0",
-    "sass": "^1.83.0"
+    "sass": "^1.83.0",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20",

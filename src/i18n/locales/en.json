@@ -416,10 +416,9 @@
         "label": "Export",
         "defaultValue": { "value": "Export", "label": "Export" },
         "options": [
-          { "value": "asdasdrty", "label": "asfafdad" },
-          { "value": "asdasdjk", "label": "asfafweqwe" },
-          { "value": "asdasdasd", "label": "asdasdasdasd" },
-          { "value": "sdfsdfsdf", "label": "sdfasdfasdf" }
+          { "value": "/export-italy", "label": "Italy" },
+          { "value": "/export-ireland", "label": "Ireland" },
+          { "value": "/export-france-belgium", "label": "France/Belgium" }
         ]
       }
     ]

@@ -14,7 +14,7 @@ type TypeLayoutProps = {
 };
 function TypesSection({ data, title }: TypeLayoutProps) {
   return (
-    <div className={styles.typesSection}>
+    <div className="sectionContainer">
       <div className={styles.typesSectionTitle}>
         <BlinkIcon color="#18437E" />
         <div>{title}</div>

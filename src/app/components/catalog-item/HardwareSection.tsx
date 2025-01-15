@@ -6,7 +6,7 @@ import styles from "../../styles/catalog-item/hardwareSection.module.scss";
 
 function HardwareSection({ content }) {
   return (
-    <div className={styles.hardwareSection}>
+    <div className="sectionContainer">
       <div className={styles.hardwareSectionTitle}>
         <BlinkIcon color="#18437E" />
         <div>{content("hardwareSection.title")}</div>

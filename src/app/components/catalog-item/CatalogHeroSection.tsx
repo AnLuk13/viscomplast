@@ -5,6 +5,7 @@ import styles from "@/app/styles/catalog-item/catalogHeroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
 import OfferButton from "@/app/components/buttons/OfferButton";
+import { v4 as uuidv4 } from "uuid";
 
 function CatalogHeroSection({ content }) {
   return (
@@ -23,7 +24,7 @@ function CatalogHeroSection({ content }) {
           {Array(5)
             .fill(undefined, undefined, undefined)
             .map(() => (
-              <StarIcon key={Math.random()} />
+              <StarIcon key={uuidv4()} />
             ))}
           <div className={styles.qualityText}>
             {content(`catalogHeroSection.qualityText`)}
