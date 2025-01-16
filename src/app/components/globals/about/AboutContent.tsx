@@ -8,11 +8,11 @@ function AboutContent({ content }) {
     <div className={`${styles.card} ${styles.contentBox}`}>
       <div className={styles.aboutSectionTitle}>
         <BlinkIcon color="#f3f8ff" />
-        <div>{content("aboutSection.aboutTitle")}</div>
+        <div>{content("aboutTitle")}</div>
         <BlinkIcon color="#f3f8ff" />
       </div>
       <div className={styles.descriptionBox}>
-        {content.raw("aboutSection.aboutDescription").map((descriptionText) => (
+        {content.raw("aboutDescription").map((descriptionText) => (
           <div key={uuidv4()} className={styles.description}>
             {descriptionText}
           </div>

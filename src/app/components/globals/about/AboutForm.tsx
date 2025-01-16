@@ -30,7 +30,7 @@ function AboutForm({ content }) {
           style={{ color: "var(--secondary)" }}
         >
           <BlinkIcon color="#18437e" />
-          <div>{content("aboutSection.formTitle")}</div>
+          <div>{content("formTitle")}</div>
           <BlinkIcon color="#18437e" />
         </div>
         <form className={styles.form} onSubmit={handleSubmit}>
@@ -39,7 +39,7 @@ function AboutForm({ content }) {
               id="name"
               name="name"
               type="text"
-              placeholder={content("aboutSection.formFields.namePlaceholder")}
+              placeholder={content("formFields.namePlaceholder")}
               className={styles.input}
               onChange={(event) =>
                 handleInputChange("name", event.target.value)
@@ -81,11 +81,11 @@ function AboutForm({ content }) {
               onChange={(phone) => handleInputChange("phone", phone)}
             />
             <div className={styles.privacyText}>
-              {content("aboutSection.formFields.privacyText")}
+              {content("formFields.privacyText")}
             </div>
           </div>
           <button type="submit" className={styles.submitButton}>
-            {content("aboutSection.formSubmit")} <ArrowIcon />
+            {content("formSubmit")} <ArrowIcon />
           </button>
         </form>
       </div>

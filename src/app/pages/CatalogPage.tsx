@@ -1,10 +1,10 @@
 import React from "react";
-import CatalogHeroSection from "@/app/components/catalog-item/CatalogHeroSection";
-import ProfilesSection from "@/app/components/catalog-item/profiles-layout/ProfilesSection";
-import HardwareSection from "@/app/components/catalog-item/HardwareSection";
-import ColorsSection from "@/app/components/catalog-item/ColorsSection";
-import GlassesSection from "@/app/components/catalog-item/GlassesSection";
-import HandlesSection from "@/app/components/catalog-item/HandlesSection";
+import CatalogHeroSection from "@/app/components/catalog-export/CatalogHeroSection";
+import ProfilesSection from "@/app/components/catalog-export/profiles-layout/ProfilesSection";
+import HardwareSection from "@/app/components/catalog-export/HardwareSection";
+import ColorsSection from "@/app/components/catalog-export/ColorsSection";
+import GlassesSection from "@/app/components/catalog-export/GlassesSection";
+import HandlesSection from "@/app/components/catalog-export/HandlesSection";
 import OfferSection from "@/app/components/globals/offer/OfferSection";
 import SliderSection from "@/app/components/globals/SliderSection";
 import AboutSection from "@/app/components/globals/AboutSection";
@@ -23,10 +23,10 @@ function CatalogPage({ route }: { route: string }) {
       <ColorsSection content={t} />
       <GlassesSection content={t} />
       <HandlesSection content={t} />
-      <OfferSection content={t} color="var(--primary)" />
+      <OfferSection color="var(--primary)" />
       <SliderSection content={t} />
-      <AboutSection content={t} showAboutInfo={false} />
-      <SponsorsSection content={t} color="var(--primary)" />
+      <AboutSection showAboutInfo={false} />
+      <SponsorsSection color="var(--primary)" />
       <Footer />
     </main>
   );

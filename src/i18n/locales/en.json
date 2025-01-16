@@ -10,10 +10,6 @@
         "qualityText": "excellent"
       }
     },
-    "sponsorSection": {
-      "title": "Our Partners",
-      "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
-    },
     "catalogSection": {
       "title": "Catalog <b>Viscomplast</b>",
       "catalogCards": [
@@ -48,45 +44,6 @@
           "imageUrl": "/assets/images/hero-section.png"
         }
       ]
-    },
-    "offerSection": {
-      "title": "What services do we offer?",
-      "offerSteps": [
-        {
-          "stepNumber": 1,
-          "title": "Consultation and Design",
-          "description": "Our sales managers will help you choose the profile, glass, color, and hardware for your project. You will then receive a price offer with all the discussed details."
-        },
-        {
-          "stepNumber": 2,
-          "title": "Measurement",
-          "description": "Once the order is confirmed, the engineer will visit you to perform the final measurements."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Production",
-          "description": "Depending on the complexity of the project, the execution time varies between 5 and 15 working days."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Installation",
-          "description": "A team of professional installers will come to safely install your joinery."
-        }
-      ]
-    },
-    "aboutSection": {
-      "aboutTitle": "About Us",
-      "aboutDescription": [
-        "We are a company built on the values of a family business with the intention to produce PVC and Aluminum joinery at the highest level.",
-        "We work together to offer quality services, a good product, and to build long-term relationships. We believe we are stronger due to the complementary skills of our family members and the values we rely on: fairness, excellence, ambition, efficiency, and personal fulfillment.",
-        "The strategy we have approached from the beginning is one of natural and organic growth, absolutely customer-oriented. There is no problem that cannot be solved in relation to the customer's requirements."
-      ],
-      "formTitle": "Request an Offer",
-      "formFields": {
-        "namePlaceholder": "Your Name",
-        "privacyText": "Your data will remain confidential"
-      },
-      "formSubmit": "Request an Offer"
     },
     "sliderSection": {
       "title": "Portfolio",
@@ -194,54 +151,11 @@
         { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
       ]
     },
-    "offerSection": {
-      "title": "What services do we offer?",
-      "offerSteps": [
-        {
-          "stepNumber": 1,
-          "title": "Consultation and Design",
-          "description": "Our sales managers will help you choose the profile, glass, color, and hardware for your project. You will then receive a price offer with all the discussed details."
-        },
-        {
-          "stepNumber": 2,
-          "title": "Measurement",
-          "description": "Once the order is confirmed, the engineer will visit you to perform the final measurements."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Production",
-          "description": "Depending on the complexity of the project, the execution time varies between 5 and 15 working days."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Installation",
-          "description": "A team of professional installers will come to safely install your joinery."
-        }
-      ]
-    },
     "sliderSection": {
       "title": "Portfolio",
       "buttons": {
         "viewAll": "View all"
       }
-    },
-    "aboutSection": {
-      "aboutTitle": "About Us",
-      "aboutDescription": [
-        "We are a company built on the values of a family business with the intention to produce PVC and Aluminum joinery at the highest level.",
-        "We work together to offer quality services, a good product, and to build long-term relationships. We believe we are stronger due to the complementary skills of our family members and the values we rely on: fairness, excellence, ambition, efficiency, and personal fulfillment.",
-        "The strategy we have approached from the beginning is one of natural and organic growth, absolutely customer-oriented. There is no problem that cannot be solved in relation to the customer's requirements."
-      ],
-      "formTitle": "Request an Offer",
-      "formFields": {
-        "namePlaceholder": "Your Name",
-        "privacyText": "Your data will remain confidential"
-      },
-      "formSubmit": "Request an Offer"
-    },
-    "sponsorSection": {
-      "title": "Our Partners",
-      "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
     }
   },
   "ferestreAluminiu": {
@@ -328,29 +242,95 @@
         { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
       ]
     },
-    "offerSection": {
-      "title": "What services do we offer?",
-      "offerSteps": [
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "usiPvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
         {
-          "stepNumber": 1,
-          "title": "Consultation and Design",
-          "description": "Our sales managers will help you choose the profile, glass, color, and hardware for your project. You will then receive a price offer with all the discussed details."
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
         },
         {
-          "stepNumber": 2,
-          "title": "Measurement",
-          "description": "Once the order is confirmed, the engineer will visit you to perform the final measurements."
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
         },
         {
-          "stepNumber": 3,
-          "title": "Production",
-          "description": "Depending on the complexity of the project, the execution time varies between 5 and 15 working days."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Installation",
-          "description": "A team of professional installers will come to safely install your joinery."
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
         }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -358,24 +338,945 @@
       "buttons": {
         "viewAll": "View all"
       }
+    }
+  },
+  "usiAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
     },
-    "aboutSection": {
-      "aboutTitle": "About Us",
-      "aboutDescription": [
-        "We are a company built on the values of a family business with the intention to produce PVC and Aluminum joinery at the highest level.",
-        "We work together to offer quality services, a good product, and to build long-term relationships. We believe we are stronger due to the complementary skills of our family members and the values we rely on: fairness, excellence, ambition, efficiency, and personal fulfillment.",
-        "The strategy we have approached from the beginning is one of natural and organic growth, absolutely customer-oriented. There is no problem that cannot be solved in relation to the customer's requirements."
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
       ],
-      "formTitle": "Request an Offer",
-      "formFields": {
-        "namePlaceholder": "Your Name",
-        "privacyText": "Your data will remain confidential"
-      },
-      "formSubmit": "Request an Offer"
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
     },
-    "sponsorSection": {
-      "title": "Our Partners",
-      "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "glisantePvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "glisanteAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "glisanteVekaMotion": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "inchideriTerase": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "fatadeAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Aluminum Windows",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Usage for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm Depth",
+            "Robust structure",
+            "Thermal and acoustic insulation",
+            "Compatible with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Kurtoglu 74T Profile",
+          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm Depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "exportItalia": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Windows and doors for your home in Italy",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Use for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm depth",
+            "Robust structure",
+            "Thermal and sound insulation",
+            "Compatibility with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 74T Profile",
+          "description": "The KURTOGLU 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Sliding Systems",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Roller Shutter Boxes",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Roller Shutters",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Mosquito Nets",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to ensure functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "exportIrlanda": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Windows and doors for your home in Italy",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Use for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm depth",
+            "Robust structure",
+            "Thermal and sound insulation",
+            "Compatibility with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 74T Profile",
+          "description": "The KURTOGLU 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Sliding Systems",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Roller Shutter Boxes",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Roller Shutters",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Mosquito Nets",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to ensure functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
+    }
+  },
+  "exportFrantaBelgia": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Windows and doors for your home in Italy",
+      "qualityText": "excellent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiles",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "ALDOX Profile",
+          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows an excellent combination of durability and elegance.",
+          "characteristics": [
+            "Modern design",
+            "Use for sliding systems",
+            "Advanced thermal insulation",
+            "High durability"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 60T Profile",
+          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "characteristics": [
+            "60 mm depth",
+            "Robust structure",
+            "Thermal and sound insulation",
+            "Compatibility with various hardware"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "KURTOGLU 74T Profile",
+          "description": "The KURTOGLU 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "characteristics": [
+            "74 mm depth",
+            "Advanced thermal insulation",
+            "High acoustic performance",
+            "Versatile design for any project"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Description",
+        "characteristics": "Characteristics"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Sliding Systems",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Roller Shutter Boxes",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Roller Shutters",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Mosquito Nets",
+      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "typeGalleryCards": [
+        {
+          "title": "Type 1",
+          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Hardware",
+      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to ensure functionality and safety."
+    },
+    "colorsSection": {
+      "title": "Colors",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Types of Glass",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Types of Handles",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portfolio",
+      "buttons": {
+        "viewAll": "View all"
+      }
     }
   },
   "header": {
@@ -416,9 +1317,9 @@
         "label": "Export",
         "defaultValue": { "value": "Export", "label": "Export" },
         "options": [
-          { "value": "/export-italy", "label": "Italy" },
-          { "value": "/export-ireland", "label": "Ireland" },
-          { "value": "/export-france-belgium", "label": "France/Belgium" }
+          { "value": "/export-italia", "label": "Italy" },
+          { "value": "/export-irlanda", "label": "Ireland" },
+          { "value": "/export-franta-belgia", "label": "France/Belgium" }
         ]
       }
     ]
@@ -458,5 +1359,48 @@
     },
     "developedBy": "Developed by @NiceGuy"
   },
+  "sponsorSection": {
+  "title": "Our Partners",
+  "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
+},
+  "offerSection": {
+  "title": "What services do we offer?",
+  "offerSteps": [
+    {
+      "stepNumber": 1,
+      "title": "Consultation and Design",
+      "description": "Our sales managers will help you choose the profile, glass, color, and hardware for your project. You will then receive a price offer with all the discussed details."
+    },
+    {
+      "stepNumber": 2,
+      "title": "Measurement",
+      "description": "Once the order is confirmed, the engineer will visit you to perform the final measurements."
+    },
+    {
+      "stepNumber": 3,
+      "title": "Production",
+      "description": "Depending on the complexity of the project, the execution time varies between 5 and 15 working days."
+    },
+    {
+      "stepNumber": 4,
+      "title": "Installation",
+      "description": "A team of professional installers will come to safely install your joinery."
+    }
+  ]
+},
+  "aboutSection": {
+  "aboutTitle": "About Us",
+  "aboutDescription": [
+    "We are a company built on the values of a family business with the intention to produce PVC and Aluminum joinery at the highest level.",
+    "We work together to offer quality services, a good product, and to build long-term relationships. We believe we are stronger due to the complementary skills of our family members and the values we rely on: fairness, excellence, ambition, efficiency, and personal fulfillment.",
+    "The strategy we have approached from the beginning is one of natural and organic growth, absolutely customer-oriented. There is no problem that cannot be solved in relation to the customer's requirements."
+  ],
+  "formTitle": "Request an Offer",
+  "formFields": {
+    "namePlaceholder": "Your Name",
+    "privacyText": "Your data will remain confidential"
+  },
+  "formSubmit": "Request an Offer"
+},
   "offerBtn": "Request an offer"
 }

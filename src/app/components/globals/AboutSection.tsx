@@ -6,18 +6,20 @@ import "react-phone-input-2/lib/style.css";
 import AboutImage from "@/app/components/globals/about/AboutImage";
 import AboutForm from "@/app/components/globals/about/AboutForm";
 import AboutContent from "@/app/components/globals/about/AboutContent";
+import { useTranslations } from "next-intl";
 
-function AboutSection({ content, showAboutInfo }: { showAboutInfo: boolean }) {
+function AboutSection({ showAboutInfo }: { showAboutInfo: boolean }) {
+  const t = useTranslations("aboutSection");
   return (
     <section className={styles.aboutSection}>
       <div className={styles.gridContainer}>
         {showAboutInfo && (
           <>
             <AboutImage src="/assets/images/office-viscomplast.png" />
-            <AboutContent content={content} />
+            <AboutContent content={t} />
           </>
         )}
-        <AboutForm content={content} />
+        <AboutForm content={t} />
         <AboutImage src="/assets/images/office.png" />
       </div>
     </section>

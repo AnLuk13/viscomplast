@@ -10,10 +10,6 @@
         "qualityText": "excelent"
       }
     },
-    "sponsorSection": {
-      "title": "Partenerii noștri",
-      "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
-    },
     "catalogSection": {
       "title": "Catalog <b>Viscomplast</b>",
       "catalogCards": [
@@ -48,45 +44,6 @@
           "imageUrl": "/assets/images/hero-section.png"
         }
       ]
-    },
-    "offerSection": {
-      "title": "Ce servicii oferim?",
-      "offerSteps": [
-        {
-          "stepNumber": 1,
-          "title": "Consultanție și Proiectare",
-          "description": "Managerii de vânzări vă vor ajuta să alegeți profilul, sticla, culoarea, feroneria pentru proiectul dumneavoastră. După care veți primi o ofertă de preț, cu toate detaliile discutate."
-        },
-        {
-          "stepNumber": 2,
-          "title": "Măsurare",
-          "description": "La confirmarea comenzii, inginerul se va deplasa la dumneavoastră pentru a efectua măsurătorile finale."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Producere",
-          "description": "În funcție de complexitatea proiectului, termenul de execuție variază între 5 și 15 zile lucrătoare."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Instalare",
-          "description": "O echipă de montatori profesioniști se va deplasa la dumneavoastră pentru a vă instala tâmplăria în siguranță."
-        }
-      ]
-    },
-    "aboutSection": {
-      "aboutTitle": "Despre noi",
-      "aboutDescription": [
-        "Suntem o companie clădită pe valorile unui business de familie al cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
-        "Muncim împreună pentru a oferi servicii de calitate, un produs bun și pentru a construi relații de lungă durată. Consider că suntem mai puternici datorită abilităților complementare ale membrilor familiei și totodată datorită valorilor pe care ne bazăm: corectitudine, excelență, ambiție, eficiență și împlinire personală.",
-        "Strategia pe care am abordat-o încă de la început este aceea a unei creșteri naturale și organice, orientată absolut către client. Nu există problemă care nu poate fi soluționată în raport cu cerințele clientului."
-      ],
-      "formTitle": "Solicită oferta",
-      "formFields": {
-        "namePlaceholder": "Numele Dvs.",
-        "privacyText": "Datele dvs. rămân confidențiale"
-      },
-      "formSubmit": "Solicită oferta"
     },
     "sliderSection": {
       "title": "Portofoliu",
@@ -193,54 +150,11 @@
         { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
       ]
     },
-    "offerSection": {
-      "title": "Ce servicii oferim?",
-      "offerSteps": [
-        {
-          "stepNumber": 1,
-          "title": "Consultanție și Proiectare",
-          "description": "Managerii de vânzări vă vor ajuta să alegeți profilul, sticla, culoarea, feroneria pentru proiectul dumneavoastră. După care veți primi o ofertă de preț, cu toate detaliile discutate."
-        },
-        {
-          "stepNumber": 2,
-          "title": "Măsurare",
-          "description": "La confirmarea comenzii, inginerul se va deplasa la dumneavoastră pentru a efectua măsurătorile finale."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Producere",
-          "description": "În funcție de complexitatea proiectului, termenul de execuție variază între 5 și 15 zile lucrătoare."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Instalare",
-          "description": "O echipă de montatori profesioniști se va deplasa la dumneavoastră pentru a vă instala tâmplăria în siguranță."
-        }
-      ]
-    },
     "sliderSection": {
       "title": "Portofoliu",
       "buttons": {
         "viewAll": "Vezi toate"
       }
-    },
-    "aboutSection": {
-      "aboutTitle": "Despre noi",
-      "aboutDescription": [
-        "Suntem o companie clădită pe valorile unui business de familie al cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
-        "Muncim împreună pentru a oferi servicii de calitate, un produs bun și pentru a construi relații de lungă durată. Consider că suntem mai puternici datorită abilităților complementare ale membrilor familiei și totodată datorită valorilor pe care ne bazăm: corectitudine, excelență, ambiție, eficiență și împlinire personală.",
-        "Strategia pe care am abordat-o încă de la început este aceea a unei creșteri naturale și organice, orientată absolut către client. Nu există problemă care nu poate fi soluționată în raport cu cerințele clientului."
-      ],
-      "formTitle": "Solicită oferta",
-      "formFields": {
-        "namePlaceholder": "Numele Dvs.",
-        "privacyText": "Datele dvs. rămân confidențiale"
-      },
-      "formSubmit": "Solicită oferta"
-    },
-    "sponsorSection": {
-      "title": "Partenerii noștri",
-      "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
     }
   },
   "ferestreAluminiu": {
@@ -326,29 +240,94 @@
         { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
       ]
     },
-    "offerSection": {
-      "title": "Ce servicii oferim?",
-      "offerSteps": [
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "usiPvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Uși din PVC",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
         {
-          "stepNumber": 1,
-          "title": "Consultanță și Proiectare",
-          "description": "Managerii noștri de vânzări vă vor ajuta să alegeți profilul, sticla, culoarea și feroneria pentru proiectul dumneavoastră. Veți primi apoi o ofertă de preț cu toate detaliile discutate."
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
         },
         {
-          "stepNumber": 2,
-          "title": "Măsurare",
-          "description": "După confirmarea comenzii, inginerul va veni pentru a efectua măsurătorile finale."
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
         },
         {
-          "stepNumber": 3,
-          "title": "Producție",
-          "description": "În funcție de complexitatea proiectului, termenul de execuție variază între 5 și 15 zile lucrătoare."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Instalare",
-          "description": "O echipă de montatori profesioniști va veni pentru a instala tâmplăria în siguranță."
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
         }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -356,24 +335,924 @@
       "buttons": {
         "viewAll": "Vezi toate"
       }
+    }
+  },
+  "usiAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "qualityText": "excelent"
     },
-    "aboutSection": {
-      "aboutTitle": "Despre noi",
-      "aboutDescription": [
-        "Suntem o companie clădită pe valorile unui business de familie a cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
-        "Muncim împreună pentru a oferi servicii de calitate, un produs bun și pentru a construi relații de lungă durată. Considerăm că suntem mai puternici datorită abilităților complementare ale membrilor familiei și valorilor pe care ne bazăm: corectitudine, excelență, ambiție, eficiență și împlinire personală.",
-        "Strategia pe care am abordat-o de la început este una de creștere naturală și organică, orientată absolut către client. Nu există problemă care să nu poată fi soluționată în raport cu cerințele clientului."
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
       ],
-      "formTitle": "Solicită oferta",
-      "formFields": {
-        "namePlaceholder": "Numele dvs.",
-        "privacyText": "Datele dvs. rămân confidențiale"
-      },
-      "formSubmit": "Solicită oferta"
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
     },
-    "sponsorSection": {
-      "title": "Partenerii noștri",
-      "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>aluminiu</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "glisantePvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "glisanteAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "glisanteVekaMotion": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "inchideriTerase": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "fatadeAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "exportItalia": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre și uși pentru casa ta din Italia",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Glisante",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Casonete",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Tapparele",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Zanzariere",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "exportIrlanda": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre și uși pentru casa ta din Italia",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Glisante",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Casonete",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Tapparele",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Zanzariere",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
+    }
+  },
+  "exportFrantaBelgia": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Ferestre și uși pentru casa ta din Italia",
+      "qualityText": "excelent"
+    },
+    "profilesSection": {
+      "sectionTitle": "Profiluri",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Profilul ALDOX",
+          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "characteristics": [
+            "Design modern",
+            "Utilizare pentru sisteme glisante",
+            "Izolare termică avansată",
+            "Durabilitate ridicată"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 60T",
+          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "characteristics": [
+            "Adâncime de 60 mm",
+            "Structură robustă",
+            "Izolare fonică și termică",
+            "Compatibilitate cu diverse feronerii"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Profilul KURTOGLU 74T",
+          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "characteristics": [
+            "Adâncime de 74 mm",
+            "Izolare termică avansată",
+            "Performanță acustică ridicată",
+            "Design versatil pentru orice proiect"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Descriere",
+        "characteristics": "Caracteristici"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Glisante",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Casonete",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Tapparele",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Zanzariere",
+      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "typeGalleryCards": [
+        { "title": "Tip 1",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Feronerie",
+      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+    },
+    "colorsSection": {
+      "title": "Culori",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
+      ]    },
+    "glassesSection": {
+      "title": "Tipuri de sticlă",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Tipuri de mânere",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Portofoliu",
+      "buttons": {
+        "viewAll": "Vezi toate"
+      }
     }
   },
   "header": {
@@ -414,9 +1293,9 @@
         "label": "Export",
         "defaultValue": { "value": "Export", "label": "Export" },
         "options": [
-          { "value": "/export-italy", "label": "Italia" },
-          { "value": "/export-ireland", "label": "Irlanda" },
-          { "value": "/export-france-belgium", "label": "Franța/Belgia" }
+          { "value": "/export-italia", "label": "Italia" },
+          { "value": "/export-irlanda", "label": "Irlanda" },
+          { "value": "/export-franta-belgia", "label": "Franța/Belgia" }
         ]
       }
     ]
@@ -455,6 +1334,49 @@
       ]
     },
     "developedBy": "Dezvoltat de @NiceGuy"
+  },
+  "sponsorSection": {
+    "title": "Partenerii noștri",
+    "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
+  },
+  "offerSection": {
+    "title": "Ce servicii oferim?",
+    "offerSteps": [
+      {
+        "stepNumber": 1,
+        "title": "Consultanță și Proiectare",
+        "description": "Managerii noștri de vânzări vă vor ajuta să alegeți profilul, sticla, culoarea și feroneria pentru proiectul dumneavoastră. Veți primi apoi o ofertă de preț cu toate detaliile discutate."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Măsurare",
+        "description": "După confirmarea comenzii, inginerul va veni pentru a efectua măsurătorile finale."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Producție",
+        "description": "În funcție de complexitatea proiectului, termenul de execuție variază între 5 și 15 zile lucrătoare."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Instalare",
+        "description": "O echipă de montatori profesioniști va veni pentru a instala tâmplăria în siguranță."
+      }
+    ]
+  },
+  "aboutSection": {
+    "aboutTitle": "Despre noi",
+    "aboutDescription": [
+      "Suntem o companie clădită pe valorile unui business de familie a cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
+      "Muncim împreună pentru a oferi servicii de calitate, un produs bun și pentru a construi relații de lungă durată. Considerăm că suntem mai puternici datorită abilităților complementare ale membrilor familiei și valorilor pe care ne bazăm: corectitudine, excelență, ambiție, eficiență și împlinire personală.",
+      "Strategia pe care am abordat-o de la început este una de creștere naturală și organică, orientată absolut către client. Nu există problemă care să nu poată fi soluționată în raport cu cerințele clientului."
+    ],
+    "formTitle": "Solicită oferta",
+    "formFields": {
+      "namePlaceholder": "Numele dvs.",
+      "privacyText": "Datele dvs. rămân confidențiale"
+    },
+    "formSubmit": "Solicită oferta"
   },
   "offerBtn": "Solicită oferta"
 }

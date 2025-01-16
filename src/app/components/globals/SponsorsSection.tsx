@@ -5,32 +5,38 @@ import styles from "@/app/styles/globals/sponsorsSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import ramplast from "../../../../public/assets/images/sponsors/ramplast.png";
+import { useTranslations } from "next-intl";
 import veka from "../../../../public/assets/images/sponsors/veka.png";
-import gealan from "../../../../public/assets/images/sponsors/gealan.png";
 import kurtoglu from "../../../../public/assets/images/sponsors/kurtoglu.png";
+import gu from "../../../../public/assets/images/sponsors/gu.png";
+import alutech from "../../../../public/assets/images/sponsors/alutech.png";
+import maco from "../../../../public/assets/images/sponsors/maco.png";
+import winkhaus from "../../../../public/assets/images/sponsors/winkhaus.png";
 
 const Marquee = dynamic(() =>
   import("react-fast-marquee").then((mod) => mod.default),
 );
 
-function SponsorsSection({ content, color }: { color: string }) {
+function SponsorsSection({ color }: { color: string }) {
+  const t = useTranslations("sponsorSection");
   const sponsors = [
-    { src: ramplast, alt: "Ramplast" },
+    { src: maco, alt: "Maco" },
     { src: veka, alt: "Veka" },
-    { src: gealan, alt: "Gealan" },
+    { src: alutech, alt: "Alutech" },
+    { src: gu, alt: "G-U" },
     { src: kurtoglu, alt: "Kurtoglu" },
+    { src: winkhaus, alt: "Winkhaus" },
   ];
 
   return (
     <section className={styles.sponsorsSection} style={{ background: color }}>
       <div className={styles.sponsorsSectionTitle}>
         <BlinkIcon color="#18437E" />
-        <div>{content("sponsorSection.title")}</div>
+        <div>{t("title")}</div>
         <BlinkIcon color="#18437E" />
       </div>
       <div className={styles.description}>
-        {content.rich("sponsorSection.description", {
+        {t.rich("description", {
           // eslint-disable-next-line react/no-unstable-nested-components
           PVC: (chunks) => <b key="PVC">{chunks}</b>,
           // eslint-disable-next-line react/no-unstable-nested-components

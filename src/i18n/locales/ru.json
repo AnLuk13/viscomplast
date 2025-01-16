@@ -10,10 +10,6 @@
         "qualityText": "отлично"
       }
     },
-    "sponsorSection": {
-      "title": "Наши партнеры",
-      "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. В производстве конструкций мы используем только качественную фурнитуру <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
-    },
     "catalogSection": {
       "title": "Каталог <b>Viscomplast</b>",
       "catalogCards": [
@@ -48,45 +44,6 @@
           "imageUrl": "/assets/images/hero-section.png"
         }
       ]
-    },
-    "offerSection": {
-      "title": "Какие услуги мы предлагаем?",
-      "offerSteps": [
-        {
-          "stepNumber": 1,
-          "title": "Консультация и проектирование",
-          "description": "Наши менеджеры по продажам помогут вам выбрать профиль, стекло, цвет и фурнитуру для вашего проекта. Затем вы получите ценовое предложение со всеми обсужденными деталями."
-        },
-        {
-          "stepNumber": 2,
-          "title": "Замеры",
-          "description": "После подтверждения заказа инженер приедет к вам для проведения окончательных замеров."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Производство",
-          "description": "В зависимости от сложности проекта срок выполнения варьируется от 5 до 15 рабочих дней."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Установка",
-          "description": "Команда профессиональных монтажников приедет к вам, чтобы безопасно установить изделия."
-        }
-      ]
-    },
-    "aboutSection": {
-      "aboutTitle": "О нас",
-      "aboutDescription": [
-        "Мы — компания, основанная на ценностях семейного бизнеса с целью производить окна и двери из ПВХ и алюминия высочайшего качества.",
-        "Мы работаем вместе, чтобы предлагать качественные услуги, хороший продукт и строить долгосрочные отношения. Мы считаем, что становимся сильнее благодаря взаимодополняющим навыкам членов нашей семьи и ценностям, на которых мы основываемся: честность, совершенство, амбиции, эффективность и личное удовлетворение.",
-        "Стратегия, которую мы выбрали с самого начала, — это естественный и органический рост, ориентированный исключительно на клиента. Не существует проблемы, которую нельзя решить в соответствии с требованиями клиента."
-      ],
-      "formTitle": "Запросить предложение",
-      "formFields": {
-        "namePlaceholder": "Ваше Имя",
-        "privacyText": "Ваши данные останутся конфиденциальными"
-      },
-      "formSubmit": "Запросить предложение"
     },
     "sliderSection": {
       "title": "Портфолио",
@@ -194,54 +151,11 @@
         { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
       ]
     },
-    "offerSection": {
-      "title": "Какие услуги мы предлагаем?",
-      "offerSteps": [
-        {
-          "stepNumber": 1,
-          "title": "Консультация и проектирование",
-          "description": "Наши менеджеры по продажам помогут вам выбрать профиль, стекло, цвет и фурнитуру для вашего проекта. Затем вы получите ценовое предложение со всеми обсужденными деталями."
-        },
-        {
-          "stepNumber": 2,
-          "title": "Замеры",
-          "description": "После подтверждения заказа инженер приедет к вам для проведения окончательных замеров."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Производство",
-          "description": "В зависимости от сложности проекта срок выполнения варьируется от 5 до 15 рабочих дней."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Установка",
-          "description": "Команда профессиональных монтажников приедет к вам, чтобы безопасно установить изделия."
-        }
-      ]
-    },
     "sliderSection": {
       "title": "Портфолио",
       "buttons": {
         "viewAll": "Посмотреть все"
       }
-    },
-    "aboutSection": {
-      "aboutTitle": "О нас",
-      "aboutDescription": [
-        "Мы — компания, основанная на ценностях семейного бизнеса с целью производить окна и двери из ПВХ и алюминия высочайшего качества.",
-        "Мы работаем вместе, чтобы предлагать качественные услуги, хороший продукт и строить долгосрочные отношения. Мы считаем, что становимся сильнее благодаря взаимодополняющим навыкам членов нашей семьи и ценностям, на которых мы основываемся: честность, совершенство, амбиции, эффективность и личное удовлетворение.",
-        "Стратегия, которую мы выбрали с самого начала, — это естественный и органический рост, ориентированный исключительно на клиента. Не существует проблемы, которую нельзя решить в соответствии с требованиями клиента."
-      ],
-      "formTitle": "Запросить предложение",
-      "formFields": {
-        "namePlaceholder": "Ваше Имя",
-        "privacyText": "Ваши данные останутся конфиденциальными"
-      },
-      "formSubmit": "Запросить предложение"
-    },
-    "sponsorSection": {
-      "title": "Наши партнеры",
-      "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. В производстве конструкций мы используем только качественную фурнитуру <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
     }
   },
   "ferestreAluminiu": {
@@ -328,29 +242,95 @@
         { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
       ]
     },
-    "offerSection": {
-      "title": "Какие услуги мы предлагаем?",
-      "offerSteps": [
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "usiPvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
         {
-          "stepNumber": 1,
-          "title": "Консультация и проектирование",
-          "description": "Наши менеджеры помогут вам выбрать профиль, стекло, цвет и фурнитуру для вашего проекта. Затем вы получите ценовое предложение со всеми обсужденными деталями."
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
         },
         {
-          "stepNumber": 2,
-          "title": "Замер",
-          "description": "После подтверждения заказа инженер приедет к вам, чтобы провести финальные замеры."
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
         },
         {
-          "stepNumber": 3,
-          "title": "Производство",
-          "description": "В зависимости от сложности проекта срок выполнения варьируется от 5 до 15 рабочих дней."
-        },
-        {
-          "stepNumber": 4,
-          "title": "Установка",
-          "description": "Команда профессиональных монтажников приедет к вам для безопасной установки конструкций."
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
         }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
       ]
     },
     "sliderSection": {
@@ -358,24 +338,945 @@
       "buttons": {
         "viewAll": "Посмотреть все"
       }
+    }
+  },
+  "usiAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
     },
-    "aboutSection": {
-      "aboutTitle": "О нас",
-      "aboutDescription": [
-        "Мы - компания, основанная на семейных ценностях, с целью производить конструкции из ПВХ и алюминия на самом высоком уровне.",
-        "Мы работаем вместе, чтобы предоставить качественные услуги, хороший продукт и построить долгосрочные отношения. Мы считаем, что сильны благодаря дополнительным навыкам членов семьи и ценностям, на которых мы основываемся: честность, стремление к совершенству, амбиции, эффективность и личное удовлетворение.",
-        "Стратегия, которую мы выбрали с самого начала, - это естественный и органический рост, полностью ориентированный на клиента. Нет такой проблемы, которую нельзя было бы решить в соответствии с требованиями клиента."
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
       ],
-      "formTitle": "Запросить предложение",
-      "formFields": {
-        "namePlaceholder": "Ваше имя",
-        "privacyText": "Ваши данные останутся конфиденциальными"
-      },
-      "formSubmit": "Запросить предложение"
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
     },
-    "sponsorSection": {
-      "title": "Наши партнеры",
-      "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. При производстве конструкций мы используем только качественную фурнитуру от <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "glisantePvc": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "glisanteAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "glisanteVekaMotion": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "inchideriTerase": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "fatadeAluminiu": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Алюминиевые окна",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX - это оптимальное решение для раздвижных дверей и окон. Его конструкция идеально сочетает прочность и элегантность.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные эксплуатационные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Шумо- и теплоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T - это премиальная алюминиевая система, которая обеспечивает тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокая акустическая производительность",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным внешним видом. Мы используем фурнитуру премиум-класса, чтобы гарантировать функциональность и безопасность."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "матовый черный" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая стружка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий тростник" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Тростник" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "exportItalia": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Окна и двери для вашего дома в Италии",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX — это оптимальное решение для раздвижных дверей и окон. Его конструкция обеспечивает отличное сочетание долговечности и элегантности.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Тепло- и звукоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T — это премиальная алюминиевая система, обеспечивающая тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокие акустические характеристики",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Раздвижные системы",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Коробки для рольставней",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Рольставни",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Москитные сетки",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным дизайном. Мы используем фурнитуру премиум-класса для обеспечения функциональности и безопасности."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "черный матовый" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая крошка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий рейд" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Рейд" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "exportIrlanda": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Окна и двери для вашего дома в Италии",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX — это оптимальное решение для раздвижных дверей и окон. Его конструкция обеспечивает отличное сочетание долговечности и элегантности.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Тепло- и звукоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T — это премиальная алюминиевая система, обеспечивающая тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокие акустические характеристики",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Раздвижные системы",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Коробки для рольставней",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Рольставни",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Москитные сетки",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным дизайном. Мы используем фурнитуру премиум-класса для обеспечения функциональности и безопасности."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "черный матовый" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая крошка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий рейд" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Рейд" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
+    }
+  },
+  "exportFrantaBelgia": {
+    "catalogHeroSection": {
+      "catalogHeroTitle": "Окна и двери для вашего дома в Италии",
+      "qualityText": "отлично"
+    },
+    "profilesSection": {
+      "sectionTitle": "Профили",
+      "profiles": [
+        {
+          "id": 1,
+          "image": "/assets/images/office.png",
+          "title": "Профиль ALDOX",
+          "description": "Профиль ALDOX — это оптимальное решение для раздвижных дверей и окон. Его конструкция обеспечивает отличное сочетание долговечности и элегантности.",
+          "characteristics": [
+            "Современный дизайн",
+            "Использование в раздвижных системах",
+            "Продвинутая теплоизоляция",
+            "Высокая долговечность"
+          ]
+        },
+        {
+          "id": 2,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 60T",
+          "description": "Профиль KURTOGLU 60T идеально подходит для жилых и коммерческих проектов, обеспечивая отличные характеристики и привлекательный внешний вид.",
+          "characteristics": [
+            "Глубина 60 мм",
+            "Прочная конструкция",
+            "Тепло- и звукоизоляция",
+            "Совместимость с различной фурнитурой"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "/assets/images/office.png",
+          "title": "Профиль KURTOGLU 74T",
+          "description": "Профиль KURTOGLU 74T — это премиальная алюминиевая система, обеспечивающая тепловой комфорт и превосходную эстетику.",
+          "characteristics": [
+            "Глубина 74 мм",
+            "Продвинутая теплоизоляция",
+            "Высокие акустические характеристики",
+            "Универсальный дизайн для любого проекта"
+          ]
+        }
+      ],
+      "togglers": {
+        "description": "Описание",
+        "characteristics": "Характеристики"
+      }
+    },
+    "slidingSystemsSection": {
+      "title": "Раздвижные системы",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "rollerShutterBoxesSection": {
+      "title": "Коробки для рольставней",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "rollerShuttersSection": {
+      "title": "Рольставни",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "mosquitoNetsSection": {
+      "title": "Москитные сетки",
+      "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей. Использование профилей с 6 камерами и энергоэффективных стеклопакетов позволяет обеспечить необходимый уровень комфорта в вашем доме. Системы WHS от VEKA позволяют устанавливать стеклопакеты с повышенной защитой от шума.",
+      "typeGalleryCards": [
+        {
+          "title": "Тип 1",
+          "description": "Система WHS от VEKA оптимально сочетает практичность и доступность. Она предназначена для производства окон стандартной конфигурации для потребителей."
+        }
+      ]
+    },
+    "hardwareSection": {
+      "title": "Фурнитура",
+      "description": "Алюминиевые системы известны своей высокой надежностью, долговечностью и современным дизайном. Мы используем фурнитуру премиум-класса для обеспечения функциональности и безопасности."
+    },
+    "colorsSection": {
+      "title": "Цвета",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "антрацит" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "черный матовый" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "золотой дуб" }
+      ]
+    },
+    "glassesSection": {
+      "title": "Типы стекла",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Матовое" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Дождь" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Клеевая крошка" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Узкий рейд" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Рейд" }
+      ]
+    },
+    "handlesSection": {
+      "title": "Типы ручек",
+      "types": [
+        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Металл" },
+        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Пластик" },
+        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Металл" }
+      ]
+    },
+    "sliderSection": {
+      "title": "Портфолио",
+      "buttons": {
+        "viewAll": "Посмотреть все"
+      }
     }
   },
   "header": {
@@ -416,9 +1317,9 @@
         "label": "Экспорт",
         "defaultValue": { "value": "Экспорт", "label": "Экспорт" },
         "options": [
-          { "value": "/export-italy", "label": "Италия" },
-          { "value": "/export-ireland", "label": "Ирландия" },
-          { "value": "/export-france-belgium", "label": "Франция/Бельгия" }
+          { "value": "/export-italia", "label": "Италия" },
+          { "value": "/export-irlanda", "label": "Ирландия" },
+          { "value": "/export-franta-belgia", "label": "Франция/Бельгия" }
         ]
       }
     ]
@@ -458,6 +1359,49 @@
     },
     "developedBy": "Разработано @NiceGuy"
   },
+  "sponsorSection": {
+  "title": "Наши партнеры",
+  "description": "Мы предлагаем полный спектр услуг по производству и установке конструкций из <PVC>ПВХ</PVC> и <ALUMINIU>алюминия</ALUMINIU>, используя профильные системы <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> и <KURTOGLU>KURTOGLU</KURTOGLU>. При производстве конструкций мы используем только качественную фурнитуру от <WINKHAUS>WINKHAUS</WINKHAUS> и <GU>G-U</GU>."
+},
+  "offerSection": {
+  "title": "Какие услуги мы предлагаем?",
+  "offerSteps": [
+    {
+      "stepNumber": 1,
+      "title": "Консультация и проектирование",
+      "description": "Наши менеджеры помогут вам выбрать профиль, стекло, цвет и фурнитуру для вашего проекта. Затем вы получите ценовое предложение со всеми обсужденными деталями."
+    },
+    {
+      "stepNumber": 2,
+      "title": "Замер",
+      "description": "После подтверждения заказа инженер приедет к вам, чтобы провести финальные замеры."
+    },
+    {
+      "stepNumber": 3,
+      "title": "Производство",
+      "description": "В зависимости от сложности проекта срок выполнения варьируется от 5 до 15 рабочих дней."
+    },
+    {
+      "stepNumber": 4,
+      "title": "Установка",
+      "description": "Команда профессиональных монтажников приедет к вам для безопасной установки конструкций."
+    }
+  ]
+},
+  "aboutSection": {
+  "aboutTitle": "О нас",
+  "aboutDescription": [
+    "Мы - компания, основанная на семейных ценностях, с целью производить конструкции из ПВХ и алюминия на самом высоком уровне.",
+    "Мы работаем вместе, чтобы предоставить качественные услуги, хороший продукт и построить долгосрочные отношения. Мы считаем, что сильны благодаря дополнительным навыкам членов семьи и ценностям, на которых мы основываемся: честность, стремление к совершенству, амбиции, эффективность и личное удовлетворение.",
+    "Стратегия, которую мы выбрали с самого начала, - это естественный и органический рост, полностью ориентированный на клиента. Нет такой проблемы, которую нельзя было бы решить в соответствии с требованиями клиента."
+  ],
+  "formTitle": "Запросить предложение",
+  "formFields": {
+    "namePlaceholder": "Ваше имя",
+    "privacyText": "Ваши данные останутся конфиденциальными"
+  },
+  "formSubmit": "Запросить предложение"
+},
   "offerBtn": "Запросить предложение"
 }
 

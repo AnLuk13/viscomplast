@@ -14,14 +14,13 @@ import { useTranslations } from "next-intl";
 function Home() {
   const isLargeScreen = useIsLargeScreen();
   const t = useTranslations("home");
-
   return (
     <main>
       <HeroSection content={t} isLargeScreen={isLargeScreen} />
-      <SponsorsSection content={t} color="var(--background)" />
+      <SponsorsSection color="var(--background)" />
       <CatalogSection content={t} />
-      <OfferSection content={t} color="var(--background)" />
-      <AboutSection content={t} showAboutInfo />
+      <OfferSection color="var(--background)" />
+      <AboutSection showAboutInfo />
       <SliderSection content={t} />
       <Footer />
     </main>
