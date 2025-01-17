@@ -60,40 +60,38 @@ function AboutForm({ content }) {
 
   return (
     <div className={`${styles.card} ${styles.formBox}`}>
-      <div className={styles.formContent}>
-        <div
-          className={styles.aboutSectionTitle}
-          style={{ color: "var(--secondary)" }}
-        >
-          <BlinkIcon color="#18437e" />
-          <div>{content("formTitle")}</div>
-          <BlinkIcon color="#18437e" />
-        </div>
-        <form className={styles.form} onSubmit={handleSubmit}>
-          <div className={styles.inputBox}>
-            <NameInput
-              value={formData.name}
-              placeholder={content("formFields.namePlaceholder")}
-              onChange={(value) => handleInputChange("name", value)}
-            />
-            <PhoneInputField
-              value={formData.phone}
-              selectedCountry={selectedCountry}
-              onChange={(value, country) => {
-                handleInputChange("phone", value);
-                if (country) setSelectedCountry(country.countryCode); // Dynamically update the country
-              }}
-            />
-            <ErrorBox errors={errors} />
-            <div className={styles.privacyText}>
-              {content("formFields.privacyText")}
-            </div>
-          </div>
-          <button type="submit" className={styles.submitBtn}>
-            {content("formSubmit")} <ArrowIcon />
-          </button>
-        </form>
+      <div
+        className={`${styles.aboutSectionTitle} ${styles.formTitle}`}
+        style={{ color: "var(--secondary)" }}
+      >
+        <BlinkIcon color="#18437e" />
+        <div>{content("formTitle")}</div>
+        <BlinkIcon color="#18437e" />
       </div>
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <div className={styles.inputBox}>
+          <NameInput
+            value={formData.name}
+            placeholder={content("formFields.namePlaceholder")}
+            onChange={(value) => handleInputChange("name", value)}
+          />
+          <PhoneInputField
+            value={formData.phone}
+            selectedCountry={selectedCountry}
+            onChange={(value, country) => {
+              handleInputChange("phone", value);
+              if (country) setSelectedCountry(country.countryCode); // Dynamically update the country
+            }}
+          />
+          <ErrorBox errors={errors} />
+          <div className={styles.privacyText}>
+            {content("formFields.privacyText")}
+          </div>
+        </div>
+        <button type="submit" className={styles.submitBtn}>
+          {content("formSubmit")} <ArrowIcon />
+        </button>
+      </form>
     </div>
   );
 }

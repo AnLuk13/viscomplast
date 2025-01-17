@@ -37,7 +37,7 @@
       justify-content: center;
       align-items: center;
 
-      @media (min-width: 720px) and (max-width: 845px) {
+      @media (min-width: 720px) and (max-width: 846px) {
         height: 600px !important;
       }
 
@@ -83,91 +83,107 @@
       align-items: center;
       padding: 0 20px;
       box-sizing: border-box;
+      flex-direction: column;
+      min-width: 360px;
+      width: 100%;
+      gap: 48px;
+      //
+      //.formContent {
+      //  display: flex;
+      //  flex-direction: column;
+      //  align-items: center;
+      //  max-width: 374px;
+      //  width: 100%;
+      //  gap: 48px;
 
-      .formContent {
+      .form {
         display: flex;
         flex-direction: column;
         max-width: 374px;
         width: 100%;
         gap: 48px;
+        align-items: center;
 
-        .form {
+        .inputBox {
           display: flex;
           flex-direction: column;
-          gap: 48px;
-          align-items: center;
+          width: 100%;
+          gap: 16px;
 
-          .inputBox {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            gap: 16px;
-
-            .errorBox {
-              display: flex;
-              gap: 12px;
-              justify-content: center;
-              align-items: center;
-
-              .errorText {
-                font-family: var(--font-family);
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 150%;
-                letter-spacing: -0.02em;
-                color: var(--accent);
-              }
-            }
-
-            .input {
-              font-family: var(--font-family);
-              font-weight: 400;
-              font-size: 18px;
-              line-height: 156%;
-              letter-spacing: -0.02em;
-              border: 1px solid var(--secondary-a50);
-              border-radius: 99px;
-              padding: 10px 24px;
-              max-width: 374px;
-              width: 100%;
-              height: 60px;
-              box-sizing: border-box;
-              background: var(--primary);
-            }
-          }
-
-          .privacyText {
-            font-family: var(--font-family);
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 150%;
-            letter-spacing: -0.02em;
-            color: var(--secondary);
-            text-align: center;
-          }
-
-          .submitBtn {
+          .errorBox {
             display: flex;
             gap: 12px;
+            justify-content: center;
             align-items: center;
-            border-radius: 99px;
-            padding: 20px 28px;
-            width: fit-content;
-            height: 64px;
-            cursor: pointer;
-            text-align: center;
-            background: var(--accent);
-            border: none;
+
+            .errorText {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: -0.02em;
+              color: var(--accent);
+            }
+          }
+
+          .input {
             font-family: var(--font-family);
             font-weight: 400;
-            font-size: 20px;
-            line-height: 120%;
+            font-size: 18px;
+            line-height: 156%;
             letter-spacing: -0.02em;
-            color: var(--primary);
+            border: 1px solid var(--secondary-a50);
+            border-radius: 99px;
+            padding: 10px 24px;
+            max-width: 374px;
+            width: 100%;
+            height: 60px;
+            box-sizing: border-box;
+            background: var(--primary);
           }
+        }
+
+        .privacyText {
+          font-family: var(--font-family);
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: -0.02em;
+          color: var(--secondary);
+          text-align: center;
+        }
+
+        .submitBtn {
+          display: flex;
+          gap: 12px;
+          align-items: center;
+          border-radius: 99px;
+          padding: 20px 28px;
+          width: fit-content;
+          height: 64px;
+          cursor: pointer;
+          text-align: center;
+          background: var(--accent);
+          border: none;
+          font-family: var(--font-family);
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 120%;
+          letter-spacing: -0.02em;
+          color: var(--primary);
         }
       }
     }
+  }
+}
+
+@media (max-width: 1070px) {
+  .aboutSectionTitle {
+    font-size: 40px !important;
+  }
+
+  .formTitle {
+    gap: clamp(0px, 5vw, 12px) !important;
   }
 }
 
@@ -192,6 +208,7 @@
 
     .submitBtn {
       font-size: 16px !important;
+      padding: 12px 20px !important;
     }
   }
 }
