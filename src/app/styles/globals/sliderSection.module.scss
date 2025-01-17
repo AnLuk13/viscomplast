@@ -19,7 +19,6 @@
     //max-width: 438px;
     //width: 100%;
     gap: clamp(16px, 5vw, 32px);
-    justify-content: space-between;
   }
 
   .carousel {
@@ -67,9 +66,11 @@
 
   .carouselBtns {
     display: flex;
-    max-width: 369px;
+    max-width: 260px;
     width: 100%;
     justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
 
     .viewAllButton {
       display: flex;

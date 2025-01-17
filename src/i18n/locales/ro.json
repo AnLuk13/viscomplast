@@ -1376,6 +1376,10 @@
       "namePlaceholder": "Numele dvs.",
       "privacyText": "Datele dvs. rămân confidențiale"
     },
+    "errorTexts": {
+      "name" : "Nume invalid",
+      "phone" : "Telefon invalid"
+    },
     "formSubmit": "Solicită oferta"
   },
   "offerBtn": "Solicită oferta"

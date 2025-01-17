@@ -75,12 +75,13 @@ function SliderSection({ content }) {
         autoPlay
         stopOnHover
         interval={5000}
-        swipeScrollTolerance={40}
+        swipeScrollTolerance={60}
         className={styles.carousel}
         centerMode
         centerSlidePercentage={33.3}
         onChange={handleSlideChange}
         onClickItem={handleSlideChange}
+        selectedItem={currentSlide}
       >
         {sliderImages.map((image, index) => (
           <div
@@ -105,9 +106,9 @@ function SliderSection({ content }) {
         <button type="button" className={styles.navButton} onClick={handlePrev}>
           <LeftArrow />
         </button>
-        <button type="button" className={styles.viewAllButton}>
-          {content("sliderSection.buttons.viewAll")}
-        </button>
+        {/* <button type="button" className={styles.viewAllButton}> */}
+        {/*  {content("sliderSection.buttons.viewAll")} */}
+        {/* </button> */}
         <button type="button" className={styles.navButton} onClick={handleNext}>
           <RightArrow />
         </button>

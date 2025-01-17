@@ -77,3 +77,36 @@ export const customStyles = {
     },
   }),
 };
+
+export const phoneInputStyles = {
+  inputStyle: {
+    border: "1px solid var(--secondary-a50)",
+    borderRadius: "99px",
+    padding: "10px 20px 10px 70px",
+    maxWidth: "374px",
+    width: "100%",
+    height: "60px",
+    fontSize: "16px",
+    fontFamily: "var(--font-family)",
+    background: "var(--primary)",
+  },
+  buttonStyle: {
+    border: "1px solid var(--secondary-a50)",
+    borderRadius: "99px 0 0 99px",
+    padding: "10px",
+    background: "var(--primary)",
+  },
+  dropdownStyle: {
+    left: 0,
+    top: 49,
+    width: 320,
+    background: "var(--primary)",
+  },
+  searchStyle: {
+    maxWidth: 320,
+    width: "100%",
+    background: "var(--primary)",
+    fontSize: "16px",
+    fontFamily: "var(--font-family)",
+  },
+};

@@ -1400,6 +1400,10 @@
     "namePlaceholder": "Your Name",
     "privacyText": "Your data will remain confidential"
   },
+  "errorTexts": {
+    "name" : "Invalid name",
+    "phone" : "Invalid phone"
+  },
   "formSubmit": "Request an Offer"
 },
   "offerBtn": "Request an offer"

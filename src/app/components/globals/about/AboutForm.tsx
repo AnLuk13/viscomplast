@@ -1,25 +1,61 @@
 "use client";
 
 import React, { useState } from "react";
-import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import ArrowIcon from "@/app/components/svg-icons/ArrowIcon";
 import styles from "@/app/styles/globals/aboutSection.module.scss";
+import PhoneInputField from "@/app/components/globals/about/PhoneInputField";
+import NameInput from "@/app/components/globals/about/NameInput";
+import phone from "phone";
+import ErrorBox from "@/app/components/globals/about/ErrorBox";
 
 function AboutForm({ content }) {
   const [formData, setFormData] = useState({ name: "", phone: "" });
+  const [errors, setErrors] = useState({ name: "", phone: "" });
+  const [selectedCountry, setSelectedCountry] = useState("md"); // Default country
 
   const handleInputChange = (field: "name" | "phone", value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
+    setErrors({ name: "", phone: "" });
   };
 
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    console.log("Form submitted:", {
-      ...formData,
-      phone: `+${formData.phone}`,
+  const isPhoneValid = () => {
+    const result = phone(formData.phone, {
+      country: selectedCountry,
+      validateMobilePrefix: false,
     });
+    return result.isValid;
+  };
+
+  const validateInputs = () => {
+    const nameValid = formData.name.trim().length >= 3;
+    const phoneValid = isPhoneValid();
+    setErrors({
+      name: nameValid ? "" : content("errorTexts.name"),
+      phone: phoneValid ? "" : content("errorTexts.phone"),
+    });
+    return nameValid && phoneValid;
+  };
+
+  const handleSubmit = async (event: React.FormEvent): Promise<void> => {
+    event.preventDefault();
+    if (!validateInputs()) return;
+
+    const submissionData = {
+      name: formData.name,
+      phone: `+${formData.phone}`,
+    };
+
+    try {
+      await fetch(`/api/send-email`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(submissionData),
+      });
+    } catch (error) {
+      console.error("An error occurred:", error);
+    }
   };
 
   return (
@@ -35,56 +71,25 @@ function AboutForm({ content }) {
         </div>
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.inputBox}>
-            <input
-              id="name"
-              name="name"
-              type="text"
+            <NameInput
+              value={formData.name}
               placeholder={content("formFields.namePlaceholder")}
-              className={styles.input}
-              onChange={(event) =>
-                handleInputChange("name", event.target.value)
-              }
+              onChange={(value) => handleInputChange("name", value)}
             />
-            <PhoneInput
-              country="md"
-              enableSearch
-              inputStyle={{
-                border: "1px solid var(--secondary-a50)",
-                borderRadius: "99px",
-                padding: "10px 20px 10px 70px",
-                maxWidth: "374px",
-                width: "100%",
-                height: "60px",
-                fontSize: "16px",
-                fontFamily: "var(--font-family)",
-                background: "var(--primary)",
+            <PhoneInputField
+              value={formData.phone}
+              selectedCountry={selectedCountry}
+              onChange={(value, country) => {
+                handleInputChange("phone", value);
+                if (country) setSelectedCountry(country.countryCode); // Dynamically update the country
               }}
-              buttonStyle={{
-                border: "1px solid var(--secondary-a50)",
-                borderRadius: "99px 0 0 99px",
-                padding: "10px",
-                background: "var(--primary)",
-              }}
-              dropdownStyle={{
-                left: 0,
-                top: 49,
-                width: 320,
-                background: "var(--primary)",
-              }}
-              searchStyle={{
-                maxWidth: 320,
-                width: "100%",
-                background: "var(--primary)",
-                fontSize: "16px",
-                fontFamily: "var(--font-family)",
-              }}
-              onChange={(phone) => handleInputChange("phone", phone)}
             />
+            <ErrorBox errors={errors} />
             <div className={styles.privacyText}>
               {content("formFields.privacyText")}
             </div>
           </div>
-          <button type="submit" className={styles.submitButton}>
+          <button type="submit" className={styles.submitBtn}>
             {content("formSubmit")} <ArrowIcon />
           </button>
         </form>

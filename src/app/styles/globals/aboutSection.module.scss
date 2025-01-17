@@ -29,7 +29,6 @@
       //max-width: 415px;
       //width: 100%;
       gap: clamp(16px, 5vw, 32px);
-      justify-content: space-between;
       text-align: center;
     }
 
@@ -104,6 +103,22 @@
             width: 100%;
             gap: 16px;
 
+            .errorBox {
+              display: flex;
+              gap: 12px;
+              justify-content: center;
+              align-items: center;
+
+              .errorText {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: -0.02em;
+                color: var(--accent);
+              }
+            }
+
             .input {
               font-family: var(--font-family);
               font-weight: 400;
@@ -131,13 +146,13 @@
             text-align: center;
           }
 
-          .submitButton {
+          .submitBtn {
             display: flex;
             gap: 12px;
             align-items: center;
             border-radius: 99px;
             padding: 20px 28px;
-            width: 224px;
+            width: fit-content;
             height: 64px;
             cursor: pointer;
             text-align: center;
@@ -174,6 +189,10 @@
 
   .formBox {
     padding: 30px 20px !important;
+
+    .submitBtn {
+      font-size: 16px !important;
+    }
   }
 }
 

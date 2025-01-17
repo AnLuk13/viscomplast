@@ -1,4 +1,4 @@
-.catalogHeroButton {
+.offerBtn {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -7,12 +7,19 @@
   color: var(--primary);
   border-radius: 99px;
   padding: 18px 28px;
-  width: 207px;
+  width: fit-content;
   height: 64px;
   background: var(--accent);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border: none;
   cursor: pointer;
+  box-sizing: border-box;
+  text-decoration: none;
+  gap: clamp(4px, 5vw, 12px);
+}
+
+@media (max-width: 860px) {
+  .offerBtn {
+    font-size: 16px !important;
+  }
 }
