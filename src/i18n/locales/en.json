@@ -1325,16 +1325,20 @@
     ]
   },
   "footer": {
-    "menu": {
-      "title": "Menu",
+    "catalog": {
+      "title": "Catalog",
       "links": [
-        { "label": "Home", "href": "/" },
-        { "label": "Windows", "href": "/ferestre-pvc" },
-        { "label": "Doors", "href": "/usi" },
-        { "label": "Sliding Systems", "href": "/glisante" },
-        { "label": "Terrace Closures", "href": "/terase" },
-        { "label": "Aluminum Facades", "href": "/fatade" },
-        { "label": "Export", "href": "/export" }
+        { "label": "PVC Windows", "href": "/ferestre-pvc" },
+        { "label": "Aluminum Windows", "href": "/ferestre-aluminiu" },
+        { "label": "PVC Doors", "href": "/usi-pvc" },
+        { "label": "Aluminum Doors", "href": "/usi-aluminiu" },
+        { "label": "Sliding PVC Systems", "href": "/glisante-pvc" },
+        { "label": "Sliding Systems VEKA MOTION", "href": "/glisante-veka-motion" },
+        { "label": "Aluminum Terrace Closures", "href": "/inchideri-terase" },
+        { "label": "Aluminum Facades", "href": "/fatade-aluminiu" },
+        { "label": "Export to Italy", "href": "/export-italia" },
+        { "label": "Export to Ireland", "href": "/export-irlanda" },
+        { "label": "Export to France/Belgium", "href": "/export-franta-belgia" }
       ]
     },
     "info": {

@@ -14,23 +14,13 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
         <div className={styles.largeLogoSection}>
-          <LargeLogo width={341} />
+          <LargeLogo width={200} />
           <div className={styles.developedBy}>{t("developedBy")}</div>
         </div>
         <div className={styles.menuSection}>
-          <div className={styles.sectionTitle}>{t("menu.title")}</div>
+          <div className={styles.sectionTitle}>{t("catalog.title")}</div>
           <ul className={`${styles.list} ${styles.menuList}`}>
-            {t.raw("menu.links").map((link) => (
-              <li key={link.href}>
-                <Link href={link.href}>{link.label}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className={styles.infoSection}>
-          <div className={styles.sectionTitle}>{t("info.title")}</div>
-          <ul className={`${styles.list} ${styles.infoList}`}>
-            {t.raw("info.links").map((link) => (
+            {t.raw("catalog.links").map((link) => (
               <li key={link.href}>
                 <Link href={link.href}>{link.label}</Link>
               </li>
@@ -43,6 +33,16 @@ function Footer() {
             {t.raw("contact.details").map((contact) => (
               <li key={contact.label}>
                 <Link href={contact.href}>{contact.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className={styles.infoSection}>
+          <div className={styles.sectionTitle}>{t("info.title")}</div>
+          <ul className={`${styles.list} ${styles.infoList}`}>
+            {t.raw("info.links").map((link) => (
+              <li key={link.href}>
+                <Link href={link.href}>{link.label}</Link>
               </li>
             ))}
           </ul>

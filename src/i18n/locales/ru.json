@@ -1325,16 +1325,20 @@
     ]
   },
   "footer": {
-    "menu": {
-      "title": "Меню",
+    "catalog": {
+      "title": "Каталог",
       "links": [
-        { "label": "Главная", "href": "/" },
-        { "label": "Окна", "href": "/ferestre-pvc" },
-        { "label": "Двери", "href": "/usi" },
-        { "label": "Раздвижные системы", "href": "/glisante" },
-        { "label": "Террасные конструкции", "href": "/terase" },
-        { "label": "Алюминиевые фасады", "href": "/fatade" },
-        { "label": "Экспорт", "href": "/export" }
+        { "label": "Окна из ПВХ", "href": "/ferestre-pvc" },
+        { "label": "Алюминиевые окна", "href": "/ferestre-aluminiu" },
+        { "label": "Двери из ПВХ", "href": "/usi-pvc" },
+        { "label": "Алюминиевые двери", "href": "/usi-aluminiu" },
+        { "label": "Раздвижные системы из ПВХ", "href": "/glisante-pvc" },
+        { "label": "Раздвижные системы VEKA MOTION", "href": "/glisante-veka-motion" },
+        { "label": "Алюминиевые террасные перегородки", "href": "/inchideri-terase" },
+        { "label": "Алюминиевые фасады", "href": "/fatade-aluminiu" },
+        { "label": "Экспорт в Италию", "href": "/export-italia" },
+        { "label": "Экспорт в Ирландию", "href": "/export-irlanda" },
+        { "label": "Экспорт во Францию/Бельгию", "href": "/export-franta-belgia" }
       ]
     },
     "info": {

@@ -1301,16 +1301,20 @@
     ]
   },
   "footer": {
-    "menu": {
-      "title": "Meniu",
+    "catalog": {
+      "title": "Catalog",
       "links": [
-        { "label": "Acasă", "href": "/" },
-        { "label": "Ferestre", "href": "/ferestre-pvc" },
-        { "label": "Uși", "href": "/usi" },
-        { "label": "Glisante", "href": "/glisante" },
-        { "label": "Închideri terase", "href": "/terase" },
-        { "label": "Fațade aluminiu", "href": "/fatade" },
-        { "label": "Export", "href": "/export" }
+        { "label": "Ferestre PVC", "href": "/ferestre-pvc" },
+        { "label": "Ferestre aluminiu", "href": "/ferestre-aluminiu" },
+        { "label": "Uși PVC", "href": "/usi-pvc" },
+        { "label": "Uși aluminiu", "href": "/usi-aluminiu" },
+        { "label": "Glisante PVC", "href": "/glisante-pvc" },
+        { "label": "Glisante VEKA MOTION", "href": "/glisante-veka-motion" },
+        { "label": "Închideri terase aluminiu", "href": "/inchideri-terase" },
+        { "label": "Fațade aluminiu", "href": "/fatade-aluminiu" },
+        { "label": "Export Italia", "href": "/export-italia" },
+        { "label": "Export Irlanda", "href": "/export-irlanda" },
+        { "label": "Export Franța/Belgia", "href": "/export-franta-belgia" }
       ]
     },
     "info": {
