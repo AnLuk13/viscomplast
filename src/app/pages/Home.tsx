@@ -19,7 +19,7 @@ function Home() {
       <HeroSection content={t} isLargeScreen={isLargeScreen} />
       <SponsorsSection color="var(--background)" />
       <CatalogSection content={t} />
-      <OfferSection color="var(--background)" />
+      <OfferSection bgColor="var(--background)" />
       <AboutSection showAboutInfo />
       <SliderSection content={t} />
       <Footer />

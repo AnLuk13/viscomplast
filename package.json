@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "generate-manifest && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-manifest": "node src/app/lib/hooks/generateImageManifest.ts"
   },
   "dependencies": {
+    "libphonenumber-js": "^1.11.18",
     "next": "15.1.1",
     "next-intl": "^3.26.2",
     "nodemailer": "^6.9.16",
@@ -42,7 +44,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.2.11",
     "prettier": "^3.4.2",
-    "typescript": "^5"
+    "typescript": "^5.7.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

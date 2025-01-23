@@ -6,10 +6,14 @@ import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import OfferCard from "@/app/components/globals/offer/OfferCard";
 import { useTranslations } from "next-intl";
 
-function OfferSection({ color }: { color: string }) {
+interface OfferSectionProps {
+  bgColor: string;
+  cardColor?: string;
+}
+function OfferSection({ bgColor, cardColor }: OfferSectionProps) {
   const t = useTranslations("offerSection");
   return (
-    <section className={styles.offerSection} style={{ background: color }}>
+    <section className={styles.offerSection} style={{ background: bgColor }}>
       <div className={styles.titleBox}>
         <div className={styles.offerSectionTitle}>
           <BlinkIcon color="#18437E" />
@@ -20,6 +24,7 @@ function OfferSection({ color }: { color: string }) {
       <div className={styles.stepsContainer}>
         {t.raw("offerSteps").map((step) => (
           <OfferCard
+            cardColor={cardColor}
             key={step.stepNumber}
             stepNumber={step.stepNumber}
             title={step.title}

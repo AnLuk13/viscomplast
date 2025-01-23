@@ -8,38 +8,13 @@ import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import RightArrow from "@/app/components/svg-icons/slider/RightArrow";
 import LeftArrow from "@/app/components/svg-icons/slider/LeftArrow";
 import Image from "next/image";
-import { v4 as uuidv4 } from "uuid";
+// eslint-disable-next-line import/extensions
+import manifest from "@/app/lib/assets-manifest.json";
 
-const sliderImages = [
-  {
-    src: "/assets/images/office.png",
-    alt: "Portfolio 1",
-  },
-  {
-    src: "/assets/images/office.png",
-    alt: "Portfolio 2",
-  },
-  {
-    src: "/assets/images/office.png",
-    alt: "Portfolio 3",
-  },
-  {
-    src: "/assets/images/office.png",
-    alt: "Portfolio 4",
-  },
-  {
-    src: "/assets/images/office.png",
-    alt: "Portfolio 5",
-  },
-  {
-    src: "/assets/images/office.png",
-    alt: "Portfolio 6",
-  },
-];
-
-function SliderSection({ content }) {
+function SliderSection({ content, route }) {
   const carouselRef = useRef<Carousel>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const sliderImages = manifest[route];
 
   const handlePrev = () => {
     if (carouselRef.current) {
@@ -85,7 +60,7 @@ function SliderSection({ content }) {
       >
         {sliderImages.map((image, index) => (
           <div
-            key={uuidv4()}
+            key={image.id}
             className={`${styles.slide} ${
               currentSlide === index ? styles.centerSlide : styles.sideSlide
             }`}

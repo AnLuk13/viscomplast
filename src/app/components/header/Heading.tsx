@@ -34,7 +34,7 @@ function Heading() {
             <Link href="/" style={{ cursor: "pointer" }}>
               <Logo width={isLargeScreen ? 84 : 72} />
             </Link>
-            <ScheduleBox props={{}} />
+            <ScheduleBox styleProps={{}} content={t} />
           </div>
           <div className={styles.socialBox}>
             <div className={styles.phoneContainer}>

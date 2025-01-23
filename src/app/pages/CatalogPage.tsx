@@ -23,8 +23,8 @@ function CatalogPage({ route }: { route: string }) {
       <ColorsSection content={t} />
       <GlassesSection content={t} />
       <HandlesSection content={t} />
-      <OfferSection color="var(--primary)" />
-      <SliderSection content={t} />
+      <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
+      <SliderSection content={t} route={route} />
       <AboutSection showAboutInfo={false} />
       <SponsorsSection color="var(--primary)" />
       <Footer />

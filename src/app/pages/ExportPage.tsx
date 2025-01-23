@@ -15,23 +15,27 @@ import SlidingSystemsSection from "@/app/components/catalog-export/SlidingSystem
 import RollerShutterBoxesSection from "@/app/components/catalog-export/RollerShutterBoxesSection";
 import RollerShuttersSection from "@/app/components/catalog-export/RollerShuttersSection";
 import MosquitoNetsSection from "@/app/components/catalog-export/MosquitoNetsSection";
+import BlindsSection from "@/app/components/catalog-export/BlindsSection";
 
 function ExportPage({ route }: { route: string }) {
   const t = useTranslations(route);
-
+  const isExportFrantaBelgia = route === "exportFrantaBelgia";
+  const isSpecialExport =
+    route === "exportIrlanda" || route === "exportFrantaBelgia";
   return (
     <main>
       <CatalogHeroSection content={t} />
       <ProfilesSection content={t} />
       <SlidingSystemsSection content={t} />
-      <RollerShutterBoxesSection content={t} />
-      <RollerShuttersSection content={t} />
-      <MosquitoNetsSection content={t} />
+      {!isSpecialExport && <RollerShutterBoxesSection content={t} />}
+      {!isSpecialExport && <RollerShuttersSection content={t} />}
+      {!isSpecialExport && <MosquitoNetsSection content={t} />}
+      {isExportFrantaBelgia && <BlindsSection content={t} />}
       <HardwareSection content={t} />
       <ColorsSection content={t} />
       <GlassesSection content={t} />
       <HandlesSection content={t} />
-      <OfferSection color="var(--primary)" />
+      <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
       <SliderSection content={t} />
       <AboutSection showAboutInfo={false} />
       <SponsorsSection color="var(--primary)" />

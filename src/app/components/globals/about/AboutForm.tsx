@@ -9,11 +9,14 @@ import PhoneInputField from "@/app/components/globals/about/PhoneInputField";
 import NameInput from "@/app/components/globals/about/NameInput";
 import phone from "phone";
 import ErrorBox from "@/app/components/globals/about/ErrorBox";
+import type { CountryCode } from "libphonenumber-js";
+import { getCountryCallingCode } from "libphonenumber-js";
 
 function AboutForm({ content }) {
   const [formData, setFormData] = useState({ name: "", phone: "" });
   const [errors, setErrors] = useState({ name: "", phone: "" });
-  const [selectedCountry, setSelectedCountry] = useState("md"); // Default country
+  const [selectedCountry, setSelectedCountry] = useState("md");
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleInputChange = (field: "name" | "phone", value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -53,6 +56,17 @@ function AboutForm({ content }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(submissionData),
       });
+      const phonePrefix = getCountryCallingCode(
+        selectedCountry.toUpperCase() as CountryCode,
+      );
+      setFormData({
+        name: "",
+        phone: phonePrefix,
+      });
+      setIsSuccess(true);
+      setTimeout(() => {
+        setIsSuccess(false);
+      }, 5000);
     } catch (error) {
       console.error("An error occurred:", error);
     }
@@ -80,10 +94,13 @@ function AboutForm({ content }) {
             selectedCountry={selectedCountry}
             onChange={(value, country) => {
               handleInputChange("phone", value);
-              if (country) setSelectedCountry(country.countryCode); // Dynamically update the country
+              if (country) setSelectedCountry(country.countryCode);
             }}
           />
           <ErrorBox errors={errors} />
+          {isSuccess && (
+            <div className={styles.successText}>{content("successText")}</div>
+          )}
           <div className={styles.privacyText}>
             {content("formFields.privacyText")}
           </div>

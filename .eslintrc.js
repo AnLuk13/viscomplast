@@ -72,6 +72,7 @@ module.exports = {
     "@typescript-eslint/no-duplicate-enum-values": "warn",
     "import/no-extraneous-dependencies": "off",
     "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-require-imports": "warn",
     "@typescript-eslint/no-unused-vars": "warn",
     "no-nested-ternary": "warn",
     "jsx-a11y/label-has-associated-control": "off",

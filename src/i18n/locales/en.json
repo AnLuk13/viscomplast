@@ -63,15 +63,15 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "WHS Profile by VEKA",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers.",
+          "title": "WHS by VEKA",
+          "description": "The WHS by VEKA system optimally combines practicality and affordability. It is designed for manufacturing standard window configurations for consumers.",
           "characteristics": [
-            "Romania Brand",
+            "Brand Romania",
             "Class B Profile",
-            "60 mm Depth",
-            "4 Chambers",
-            "Sealing in two rows of gaskets",
-            "5-degree internal slope",
+            "Depth of 60 mm",
+            "4 chambers",
+            "Sealing with two rows of gaskets",
+            "5-degree interior slope",
             "Two rows of 24mm glass",
             "German Winkhaus hardware",
             "1.5mm galvanized steel reinforcement",
@@ -81,34 +81,37 @@
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KBE Profile by VEKA",
-          "description": "The KBE system by VEKA offers excellent performance and energy efficiency. It is ideal for modern residential projects.",
+          "title": "VEKA 70",
+          "description": "The VEKA 70 profile offers an excellent balance between design, performance, and thermal insulation.",
           "characteristics": [
-            "German Brand",
+            "Brand Germany",
             "Class A Profile",
-            "70 mm Depth",
-            "5 Chambers",
-            "Advanced thermal and sound insulation",
-            "44mm thermal insulating glass",
-            "German GU hardware",
-            "2mm galvanized steel reinforcement",
-            "Thermal coefficient of 1.5 W/m2K"
+            "Depth of 70 mm",
+            "5 chambers",
+            "Sealing with three rows of gaskets",
+            "5-degree interior slope",
+            "Three rows of 32mm glass",
+            "German Winkhaus hardware",
+            "1.5mm galvanized steel reinforcement",
+            "Thermal coefficient of 1.3 W/m2K"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "Salamander Profile",
-          "description": "The Salamander system offers an elegant design and high durability. Perfect for modern homes and commercial buildings.",
+          "title": "VEKA 82",
+          "description": "The VEKA 82 profile ensures exceptional energy efficiency and superior performance.",
           "characteristics": [
-            "German Brand",
-            "Class A+ Profile",
-            "82 mm Depth",
-            "6 Chambers",
-            "Sound insulation up to 48dB",
-            "Triple thermal insulating glass",
-            "German Roto hardware",
-            "Thermal coefficient of 1.2 W/m2K"
+            "Brand Germany",
+            "Class A Profile",
+            "Depth of 82 mm",
+            "7 chambers",
+            "Sealing with three rows of gaskets",
+            "5-degree interior slope",
+            "Three rows of 44mm glass",
+            "German Winkhaus hardware",
+            "2mm galvanized steel reinforcement",
+            "Thermal coefficient of 0.9 W/m2K"
           ]
         }
       ],
@@ -119,7 +122,7 @@
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection."
+      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
@@ -169,37 +172,31 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "Kurtoglu 60T",
+          "description": "The Kurtoglu 60T profile is ideal for aluminum systems used in residential and commercial construction. It combines modern design with thermal insulation performance.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "60 mm depth",
+            "Thermally insulated aluminum system",
+            "Double or triple glazing up to 24mm",
+            "High durability for intensive use",
+            "Modern and elegant design",
+            "Sealing with multiple gaskets",
+            "Various color and finish options"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "Alutech 75T",
+          "description": "The Alutech 75T profile provides exceptional thermal and acoustic insulation, making it perfect for modern construction and energy savings.",
           "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
-          "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "75 mm depth",
+            "Advanced thermal insulation system",
+            "Multi-chamber design for optimal insulation",
+            "Triple glazing up to 44mm",
+            "High structural strength",
+            "Sealing with EPDM gaskets",
+            "Suitable for large facades and windows"
           ]
         }
       ],
@@ -210,7 +207,7 @@
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+      "description": "MACO hardware sets the standard of excellence in the industry for window and door fittings. Designed in Austria, it delivers superior security, durability, and ease of use. MACO's intelligent solutions ensure optimal performance, energy efficiency, and enhanced comfort."
     },
     "colorsSection": {
       "title": "Colors",
@@ -260,37 +257,55 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "WHS by VEKA",
+          "description": "The WHS by VEKA system optimally combines practicality and affordability. It is designed for manufacturing standard window configurations for consumers.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "Brand Romania",
+            "Class B Profile",
+            "Depth of 60 mm",
+            "4 chambers",
+            "Sealing with two rows of gaskets",
+            "5-degree interior slope",
+            "Two rows of 24mm glass",
+            "German Winkhaus hardware",
+            "1.5mm galvanized steel reinforcement",
+            "Thermal coefficient of 1.67 W/m2K"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "VEKA 70",
+          "description": "The VEKA 70 profile offers an excellent balance between design, performance, and thermal insulation.",
           "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
+            "Brand Germany",
+            "Class A Profile",
+            "Depth of 70 mm",
+            "5 chambers",
+            "Sealing with three rows of gaskets",
+            "5-degree interior slope",
+            "Three rows of 32mm glass",
+            "German Winkhaus hardware",
+            "1.5mm galvanized steel reinforcement",
+            "Thermal coefficient of 1.3 W/m2K"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "title": "VEKA 82",
+          "description": "The VEKA 82 profile ensures exceptional energy efficiency and superior performance.",
           "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Brand Germany",
+            "Class A Profile",
+            "Depth of 82 mm",
+            "7 chambers",
+            "Sealing with three rows of gaskets",
+            "5-degree interior slope",
+            "Three rows of 44mm glass",
+            "German Winkhaus hardware",
+            "2mm galvanized steel reinforcement",
+            "Thermal coefficient of 0.9 W/m2K"
           ]
         }
       ],
@@ -301,7 +316,7 @@
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
@@ -351,37 +366,31 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "Kurtoglu 60T",
+          "description": "The Kurtoglu 60T profile is ideal for aluminum systems used in residential and commercial construction. It combines modern design with thermal insulation performance.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "60 mm depth",
+            "Thermally insulated aluminum system",
+            "Double or triple glazing up to 24mm",
+            "High durability for intensive use",
+            "Modern and elegant design",
+            "Sealing with multiple gaskets",
+            "Various color and finish options"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "Alutech 75T",
+          "description": "The Alutech 75T profile provides exceptional thermal and acoustic insulation, making it perfect for modern construction and energy savings.",
           "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
-          "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "75 mm depth",
+            "Advanced thermal insulation system",
+            "Multi-chamber design for optimal insulation",
+            "Triple glazing up to 44mm",
+            "High structural strength",
+            "Sealing with EPDM gaskets",
+            "Suitable for large facades and windows"
           ]
         }
       ],
@@ -392,7 +401,7 @@
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+      "description": "MACO hardware sets the standard of excellence in the industry for window and door fittings. Designed in Austria, it delivers superior security, durability, and ease of use. MACO's intelligent solutions ensure optimal performance, energy efficiency, and enhanced comfort."
     },
     "colorsSection": {
       "title": "Colors",
@@ -1077,36 +1086,6 @@
         }
       ]
     },
-    "rollerShutterBoxesSection": {
-      "title": "Roller Shutter Boxes",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
-      "typeGalleryCards": [
-        {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
-        }
-      ]
-    },
-    "rollerShuttersSection": {
-      "title": "Roller Shutters",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
-      "typeGalleryCards": [
-        {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
-        }
-      ]
-    },
-    "mosquitoNetsSection": {
-      "title": "Mosquito Nets",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
-      "typeGalleryCards": [
-        {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
-        }
-      ]
-    },
     "hardwareSection": {
       "title": "Hardware",
       "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to ensure functionality and safety."
@@ -1208,28 +1187,8 @@
         }
       ]
     },
-    "rollerShutterBoxesSection": {
-      "title": "Roller Shutter Boxes",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
-      "typeGalleryCards": [
-        {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
-        }
-      ]
-    },
-    "rollerShuttersSection": {
-      "title": "Roller Shutters",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
-      "typeGalleryCards": [
-        {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
-        }
-      ]
-    },
-    "mosquitoNetsSection": {
-      "title": "Mosquito Nets",
+    "blindsSection": {
+      "title": "Blinds",
       "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
       "typeGalleryCards": [
         {
@@ -1280,6 +1239,13 @@
     }
   },
   "header": {
+    "schedule": {
+      "title": "Working Hours",
+      "days": {
+        "weekdays": "Mon - Fri: 9:00 AM - 5:00 PM",
+        "saturday": "Sat: 9:00 AM - 12:00 PM"
+      }
+    },
     "navTabs": [
       { "type": "link", "label": "Home", "href": "/" },
       {
@@ -1408,6 +1374,7 @@
     "name" : "Invalid name",
     "phone" : "Invalid phone"
   },
+  "successText": "Sent successfully!",
   "formSubmit": "Request an Offer"
 },
   "offerBtn": "Request an offer"

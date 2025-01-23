@@ -85,7 +85,7 @@ function MobileMenu({
           ))}
         </div>
         <div className={styles.detailsContainer}>
-          <ScheduleBox props={{ display: "block" }} />
+          <ScheduleBox styleProps={{ display: "block" }} content={content} />
           <div className={styles.socialsLanguageBox}>
             <div className={styles.mobileSocialLinks}>
               {socialLinks.map(({ href, Icon }) => (

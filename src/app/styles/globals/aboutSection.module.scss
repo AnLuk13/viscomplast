@@ -126,6 +126,16 @@
             }
           }
 
+          .successText {
+            text-align: center;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: -0.02em;
+            color: darkolivegreen;
+          }
+
           .input {
             font-family: var(--font-family);
             font-weight: 400;

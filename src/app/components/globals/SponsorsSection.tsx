@@ -8,7 +8,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import veka from "../../../../public/assets/images/sponsors/veka.png";
 import kurtoglu from "../../../../public/assets/images/sponsors/kurtoglu.png";
-import gu from "../../../../public/assets/images/sponsors/gu.png";
+import wds from "../../../../public/assets/images/sponsors/wds.png";
 import alutech from "../../../../public/assets/images/sponsors/alutech.png";
 import maco from "../../../../public/assets/images/sponsors/maco.png";
 import winkhaus from "../../../../public/assets/images/sponsors/winkhaus.png";
@@ -23,7 +23,7 @@ function SponsorsSection({ color }: { color: string }) {
     { src: maco, alt: "Maco" },
     { src: veka, alt: "Veka" },
     { src: alutech, alt: "Alutech" },
-    { src: gu, alt: "G-U" },
+    { src: wds, alt: "WDS" },
     { src: kurtoglu, alt: "Kurtoglu" },
     { src: winkhaus, alt: "Winkhaus" },
   ];

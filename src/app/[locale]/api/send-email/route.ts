@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     // Email details
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "antoniolupu72@gmail.com", // replace
+      to: "antoniolupu77@gmail.com", // replace
       subject: "Nouă solicitare de ofertă",
       text: `De la:
       Name: ${name}
