@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "generate-manifest && next build",
+    "build": "npm run generate-manifest && next build",
     "start": "next start",
     "lint": "next lint",
     "generate-manifest": "node src/app/lib/hooks/generateImageManifest.ts"

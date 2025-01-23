@@ -28,7 +28,6 @@ function generateManifest() {
   });
 
   fs.writeFileSync(outputFile, JSON.stringify(manifest, null, 2), "utf-8");
-  console.log("Image manifest generated:", outputFile);
 }
 
 generateManifest();
