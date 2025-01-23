@@ -36,7 +36,7 @@ function ExportPage({ route }: { route: string }) {
       <GlassesSection content={t} />
       <HandlesSection content={t} />
       <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
-      <SliderSection content={t} />
+      <SliderSection content={t} route="ferestrePvc" />
       <AboutSection showAboutInfo={false} />
       <SponsorsSection color="var(--primary)" />
       <Footer />

@@ -21,7 +21,7 @@ function Home() {
       <CatalogSection content={t} />
       <OfferSection bgColor="var(--background)" />
       <AboutSection showAboutInfo />
-      <SliderSection content={t} />
+      <SliderSection content={t} route="ferestrePvc" />
       <Footer />
     </main>
   );
