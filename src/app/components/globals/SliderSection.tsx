@@ -8,7 +8,6 @@ import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import RightArrow from "@/app/components/svg-icons/slider/RightArrow";
 import LeftArrow from "@/app/components/svg-icons/slider/LeftArrow";
 import Image from "next/image";
-// eslint-disable-next-line import/extensions
 import manifest from "@/app/lib/assets-manifest.json";
 
 function SliderSection({ content, route }) {
@@ -47,7 +46,7 @@ function SliderSection({ content, route }) {
         showStatus={false}
         showArrows={false}
         infiniteLoop
-        autoPlay
+        // autoPlay
         stopOnHover
         interval={5000}
         swipeScrollTolerance={60}

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import styles from "@/app/styles/catalog-export/typesSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
@@ -6,13 +8,14 @@ import TypeCard from "@/app/components/catalog-export/type-layout/TypeCard";
 type TypeLayoutProps = {
   data: {
     id: number;
-    imageSrc: string;
+    src?: string | undefined;
     name: string;
     description?: string | undefined;
+    hex?: string | undefined;
   }[];
   title: string;
 };
-function TypesSection({ data, title }: TypeLayoutProps) {
+function TypesLayout({ data, title }: TypeLayoutProps) {
   return (
     <div className="sectionContainer">
       <div className={styles.typesSectionTitle}>
@@ -24,9 +27,10 @@ function TypesSection({ data, title }: TypeLayoutProps) {
         {data.map((card) => (
           <TypeCard
             key={card.id}
-            imageSrc={card.imageSrc}
+            src={card.src || ""}
             name={card.name}
             description={card.description || ""}
+            hex={card.hex || ""}
           />
         ))}
       </div>
@@ -34,4 +38,4 @@ function TypesSection({ data, title }: TypeLayoutProps) {
   );
 }
 
-export default TypesSection;
+export default TypesLayout;

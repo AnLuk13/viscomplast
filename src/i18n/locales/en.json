@@ -127,31 +127,33 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -212,31 +214,33 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -321,31 +325,33 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -406,31 +412,33 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -442,7 +450,7 @@
   },
   "glisantePvc": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Aluminum Windows",
+      "catalogHeroTitle": "Sliding systems made of PVC",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -451,37 +459,55 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "WHS by VEKA",
+          "description": "The WHS by VEKA system optimally combines practicality and affordability. It is designed for manufacturing standard window configurations for consumers.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "Brand Romania",
+            "Class B Profile",
+            "Depth of 60 mm",
+            "4 chambers",
+            "Sealing with two rows of gaskets",
+            "5-degree interior slope",
+            "Two rows of 24mm glass",
+            "German Winkhaus hardware",
+            "1.5mm galvanized steel reinforcement",
+            "Thermal coefficient of 1.67 W/m2K"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "VEKA 70",
+          "description": "The VEKA 70 profile offers an excellent balance between design, performance, and thermal insulation.",
           "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
+            "Brand Germany",
+            "Class A Profile",
+            "Depth of 70 mm",
+            "5 chambers",
+            "Sealing with three rows of gaskets",
+            "5-degree interior slope",
+            "Three rows of 32mm glass",
+            "German Winkhaus hardware",
+            "1.5mm galvanized steel reinforcement",
+            "Thermal coefficient of 1.3 W/m2K"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "title": "VEKA 82",
+          "description": "The VEKA 82 profile ensures exceptional energy efficiency and superior performance.",
           "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Brand Germany",
+            "Class A Profile",
+            "Depth of 82 mm",
+            "7 chambers",
+            "Sealing with three rows of gaskets",
+            "5-degree interior slope",
+            "Three rows of 44mm glass",
+            "German Winkhaus hardware",
+            "2mm galvanized steel reinforcement",
+            "Thermal coefficient of 0.9 W/m2K"
           ]
         }
       ],
@@ -497,31 +523,23 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "sliderSection": {
@@ -533,7 +551,7 @@
   },
   "glisanteAluminiu": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Aluminum Windows",
+      "catalogHeroTitle": "Sliding systems made of Aluminium",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -542,37 +560,25 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "Profile KURTOGLU 51SL",
+          "description": "The KURTOGLU 51SL profile is ideal for sliding systems, providing optimal performance and durability for residential and commercial spaces.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "Depth of 51 mm",
+            "Excellent sealing performance",
+            "Suitable for indoor and outdoor spaces",
+            "High durability for heavy use"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "Profile KURTOGLU 70SL",
+          "description": "The KURTOGLU 70SL profile offers advanced solutions for sliding windows and doors, combining aesthetics with high thermal performance.",
           "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
-          "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Depth of 70 mm",
+            "Advanced thermal and acoustic insulation",
+            "Compatible with double and triple glazing",
+            "Elegant design for modern projects"
           ]
         }
       ],
@@ -583,36 +589,28 @@
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+      "description": "SIEGENIA hardware provides high-quality solutions for windows and doors, ensuring optimal functionality, advanced security, and comfort. SIEGENIA products stand out for their innovative technology, long-lasting durability, and the ability to customize solutions to meet the requirements of any project."
     },
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "sliderSection": {
@@ -624,7 +622,7 @@
   },
   "glisanteVekaMotion": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Aluminum Windows",
+      "catalogHeroTitle": "Sliding systems Veka Motion",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -633,37 +631,15 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "Profile VEKA MOTION",
+          "description": "The VEKA MOTION profile is a premium solution for sliding systems, combining innovative technology with modern design to deliver optimal functionality and comfort.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
-          "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
-          "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Depth of 82 mm",
+            "Excellent thermal and sound insulation",
+            "Compatible with double and triple glazing",
+            "High durability and easy maintenance",
+            "Ergonomic and modern design",
+            "Advanced sealing against air drafts"
           ]
         }
       ],
@@ -674,36 +650,28 @@
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
+      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "sliderSection": {
@@ -715,7 +683,7 @@
   },
   "inchideriTerase": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Aluminum Windows",
+      "catalogHeroTitle": "Terrace closures",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -724,37 +692,15 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "Profile KURTOGLU 30C",
+          "description": "The KURTOGLU 30C profile is a cost-effective solution for aluminum window and door systems, offering a great balance between performance and affordability.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
-          "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
-          "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Depth of 30 mm",
+            "Robust and economical system",
+            "Ideal for interior applications",
+            "Minimalist and modern design",
+            "Suitable for commercial and residential spaces",
+            "Corrosion resistance and easy maintenance"
           ]
         }
       ],
@@ -763,38 +709,36 @@
         "characteristics": "Characteristics"
       }
     },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
-    },
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -806,7 +750,7 @@
   },
   "fatadeAluminiu": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Aluminum Windows",
+      "catalogHeroTitle": "Aluminum facades",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -815,37 +759,15 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows for an excellent combination of durability and elegance.",
+          "title": "Profile KURTOGLU 50F",
+          "description": "The KURTOGLU 50F profile is designed for fixed systems and partition walls, providing a robust structure and modern aesthetics.",
           "characteristics": [
-            "Modern design",
-            "Usage for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
-          "characteristics": [
-            "60 mm Depth",
-            "Robust structure",
-            "Thermal and acoustic insulation",
-            "Compatible with various hardware"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 74T Profile",
-          "description": "The Kurtoglu 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
-          "characteristics": [
-            "74 mm Depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Depth of 50 mm",
+            "Fixed and stable system",
+            "Suitable for glass partition walls",
+            "Minimalist and modern design",
+            "Durable construction with low maintenance",
+            "High resistance to wear and corrosion"
           ]
         }
       ],
@@ -854,38 +776,16 @@
         "characteristics": "Characteristics"
       }
     },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
-    },
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
-      ]
-    },
-    "glassesSection": {
-      "title": "Types of Glass",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
       ]
     },
     "sliderSection": {
@@ -906,37 +806,66 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows an excellent combination of durability and elegance.",
+          "title": "Profile VEKA 70",
+          "description": "The VEKA 70 profile provides excellent thermal and sound insulation, making it ideal for residential and commercial projects.",
           "characteristics": [
-            "Modern design",
-            "Use for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "Depth of 70 mm",
+            "5-chamber system",
+            "Advanced sealing with double gaskets",
+            "Compatible with double and triple glazing",
+            "High durability and low maintenance"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "Profile VEKA 70 with 35mm Renovation Frame",
+          "description": "The VEKA 70 profile with a 35mm renovation frame is specially designed for renovation projects, offering performance and thermal efficiency.",
           "characteristics": [
-            "60 mm depth",
-            "Robust structure",
-            "Thermal and sound insulation",
-            "Compatibility with various hardware"
+            "Depth of 70 mm",
+            "35 mm renovation frame",
+            "5 chambers for optimal insulation",
+            "Ideal for modernization projects",
+            "Modern and functional design"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 74T Profile",
-          "description": "The KURTOGLU 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "title": "Profile VEKA 70 with 65mm Renovation Frame",
+          "description": "The VEKA 70 profile with a 65mm renovation frame offers excellent solutions for renovations while maintaining high standards of quality and efficiency.",
           "characteristics": [
-            "74 mm depth",
+            "Depth of 70 mm",
+            "65 mm renovation frame",
             "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Compatible with double and triple glazing",
+            "Durability and attractive design"
+          ]
+        },
+        {
+          "id": 4,
+          "image": "/assets/images/office.png",
+          "title": "Profile VEKA 82",
+          "description": "The VEKA 82 profile is the premium solution for high energy efficiency and maximum comfort.",
+          "characteristics": [
+            "Depth of 82 mm",
+            "7-chamber system for superior insulation",
+            "Suitable for passive houses",
+            "Advanced sealing with multiple gaskets",
+            "Modern and elegant design"
+          ]
+        },
+        {
+          "id": 5,
+          "image": "/assets/images/office.png",
+          "title": "Profile VEKA 82 with 65mm Renovation Frame",
+          "description": "The VEKA 82 profile with a 65mm renovation frame offers the best combination of energy efficiency and renovation solutions.",
+          "characteristics": [
+            "Depth of 82 mm",
+            "65 mm renovation frame",
+            "7-chamber system for optimal insulation",
+            "Compatible with triple glazing",
+            "High resistance and easy maintenance"
           ]
         }
       ],
@@ -947,76 +876,86 @@
     },
     "slidingSystemsSection": {
       "title": "Sliding Systems",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Sliding systems are modern solutions for large windows and doors, combining easy functionality with contemporary design and energy efficiency.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Tilt-and-Slide Systems on VEKA 70 or 82 Profiles",
+          "description": "Tilt-and-slide systems are built on VEKA 70 or 82 profiles, offering superior thermal insulation and easy handling. These systems are ideal for spaces requiring controlled ventilation and high accessibility."
+        },
+        {
+          "title": "Lift-and-Slide Systems on Aluminum Profiles",
+          "description": "Lift-and-slide systems on aluminum profiles are designed for large openings, offering durability, thermal efficiency, and elegant design. They are perfect for heavy use in commercial and residential spaces."
         }
       ]
     },
     "rollerShutterBoxesSection": {
       "title": "Roller Shutter Boxes",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Roller shutter boxes are practical solutions for shutter systems, providing protection and aesthetics for your windows.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Single type",
+          "description": "Roller shutter boxes are designed to offer durability and seamless integration into the architectural design of buildings."
         }
       ]
     },
     "rollerShuttersSection": {
       "title": "Roller Shutters",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Roller shutters are efficient and versatile systems for window protection, available in manual and electric versions.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Manual roller shutters",
+          "description": "Manual roller shutter systems offer simple and efficient control, ideal for residential spaces."
+        },
+        {
+          "title": "Electric roller shutters",
+          "description": "Electric roller shutters add convenience and functionality, allowing automatic operation with remote control or smart systems."
         }
       ]
     },
     "mosquitoNetsSection": {
       "title": "Mosquito Nets",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Plisse mosquito nets are the perfect solution for insect protection, combining elegant design with practical functionality.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Plisse mosquito nets",
+          "description": "Plisse mosquito nets are designed to be easy to use and maintain, providing an effective barrier against insects."
         }
       ]
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to ensure functionality and safety."
+      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1028,7 +967,7 @@
   },
   "exportIrlanda": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Windows and doors for your home in Italy",
+      "catalogHeroTitle": "Windows and doors for your home in Ireland",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -1037,37 +976,40 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows an excellent combination of durability and elegance.",
+          "title": "Profile VEKA 70",
+          "description": "The VEKA 70 profile provides excellent thermal and sound insulation, making it ideal for residential and commercial projects.",
           "characteristics": [
-            "Modern design",
-            "Use for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "Depth of 70 mm",
+            "5-chamber system",
+            "Advanced sealing with double gaskets",
+            "Compatible with double and triple glazing",
+            "High durability and low maintenance"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "Profile VEKA 82",
+          "description": "The VEKA 82 profile is the premium solution for high energy efficiency and maximum comfort.",
           "characteristics": [
-            "60 mm depth",
-            "Robust structure",
-            "Thermal and sound insulation",
-            "Compatibility with various hardware"
+            "Depth of 82 mm",
+            "7-chamber system for superior insulation",
+            "Suitable for passive houses",
+            "Advanced sealing with multiple gaskets",
+            "Modern and elegant design"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 74T Profile",
-          "description": "The KURTOGLU 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "title": "Profile Alutech 75 (Aluminum)",
+          "description": "The Alutech 75 profile is a premium solution for aluminum systems, offering durability and advanced thermal performance.",
           "characteristics": [
-            "74 mm depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Depth of 75 mm",
+            "High-performance thermal insulation system",
+            "Suitable for commercial and residential spaces",
+            "High resistance to corrosion",
+            "Modern and versatile design"
           ]
         }
       ],
@@ -1078,46 +1020,56 @@
     },
     "slidingSystemsSection": {
       "title": "Sliding Systems",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Sliding systems are ideal solutions for modern spaces, offering the perfect combination of comfort, functionality, and innovative design.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Tilt-and-Slide Systems on VEKA 70 or 82 Profiles",
+          "description": "These systems provide superior thermal insulation and easy handling. They are ideal for large windows and doors requiring controlled ventilation and an elegant design."
+        },
+        {
+          "title": "Lift-and-Slide Systems on Aluminum Profiles",
+          "description": "Lift-and-slide systems on aluminum profiles are designed for wide openings, combining the durability of aluminum with energy efficiency and modern aesthetics."
+        },
+        {
+          "title": "VEKA Motion",
+          "description": "VEKA Motion is a premium sliding system that combines advanced technology with modern design, offering excellent functionality and outstanding aesthetics."
         }
       ]
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to ensure functionality and safety."
+      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1129,7 +1081,7 @@
   },
   "exportFrantaBelgia": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Windows and doors for your home in Italy",
+      "catalogHeroTitle": "Windows and doors for your home in France/Belgium",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -1138,37 +1090,40 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "ALDOX Profile",
-          "description": "The ALDOX profile is the optimal solution for sliding doors and windows. Its construction allows an excellent combination of durability and elegance.",
+          "title": "Profile VEKA 70",
+          "description": "The VEKA 70 profile provides excellent thermal and sound insulation, making it ideal for residential and commercial projects.",
           "characteristics": [
-            "Modern design",
-            "Use for sliding systems",
-            "Advanced thermal insulation",
-            "High durability"
+            "Depth of 70 mm",
+            "5-chamber system",
+            "Advanced sealing with double gaskets",
+            "Compatible with double and triple glazing",
+            "High durability and low maintenance"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 60T Profile",
-          "description": "The KURTOGLU 60T profile is ideal for residential and commercial projects, offering excellent performance and an attractive appearance.",
+          "title": "Profile VEKA 82",
+          "description": "The VEKA 82 profile is the premium solution for high energy efficiency and maximum comfort.",
           "characteristics": [
-            "60 mm depth",
-            "Robust structure",
-            "Thermal and sound insulation",
-            "Compatibility with various hardware"
+            "Depth of 82 mm",
+            "7-chamber system for superior insulation",
+            "Suitable for passive houses",
+            "Advanced sealing with multiple gaskets",
+            "Modern and elegant design"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "KURTOGLU 74T Profile",
-          "description": "The KURTOGLU 74T profile is a premium aluminum system that ensures thermal comfort and superior aesthetics.",
+          "title": "Profile Alutech 75 (Aluminum)",
+          "description": "The Alutech 75 profile is a premium solution for aluminum systems, offering durability and advanced thermal performance.",
           "characteristics": [
-            "74 mm depth",
-            "Advanced thermal insulation",
-            "High acoustic performance",
-            "Versatile design for any project"
+            "Depth of 75 mm",
+            "High-performance thermal insulation system",
+            "Suitable for commercial and residential spaces",
+            "High resistance to corrosion",
+            "Modern and versatile design"
           ]
         }
       ],
@@ -1179,56 +1134,70 @@
     },
     "slidingSystemsSection": {
       "title": "Sliding Systems",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Sliding systems are ideal solutions for modern spaces, offering the perfect combination of comfort, functionality, and innovative design.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Tilt-and-Slide Systems on VEKA 70 or 82 Profiles",
+          "description": "These systems provide superior thermal insulation and easy handling. They are ideal for large windows and doors requiring controlled ventilation and an elegant design."
+        },
+        {
+          "title": "Lift-and-Slide Systems on Aluminum Profiles",
+          "description": "Lift-and-slide systems on aluminum profiles are designed for wide openings, combining the durability of aluminum with energy efficiency and modern aesthetics."
+        },
+        {
+          "title": "VEKA Motion",
+          "description": "VEKA Motion is a premium sliding system that combines advanced technology with modern design, offering excellent functionality and outstanding aesthetics."
         }
       ]
     },
     "blindsSection": {
       "title": "Blinds",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Blinds are versatile solutions for windows, available in two types: manual and electric. They combine protection with practical functionality and a modern design.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Manual blinds",
+          "description": "Manual blinds offer simple and efficient control, making them ideal for use in residential and commercial spaces."
+        },
+        {
+          "title": "Electric blinds",
+          "description": "Electric blinds add convenience and modernity, allowing automatic control through remote or smart systems."
         }
       ]
     },
     "hardwareSection": {
       "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to ensure functionality and safety."
+      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "anthracite" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "jet black mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "golden oak" }
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Types of Handles",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1331,7 +1300,7 @@
   },
   "sponsorSection": {
   "title": "Our Partners",
-  "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS> and <GU>G-U</GU>."
+  "description": "We offer a complete range of services for the production and installation of <PVC>PVC</PVC> and <ALUMINIU>aluminum</ALUMINIU> structures using profile systems <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA>, and <KURTOGLU>KURTOGLU</KURTOGLU>. In manufacturing structures, we use only high-quality hardware from <WINKHAUS>WINKHAUS</WINKHAUS>."
 },
   "offerSection": {
   "title": "What services do we offer?",

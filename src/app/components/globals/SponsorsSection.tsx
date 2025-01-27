@@ -6,12 +6,7 @@ import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import veka from "../../../../public/assets/images/sponsors/veka.png";
-import kurtoglu from "../../../../public/assets/images/sponsors/kurtoglu.png";
-import wds from "../../../../public/assets/images/sponsors/wds.png";
-import alutech from "../../../../public/assets/images/sponsors/alutech.png";
-import maco from "../../../../public/assets/images/sponsors/maco.png";
-import winkhaus from "../../../../public/assets/images/sponsors/winkhaus.png";
+import manifest from "@/app/lib/assets-manifest.json";
 
 const Marquee = dynamic(() =>
   import("react-fast-marquee").then((mod) => mod.default),
@@ -19,14 +14,7 @@ const Marquee = dynamic(() =>
 
 function SponsorsSection({ color }: { color: string }) {
   const t = useTranslations("sponsorSection");
-  const sponsors = [
-    { src: maco, alt: "Maco" },
-    { src: veka, alt: "Veka" },
-    { src: alutech, alt: "Alutech" },
-    { src: wds, alt: "WDS" },
-    { src: kurtoglu, alt: "Kurtoglu" },
-    { src: winkhaus, alt: "Winkhaus" },
-  ];
+  const sponsors = manifest.sponsors;
 
   return (
     <section className={styles.sponsorsSection} style={{ background: color }}>
@@ -52,7 +40,6 @@ function SponsorsSection({ color }: { color: string }) {
           // eslint-disable-next-line react/no-unstable-nested-components
           WINKHAUS: (chunks) => <b key="WINKHAUS">{chunks}</b>,
           // eslint-disable-next-line react/no-unstable-nested-components
-          GU: (chunks) => <b key="GU">{chunks}</b>,
         })}
       </div>
       <Marquee
@@ -62,12 +49,14 @@ function SponsorsSection({ color }: { color: string }) {
         autoFill
         className={styles.marquee}
       >
-        {sponsors.map((sponsor, index) => (
+        {sponsors.map((sponsor) => (
           <Image
+            width={100}
+            height={64}
             key={sponsor.alt}
             alt={sponsor.alt}
             src={sponsor.src}
-            quality={40}
+            quality={60}
             className={styles.sponsorImage}
             priority
           />

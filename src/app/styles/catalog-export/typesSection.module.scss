@@ -37,6 +37,8 @@
     background: var(--white);
 
     .cardImage {
+      box-sizing: border-box;
+      border: 1px solid var(--background);
       border-radius: 24px 24px 0 0;
       min-width: 230px;
       min-height: 230px;

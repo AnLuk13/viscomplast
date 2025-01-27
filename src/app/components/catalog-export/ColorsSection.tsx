@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import TypeLayout from "@/app/components/catalog-export/type-layout/TypesSection";
+import TypesLayout from "@/app/components/catalog-export/type-layout/TypesLayout";
 
 function ColorsSection({ content }) {
   return (
-    <TypeLayout
+    <TypesLayout
       data={content.raw("colorsSection.types")}
       title={content("colorsSection.title")}
     />

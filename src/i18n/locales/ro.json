@@ -127,30 +127,33 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -211,30 +214,33 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -319,30 +325,33 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -403,30 +412,33 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -438,7 +450,7 @@
   },
   "glisantePvc": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "catalogHeroTitle": "Glisante din PVC",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -447,37 +459,55 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "WHS by VEKA",
+          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
+            "Marcă România",
+            "Profil Clasa B",
+            "Adâncime de 60 mm",
+            "4 camere",
+            "Etanșare în două rânduri de garnituri",
+            "Pantă interioară de 5 grade",
+            "Două rânduri de sticlă de 24mm",
+            "Feronerie germană Winkhaus",
+            "Armătură de oțel zincat de 1,5mm",
+            "Coeficient termic de 1,67 W/m2K"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "title": "VEKA 70",
+          "description": "Profilul VEKA 70 oferă un echilibru excelent între design, performanță și izolare termică.",
           "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
+            "Marcă Germania",
+            "Profil Clasa A",
+            "Adâncime de 70 mm",
+            "5 camere",
+            "Etanșare în trei rânduri de garnituri",
+            "Pantă interioară de 5 grade",
+            "Trei rânduri de sticlă de 32mm",
+            "Feronerie germană Winkhaus",
+            "Armătură de oțel zincat de 1,5mm",
+            "Coeficient termic de 1,3 W/m2K"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "title": "VEKA 82",
+          "description": "Profilul VEKA 82 asigură o eficiență energetică excepțională și o performanță superioară.",
           "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Marcă Germania",
+            "Profil Clasa A",
+            "Adâncime de 82 mm",
+            "7 camere",
+            "Etanșare în trei rânduri de garnituri",
+            "Pantă interioară de 5 grade",
+            "Trei rânduri de sticlă de 44mm",
+            "Feronerie germană Winkhaus",
+            "Armătură de oțel zincat de 2mm",
+            "Coeficient termic de 0,9 W/m2K"
           ]
         }
       ],
@@ -493,30 +523,23 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "sliderSection": {
@@ -528,7 +551,7 @@
   },
   "glisanteAluminiu": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "catalogHeroTitle": "Glisante din Aluminiu",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -537,37 +560,25 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "Profil KURTOGLU 51SL",
+          "description": "Profilul KURTOGLU 51SL este ideal pentru sisteme glisante, oferind performanță optimă și durabilitate pentru spațiile rezidențiale și comerciale.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
+            "Adâncime de 51 mm",
+            "Performanță excelentă de etanșare",
+            "Potrivit pentru spații interioare și exterioare",
+            "Durabilitate ridicată pentru utilizare intensă"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "title": "Profil KURTOGLU 70SL",
+          "description": "Profilul KURTOGLU 70SL oferă soluții avansate pentru ferestre și uși glisante, combinând estetica cu performanța termică ridicată.",
           "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
-          "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Adâncime de 70 mm",
+            "Izolație termică și acustică avansată",
+            "Compatibilitate cu sticlă dublă și triplă",
+            "Design elegant pentru proiecte moderne"
           ]
         }
       ],
@@ -578,35 +589,28 @@
     },
     "hardwareSection": {
       "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+      "description": "Feroneria SIEGENIA oferă soluții de înaltă calitate pentru ferestre și uși, garantând funcționalitate optimă, siguranță avansată și confort. Produsele SIEGENIA se remarcă prin tehnologia inovatoare, rezistența îndelungată și posibilitatea de a personaliza soluțiile în funcție de cerințele fiecărui proiect."
     },
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "sliderSection": {
@@ -618,7 +622,7 @@
   },
   "glisanteVekaMotion": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "catalogHeroTitle": "Glisante Veka Motion",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -627,37 +631,15 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "Profil VEKA MOTION",
+          "description": "Profilul VEKA MOTION reprezintă o soluție premium pentru sisteme glisante, combinând tehnologia inovatoare cu designul modern pentru a oferi funcționalitate optimă și confort.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
-          "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
-          "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Adâncime de 82 mm",
+            "Izolație termică și fonică excelentă",
+            "Potrivit pentru geamuri duble și triple",
+            "Durabilitate ridicată și întreținere ușoară",
+            "Design ergonomic și modern",
+            "Etanșeitate avansată împotriva curenților de aer"
           ]
         }
       ],
@@ -668,35 +650,28 @@
     },
     "hardwareSection": {
       "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
     },
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "sliderSection": {
@@ -708,7 +683,7 @@
   },
   "inchideriTerase": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "catalogHeroTitle": "Închideri terase",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -717,37 +692,15 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "Profil KURTOGLU 30C",
+          "description": "Profilul KURTOGLU 30C este o soluție eficientă pentru sisteme de ferestre și uși din aluminiu, oferind o combinație excelentă între performanță și costuri reduse.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
-          "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
-          "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Adâncime de 30 mm",
+            "Sistem robust și economic",
+            "Ideal pentru utilizări interioare",
+            "Design minimalist și modern",
+            "Potrivit pentru spații comerciale și rezidențiale",
+            "Rezistență la coroziune și întreținere ușoară"
           ]
         }
       ],
@@ -756,37 +709,36 @@
         "characteristics": "Caracteristici"
       }
     },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
-    },
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -798,7 +750,7 @@
   },
   "fatadeAluminiu": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "catalogHeroTitle": "Fațade aluminiu",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -807,37 +759,15 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "Profil KURTOGLU 50F",
+          "description": "Profilul KURTOGLU 50F este proiectat pentru sisteme fixe și pereți despărțitori, oferind un design robust și estetic modern.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
-          "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
-          "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Adâncime de 50 mm",
+            "Sistem fix și stabil",
+            "Potrivit pentru pereți despărțitori din sticlă",
+            "Design minimalist și modern",
+            "Construcție durabilă și întreținere redusă",
+            "Rezistență ridicată la uzură și coroziune"
           ]
         }
       ],
@@ -846,37 +776,16 @@
         "characteristics": "Caracteristici"
       }
     },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
-    },
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
-    "glassesSection": {
-      "title": "Tipuri de sticlă",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
+        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
       ]
     },
     "sliderSection": {
@@ -897,37 +806,66 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "Profil VEKA 70",
+          "description": "Profilul VEKA 70 oferă performanțe excelente de izolare termică și fonică, fiind ideal pentru proiecte rezidențiale și comerciale.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
+            "Adâncime de 70 mm",
+            "Sistem cu 5 camere",
+            "Etanșare avansată cu garnituri duble",
+            "Potrivit pentru geamuri duble și triple",
+            "Durabilitate ridicată și întreținere minimă"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "title": "Profil VEKA 70 cu toc de renovare de 35mm",
+          "description": "Profilul VEKA 70 cu toc de renovare de 35mm este proiectat special pentru proiecte de renovare, oferind performanță și eficiență termică.",
           "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
+            "Adâncime de 70 mm",
+            "Toc de renovare de 35 mm",
+            "5 camere pentru izolare termică optimă",
+            "Potrivit pentru proiecte de modernizare",
+            "Design modern și funcțional"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "title": "Profil VEKA 70 cu toc de renovare de 65mm",
+          "description": "Profilul VEKA 70 cu toc de renovare de 65mm oferă soluții excelente pentru renovări, menținând standarde ridicate de calitate și eficiență.",
           "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Adâncime de 70 mm",
+            "Toc de renovare de 65 mm",
+            "Izolație termică avansată",
+            "Potrivit pentru geamuri duble și triple",
+            "Durabilitate și design atractiv"
+          ]
+        },
+        {
+          "id": 4,
+          "image": "/assets/images/office.png",
+          "title": "Profil VEKA 82",
+          "description": "Profilul VEKA 82 reprezintă soluția premium pentru eficiență energetică ridicată și confort maxim.",
+          "characteristics": [
+            "Adâncime de 82 mm",
+            "Sistem cu 7 camere pentru izolare termică superioară",
+            "Potrivit pentru case pasive",
+            "Etanșare avansată cu garnituri multiple",
+            "Design modern și elegant"
+          ]
+        },
+        {
+          "id": 5,
+          "image": "/assets/images/office.png",
+          "title": "Profil VEKA 82 cu toc de renovare de 65mm",
+          "description": "Profilul VEKA 82 cu toc de renovare de 65mm oferă cea mai bună combinație de eficiență energetică și soluții de renovare.",
+          "characteristics": [
+            "Adâncime de 82 mm",
+            "Toc de renovare de 65 mm",
+            "Sistem cu 7 camere pentru izolare optimă",
+            "Potrivit pentru geamuri triple",
+            "Rezistență ridicată și întreținere ușoară"
           ]
         }
       ],
@@ -938,71 +876,86 @@
     },
     "slidingSystemsSection": {
       "title": "Glisante",
-      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "description": "Sistemele glisante sunt soluții moderne pentru ferestre și uși mari, combinând funcționalitatea ușoară cu designul contemporan și eficiența energetică.",
       "typeGalleryCards": [
-        { "title": "Tip 1",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        {
+          "title": "Glisante osciloculisante pe profil VEKA 70 sau 82",
+          "description": "Sistemele osciloculisante sunt construite pe profil VEKA 70 sau 82, oferind izolație termică superioară și o manipulare ușoară. Acestea sunt ideale pentru spații care necesită ventilație controlată și accesibilitate ridicată."
+        },
+        {
+          "title": "Glisante cu ridicare pe profil de aluminiu",
+          "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt proiectate pentru deschideri mari, oferind durabilitate, eficiență termică și design elegant. Sunt ideale pentru utilizare intensă în spații comerciale și rezidențiale."
         }
       ]
     },
     "rollerShutterBoxesSection": {
       "title": "Casonete",
-      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "description": "Casonetele sunt soluții practice pentru sisteme de rulouri, oferind protecție și estetică pentru ferestrele dumneavoastră.",
       "typeGalleryCards": [
-        { "title": "Tip 1",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        {
+          "title": "Un singur tip",
+          "description": "Casonetele sunt concepute pentru a oferi durabilitate și o integrare perfectă în designul arhitectural al clădirilor."
         }
       ]
     },
     "rollerShuttersSection": {
       "title": "Tapparele",
-      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "description": "Tapparele sunt sisteme eficiente și versatile pentru protecția ferestrelor, disponibile în variante manuale și electrice.",
       "typeGalleryCards": [
-        { "title": "Tip 1",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        {
+          "title": "Tapparele manuale",
+          "description": "Sistemele de tapparele manuale oferă un control simplu și eficient, fiind ideale pentru spații rezidențiale."
+        },
+        {
+          "title": "Tapparele electrice",
+          "description": "Tapparele electrice adaugă confort și funcționalitate, permițând o operare automată cu telecomandă sau sistem smart."
         }
       ]
     },
     "mosquitoNetsSection": {
       "title": "Zanzariere",
-      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "description": "Zanzarierele plisse sunt soluția ideală pentru protecție împotriva insectelor, combinând designul elegant cu funcționalitatea practică.",
       "typeGalleryCards": [
-        { "title": "Tip 1",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        {
+          "title": "Zanzariere plisse",
+          "description": "Zanzarierele plisse sunt proiectate pentru a fi ușor de utilizat și de întreținut, oferind o barieră eficientă împotriva insectelor."
         }
       ]
     },
     "hardwareSection": {
       "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
     },
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1014,7 +967,7 @@
   },
   "exportIrlanda": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre și uși pentru casa ta din Italia",
+      "catalogHeroTitle": "Ferestre și uși pentru casa ta din Irlanda",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -1023,37 +976,40 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "Profil VEKA 70",
+          "description": "Profilul VEKA 70 oferă performanțe excelente de izolare termică și fonică, fiind ideal pentru proiecte rezidențiale și comerciale.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
+            "Adâncime de 70 mm",
+            "Sistem cu 5 camere",
+            "Etanșare avansată cu garnituri duble",
+            "Potrivit pentru geamuri duble și triple",
+            "Durabilitate ridicată și întreținere minimă"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "title": "Profil VEKA 82",
+          "description": "Profilul VEKA 82 reprezintă soluția premium pentru eficiență energetică ridicată și confort maxim.",
           "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
+            "Adâncime de 82 mm",
+            "Sistem cu 7 camere pentru izolare termică superioară",
+            "Potrivit pentru case pasive",
+            "Etanșare avansată cu garnituri multiple",
+            "Design modern și elegant"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "title": "Profil Alutech 75 (Aluminiu)",
+          "description": "Profilul Alutech 75 este o soluție premium pentru sisteme de aluminiu, oferind rezistență și performanță termică avansată.",
           "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Adâncime de 75 mm",
+            "Sistem de izolare termică performant",
+            "Potrivit pentru utilizare în spații comerciale și rezidențiale",
+            "Rezistență ridicată la coroziune",
+            "Design modern și versatil"
           ]
         }
       ],
@@ -1064,44 +1020,56 @@
     },
     "slidingSystemsSection": {
       "title": "Glisante",
-      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "description": "Sistemele glisante sunt soluții ideale pentru spații moderne, oferind o combinație perfectă între confort, funcționalitate și design inovator.",
       "typeGalleryCards": [
-        { "title": "Tip 1",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        {
+          "title": "Glisante osciloculisante pe profil VEKA 70 sau 82",
+          "description": "Aceste sisteme oferă izolație termică superioară și o manipulare ușoară. Sunt ideale pentru ferestre și uși mari care necesită ventilație controlată și un design elegant."
+        },
+        {
+          "title": "Glisante cu ridicare pe profil de aluminiu",
+          "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt create pentru deschideri largi, combinând durabilitatea aluminiului cu eficiența energetică și estetica modernă."
+        },
+        {
+          "title": "VEKA Motion",
+          "description": "VEKA Motion este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
         }
       ]
     },
     "hardwareSection": {
       "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
     },
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1113,7 +1081,7 @@
   },
   "exportFrantaBelgia": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre și uși pentru casa ta din Italia",
+      "catalogHeroTitle": "Ferestre și uși pentru casa ta din Franța/Belgia",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -1122,37 +1090,40 @@
         {
           "id": 1,
           "image": "/assets/images/office.png",
-          "title": "Profilul ALDOX",
-          "description": "Profilul ALDOX este soluția optimă pentru ușile și ferestrele glisante. Construcția sa permite o combinație excelentă între durabilitate și eleganță.",
+          "title": "Profil VEKA 70",
+          "description": "Profilul VEKA 70 oferă performanțe excelente de izolare termică și fonică, fiind ideal pentru proiecte rezidențiale și comerciale.",
           "characteristics": [
-            "Design modern",
-            "Utilizare pentru sisteme glisante",
-            "Izolare termică avansată",
-            "Durabilitate ridicată"
+            "Adâncime de 70 mm",
+            "Sistem cu 5 camere",
+            "Etanșare avansată cu garnituri duble",
+            "Potrivit pentru geamuri duble și triple",
+            "Durabilitate ridicată și întreținere minimă"
           ]
         },
         {
           "id": 2,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 60T",
-          "description": "Profilul KURTOGLU 60T este ideal pentru proiecte rezidențiale și comerciale, oferind performanțe excelente și un aspect atractiv.",
+          "title": "Profil VEKA 82",
+          "description": "Profilul VEKA 82 reprezintă soluția premium pentru eficiență energetică ridicată și confort maxim.",
           "characteristics": [
-            "Adâncime de 60 mm",
-            "Structură robustă",
-            "Izolare fonică și termică",
-            "Compatibilitate cu diverse feronerii"
+            "Adâncime de 82 mm",
+            "Sistem cu 7 camere pentru izolare termică superioară",
+            "Potrivit pentru case pasive",
+            "Etanșare avansată cu garnituri multiple",
+            "Design modern și elegant"
           ]
         },
         {
           "id": 3,
           "image": "/assets/images/office.png",
-          "title": "Profilul KURTOGLU 74T",
-          "description": "Profilul KURTOGLU 74T este un sistem premium din aluminiu care asigură confort termic și estetică superioară.",
+          "title": "Profil Alutech 75 (Aluminiu)",
+          "description": "Profilul Alutech 75 este o soluție premium pentru sisteme de aluminiu, oferind rezistență și performanță termică avansată.",
           "characteristics": [
-            "Adâncime de 74 mm",
-            "Izolare termică avansată",
-            "Performanță acustică ridicată",
-            "Design versatil pentru orice proiect"
+            "Adâncime de 75 mm",
+            "Sistem de izolare termică performant",
+            "Potrivit pentru utilizare în spații comerciale și rezidențiale",
+            "Rezistență ridicată la coroziune",
+            "Design modern și versatil"
           ]
         }
       ],
@@ -1163,54 +1134,70 @@
     },
     "slidingSystemsSection": {
       "title": "Glisante",
-      "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în\n        configurații standard pentru consumatori. Utilizarea sistemelor de profil cu 6 camere și a geamurilor termopan eficiente din punct de vedere energetic vă permite să oferiți nivelul necesar de confort în casa dumneavoastră. Sistemele WHS by VEKA permit instalarea de geamuri termopan cu protecție sporită împotriva zgomotului.",
+      "description": "Sistemele glisante sunt soluții ideale pentru spații moderne, oferind o combinație perfectă între confort, funcționalitate și design inovator.",
       "typeGalleryCards": [
-        { "title": "Tip 1",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori."
+        {
+          "title": "Glisante osciloculisante pe profil VEKA 70 sau 82",
+          "description": "Aceste sisteme oferă izolație termică superioară și o manipulare ușoară. Sunt ideale pentru ferestre și uși mari care necesită ventilație controlată și un design elegant."
+        },
+        {
+          "title": "Glisante cu ridicare pe profil de aluminiu",
+          "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt create pentru deschideri largi, combinând durabilitatea aluminiului cu eficiența energetică și estetica modernă."
+        },
+        {
+          "title": "VEKA Motion",
+          "description": "VEKA Motion este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
         }
       ]
     },
     "blindsSection": {
       "title": "Rulouri",
-      "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers. Using 6-chamber profile systems and energy-efficient double-glazed windows allows you to provide the necessary level of comfort in your home. WHS systems by VEKA allow the installation of double-glazed windows with enhanced noise protection.",
+      "description": "Rulourile sunt soluții versatile pentru ferestre, disponibile în două variante: manuale și electrice. Acestea combină protecția cu funcționalitatea practică și un design modern.",
       "typeGalleryCards": [
         {
-          "title": "Type 1",
-          "description": "The WHS system by VEKA optimally combines practicality and accessibility. It is designed for manufacturing windows in standard configurations for consumers."
+          "title": "Rulouri manuale",
+          "description": "Rulourile manuale oferă un control simplu și eficient, fiind ideale pentru utilizare în spații rezidențiale și comerciale."
+        },
+        {
+          "title": "Rulouri electrice",
+          "description": "Rulourile electrice adaugă confort și modernitate, permițând controlul automat prin telecomandă sau sisteme smart."
         }
       ]
     },
     "hardwareSection": {
       "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
+      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
     },
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "SAL-70", "description": "antracit" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "SAL-18", "description": "negru mat" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "SAL-51", "description": "stejar auriu" }
-      ]    },
+        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
+        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
+        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
+        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+      ]
+    },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
       ]
     },
     "handlesSection": {
       "title": "Tipuri de mânere",
       "types": [
-        { "id": 1, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "imageSrc": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "imageSrc": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "imageSrc": "/assets/images/office.png", "name": "Metal" }
+        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
+        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
+        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1313,7 +1300,7 @@
   },
   "sponsorSection": {
     "title": "Partenerii noștri",
-    "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS> și <GU>G-U</GU>."
+    "description": "Oferim o gamă completă de servicii pentru producția și instalarea structurilor <PVC>PVC</PVC> și <ALUMINIU>ALUMINIU</ALUMINIU> utilizând sisteme de profil <RAMPLAST>RAMPLAST</RAMPLAST>, <GEALAN>GEALAN</GEALAN>, <VEKA>VEKA</VEKA> și <KURTOGLU>KURTOGLU</KURTOGLU>. La fabricarea structurilor utilizăm doar feronerie de înaltă calitate <WINKHAUS>WINKHAUS</WINKHAUS>."
   },
   "offerSection": {
     "title": "Ce servicii oferim?",

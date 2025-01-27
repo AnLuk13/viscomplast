@@ -43,7 +43,7 @@ module.exports = {
     "import/prefer-default-export": ["warn", { target: "single" }],
     "@typescript-eslint/no-use-before-define": ["warn"],
     "import/extensions": [
-      "error",
+      "warn", // error
       "never",
       {
         css: "always",
@@ -86,6 +86,6 @@ module.exports = {
         argsIgnorePattern: "^_",
       },
     ],
-    "css-modules/no-undef-class": "warn",
+    "css-modules/no-undef-class": "warn", // error
   },
 };

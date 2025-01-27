@@ -45,6 +45,10 @@
     height: 64px;
 
     .sponsorImage {
+      min-width: 100px !important;
+      max-width: 160px !important;
+      width: fit-content;
+      object-fit: contain;
       margin-right: 128px;
     }
   }

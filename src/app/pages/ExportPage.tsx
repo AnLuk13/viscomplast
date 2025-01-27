@@ -22,6 +22,7 @@ function ExportPage({ route }: { route: string }) {
   const isExportFrantaBelgia = route === "exportFrantaBelgia";
   const isSpecialExport =
     route === "exportIrlanda" || route === "exportFrantaBelgia";
+
   return (
     <main>
       <CatalogHeroSection content={t} />

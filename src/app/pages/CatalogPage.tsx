@@ -14,15 +14,22 @@ import { useTranslations } from "next-intl";
 
 function CatalogPage({ route }: { route: string }) {
   const t = useTranslations(route);
+  const isGlisante =
+    route === "glisantePvc" ||
+    route === "glisanteAluminiu" ||
+    route === "glisanteVekaMotion";
+  const isInchidereSauFatade =
+    route === "inchideriTerase" || route === "fatadeAluminiu";
+  const isFatade = route === "fatadeAluminiu";
 
   return (
     <main>
       <CatalogHeroSection content={t} />
       <ProfilesSection content={t} />
-      <HardwareSection content={t} />
+      {!isInchidereSauFatade && <HardwareSection content={t} />}
       <ColorsSection content={t} />
-      <GlassesSection content={t} />
-      <HandlesSection content={t} />
+      {!isFatade && <GlassesSection content={t} />}
+      {!isGlisante && !isFatade && <HandlesSection content={t} />}
       <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
       <SliderSection content={t} route="ferestrePvc" />
       <AboutSection showAboutInfo={false} />
