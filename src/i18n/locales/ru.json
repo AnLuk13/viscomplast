@@ -15,32 +15,50 @@
       "catalogCards": [
         {
           "title": "Окна",
-          "items": ["ПВХ", "АЛЮМИНИЙ"],
+          "items": [
+            { "name": "ПВХ", "href": "/okna-pvx" },
+            { "name": "АЛЮМИНИЙ", "href": "/okna-alyuminiy" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Двери",
-          "items": ["ПВХ", "АЛЮМИНИЙ"],
+          "items": [
+            { "name": "ПВХ", "href": "/dveri-pvx" },
+            { "name": "АЛЮМИНИЙ", "href": "/dveri-alyuminiy" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
-          "title": "Раздвижные",
-          "items": ["ПВХ", "АЛЮМИНИЙ", "VEKA MOTION"],
+          "title": "Раздвижные системы",
+          "items": [
+            { "name": "ПВХ", "href": "/razdvizhnye-pvx" },
+            { "name": "АЛЮМИНИЙ", "href": "/razdvizhnye-alyuminiy" },
+            { "name": "VEKA MOTION", "href": "/razdvizhnye-veka-motion" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
-          "title": "Закрытие террас",
-          "items": ["АЛЮМИНИЙ"],
+          "title": "Закрытия террас",
+          "items": [
+            { "name": "АЛЮМИНИЙ", "href": "/zakrytiya-terras-alyuminiy" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Фасады",
-          "items": ["АЛЮМИНИЙ"],
+          "items": [
+            { "name": "АЛЮМИНИЙ", "href": "/fasady-alyuminiy" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Экспорт",
-          "items": ["ИТАЛИЯ", "ИРЛАНДИЯ", "ФРАНЦИЯ / БЕЛЬГИЯ"],
+          "items": [
+            { "name": "ИТАЛИЯ", "href": "/eksport-italiya" },
+            { "name": "ИРЛАНДИЯ", "href": "/eksport-irlandiya" },
+            { "name": "ФРАНЦИЯ / БЕЛЬГИЯ", "href": "/eksport-frantsiya-belgiya" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         }
       ]
@@ -1328,7 +1346,7 @@
         { "label": "+ (373) 60 414 041", "type": "phone", "href": "tel:+37360414041" },
         { "label": "+ (373) 60 466 177", "type": "phone", "href": "tel:+37360466177" },
         {
-          "label": "Сосеуа Хынчешть 256/3, Кишинев",
+          "label": "Шоссе Хынчешть 256/3, Кишинёв",
           "type": "address",
           "href": "https://maps.app.goo.gl/zFWoBqPYUvfEfE2B6"
         },

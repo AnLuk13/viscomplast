@@ -10,7 +10,7 @@ export default function Page() {
   const params = useParams();
   const locale = useLocale();
   const pathname = usePathname();
-  console.log(params);
+  console.log("params", params);
   console.log(locale);
   console.log(pathname);
   const id = params.id;

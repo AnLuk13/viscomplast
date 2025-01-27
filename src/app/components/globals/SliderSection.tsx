@@ -46,7 +46,7 @@ function SliderSection({ content, route }) {
         showStatus={false}
         showArrows={false}
         infiniteLoop
-        // autoPlay
+        autoPlay
         stopOnHover
         interval={5000}
         swipeScrollTolerance={60}

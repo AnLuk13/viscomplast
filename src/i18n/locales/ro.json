@@ -15,32 +15,50 @@
       "catalogCards": [
         {
           "title": "Ferestre",
-          "items": ["PVC", "ALUMINIU"],
+          "items": [
+            { "name": "PVC", "href": "/ferestre-pvc" },
+            { "name": "ALUMINIU", "href": "/ferestre-aluminiu" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Uși",
-          "items": ["PVC", "ALUMINIU"],
+          "items": [
+            { "name": "PVC", "href": "/usi-pvc" },
+            { "name": "ALUMINIU", "href": "/usi-aluminiu" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Glisante",
-          "items": ["PVC", "ALUMINIU", "VEKA MOTION"],
+          "items": [
+            { "name": "PVC", "href": "/glisante-pvc" },
+            { "name": "ALUMINIU", "href": "/glisante-aluminiu" },
+            { "name": "VEKA MOTION", "href": "/glisante-veka-motion" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Închideri Terase",
-          "items": ["ALUMINIU"],
+          "items": [
+            { "name": "ALUMINIU", "href": "/inchideri-terase-aluminiu" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Fațade",
-          "items": ["ALUMINIU"],
+          "items": [
+            { "name": "ALUMINIU", "href": "/fatade-aluminiu" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Export",
-          "items": ["ITALIA", "IRLANDA", "FRANȚA / BELGIA"],
+          "items": [
+            { "name": "ITALIA", "href": "/export-italia" },
+            { "name": "IRLANDA", "href": "/export-irlanda" },
+            { "name": "FRANȚA / BELGIA", "href": "/export-franta-belgia" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         }
       ]
@@ -1328,7 +1346,7 @@
         { "label": "+ (373) 60 414 041", "type": "phone", "href": "tel:+37360414041" },
         { "label": "+ (373) 60 466 177", "type": "phone", "href": "tel:+37360466177" },
         {
-          "label": "Soseaua Hâncești 256/3, Chișinău",
+          "label": "Șoseaua Hâncești 256/3, Chișinău",
           "type": "address",
           "href": "https://maps.app.goo.gl/zFWoBqPYUvfEfE2B6"
         },

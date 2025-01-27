@@ -2,6 +2,7 @@ import styles from "@/app/styles/landing/catalogSection.module.scss";
 import LinkArrowIcon from "@/app/components/svg-icons/LinkArrowIcon";
 import Image from "next/image";
 import React from "react";
+import { Link } from "@/i18n/routing";
 
 function CatalogCard({
   title,
@@ -9,7 +10,7 @@ function CatalogCard({
   imageUrl,
 }: {
   title: string;
-  items: string[];
+  items: { name: string; href: string }[];
   imageUrl: { src: string };
 }) {
   return (
@@ -26,11 +27,11 @@ function CatalogCard({
       <div className={styles.cardTitle}>{title}</div>
       <div className={styles.listItemContainer}>
         {items.map((item) => (
-          <div key={item} className={styles.listItemBox}>
-            <div className={styles.listItem}>{item}</div>
-            <button type="button" className={styles.actionButton}>
+          <div key={item.name} className={styles.listItemBox}>
+            <div className={styles.listItem}>{item.name}</div>
+            <Link href={item.href} className={styles.actionButton}>
               <LinkArrowIcon />
-            </button>
+            </Link>
           </div>
         ))}
       </div>

@@ -96,12 +96,11 @@
       }
 
       .actionButton {
+        box-sizing: border-box;
         border-radius: 99px;
-        padding: 8px;
         width: 44px;
         height: 44px;
         background-color: var(--accent);
-        border: none;
         display: flex;
         justify-content: center;
         align-items: center;

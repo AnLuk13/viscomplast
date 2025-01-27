@@ -15,32 +15,50 @@
       "catalogCards": [
         {
           "title": "Windows",
-          "items": ["PVC", "ALUMINUM"],
+          "items": [
+            { "name": "PVC", "href": "/windows-pvc" },
+            { "name": "ALUMINUM", "href": "/windows-aluminum" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Doors",
-          "items": ["PVC", "ALUMINUM"],
+          "items": [
+            { "name": "PVC", "href": "/doors-pvc" },
+            { "name": "ALUMINUM", "href": "/doors-aluminum" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
-          "title": "Sliding",
-          "items": ["PVC", "ALUMINUM", "VEKA MOTION"],
+          "title": "Sliding Systems",
+          "items": [
+            { "name": "PVC", "href": "/sliding-pvc" },
+            { "name": "ALUMINUM", "href": "/sliding-aluminum" },
+            { "name": "VEKA MOTION", "href": "/sliding-veka-motion" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Terrace Closures",
-          "items": ["ALUMINUM"],
+          "items": [
+            { "name": "ALUMINUM", "href": "/terrace-closures-aluminum" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Facades",
-          "items": ["ALUMINUM"],
+          "items": [
+            { "name": "ALUMINUM", "href": "/facades-aluminum" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         },
         {
           "title": "Export",
-          "items": ["ITALY", "IRELAND", "FRANCE / BELGIUM"],
+          "items": [
+            { "name": "ITALY", "href": "/export-italy" },
+            { "name": "IRELAND", "href": "/export-ireland" },
+            { "name": "FRANCE / BELGIUM", "href": "/export-france-belgium" }
+          ],
           "imageUrl": "/assets/images/hero-section.png"
         }
       ]
@@ -1328,7 +1346,7 @@
         { "label": "+ (373) 60 414 041", "type": "phone", "href": "tel:+37360414041" },
         { "label": "+ (373) 60 466 177", "type": "phone", "href": "tel:+37360466177" },
         {
-          "label": "Soseaua Hâncești 256/3, Chișinău",
+          "label": "Hâncești Road 256/3, Chișinău",
           "type": "address",
           "href": "https://maps.app.goo.gl/zFWoBqPYUvfEfE2B6"
         },

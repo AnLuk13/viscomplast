@@ -11,7 +11,6 @@ type TypeCardProps = {
   hex: string;
 };
 function TypeCard({ src, name, description, hex }: TypeCardProps) {
-  console.log(src);
   return (
     <div className={styles.typeCard}>
       {src ? (
