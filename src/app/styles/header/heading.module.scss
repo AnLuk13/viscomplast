@@ -22,7 +22,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 16px;
+      gap: 12px;
 
       .logoScheduleBox {
         max-width: 400px;
@@ -108,7 +108,7 @@
 }
 
 .scheduleBox {
-  width: 263px;
+  width: fit-content;
   height: 48px;
 
   .scheduleTitle {
@@ -121,11 +121,12 @@
   }
 
   .scheduleTextBox {
-    max-width: 263px;
+    gap: 12px;
     width: 100%;
     height: 24px;
     display: flex;
     justify-content: space-between;
+    text-wrap: nowrap;
 
     .scheduleText {
       font-family: var(--font-family);

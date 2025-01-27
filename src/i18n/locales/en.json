@@ -1207,12 +1207,50 @@
       }
     }
   },
+  "termeniSiConditii": {
+    "pageTitle": "Terms and Conditions",
+    "content": [
+      {
+        "title": "Agreement to Terms",
+        "description": "These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Viscomplast (“we,” “us” or “our”), concerning your access to and use of the viscomplast.md website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are expressly prohibited from using the Site and you must discontinue use immediately."
+      },
+      {
+        "title": "Intellectual Property Rights",
+        "description": "Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United States, foreign jurisdictions, and international conventions. The Content and the Marks are provided on the Site “AS IS” for your information and personal use only. Except as expressly provided in these Terms and Conditions, no part of the Site and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission."
+      }
+    ]
+  },
+  "politicaDeConfidentialitate": {
+    "pageTitle": "Privacy Policy",
+    "content": [
+      {
+        "title": "Introduction",
+        "description": "This Privacy Policy explains how we collect, use, and protect the personal information of our users when they access and use our website. By using this website, you agree to the practices described in this policy."
+      },
+      {
+        "title": "Information Collected",
+        "description": "We collect personal information such as name, email address, and phone number when voluntarily provided by users."
+      },
+      {
+        "title": "Use of Information",
+        "description": "The collected information is used to provide services, personalize user experiences, improve our website, and communicate with users. We do not sell users' personal information to third parties."
+      },
+      {
+        "title": "User Rights",
+        "description": "Users have the right to access, modify, or delete their personal information. They can also withdraw consent for the use of their personal data at any time."
+      },
+      {
+        "title": "Contact",
+        "description": "For questions or concerns about this Privacy Policy, please contact us at infoviscomplast@gmail.com."
+      }
+    ]
+  },
   "header": {
     "schedule": {
       "title": "Working Hours",
       "days": {
-        "weekdays": "Mon - Fri: 9:00 AM - 5:00 PM",
-        "saturday": "Sat: 9:00 AM - 12:00 PM"
+        "weekdays": "Mon - Fri: 9:00 - 5:00",
+        "saturday": "Sat: 9:00 - 12:00"
       }
     },
     "navTabs": [
@@ -1279,8 +1317,9 @@
     "info": {
       "title": "Information",
       "links": [
-        { "label": "Privacy Policy", "href": "/confidentialitate" },
-        { "label": "Terms and Conditions", "href": "/termeni" }
+        { "label": "About us", "href": "/despre-noi" },
+        { "label": "Privacy Policy", "href": "/politica-de-confidentialitate" },
+        { "label": "Terms and Conditions", "href": "/termeni-si-conditii" }
       ]
     },
     "contact": {

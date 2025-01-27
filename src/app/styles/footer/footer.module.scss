@@ -1,4 +1,6 @@
 .footer {
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +57,7 @@
     }
 
     .infoList {
-      height: 56px;
+      height: 88px;
     }
 
     .contactSection {

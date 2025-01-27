@@ -1207,6 +1207,44 @@
       }
     }
   },
+  "termeniSiConditii": {
+    "pageTitle": "Termeni și condiții",
+    "content": [
+      {
+        "title": "Acord cu termenii",
+        "description": "Acești Termeni și Condiții constituie un acord legal între dumneavoastră, fie personal, fie în numele unei entități („dumneavoastră”), și Viscomplast („noi”, „nouă” sau „al nostru”), privind accesul și utilizarea site-ului viscomplast.md, precum și orice altă formă media, canal media, site mobil sau aplicație mobilă asociată, legată sau conectată în alt mod (denumite colectiv „Site-ul”). Prin accesarea Site-ului, declarați că ați citit, ați înțeles și sunteți de acord să respectați toți acești Termeni și Condiții. Dacă nu sunteți de acord cu toți acești Termeni și Condiții, sunteți în mod expres interzis de a utiliza Site-ul și trebuie să încetați utilizarea imediat."
+      },
+      {
+        "title": "Drepturi de proprietate intelectuală",
+        "description": "Cu excepția cazului în care se indică altfel, Site-ul este proprietatea noastră și toate codurile sursă, bazele de date, funcționalitatea, software-ul, designurile website-ului, audio, video, texte, fotografii și graficele de pe Site (denumite colectiv „Conținutul”) și mărcile comerciale, mărcile de servicii și logourile conținute în acesta („Mărcile”) ne aparțin sau ne sunt licențiate și sunt protejate prin legi privind drepturile de autor și mărcile comerciale, precum și alte drepturi de proprietate intelectuală și legi privind concurența neloială. Conținutul și Mărcile sunt furnizate pe Site „CA ATARE” doar pentru informarea și utilizarea dumneavoastră personală. Cu excepția celor prevăzute în mod expres în acești Termeni și Condiții, nicio parte a Site-ului și niciun Conținut sau Mărci nu poate fi copiată, reprodusă, republicată, încărcată, afișată public, transmisă, distribuită, vândută, licențiată sau exploatată în orice scop comercial fără permisiunea noastră scrisă."
+      }
+    ]
+  },
+  "politicaDeConfidentialitate": {
+    "pageTitle": "Politica de Confidențialitate",
+    "content": [
+      {
+        "title": "Introducere",
+        "description": "Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile personale ale utilizatorilor noștri atunci când aceștia accesează și utilizează site-ul nostru. Prin utilizarea acestui site, sunteți de acord cu practicile descrise în această politică."
+      },
+      {
+        "title": "Informații colectate",
+        "description": "Colectăm informații personale, cum ar fi numele, adresa de e-mail și numărul de telefon, atunci când acestea sunt furnizate voluntar de utilizatori."
+      },
+      {
+        "title": "Utilizarea informațiilor",
+        "description": "Folosim informațiile colectate pentru a furniza servicii, a personaliza experiența utilizatorului, a îmbunătăți site-ul nostru și a comunica cu utilizatorii. Nu vindem informațiile personale ale utilizatorilor terților."
+      },
+      {
+        "title": "Drepturile utilizatorilor",
+        "description": "Utilizatorii au dreptul de a accesa, modifica sau șterge informațiile personale furnizate. De asemenea, aceștia pot retrage consimțământul pentru utilizarea datelor personale în orice moment."
+      },
+      {
+        "title": "Contact",
+        "description": "Pentru întrebări sau nelămuriri legate de această Politică de Confidențialitate, vă rugăm să ne contactați la infoviscomplast@gmail.com."
+      }
+    ]
+  },
   "header": {
     "schedule": {
       "title": "Program de lucru",
@@ -1279,8 +1317,9 @@
     "info": {
       "title": "Informații",
       "links": [
-        { "label": "Politica de Confidențialitate", "href": "/confidentialitate" },
-        { "label": "Termeni și Condiții", "href": "/termeni" }
+        { "label": "Despre noi", "href": "/despre-noi" },
+        { "label": "Politica de Confidențialitate", "href": "/politica-de-confidentialitate" },
+        { "label": "Termeni și Condiții", "href": "/termeni-si-conditii" }
       ]
     },
     "contact": {
