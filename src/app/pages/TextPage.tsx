@@ -12,7 +12,7 @@ function TextPage({ route }: { route: string }) {
       <section
         className="sectionContainer"
         style={{
-          flex: "1 1",
+          flex: "1",
         }}
       >
         <div className={styles.contentContainer}>
