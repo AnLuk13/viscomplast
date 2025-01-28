@@ -6,7 +6,7 @@
       "review": {
         "name": "Emilia C.",
         "date": "28.03.2024",
-        "text": "“Un review hardcodat de la un user foarte satisfacut de serviciile companiei VISCOMPLAST.”",
+        "text": "Calitate excelentă, design modern și servicii impecabile – recomand cu încredere!",
         "qualityText": "excelent"
       }
     },
@@ -19,7 +19,7 @@
             { "name": "PVC", "href": "/ferestre-pvc" },
             { "name": "ALUMINIU", "href": "/ferestre-aluminiu" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/ferestre.png"
         },
         {
           "title": "Uși",
@@ -27,7 +27,7 @@
             { "name": "PVC", "href": "/usi-pvc" },
             { "name": "ALUMINIU", "href": "/usi-aluminiu" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/usi.png"
         },
         {
           "title": "Glisante",
@@ -36,21 +36,21 @@
             { "name": "ALUMINIU", "href": "/glisante-aluminiu" },
             { "name": "VEKA MOTION", "href": "/glisante-veka-motion" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/glisante.png"
         },
         {
           "title": "Închideri Terase",
           "items": [
             { "name": "ALUMINIU", "href": "/inchideri-terase-aluminiu" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/inchideri-terase.png"
         },
         {
           "title": "Fațade",
           "items": [
             { "name": "ALUMINIU", "href": "/fatade-aluminiu" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/fatade.png"
         },
         {
           "title": "Export",
@@ -59,7 +59,7 @@
             { "name": "IRLANDA", "href": "/export-irlanda" },
             { "name": "FRANȚA / BELGIA", "href": "/export-franta-belgia" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/export.png"
         }
       ]
     },
@@ -145,23 +145,29 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb standard" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu efect de lemn" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Crem" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Nuc" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -232,23 +238,28 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb standard" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Stejar auriu" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Nuc" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Stejar închis" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Crem" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -343,23 +354,29 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb standard" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu efect de lemn" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Crem" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Nuc" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -430,23 +447,28 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb standard" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Stejar auriu" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Nuc" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Stejar închis" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Crem" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -541,23 +563,29 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb standard" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu efect de lemn" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Crem" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Nuc" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "sliderSection": {
@@ -612,23 +640,28 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb standard" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Stejar auriu" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Nuc" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Stejar închis" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Crem" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "sliderSection": {
@@ -673,23 +706,29 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb standard" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu efect de lemn" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Crem" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Nuc" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "sliderSection": {
@@ -730,23 +769,28 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb standard" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Stejar auriu" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Nuc" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Stejar închis" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Crem" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -797,13 +841,13 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb Trafic" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Alb standard" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Gri Antracit" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru Jet" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Maro Argilă" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Maro Ciocolată" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Maro Gri" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Alb Semnal" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Negru" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Stejar auriu" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Nuc" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Stejar închis" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Crem" }
       ]
     },
     "sliderSection": {
@@ -947,23 +991,29 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb standard" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu efect de lemn" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Crem" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Nuc" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -1061,23 +1111,29 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb standard" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu efect de lemn" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Crem" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Nuc" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -1189,23 +1245,29 @@
     "colorsSection": {
       "title": "Culori",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu aspect de lemn" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Alb crem" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru mat" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb cristal" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Alb standard" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Stejar întunecat" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Stejar auriu" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Gri antracit" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Alb cu efect de lemn" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Crem" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Negru" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Nuc" }
       ]
     },
     "glassesSection": {
       "title": "Tipuri de sticlă",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Mat" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Ploaie" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Fragmentare adezivă" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Reed îngust" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Float transparent" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Sticla 4Sezoane" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Sticlă tonală" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux incolor" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux bronz" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 incolor" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla incolor" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
     "handlesSection": {
@@ -1229,12 +1291,24 @@
     "pageTitle": "Termeni și condiții",
     "content": [
       {
-        "title": "Acord cu termenii",
-        "description": "Acești Termeni și Condiții constituie un acord legal între dumneavoastră, fie personal, fie în numele unei entități („dumneavoastră”), și Viscomplast („noi”, „nouă” sau „al nostru”), privind accesul și utilizarea site-ului viscomplast.md, precum și orice altă formă media, canal media, site mobil sau aplicație mobilă asociată, legată sau conectată în alt mod (denumite colectiv „Site-ul”). Prin accesarea Site-ului, declarați că ați citit, ați înțeles și sunteți de acord să respectați toți acești Termeni și Condiții. Dacă nu sunteți de acord cu toți acești Termeni și Condiții, sunteți în mod expres interzis de a utiliza Site-ul și trebuie să încetați utilizarea imediat."
+        "title": "Introducere",
+        "description": "Prin utilizarea site-ului nostru web (\"Site-ul\"), sunteți de acord cu colectarea și utilizarea datelor dvs. personale în scopurile limitate stabilite în această declarație privind politica de confidențialitate a datelor."
       },
       {
-        "title": "Drepturi de proprietate intelectuală",
-        "description": "Cu excepția cazului în care se indică altfel, Site-ul este proprietatea noastră și toate codurile sursă, bazele de date, funcționalitatea, software-ul, designurile website-ului, audio, video, texte, fotografii și graficele de pe Site (denumite colectiv „Conținutul”) și mărcile comerciale, mărcile de servicii și logourile conținute în acesta („Mărcile”) ne aparțin sau ne sunt licențiate și sunt protejate prin legi privind drepturile de autor și mărcile comerciale, precum și alte drepturi de proprietate intelectuală și legi privind concurența neloială. Conținutul și Mărcile sunt furnizate pe Site „CA ATARE” doar pentru informarea și utilizarea dumneavoastră personală. Cu excepția celor prevăzute în mod expres în acești Termeni și Condiții, nicio parte a Site-ului și niciun Conținut sau Mărci nu poate fi copiată, reprodusă, republicată, încărcată, afișată public, transmisă, distribuită, vândută, licențiată sau exploatată în orice scop comercial fără permisiunea noastră scrisă."
+        "title": "Modificări ale politicii",
+        "description": "Orice modificări și clarificări ale termenilor politicii noastre de confidențialitate a datelor vor fi publicate pe această pagină. Informațiile furnizate de S.R.L. Viscomlast la adresa http://viscomplast.md ar trebui să fie utilizate doar în scopuri de referință."
+      },
+      {
+        "title": "Acordul utilizatorului",
+        "description": "Prin utilizarea Site-ului sau prin descărcarea de materiale de pe Site, sunteți de acord cu termenii și condițiile stabilite în prezentul document (\"Termenii\"). Dacă nu sunteți de acord cu acești Termeni și condiții, nu utilizați site-ul și nu descărcați niciun material de pe acesta. Utilizarea de către dvs. a fiecărui astfel de site este supusă termenilor și condițiilor aplicabile site-ului respectiv."
+      },
+      {
+        "title": "Termeni suplimentari",
+        "description": "În plus, atunci când descărcați anumite materiale, vi se poate solicita să acceptați alți termeni și condiții, inclusiv cei prevăzuți în Acordul de licență pentru utilizator; acești termeni și condiții vor avea prioritate pentru a evita conflictele și ambiguitățile."
+      },
+      {
+        "title": "Întrebări și contact",
+        "description": "Dacă aveți întrebări cu privire la acești termeni și condiții sau la funcționarea site-ului, vă rugăm să contactați echipa de administrare a site-ului folosind datele de contact de la sfârșitul acestui document."
       }
     ]
   },
@@ -1243,15 +1317,23 @@
     "content": [
       {
         "title": "Introducere",
-        "description": "Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile personale ale utilizatorilor noștri atunci când aceștia accesează și utilizează site-ul nostru. Prin utilizarea acestui site, sunteți de acord cu practicile descrise în această politică."
+        "description": "Confidențialitatea dvs. este importantă pentru noi. Politica viscomplast.md este de a vă respecta confidențialitatea în ceea ce privește orice informație pe care o putem colecta de la dumneavoastră pe site-ul nostru, https://viscomplast.md/, și alte site-uri pe care le deținem și le operăm."
       },
       {
         "title": "Informații colectate",
-        "description": "Colectăm informații personale, cum ar fi numele, adresa de e-mail și numărul de telefon, atunci când acestea sunt furnizate voluntar de utilizatori."
+        "description": "Solicităm informații personale numai atunci când acestea sunt necesare pentru a vă oferi serviciul. Le colectăm într-un mod corect și legal, cu știința și consimțământul dumneavoastră."
       },
       {
-        "title": "Utilizarea informațiilor",
-        "description": "Folosim informațiile colectate pentru a furniza servicii, a personaliza experiența utilizatorului, a îmbunătăți site-ul nostru și a comunica cu utilizatorii. Nu vindem informațiile personale ale utilizatorilor terților."
+        "title": "Păstrarea și utilizarea informațiilor",
+        "description": "Păstrăm informațiile pe care le colectăm doar atât timp cât este necesar pentru a furniza serviciul solicitat. Datele sunt protejate pentru a preveni pierderea, furtul și accesul neautorizat. Nu vom împărtăși informațiile personale în mod public sau cu terțe părți, cu excepția cazurilor cerute de lege."
+      },
+      {
+        "title": "Link-uri externe",
+        "description": "Site-ul nostru poate conține legături către site-uri externe. Nu avem control asupra acestor site-uri și nu suntem responsabili pentru practicile lor de confidențialitate."
+      },
+      {
+        "title": "Atribuirea Freepik",
+        "description": "Unele imagini de pe site-ul nostru sunt preluate de pe Freepik și respectă politica lor de atribuire. Puteți găsi mențiunea „Designed by Freepik” lângă resursele utilizate. Mai multe detalii sunt disponibile pe [Freepik](https://www.freepik.com)."
       },
       {
         "title": "Drepturile utilizatorilor",
@@ -1259,7 +1341,7 @@
       },
       {
         "title": "Contact",
-        "description": "Pentru întrebări sau nelămuriri legate de această Politică de Confidențialitate, vă rugăm să ne contactați la infoviscomplast@gmail.com."
+        "description": "Pentru întrebări legate de această politică de confidențialitate, vă rugăm să ne contactați la infoviscomplast@gmail.com. Această politică intră în vigoare începând cu martie 2024."
       }
     ]
   },
@@ -1324,6 +1406,7 @@
         { "label": "Uși PVC", "href": "/usi-pvc" },
         { "label": "Uși aluminiu", "href": "/usi-aluminiu" },
         { "label": "Glisante PVC", "href": "/glisante-pvc" },
+        { "label": "Glisante Aluminiu", "href": "/glisante-aluminiu" },
         { "label": "Glisante VEKA MOTION", "href": "/glisante-veka-motion" },
         { "label": "Închideri terase aluminiu", "href": "/inchideri-terase" },
         { "label": "Fațade aluminiu", "href": "/fatade-aluminiu" },

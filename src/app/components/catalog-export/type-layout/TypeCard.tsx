@@ -17,7 +17,7 @@ function TypeCard({ src, name, description, hex }: TypeCardProps) {
         <Image
           priority
           src={src}
-          alt="Hero section"
+          alt="Image type"
           quality={100}
           width={230}
           height={230}

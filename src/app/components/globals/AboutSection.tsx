@@ -15,12 +15,15 @@ function AboutSection({ showAboutInfo }: { showAboutInfo: boolean }) {
       <div className={styles.gridContainer}>
         {showAboutInfo && (
           <>
-            <AboutImage src="/assets/images/office-viscomplast.png" />
+            <AboutImage
+              src="/assets/images/about-us/about-us.jpg"
+              styleProps={{ objectPosition: -20 }}
+            />
             <AboutContent content={t} />
           </>
         )}
         <AboutForm content={t} />
-        <AboutImage src="/assets/images/office.png" />
+        <AboutImage src="/assets/images/about-us/office-viscomplast.jpg" />
       </div>
     </section>
   );

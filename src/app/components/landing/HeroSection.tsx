@@ -13,7 +13,7 @@ function HeroSection({ content }) {
     <section className={styles.heroSection}>
       <Image
         priority
-        src="/assets/images/hero-section.png"
+        src="/assets/images/hero-section.jpg"
         alt="Hero section"
         fill
         sizes="100vw"

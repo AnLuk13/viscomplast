@@ -6,7 +6,7 @@
       "review": {
         "name": "Емилия К.",
         "date": "28.03.2024",
-        "text": "“Жестко закодированный отзыв от очень довольного услугами компании VISCOMPLAST клиента.”",
+        "text": "Отличное качество, современный дизайн и безупречный сервис – рекомендую!",
         "qualityText": "отлично"
       }
     },
@@ -19,7 +19,7 @@
             { "name": "ПВХ", "href": "/okna-pvx" },
             { "name": "АЛЮМИНИЙ", "href": "/okna-alyuminiy" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/ferestre.png"
         },
         {
           "title": "Двери",
@@ -27,7 +27,7 @@
             { "name": "ПВХ", "href": "/dveri-pvx" },
             { "name": "АЛЮМИНИЙ", "href": "/dveri-alyuminiy" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/usi.png"
         },
         {
           "title": "Раздвижные системы",
@@ -36,21 +36,21 @@
             { "name": "АЛЮМИНИЙ", "href": "/razdvizhnye-alyuminiy" },
             { "name": "VEKA MOTION", "href": "/razdvizhnye-veka-motion" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/glisante.png"
         },
         {
           "title": "Закрытия террас",
           "items": [
             { "name": "АЛЮМИНИЙ", "href": "/zakrytiya-terras-alyuminiy" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/inchideri-terase.png"
         },
         {
           "title": "Фасады",
           "items": [
             { "name": "АЛЮМИНИЙ", "href": "/fasady-alyuminiy" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/fatade.png"
         },
         {
           "title": "Экспорт",
@@ -59,7 +59,7 @@
             { "name": "ИРЛАНДИЯ", "href": "/eksport-irlandiya" },
             { "name": "ФРАНЦИЯ / БЕЛЬГИЯ", "href": "/eksport-frantsiya-belgiya" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/export.png"
         }
       ]
     },
@@ -145,23 +145,29 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый под дерево" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремово-белый" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Матовый черный" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Кристально белый" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Стандартный белый" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый с эффектом дерева" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремовый" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Черный" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Орех" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -232,23 +238,28 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Трафик Белый" },
-        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацит Серый" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Чёрный Джет" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Коричневый Глина" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Коричневый Шоколад" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Коричневый Серый" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Сигнальный Белый" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Стандартный белый" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацитовый серый" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Черный" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Золотой дуб" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Орех" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Темный дуб" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Кремовый" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -343,23 +354,29 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый под дерево" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремово-белый" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Матовый черный" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Кристально белый" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Стандартный белый" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый с эффектом дерева" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремовый" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Черный" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Орех" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -430,23 +447,28 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Трафик Белый" },
-        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацит Серый" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Чёрный Джет" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Коричневый Глина" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Коричневый Шоколад" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Коричневый Серый" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Сигнальный Белый" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Стандартный белый" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацитовый серый" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Черный" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Золотой дуб" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Орех" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Темный дуб" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Кремовый" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -541,23 +563,29 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый под дерево" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремово-белый" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Матовый черный" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Кристально белый" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Стандартный белый" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый с эффектом дерева" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремовый" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Черный" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Орех" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "sliderSection": {
@@ -612,23 +640,28 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Трафик Белый" },
-        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацит Серый" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Чёрный Джет" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Коричневый Глина" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Коричневый Шоколад" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Коричневый Серый" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Сигнальный Белый" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Стандартный белый" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацитовый серый" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Черный" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Золотой дуб" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Орех" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Темный дуб" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Кремовый" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "sliderSection": {
@@ -673,23 +706,29 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый под дерево" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремово-белый" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Матовый черный" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Кристально белый" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Стандартный белый" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый с эффектом дерева" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремовый" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Черный" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Орех" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "sliderSection": {
@@ -730,23 +769,28 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Трафик Белый" },
-        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацит Серый" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Чёрный Джет" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Коричневый Глина" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Коричневый Шоколад" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Коричневый Серый" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Сигнальный Белый" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Стандартный белый" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацитовый серый" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Черный" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Золотой дуб" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Орех" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Темный дуб" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Кремовый" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая стружка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий тростник" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Тростник" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -797,13 +841,13 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Трафик Белый" },
-        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацит Серый" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Чёрный Джет" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Коричневый Глина" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Коричневый Шоколад" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Коричневый Серый" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Сигнальный Белый" }
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Стандартный белый" },
+        { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Антрацитовый серый" },
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Черный" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Золотой дуб" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Орех" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Темный дуб" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Кремовый" }
       ]
     },
     "sliderSection": {
@@ -947,23 +991,29 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый под дерево" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремово-белый" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Матовый черный" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Кристально белый" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Стандартный белый" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый с эффектом дерева" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремовый" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Черный" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Орех" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая крошка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий рейд" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Рейд" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -1061,23 +1111,29 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый под дерево" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремово-белый" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Матовый черный" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Кристально белый" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Стандартный белый" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый с эффектом дерева" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремовый" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Черный" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Орех" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая крошка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий рейд" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Рейд" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -1189,23 +1245,29 @@
     "colorsSection": {
       "title": "Цвета",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый под дерево" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремово-белый" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Матовый черный" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Кристально белый" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Стандартный белый" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Темный дуб" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Золотой дуб" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Антрацитовый серый" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "Белый с эффектом дерева" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Кремовый" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Черный" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Орех" }
       ]
     },
     "glassesSection": {
       "title": "Типы стекла",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Матовое" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Дождь" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Клеевая крошка" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Узкий рейд" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Рейд" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Прозрачное стекло Float" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "Стекло 4Seasons" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Тонированное стекло" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux прозрачное" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux бронза" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 прозрачное" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla прозрачное" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant прозрачное" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet прозрачное" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor прозрачное" }
       ]
     },
     "handlesSection": {
@@ -1229,12 +1291,24 @@
     "pageTitle": "Условия и положения",
     "content": [
       {
-        "title": "Согласие с условиями",
-        "description": "Настоящие Условия и Положения являются юридически обязательным соглашением, заключенным между вами, лично или от имени организации («вы»), и Viscomplast («мы», «нас» или «наш»), касающимся вашего доступа и использования веб-сайта viscomplast.md, а также любых других форм медиа, медиаканалов, мобильного веб-сайта или мобильного приложения, связанных, подключенных или иным образом связанных с этим (в совокупности именуемые «Сайт»). Вы соглашаетесь, что, получив доступ к Сайту, вы прочли, поняли и согласны соблюдать все эти Условия и Положения. Если вы не согласны со всеми этими Условиями и Положениями, вы прямо запрещены использовать Сайт и должны немедленно прекратить его использование."
+        "title": "Введение",
+        "description": "Используя наш веб-сайт (\"Сайт\"), вы соглашаетесь с сбором и использованием ваших персональных данных в ограниченных целях, изложенных в данном заявлении о политике конфиденциальности данных."
       },
       {
-        "title": "Права на интеллектуальную собственность",
-        "description": "Если не указано иное, Сайт является нашей собственностью, а весь исходный код, базы данных, функционал, программное обеспечение, дизайн веб-сайта, аудио, видео, текст, фотографии и графика на Сайте (в совокупности именуемые «Контент») и торговые марки, сервисные знаки и логотипы, содержащиеся на нем («Торговые марки»), принадлежат нам или лицензированы нам и защищены законами об авторских правах и товарных знаках, а также различными другими правами на интеллектуальную собственность и законами о недобросовестной конкуренции Соединенных Штатов, зарубежных юрисдикций и международными соглашениями. Контент и Торговые марки предоставляются на Сайте «КАК ЕСТЬ» исключительно для вашего ознакомления и личного использования. За исключением случаев, прямо предусмотренных в настоящих Условиях и Положениях, никакая часть Сайта, Контента или Торговых марок не может быть скопирована, воспроизведена, перепубликована, загружена, публично отображена, закодирована, переведена, передана, распространена, продана, лицензирована или использована любым коммерческим способом без нашего предварительного письменного разрешения."
+        "title": "Изменения в политике",
+        "description": "Любые изменения или уточнения условий нашей политики конфиденциальности данных будут опубликованы на этой странице. Информация, предоставленная S.R.L. Viscomlast на сайте http://viscomplast.md, предназначена только для справочных целей."
+      },
+      {
+        "title": "Соглашение пользователя",
+        "description": "Используя Сайт или загружая материалы с Сайта, вы соглашаетесь с условиями, изложенными в данном документе (\"Условия\"). Если вы не согласны с этими Условиями и положениями, не используйте Сайт и не загружайте материалы с него. Ваше использование каждого такого сайта регулируется применимыми к нему условиями и положениями."
+      },
+      {
+        "title": "Дополнительные условия",
+        "description": "Кроме того, при загрузке определенных материалов вам может быть предложено принять дополнительные условия, включая те, что изложены в Лицензионном соглашении с конечным пользователем; эти условия будут иметь приоритет, чтобы избежать конфликтов и двусмысленности."
+      },
+      {
+        "title": "Вопросы и контакт",
+        "description": "Если у вас есть вопросы по данным условиям или работе Сайта, пожалуйста, свяжитесь с администрацией сайта, используя контактные данные, указанные в конце данного документа."
       }
     ]
   },
@@ -1243,23 +1317,31 @@
     "content": [
       {
         "title": "Введение",
-        "description": "Настоящая Политика конфиденциальности объясняет, как мы собираем, используем и защищаем личную информацию наших пользователей при доступе и использовании нашего веб-сайта. Используя этот веб-сайт, вы соглашаетесь с практиками, описанными в этой политике."
+        "description": "Ваша конфиденциальность важна для нас. Политика viscomplast.md направлена на уважение вашей конфиденциальности в отношении любой информации, которую мы можем собрать на нашем сайте https://viscomplast.md/ и других ресурсах, которыми мы владеем и управляем."
       },
       {
         "title": "Собираемая информация",
-        "description": "Мы собираем личную информацию, такую как имя, адрес электронной почты и номер телефона, когда она добровольно предоставляется пользователями."
+        "description": "Мы запрашиваем личную информацию только тогда, когда это необходимо для предоставления услуг. Мы собираем её честно и законно, с вашего ведома и согласия."
       },
       {
-        "title": "Использование информации",
-        "description": "Собранная информация используется для предоставления услуг, персонализации пользовательского опыта, улучшения нашего сайта и общения с пользователями. Мы не продаем личную информацию пользователей третьим лицам."
+        "title": "Хранение и использование информации",
+        "description": "Мы храним информацию только на время, необходимое для предоставления запрошенной услуги. Данные защищены от потерь, краж и несанкционированного доступа. Мы не делимся личной информацией публично или с третьими лицами, за исключением случаев, предусмотренных законом."
+      },
+      {
+        "title": "Внешние ссылки",
+        "description": "Наш сайт может содержать ссылки на внешние ресурсы. Мы не контролируем их и не несем ответственности за их политику конфиденциальности."
+      },
+      {
+        "title": "Атрибуция Freepik",
+        "description": "Некоторые изображения на нашем сайте взяты с Freepik и соответствуют их политике атрибуции. Вы можете найти упоминание 'Designed by Freepik' рядом с использованными ресурсами. Подробнее см. на [Freepik](https://www.freepik.com)."
       },
       {
         "title": "Права пользователей",
-        "description": "Пользователи имеют право на доступ, изменение или удаление предоставленной личной информации. Также они могут отозвать согласие на использование их личных данных в любое время."
+        "description": "Пользователи имеют право на доступ, изменение или удаление предоставленной личной информации. Они также могут в любой момент отозвать согласие на использование персональных данных."
       },
       {
         "title": "Контакт",
-        "description": "Если у вас есть вопросы или замечания по поводу данной Политики конфиденциальности, пожалуйста, свяжитесь с нами по адресу infoviscomplast@gmail.com."
+        "description": "По вопросам, связанным с данной политикой конфиденциальности, обращайтесь к нам по адресу infoviscomplast@gmail.com. Настоящая политика вступает в силу с марта 2024 года."
       }
     ]
   },
@@ -1324,6 +1406,7 @@
         { "label": "Двери из ПВХ", "href": "/usi-pvc" },
         { "label": "Алюминиевые двери", "href": "/usi-aluminiu" },
         { "label": "Раздвижные системы из ПВХ", "href": "/glisante-pvc" },
+        { "label": "Раздвижные системы из Алюминия", "href": "/glisante-aluminiu" },
         { "label": "Раздвижные системы VEKA MOTION", "href": "/glisante-veka-motion" },
         { "label": "Алюминиевые террасные перегородки", "href": "/inchideri-terase" },
         { "label": "Алюминиевые фасады", "href": "/fatade-aluminiu" },

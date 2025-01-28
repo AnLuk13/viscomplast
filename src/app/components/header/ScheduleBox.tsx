@@ -6,7 +6,7 @@ function ScheduleBox({
   styleProps,
   content,
 }: {
-  styleProps: CSSProperties | undefined;
+  styleProps?: CSSProperties | undefined;
 }) {
   return (
     <div className={styles.scheduleBox} style={styleProps}>

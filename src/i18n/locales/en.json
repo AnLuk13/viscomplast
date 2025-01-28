@@ -6,7 +6,7 @@
       "review": {
         "name": "Emilia C.",
         "date": "28.03.2024",
-        "text": "“A hardcoded review from a very satisfied customer of VISCOMPLAST's services.”",
+        "text": "Excellent quality, modern design, and flawless service – highly recommended!",
         "qualityText": "excellent"
       }
     },
@@ -19,7 +19,7 @@
             { "name": "PVC", "href": "/windows-pvc" },
             { "name": "ALUMINUM", "href": "/windows-aluminum" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/ferestre.png"
         },
         {
           "title": "Doors",
@@ -27,7 +27,7 @@
             { "name": "PVC", "href": "/doors-pvc" },
             { "name": "ALUMINUM", "href": "/doors-aluminum" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/usi.png"
         },
         {
           "title": "Sliding Systems",
@@ -36,21 +36,21 @@
             { "name": "ALUMINUM", "href": "/sliding-aluminum" },
             { "name": "VEKA MOTION", "href": "/sliding-veka-motion" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/glisante.png"
         },
         {
           "title": "Terrace Closures",
           "items": [
             { "name": "ALUMINUM", "href": "/terrace-closures-aluminum" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/inchideri-terase.png"
         },
         {
           "title": "Facades",
           "items": [
             { "name": "ALUMINUM", "href": "/facades-aluminum" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/fatade.png"
         },
         {
           "title": "Export",
@@ -59,7 +59,7 @@
             { "name": "IRELAND", "href": "/export-ireland" },
             { "name": "FRANCE / BELGIUM", "href": "/export-france-belgium" }
           ],
-          "imageUrl": "/assets/images/hero-section.png"
+          "imageUrl": "/assets/images/catalogSection/export.png"
         }
       ]
     },
@@ -145,23 +145,29 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Standard White" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark Oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden Oak" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite Grey" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White Wood Effect" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Black" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Walnut" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -232,23 +238,28 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Standard White" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Golden Oak" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Walnut" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Dark Oak" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Cream" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -343,23 +354,29 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Standard White" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark Oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden Oak" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite Grey" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White Wood Effect" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Black" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Walnut" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -430,23 +447,28 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Standard White" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Golden Oak" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Walnut" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Dark Oak" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Cream" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -541,23 +563,29 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Standard White" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark Oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden Oak" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite Grey" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White Wood Effect" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Black" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Walnut" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "sliderSection": {
@@ -612,23 +640,28 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Standard White" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Golden Oak" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Walnut" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Dark Oak" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Cream" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "sliderSection": {
@@ -673,23 +706,29 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Standard White" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark Oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden Oak" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite Grey" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White Wood Effect" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Black" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Walnut" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "sliderSection": {
@@ -730,23 +769,28 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Standard White" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Golden Oak" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Walnut" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Dark Oak" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Cream" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -797,13 +841,13 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Traffic White" },
+        { "id": 1, "name": "RAL 9016", "hex": "#F6F6F6", "description": "Standard White" },
         { "id": 2, "name": "RAL 7016", "hex": "#383E42", "description": "Anthracite Grey" },
-        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Jet Black" },
-        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Clay Brown" },
-        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Chocolate Brown" },
-        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Grey Brown" },
-        { "id": 7, "name": "RAL 9003", "hex": "#F4F4F4", "description": "Signal White" }
+        { "id": 3, "name": "RAL 9005", "hex": "#0A0A0A", "description": "Black" },
+        { "id": 4, "name": "RAL 8003", "hex": "#805A3B", "description": "Golden Oak" },
+        { "id": 5, "name": "RAL 8017", "hex": "#45322E", "description": "Walnut" },
+        { "id": 6, "name": "RAL 8019", "hex": "#3B3B3A", "description": "Dark Oak" },
+        { "id": 7, "name": "RAL 9001", "hex": "#E9E0D2", "description": "Cream" }
       ]
     },
     "sliderSection": {
@@ -947,23 +991,29 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Standard White" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark Oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden Oak" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite Grey" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White Wood Effect" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Black" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Walnut" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -1061,23 +1111,29 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Standard White" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark Oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden Oak" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite Grey" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White Wood Effect" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Black" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Walnut" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -1189,23 +1245,29 @@
     "colorsSection": {
       "title": "Colors",
       "types": [
-        { "id": 1, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark oak" },
-        { "id": 2, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden oak" },
-        { "id": 3, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite grey" },
-        { "id": 4, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White wood-like" },
-        { "id": 5, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream white" },
-        { "id": 6, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Matte black" },
-        { "id": 7, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Crystal white" }
+        { "id": 1, "src": "/assets/images/colorsPvc/42-CrystalWhite-TRP.jpg", "name": "Standard White" },
+        { "id": 2, "src": "/assets/images/colorsPvc/01-DarkOak-TRP.jpg", "name": "Dark Oak" },
+        { "id": 3, "src": "/assets/images/colorsPvc/02-GoldenOak-TRP.jpg", "name": "Golden Oak" },
+        { "id": 4, "src": "/assets/images/colorsPvc/04-AnthrazitGrau-TRP.jpg", "name": "Anthracite Grey" },
+        { "id": 5, "src": "/assets/images/colorsPvc/07-WhiteWoodLike-TRP.jpg", "name": "White Wood Effect" },
+        { "id": 6, "src": "/assets/images/colorsPvc/08-CremeWeiss-TRP.jpg", "name": "Cream" },
+        { "id": 7, "src": "/assets/images/colorsPvc/18-UltimateBlack-TRP.jpg", "name": "Black" },
+        { "id": 8, "src": "/assets/images/colorsPvc/23-NaturalOak-TRP.jpg", "name": "Walnut" }
       ]
     },
     "glassesSection": {
       "title": "Types of Glass",
       "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Obscure" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Rain" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Glue Chip" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Narrow Reed" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Reed" }
+        { "id": 1, "src": "/assets/images/glasses/1.jpg", "name": "Clear Float Glass" },
+        { "id": 2, "src": "/assets/images/glasses/2.jpg", "name": "4Seasons Glass" },
+        { "id": 3, "src": "/assets/images/glasses/3.jpg", "name": "Tinted Glass" },
+        { "id": 4, "src": "/assets/images/glasses/4.jpg", "name": "Matelux Clear" },
+        { "id": 5, "src": "/assets/images/glasses/5.jpg", "name": "Matelux Bronze" },
+        { "id": 6, "src": "/assets/images/glasses/6.jpg", "name": "Delta 2 Clear" },
+        { "id": 7, "src": "/assets/images/glasses/7.jpg", "name": "Chinchilla Clear" },
+        { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
+        { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
+        { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
     "handlesSection": {
@@ -1229,12 +1291,24 @@
     "pageTitle": "Terms and Conditions",
     "content": [
       {
-        "title": "Agreement to Terms",
-        "description": "These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Viscomplast (“we,” “us” or “our”), concerning your access to and use of the viscomplast.md website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are expressly prohibited from using the Site and you must discontinue use immediately."
+        "title": "Introduction",
+        "description": "By using our website (\"the Site\"), you agree to the collection and use of your personal data for the limited purposes outlined in this data privacy policy statement."
       },
       {
-        "title": "Intellectual Property Rights",
-        "description": "Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United States, foreign jurisdictions, and international conventions. The Content and the Marks are provided on the Site “AS IS” for your information and personal use only. Except as expressly provided in these Terms and Conditions, no part of the Site and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission."
+        "title": "Policy Changes",
+        "description": "Any changes or clarifications to the terms of our data privacy policy will be posted on this page. The information provided by S.R.L. Viscomlast at http://viscomplast.md is intended for reference purposes only."
+      },
+      {
+        "title": "User Agreement",
+        "description": "By using the Site or downloading materials from the Site, you agree to the terms and conditions outlined in this document (\"Terms\"). If you do not agree to these Terms and Conditions, do not use the Site or download any materials from it. Your use of each such site is subject to the terms and conditions applicable to that particular site."
+      },
+      {
+        "title": "Additional Terms",
+        "description": "Additionally, when downloading certain materials, you may be required to accept additional terms and conditions, including those outlined in the End User License Agreement; these terms and conditions will take precedence to avoid conflicts and ambiguities."
+      },
+      {
+        "title": "Questions and Contact",
+        "description": "If you have any questions regarding these terms and conditions or the operation of the Site, please contact the site administration team using the contact details provided at the end of this document."
       }
     ]
   },
@@ -1243,23 +1317,31 @@
     "content": [
       {
         "title": "Introduction",
-        "description": "This Privacy Policy explains how we collect, use, and protect the personal information of our users when they access and use our website. By using this website, you agree to the practices described in this policy."
+        "description": "Your privacy is important to us. The policy of viscomplast.md is to respect your privacy regarding any information we may collect from you on our website, https://viscomplast.md/, and other sites we own and operate."
       },
       {
         "title": "Information Collected",
-        "description": "We collect personal information such as name, email address, and phone number when voluntarily provided by users."
+        "description": "We request personal information only when it is necessary to provide the service. We collect it fairly and legally, with your knowledge and consent."
       },
       {
-        "title": "Use of Information",
-        "description": "The collected information is used to provide services, personalize user experiences, improve our website, and communicate with users. We do not sell users' personal information to third parties."
+        "title": "Retention and Use of Information",
+        "description": "We retain the information we collect only for as long as necessary to provide the requested service. Data is protected to prevent loss, theft, and unauthorized access. We will not share personal information publicly or with third parties unless required by law."
+      },
+      {
+        "title": "External Links",
+        "description": "Our site may contain links to external websites. We do not control these sites and are not responsible for their privacy practices."
+      },
+      {
+        "title": "Freepik Attribution",
+        "description": "Some images on our website are sourced from Freepik and comply with their attribution policy. You may find the mention 'Designed by Freepik' near the resources used. More details are available at [Freepik](https://www.freepik.com)."
       },
       {
         "title": "User Rights",
-        "description": "Users have the right to access, modify, or delete their personal information. They can also withdraw consent for the use of their personal data at any time."
+        "description": "Users have the right to access, modify, or delete the personal information provided. They may also withdraw consent for the use of personal data at any time."
       },
       {
         "title": "Contact",
-        "description": "For questions or concerns about this Privacy Policy, please contact us at infoviscomplast@gmail.com."
+        "description": "For questions regarding this privacy policy, please contact us at infoviscomplast@gmail.com. This policy is effective as of March 2024."
       }
     ]
   },
@@ -1324,6 +1406,7 @@
         { "label": "PVC Doors", "href": "/usi-pvc" },
         { "label": "Aluminum Doors", "href": "/usi-aluminiu" },
         { "label": "Sliding PVC Systems", "href": "/glisante-pvc" },
+        { "label": "Sliding Aluminum Systems", "href": "/glisante-aluminiu" },
         { "label": "Sliding Systems VEKA MOTION", "href": "/glisante-veka-motion" },
         { "label": "Aluminum Terrace Closures", "href": "/inchideri-terase" },
         { "label": "Aluminum Facades", "href": "/fatade-aluminiu" },
