@@ -24,6 +24,7 @@ function CatalogCard({
         quality={100}
         className={styles.cardImage}
       />
+      <div className="fadeCatalogCard" />
       <div className={styles.cardTitle}>{title}</div>
       <div className={styles.listItemContainer}>
         {items.map((item) => (

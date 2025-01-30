@@ -20,6 +20,7 @@ function HeroSection({ content }) {
         quality={100}
         className={styles.heroSectionImage}
       />
+      <div className="fadeBackground" />
       <div className={styles.heroSectionBox}>
         <div className={styles.qualityStars}>
           {Array(5)
