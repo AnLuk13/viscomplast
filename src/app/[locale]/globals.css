@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-.fadeCatalogCard {
+.fadeOverlay {
   background: linear-gradient(
     180deg,
     rgba(7, 33, 68, 0.3) 0%,

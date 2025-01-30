@@ -11,6 +11,7 @@ import AboutSection from "@/app/components/globals/AboutSection";
 import SponsorsSection from "@/app/components/globals/SponsorsSection";
 import Footer from "@/app/components/footer/Footer";
 import { useTranslations } from "next-intl";
+import manifest from "@/app/lib/assets-manifest.json";
 
 function CatalogPage({ route }: { route: string }) {
   const t = useTranslations(route);
@@ -21,10 +22,10 @@ function CatalogPage({ route }: { route: string }) {
   const isInchidereSauFatade =
     route === "inchideriTerase" || route === "fatadeAluminiu";
   const isFatade = route === "fatadeAluminiu";
-
+  const heroImage = manifest.hero.find((image) => image.alt === route);
   return (
     <main>
-      <CatalogHeroSection content={t} />
+      <CatalogHeroSection content={t} imageSrc={heroImage.src} />
       <ProfilesSection content={t} />
       {!isInchidereSauFatade && <HardwareSection content={t} />}
       <ColorsSection content={t} />

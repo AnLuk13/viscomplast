@@ -17,7 +17,7 @@ function AboutSection({ showAboutInfo }: { showAboutInfo: boolean }) {
           <>
             <AboutImage
               src="/assets/images/about-us/about-us.jpg"
-              styleProps={{ objectPosition: -20 }}
+              styleProps={{ objectPosition: "left" }}
             />
             <AboutContent content={t} />
           </>

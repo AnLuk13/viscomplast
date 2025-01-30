@@ -16,16 +16,18 @@ import RollerShutterBoxesSection from "@/app/components/catalog-export/RollerShu
 import RollerShuttersSection from "@/app/components/catalog-export/RollerShuttersSection";
 import MosquitoNetsSection from "@/app/components/catalog-export/MosquitoNetsSection";
 import BlindsSection from "@/app/components/catalog-export/BlindsSection";
+import manifest from "@/app/lib/assets-manifest.json";
 
 function ExportPage({ route }: { route: string }) {
   const t = useTranslations(route);
   const isExportFrantaBelgia = route === "exportFrantaBelgia";
   const isSpecialExport =
     route === "exportIrlanda" || route === "exportFrantaBelgia";
+  const heroImage = manifest.hero.find((image) => image.alt === route);
 
   return (
     <main>
-      <CatalogHeroSection content={t} />
+      <CatalogHeroSection content={t} imageSrc={heroImage.src} />
       <ProfilesSection content={t} />
       <SlidingSystemsSection content={t} />
       {!isSpecialExport && <RollerShutterBoxesSection content={t} />}
