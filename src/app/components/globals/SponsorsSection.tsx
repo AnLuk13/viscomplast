@@ -7,6 +7,7 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import manifest from "@/app/lib/assets-manifest.json";
+import { v4 as uuidv4 } from "uuid";
 
 const Marquee = dynamic(() =>
   import("react-fast-marquee").then((mod) => mod.default),
@@ -26,20 +27,7 @@ function SponsorsSection({ color }: { color: string }) {
       <div className={styles.description}>
         {t.rich("description", {
           // eslint-disable-next-line react/no-unstable-nested-components
-          PVC: (chunks) => <b key="PVC">{chunks}</b>,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          ALUMINIU: (chunks) => <b key="ALUMINIU">{chunks}</b>,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          RAMPLAST: (chunks) => <b key="RAMPLAST">{chunks}</b>,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          GEALAN: (chunks) => <b key="GEALAN">{chunks}</b>,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          VEKA: (chunks) => <b key="VEKA">{chunks}</b>,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          KURTOGLU: (chunks) => <b key="KURTOGLU">{chunks}</b>,
-          // eslint-disable-next-line react/no-unstable-nested-components
-          WINKHAUS: (chunks) => <b key="WINKHAUS">{chunks}</b>,
-          // eslint-disable-next-line react/no-unstable-nested-components
+          b: (chunks) => <b key={uuidv4()}>{chunks}</b>,
         })}
       </div>
       <Marquee
