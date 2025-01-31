@@ -74,8 +74,8 @@ function CarouselSlider() {
             sizes="100%"
             priority
             quality={60}
-            className={`${styles.typeGalleryCardGalleryImage} ${isLoading ? "loading" : ""}`}
-            onLoadingComplete={() => setIsLoading(false)}
+            className={`${styles.typeGalleryCardGalleryImage} ${isLoading ? "imageLoading" : ""}`}
+            onLoad={() => setIsLoading(false)}
           />
         </div>
       ))}

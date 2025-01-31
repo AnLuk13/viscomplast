@@ -20,8 +20,8 @@ function HeroSection({ content }) {
         fill
         sizes="100vw"
         quality={100}
-        className={`${styles.heroSectionImage} ${isLoading ? "loading" : ""}`}
-        onLoadingComplete={() => setIsLoading(false)}
+        className={`${styles.heroSectionImage} ${isLoading ? "imageLoading" : ""}`}
+        onLoad={() => setIsLoading(false)}
       />
       <div className="fadeBackground" />
       <div className={styles.heroSectionBox}>

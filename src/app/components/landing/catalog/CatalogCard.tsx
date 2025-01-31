@@ -17,7 +17,6 @@ function CatalogCard({
   return (
     <div className={styles.card}>
       {isLoading && <div className="imageBlur" />}
-
       <Image
         priority
         src={imageUrl}
@@ -25,8 +24,8 @@ function CatalogCard({
         fill
         sizes="(min-width: 1350px) 33.3%, (max-width: 1249px) 100vw, 50vw, 33vw"
         quality={100}
-        className={`${styles.cardImage} ${isLoading ? "loading" : ""}`}
-        onLoadingComplete={() => setIsLoading(false)}
+        className={`${styles.cardImage} ${isLoading ? "imageLoading" : ""}`}
+        onLoad={() => setIsLoading(false)}
       />
       <div className="fadeOverlay" />
       <div className={styles.cardTitle}>{title}</div>

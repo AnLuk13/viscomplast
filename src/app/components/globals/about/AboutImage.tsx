@@ -21,9 +21,9 @@ function AboutImage({
         height={100}
         src={src}
         quality={100}
-        className={`${styles.image} ${isLoading ? "loading" : ""}`}
+        className={`${styles.image} ${isLoading ? "imageLoading" : ""}`}
         style={styleProps}
-        onLoadingComplete={() => setIsLoading(false)}
+        onLoad={() => setIsLoading(false)}
       />
       <div className="fadeOverlay" />
     </div>

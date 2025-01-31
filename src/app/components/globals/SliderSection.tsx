@@ -73,8 +73,8 @@ function SliderSection({ content, route }) {
               sizes="33,3%"
               priority
               quality={60}
-              className={`${styles.sliderImage} ${isLoading ? "loading" : ""}`}
-              onLoadingComplete={() => setIsLoading(false)}
+              className={`${styles.sliderImage} ${isLoading ? "imageLoading" : ""}`}
+              onLoad={() => setIsLoading(false)}
             />
           </div>
         ))}

@@ -30,8 +30,8 @@ function TypeCard({ src, name, description, hex }: TypeCardProps) {
             quality={100}
             width={230}
             height={230}
-            className={`${styles.cardImage} ${isLoading ? "loading" : ""}`}
-            onLoadingComplete={() => setIsLoading(false)}
+            className={`${styles.cardImage} ${isLoading ? "imageLoading" : ""}`}
+            onLoad={() => setIsLoading(false)}
           />
         </div>
       ) : (

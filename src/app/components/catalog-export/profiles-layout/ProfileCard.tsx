@@ -40,8 +40,8 @@ function ProfileCard({
           fill
           sizes="(min-width: 1350px) 43%, (max-width: 860px) 81%"
           quality={80}
-          className={`${styles.profileImage} ${isLoading ? "loading" : ""}`}
-          onLoadingComplete={() => setIsLoading(false)}
+          className={`${styles.profileImage} ${isLoading ? "imageLoading" : ""}`}
+          onLoad={() => setIsLoading(false)}
         />
       </div>
       <div className={styles.profileCardContent}>
