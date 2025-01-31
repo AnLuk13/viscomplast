@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import OfferButton from "@/app/components/buttons/OfferButton";
 import styles from "@/app/styles/catalog-export/profilesSection.module.scss";
@@ -26,19 +26,24 @@ function ProfileCard({
   isEven,
   togglers,
 }: ProfileCardProps) {
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <div
       className={`${styles.profileCard} ${isEven ? styles.even : styles.odd}`}
     >
-      <Image
-        priority
-        src={profile.image}
-        alt={profile.title}
-        fill
-        sizes="(min-width: 1350px) 43%, (max-width: 860px) 81%"
-        quality={50}
-        className={styles.profileImage}
-      />
+      <div className={styles.profileImageContainer}>
+        {isLoading && <div className="imageBlur" />}
+        <Image
+          priority
+          src={profile.image}
+          alt={profile.title}
+          fill
+          sizes="(min-width: 1350px) 43%, (max-width: 860px) 81%"
+          quality={80}
+          className={`${styles.profileImage} ${isLoading ? "loading" : ""}`}
+          onLoadingComplete={() => setIsLoading(false)}
+        />
+      </div>
       <div className={styles.profileCardContent}>
         <div className={styles.tabs}>
           <button

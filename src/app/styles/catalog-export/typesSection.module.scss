@@ -42,6 +42,7 @@
       border-radius: 24px 24px 0 0;
       min-width: 230px;
       min-height: 230px;
+      object-fit: cover;
     }
 
     .cardContent {
@@ -49,7 +50,7 @@
       padding: 14px 24px;
       display: flex;
       justify-content: center;
-      align-items: center;
+      //align-items: center;
       flex-direction: column;
 
       .cardText {
@@ -60,7 +61,7 @@
         letter-spacing: -0.02em;
         color: var(--secondary);
         text-align: left;
-        width: 100%;
+        width: fit-content;
       }
     }
   }
@@ -70,19 +71,29 @@
   //.typesSection {
   //  padding: 24px 16px;
 
-  .typeCard {
-    width: 160px !important;
-    //height: 256px;
+  .cardsBox {
+    row-gap: 28px;
+    column-gap: 24px;
 
-    .cardContent {
-      height: 64px !important;
-    }
+    .typeCard {
+      width: 160px !important;
+      //height: 256px;
 
-    .cardImage {
-      min-width: 160px !important;
-      max-width: 160px;
-      min-height: 160px !important;
-      max-height: 160px;
+      .cardContent {
+        padding: 14px 18px !important;
+        height: 64px !important;
+
+        .cardText {
+          font-size: 18px !important;
+        }
+      }
+
+      .cardImage {
+        min-width: 160px !important;
+        max-width: 160px;
+        min-height: 160px !important;
+        max-height: 160px;
+      }
     }
   }
 }

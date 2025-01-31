@@ -16,48 +16,48 @@
         {
           "title": "Windows",
           "items": [
-            { "name": "PVC", "href": "/windows-pvc" },
-            { "name": "ALUMINUM", "href": "/windows-aluminum" }
+            { "name": "PVC", "href": "/ferestre-pvc" },
+            { "name": "ALUMINUM", "href": "/ferestre-aluminiu" }
           ],
           "imageUrl": "/assets/images/catalogSection/ferestre.jpg"
         },
         {
           "title": "Doors",
           "items": [
-            { "name": "PVC", "href": "/doors-pvc" },
-            { "name": "ALUMINUM", "href": "/doors-aluminum" }
+            { "name": "PVC", "href": "/usi-pvc" },
+            { "name": "ALUMINUM", "href": "/usi-aluminiu" }
           ],
           "imageUrl": "/assets/images/catalogSection/usi.png"
         },
         {
           "title": "Sliding Systems",
           "items": [
-            { "name": "PVC", "href": "/sliding-pvc" },
-            { "name": "ALUMINUM", "href": "/sliding-aluminum" },
-            { "name": "VEKA MOTION", "href": "/sliding-veka-motion" }
+            { "name": "PVC", "href": "/glisante-pvc" },
+            { "name": "ALUMINUM", "href": "/glisante-aluminiu" },
+            { "name": "VEKA MOTION", "href": "/glisante-veka-motion" }
           ],
           "imageUrl": "/assets/images/catalogSection/glisante.png"
         },
         {
           "title": "Terrace Closures",
           "items": [
-            { "name": "ALUMINUM", "href": "/terrace-closures-aluminum" }
+            { "name": "ALUMINUM", "href": "/inchideri-terase" }
           ],
           "imageUrl": "/assets/images/catalogSection/inchideri-terase.png"
         },
         {
           "title": "Facades",
           "items": [
-            { "name": "ALUMINUM", "href": "/facades-aluminum" }
+            { "name": "ALUMINUM", "href": "/fatade-aluminiu" }
           ],
           "imageUrl": "/assets/images/catalogSection/fatade.png"
         },
         {
           "title": "Export",
           "items": [
-            { "name": "ITALY", "href": "/export-italy" },
-            { "name": "IRELAND", "href": "/export-ireland" },
-            { "name": "FRANCE / BELGIUM", "href": "/export-france-belgium" }
+            { "name": "ITALY", "href": "/export-italia" },
+            { "name": "IRELAND", "href": "/export-irlanda" },
+            { "name": "FRANCE / BELGIUM", "href": "/export-franta-belgia" }
           ],
           "imageUrl": "/assets/images/catalogSection/export.png"
         }
@@ -1392,7 +1392,7 @@
         "options": [
           { "value": "/export-italia", "label": "Italy" },
           { "value": "/export-irlanda", "label": "Ireland" },
-          { "value": "/export-franta-belgia", "label": "France/Belgium" }
+          { "value": "/export-franta-belgia", "label": "France/ Belgium" }
         ]
       }
     ]

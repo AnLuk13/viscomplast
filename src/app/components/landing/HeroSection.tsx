@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import styles from "@/app/styles/landing/heroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
@@ -9,8 +9,10 @@ import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 import OfferButton from "@/app/components/buttons/OfferButton";
 
 function HeroSection({ content }) {
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <section className={styles.heroSection}>
+      {isLoading && <div className="imageBlur" />}
       <Image
         priority
         src="/assets/images/hero-section.jpg"
@@ -18,7 +20,8 @@ function HeroSection({ content }) {
         fill
         sizes="100vw"
         quality={100}
-        className={styles.heroSectionImage}
+        className={`${styles.heroSectionImage} ${isLoading ? "loading" : ""}`}
+        onLoadingComplete={() => setIsLoading(false)}
       />
       <div className="fadeBackground" />
       <div className={styles.heroSectionBox}>

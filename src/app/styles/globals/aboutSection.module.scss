@@ -33,15 +33,18 @@
     }
 
     .imageBox {
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
 
       @media (min-width: 720px) and (max-width: 846px) {
         height: 600px !important;
       }
 
       .image {
+        position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;

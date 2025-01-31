@@ -37,6 +37,20 @@
   width: 100%;
 }
 
+.imageBlur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2); /* Light blur effect */
+  backdrop-filter: blur(2px);
+  transition: opacity 0.5s ease;
+}
+
+.loading {
+  filter: blur(8px);
+  transition: filter 0.5s ease-in-out;
+}
+
 .sectionContainer {
   display: flex;
   flex-direction: column;

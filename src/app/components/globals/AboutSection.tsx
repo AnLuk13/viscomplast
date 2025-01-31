@@ -23,7 +23,7 @@ function AboutSection({ showAboutInfo }: { showAboutInfo: boolean }) {
           </>
         )}
         <AboutForm content={t} />
-        <AboutImage src="/assets/images/about-us/office-viscomplast.jpg" />
+        <AboutImage src="/assets/images/about-us/window-production.jpg" />
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-export const customStyles = {
+export const customDropdownStyles = {
   control: (provided, state) => ({
     ...provided,
     backgroundColor: "transparent",
@@ -30,8 +30,8 @@ export const customStyles = {
     width: 130,
     boxSizing: "contain",
     left: "50%",
-    transform: "translate(-50%, -5px)",
-    border: "1px solid #ccc",
+    transform: "translate(-50%, -3px)",
+    outline: "1px solid #ccc",
     borderRadius: 8,
   }),
   menuList: (provided) => ({

@@ -3,7 +3,7 @@
 import React from "react";
 import Select from "react-select";
 import { useRouter } from "@/i18n/routing";
-import { customStyles } from "@/app/lib/consts/customStyles";
+import { customDropdownStyles } from "@/app/lib/consts/customStyles";
 import type { Option } from "@/app/lib/consts/types";
 
 type CustomDropdownProps = {
@@ -17,7 +17,7 @@ function CustomDropdown({ options, defaultValue }: CustomDropdownProps) {
   return (
     <Select
       options={options}
-      styles={customStyles}
+      styles={customDropdownStyles}
       value={defaultValue}
       defaultValue={defaultValue}
       onChange={(selected) => {

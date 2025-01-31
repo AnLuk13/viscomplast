@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 import LeftArrow from "@/app/components/svg-icons/slider/LeftArrow";
@@ -23,6 +23,7 @@ const sliderImages = [
 ];
 
 function CarouselSlider() {
+  const [isLoading, setIsLoading] = useState(true);
   const renderArrowNext = (onClickHandler, hasNext, label) =>
     hasNext && (
       <button
@@ -65,6 +66,7 @@ function CarouselSlider() {
           key={`slider-image-${image}`}
           className={styles.typeGalleryCardGalleryImageBox}
         >
+          {isLoading && <div className="imageBlur" />}
           <Image
             src={image.src}
             alt={image.alt}
@@ -72,7 +74,8 @@ function CarouselSlider() {
             sizes="100%"
             priority
             quality={60}
-            className={styles.typeGalleryCardGalleryImage}
+            className={`${styles.typeGalleryCardGalleryImage} ${isLoading ? "loading" : ""}`}
+            onLoadingComplete={() => setIsLoading(false)}
           />
         </div>
       ))}

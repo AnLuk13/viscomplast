@@ -16,48 +16,48 @@
         {
           "title": "Окна",
           "items": [
-            { "name": "ПВХ", "href": "/okna-pvx" },
-            { "name": "АЛЮМИНИЙ", "href": "/okna-alyuminiy" }
+            { "name": "ПВХ", "href": "/ferestre-pvc" },
+            { "name": "АЛЮМИНИЙ", "href": "/ferestre-aluminiu" }
           ],
           "imageUrl": "/assets/images/catalogSection/ferestre.jpg"
         },
         {
           "title": "Двери",
           "items": [
-            { "name": "ПВХ", "href": "/dveri-pvx" },
-            { "name": "АЛЮМИНИЙ", "href": "/dveri-alyuminiy" }
+            { "name": "ПВХ", "href": "/usi-pvc" },
+            { "name": "АЛЮМИНИЙ", "href": "/usi-aluminiu" }
           ],
           "imageUrl": "/assets/images/catalogSection/usi.png"
         },
         {
           "title": "Раздвижные системы",
           "items": [
-            { "name": "ПВХ", "href": "/razdvizhnye-pvx" },
-            { "name": "АЛЮМИНИЙ", "href": "/razdvizhnye-alyuminiy" },
-            { "name": "VEKA MOTION", "href": "/razdvizhnye-veka-motion" }
+            { "name": "ПВХ", "href": "/glisante-pvc" },
+            { "name": "АЛЮМИНИЙ", "href": "/glisante-aluminiu" },
+            { "name": "VEKA MOTION", "href": "/glisante-veka-motion" }
           ],
           "imageUrl": "/assets/images/catalogSection/glisante.png"
         },
         {
           "title": "Закрытия террас",
           "items": [
-            { "name": "АЛЮМИНИЙ", "href": "/zakrytiya-terras-alyuminiy" }
+            { "name": "АЛЮМИНИЙ", "href": "/inchideri-terase" }
           ],
           "imageUrl": "/assets/images/catalogSection/inchideri-terase.png"
         },
         {
           "title": "Фасады",
           "items": [
-            { "name": "АЛЮМИНИЙ", "href": "/fasady-alyuminiy" }
+            { "name": "АЛЮМИНИЙ", "href": "/fatade-aluminiu" }
           ],
           "imageUrl": "/assets/images/catalogSection/fatade.png"
         },
         {
           "title": "Экспорт",
           "items": [
-            { "name": "ИТАЛИЯ", "href": "/eksport-italiya" },
-            { "name": "ИРЛАНДИЯ", "href": "/eksport-irlandiya" },
-            { "name": "ФРАНЦИЯ / БЕЛЬГИЯ", "href": "/eksport-frantsiya-belgiya" }
+            { "name": "ИТАЛИЯ", "href": "/export-italia" },
+            { "name": "ИРЛАНДИЯ", "href": "/export-irlanda" },
+            { "name": "ФРАНЦИЯ / БЕЛЬГИЯ", "href": "/export-franta-belgia" }
           ],
           "imageUrl": "/assets/images/catalogSection/export.png"
         }

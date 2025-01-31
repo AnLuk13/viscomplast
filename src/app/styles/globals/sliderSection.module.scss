@@ -26,6 +26,16 @@
     user-select: none;
     overflow: visible;
 
+    > div {
+      overflow-y: visible !important;
+      overflow-x: clip;
+
+      > div {
+        overflow-y: visible !important;
+        overflow-x: clip;
+      }
+    }
+
     .slide {
       position: relative;
 

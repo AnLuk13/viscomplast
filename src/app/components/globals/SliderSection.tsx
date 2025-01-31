@@ -11,6 +11,7 @@ import Image from "next/image";
 import manifest from "@/app/lib/assets-manifest.json";
 
 function SliderSection({ content, route }) {
+  const [isLoading, setIsLoading] = useState(true);
   const carouselRef = useRef<Carousel>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
   const sliderImages = manifest[route];
@@ -64,6 +65,7 @@ function SliderSection({ content, route }) {
               currentSlide === index ? styles.centerSlide : styles.sideSlide
             }`}
           >
+            {isLoading && <div className="imageBlur" />}
             <Image
               src={image.src}
               alt={image.alt}
@@ -71,7 +73,8 @@ function SliderSection({ content, route }) {
               sizes="33,3%"
               priority
               quality={60}
-              className={styles.sliderImage}
+              className={`${styles.sliderImage} ${isLoading ? "loading" : ""}`}
+              onLoadingComplete={() => setIsLoading(false)}
             />
           </div>
         ))}

@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import styles from "@/app/styles/globals/aboutSection.module.scss";
 
@@ -10,17 +10,22 @@ function AboutImage({
   src: string;
   styleProps?: CSSProperties | undefined;
 }) {
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <div className={`${styles.card} ${styles.imageBox}`}>
+      {isLoading && <div className="imageBlur" />}
       <Image
         sizes="100vw"
-        alt="Office"
-        width={48}
-        height={48}
+        alt="About image"
+        width={100}
+        height={100}
         src={src}
-        className={styles.image}
+        quality={100}
+        className={`${styles.image} ${isLoading ? "loading" : ""}`}
         style={styleProps}
+        onLoadingComplete={() => setIsLoading(false)}
       />
+      <div className="fadeOverlay" />
     </div>
   );
 }
