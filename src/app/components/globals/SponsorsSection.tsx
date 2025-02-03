@@ -14,7 +14,7 @@ const Marquee = dynamic(() =>
 );
 
 function SponsorsSection({ color }: { color: string }) {
-  const t = useTranslations("sponsorSection");
+  const t = useTranslations("sponsorsSection");
   const sponsors = manifest.sponsors;
 
   return (

@@ -673,7 +673,7 @@
   },
   "glisanteVekaMotion": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Glisante Veka Motion",
+      "catalogHeroTitle": "Glisante VEKA MOTION",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -1099,8 +1099,8 @@
           "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt create pentru deschideri largi, combinând durabilitatea aluminiului cu eficiența energetică și estetica modernă."
         },
         {
-          "title": "VEKA Motion",
-          "description": "VEKA Motion este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
+          "title": "VEKA MOTION",
+          "description": "VEKA MOTION este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
         }
       ]
     },
@@ -1219,8 +1219,8 @@
           "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt create pentru deschideri largi, combinând durabilitatea aluminiului cu eficiența energetică și estetica modernă."
         },
         {
-          "title": "VEKA Motion",
-          "description": "VEKA Motion este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
+          "title": "VEKA MOTION",
+          "description": "VEKA MOTION este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
         }
       ]
     },
@@ -1380,7 +1380,7 @@
         "options": [
           { "value": "/glisante-pvc", "label": "PVC" },
           { "value": "/glisante-aluminiu", "label": "Aluminiu" },
-          { "value": "/glisante-veka-motion", "label": "Veka Motion" }
+          { "value": "/glisante-veka-motion", "label": "VEKA MOTION" }
         ]
       },
       { "type": "link", "label": "Închideri terase", "href": "/inchideri-terase" },
@@ -1438,7 +1438,7 @@
     },
     "developedBy": "Dezvoltat de @NiceGuy"
   },
-  "sponsorSection": {
+  "sponsorsSection": {
     "title": "Partenerii noștri",
     "description": "Oferim o gamă completă de servicii pentru producerea și instalarea structurilor din <b>PVC</b> și <b>aluminiu</b>, utilizând sisteme de profil <b>VEKA</b>, <b>KURTOGLU</b>, <b>WDS</b> și <b>ALUTECH</b>. În fabricarea structurilor, folosim doar feronerie de înaltă calitate de la <b>WINKHAUS</b> și <b>MACO</b>."
   },
