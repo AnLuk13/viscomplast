@@ -17,6 +17,7 @@ import RollerShuttersSection from "@/app/components/catalog-export/RollerShutter
 import MosquitoNetsSection from "@/app/components/catalog-export/MosquitoNetsSection";
 import BlindsSection from "@/app/components/catalog-export/BlindsSection";
 import manifest from "@/app/lib/assets-manifest.json";
+import FirestoreSection from "@/app/components/wrapper/FireStoreSection";
 
 function ExportPage({ route }: { route: string }) {
   const t = useTranslations(route);
@@ -28,16 +29,16 @@ function ExportPage({ route }: { route: string }) {
   return (
     <main>
       <CatalogHeroSection content={t} imageSrc={heroImage.src} />
-      <ProfilesSection content={t} />
-      <SlidingSystemsSection content={t} />
+      <FirestoreSection route={route} Component={ProfilesSection} />
+      <FirestoreSection route={route} Component={SlidingSystemsSection} />
       {!isSpecialExport && <RollerShutterBoxesSection content={t} />}
       {!isSpecialExport && <RollerShuttersSection content={t} />}
       {!isSpecialExport && <MosquitoNetsSection content={t} />}
       {isExportFrantaBelgia && <BlindsSection content={t} />}
-      <HardwareSection content={t} />
+      <FirestoreSection route={route} Component={HardwareSection} />
       <ColorsSection content={t} />
       <GlassesSection content={t} />
-      <HandlesSection content={t} />
+      <HandlesSection route={route} />
       <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
       <SliderSection content={t} route={route} />
       <AboutSection showAboutInfo={false} />

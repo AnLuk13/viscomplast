@@ -81,7 +81,9 @@
           box-sizing: border-box;
           height: 592px !important;
           width: 100% !important;
-          object-fit: cover;
+          min-width: 380px;
+          object-fit: contain;
+          border: 1px solid var(--background);
 
           @media (max-width: 518px) {
             height: 200px !important;
@@ -96,7 +98,7 @@
           }
 
           @media (min-width: 721px) and (max-width: 860px) {
-            height: 500px !important;
+            height: 450px !important;
           }
 
           @media (max-width: 860px) {
@@ -109,9 +111,12 @@
           display: flex;
           flex-direction: column;
           width: 50%;
-          justify-content: space-between;
-          height: 592px;
+          //justify-content: space-between;
           background: var(--white);
+
+          @media (min-width: 861px) {
+            height: 592px;
+          }
 
           .tabs {
             display: flex;
@@ -153,17 +158,30 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 432px;
+            height: 100%;
             padding: 48px;
-            gap: 10px;
+            //gap: 10px;
+            gap: clamp(16px, 5vw, 26px);
+
+            @media (min-width: 861px) and (max-width: 940px) {
+              padding: 36px;
+            }
 
             .profileInfoTitle {
               font-family: var(--font-family);
               font-weight: 400;
-              font-size: 48px;
+              font-size: 42px;
               line-height: 133%;
               letter-spacing: -0.02em;
               color: var(--secondary);
+
+              @media (min-width: 1025px) {
+                font-size: 48px;
+              }
+
+              @media (min-width: 861px) and (max-width: 940px) {
+                font-size: 38px;
+              }
             }
           }
 
@@ -212,10 +230,9 @@
       min-width: 343px !important;
       width: 100% !important;
       border-radius: 0 0 48px 48px !important;
-      height: 552px !important;
+      height: 420px !important;
 
       .profileInfoBox {
-        height: 448px !important;
         padding: 24px !important;
 
         .profileInfoTitle {

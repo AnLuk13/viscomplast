@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 function TextPage({ route }: { route: string }) {
   const t = useTranslations(route);
   return (
-    <main className={styles.mainContainer}>
+    <main className="mainContainer">
       <section
         className="sectionContainer"
         style={{

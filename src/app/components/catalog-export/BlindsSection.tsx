@@ -22,6 +22,7 @@ function BlindsSection({ content }) {
           key={uuidv4()}
           title={card.title}
           description={card.description}
+          gallery={card.gallery}
         />
       ))}
     </section>

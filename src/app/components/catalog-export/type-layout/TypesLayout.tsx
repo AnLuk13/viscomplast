@@ -5,22 +5,23 @@ import styles from "@/app/styles/catalog-export/typesSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import TypeCard from "@/app/components/catalog-export/type-layout/TypeCard";
 
-type TypeLayoutProps = {
+type TypesLayoutProps = {
   data: {
     id: number;
     src?: string | undefined;
-    name: string;
+    name: string | Record<string, string>;
     description?: string | undefined;
     hex?: string | undefined;
   }[];
-  title: string;
+  title: string | Record<string, string>;
+  locale?: string;
 };
-function TypesLayout({ data, title }: TypeLayoutProps) {
+function TypesLayout({ data, title, locale }: TypesLayoutProps) {
   return (
     <div className="sectionContainer">
       <div className={styles.typesSectionTitle}>
         <BlinkIcon color="#18437E" />
-        <div>{title}</div>
+        <div>{typeof title === "object" ? title[locale] : title}</div>
         <BlinkIcon color="#18437E" />
       </div>
       <div className={styles.cardsBox}>
@@ -28,7 +29,7 @@ function TypesLayout({ data, title }: TypeLayoutProps) {
           <TypeCard
             key={card.id}
             src={card.src || ""}
-            name={card.name}
+            name={typeof card.name === "object" ? card.name[locale] : card.name}
             description={card.description || ""}
             hex={card.hex || ""}
           />

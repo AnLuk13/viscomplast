@@ -398,7 +398,7 @@
   },
   "usiAluminiu": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Ferestre din Aluminiu",
+      "catalogHeroTitle": "Uși din Aluminiu",
       "qualityText": "excelent"
     },
     "profilesSection": {
@@ -956,7 +956,12 @@
       "typeGalleryCards": [
         {
           "title": "Un singur tip",
-          "description": "Casonetele sunt concepute pentru a oferi durabilitate și o integrare perfectă în designul arhitectural al clădirilor."
+          "description": "Casonetele sunt concepute pentru a oferi durabilitate și o integrare perfectă în designul arhitectural al clădirilor.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         }
       ]
     },
@@ -966,11 +971,23 @@
       "typeGalleryCards": [
         {
           "title": "Tapparele manuale",
-          "description": "Sistemele de tapparele manuale oferă un control simplu și eficient, fiind ideale pentru spații rezidențiale."
+          "description": "Sistemele de tapparele manuale oferă un control simplu și eficient, fiind ideale pentru spații rezidențiale.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ],
+          "isManual": "true"
         },
         {
           "title": "Tapparele electrice",
-          "description": "Tapparele electrice adaugă confort și funcționalitate, permițând o operare automată cu telecomandă sau sistem smart."
+          "description": "Tapparele electrice adaugă confort și funcționalitate, permițând o operare automată cu telecomandă sau sistem smart.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ],
+          "isManual": "false"
         }
       ]
     },
@@ -980,7 +997,12 @@
       "typeGalleryCards": [
         {
           "title": "Zanzariere plisse",
-          "description": "Zanzarierele plisse sunt proiectate pentru a fi ușor de utilizat și de întreținut, oferind o barieră eficientă împotriva insectelor."
+          "description": "Zanzarierele plisse sunt proiectate pentru a fi ușor de utilizat și de întreținut, oferind o barieră eficientă împotriva insectelor.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         }
       ]
     },
@@ -1230,11 +1252,21 @@
       "typeGalleryCards": [
         {
           "title": "Rulouri manuale",
-          "description": "Rulourile manuale oferă un control simplu și eficient, fiind ideale pentru utilizare în spații rezidențiale și comerciale."
+          "description": "Rulourile manuale oferă un control simplu și eficient, fiind ideale pentru utilizare în spații rezidențiale și comerciale.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         },
         {
           "title": "Rulouri electrice",
-          "description": "Rulourile electrice adaugă confort și modernitate, permițând controlul automat prin telecomandă sau sisteme smart."
+          "description": "Rulourile electrice adaugă confort și modernitate, permițând controlul automat prin telecomandă sau sisteme smart.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         }
       ]
     },
@@ -1344,6 +1376,9 @@
         "description": "Pentru întrebări legate de această politică de confidențialitate, vă rugăm să ne contactați la infoviscomplast@gmail.com. Această politică intră în vigoare începând cu martie 2024."
       }
     ]
+  },
+  "invalidPage": {
+    "text": "Acasă"
   },
   "header": {
     "schedule": {

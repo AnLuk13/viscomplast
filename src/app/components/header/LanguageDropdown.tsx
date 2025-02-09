@@ -4,17 +4,14 @@ import React from "react";
 import Select from "react-select";
 import { usePathname, useRouter } from "@/i18n/routing";
 import { useLocale } from "next-intl";
+import { languages } from "@/app/lib/consts/common";
 
 function LanguageDropdown({ isMobileNav }: { isMobileNav: boolean }) {
   const pathname = usePathname();
   const locale = useLocale();
   const router = useRouter();
 
-  const languageOptions = [
-    { value: "ro", label: "Moldova", flag: "https://flagcdn.com/w320/md.png" },
-    { value: "ru", label: "Russia", flag: "https://flagcdn.com/w320/ru.png" },
-    { value: "en", label: "English", flag: "https://flagcdn.com/w320/us.png" },
-  ].map(({ value, label, flag }) => ({
+  const languageOptions = languages.map(({ value, label, flag }) => ({
     value,
     label: (
       <div style={{ display: "flex", alignItems: "center" }}>

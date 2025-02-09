@@ -87,5 +87,6 @@ module.exports = {
       },
     ],
     "css-modules/no-undef-class": "warn", // error
+    "@typescript-eslint/no-explicit-any": "warn",
   },
 };

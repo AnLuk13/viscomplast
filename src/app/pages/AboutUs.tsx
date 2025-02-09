@@ -2,7 +2,7 @@ import React from "react";
 import AboutSection from "@/app/components/globals/AboutSection";
 import Footer from "@/app/components/footer/Footer";
 
-function Page() {
+function AboutUs() {
   return (
     <main>
       <AboutSection showAboutInfo />
@@ -11,4 +11,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default AboutUs;

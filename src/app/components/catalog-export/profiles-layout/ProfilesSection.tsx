@@ -1,24 +1,30 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/app/styles/catalog-export/profilesSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import ProfilesGridLayout from "@/app/components/catalog-export/profiles-layout/ProfilesGridLayout";
 
-function ProfilesSection({ content }) {
-  const profiles = content.raw("profilesSection.profiles");
-  const togglers = content.raw("profilesSection.togglers");
+function ProfilesSection({ data, locale }) {
+  const profiles = Array.isArray(data?.profiles) ? data.profiles : []; // ✅ Ensure it’s an array
+  const togglers = data?.togglers;
   const [activeToggles, setActiveToggles] = useState<
     Record<number, "description" | "characteristics">
-  >(() =>
-    profiles.reduce(
-      (acc: Record<number, "description" | "characteristics">, profile) => {
-        acc[profile.id] = "description"; // Assign the initial state for each profile
-        return acc;
-      },
-      {} as Record<number, "description" | "characteristics">, // Provide the initial value with the correct type
-    ),
-  );
+  >({});
+
+  useEffect(() => {
+    if (profiles.length > 0) {
+      setActiveToggles(
+        profiles.reduce(
+          (acc: Record<number, "description" | "characteristics">, profile) => {
+            acc[profile.id] = "description"; // ✅ Set default to 'description'
+            return acc;
+          },
+          {},
+        ),
+      );
+    }
+  }, [profiles]);
 
   const handleToggle = (
     id: number,
@@ -31,7 +37,7 @@ function ProfilesSection({ content }) {
     <div className={styles.profilesSection}>
       <div className={styles.profilesSectionTitle}>
         <BlinkIcon color="#18437E" />
-        <div>{content("profilesSection.sectionTitle")}</div>
+        <div>{data?.sectionTitle[locale]}</div>
         <BlinkIcon color="#18437E" />
       </div>
       <div className={styles.profilesContainer}>
@@ -40,6 +46,7 @@ function ProfilesSection({ content }) {
           profiles={profiles}
           activeToggles={activeToggles}
           onToggle={handleToggle}
+          locale={locale}
         />
       </div>
     </div>

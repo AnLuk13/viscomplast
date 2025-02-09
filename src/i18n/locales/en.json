@@ -281,7 +281,7 @@
   },
   "usiPvc": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Aluminum Windows",
+      "catalogHeroTitle": "PVC Doors",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -398,7 +398,7 @@
   },
   "usiAluminiu": {
     "catalogHeroSection": {
-      "catalogHeroTitle": "Aluminum Windows",
+      "catalogHeroTitle": "Aluminum Doors",
       "qualityText": "excellent"
     },
     "profilesSection": {
@@ -956,7 +956,12 @@
       "typeGalleryCards": [
         {
           "title": "Single type",
-          "description": "Roller shutter boxes are designed to offer durability and seamless integration into the architectural design of buildings."
+          "description": "Roller shutter boxes are designed to offer durability and seamless integration into the architectural design of buildings.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         }
       ]
     },
@@ -966,11 +971,24 @@
       "typeGalleryCards": [
         {
           "title": "Manual roller shutters",
-          "description": "Manual roller shutter systems offer simple and efficient control, ideal for residential spaces."
+          "description": "Manual roller shutter systems offer simple and efficient control, ideal for residential spaces.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+
+          ],
+          "isManual": "true"
         },
         {
           "title": "Electric roller shutters",
-          "description": "Electric roller shutters add convenience and functionality, allowing automatic operation with remote control or smart systems."
+          "description": "Electric roller shutters add convenience and functionality, allowing automatic operation with remote control or smart systems.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ],
+          "isManual": "false"
         }
       ]
     },
@@ -980,7 +998,12 @@
       "typeGalleryCards": [
         {
           "title": "Plisse mosquito nets",
-          "description": "Plisse mosquito nets are designed to be easy to use and maintain, providing an effective barrier against insects."
+          "description": "Plisse mosquito nets are designed to be easy to use and maintain, providing an effective barrier against insects.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         }
       ]
     },
@@ -1230,11 +1253,21 @@
       "typeGalleryCards": [
         {
           "title": "Manual blinds",
-          "description": "Manual blinds offer simple and efficient control, making them ideal for use in residential and commercial spaces."
+          "description": "Manual blinds offer simple and efficient control, making them ideal for use in residential and commercial spaces.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         },
         {
           "title": "Electric blinds",
-          "description": "Electric blinds add convenience and modernity, allowing automatic control through remote or smart systems."
+          "description": "Electric blinds add convenience and modernity, allowing automatic control through remote or smart systems.",
+          "gallery": [
+            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
+            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
+          ]
         }
       ]
     },
@@ -1344,6 +1377,9 @@
         "description": "For questions regarding this privacy policy, please contact us at infoviscomplast@gmail.com. This policy is effective as of March 2024."
       }
     ]
+  },
+  "invalidPage": {
+    "text": "Go home"
   },
   "header": {
     "schedule": {

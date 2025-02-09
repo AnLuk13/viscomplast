@@ -6,6 +6,7 @@ import Heading from "@/app/components/header/Heading";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import QueryProvider from "@/app/components/helper/QueryProvider";
 
 export async function generateMetadata({
   params: rawParams,
@@ -37,7 +38,7 @@ export async function generateMetadata({
     description: localizedDescription[locale],
     keywords: [
       "uși",
-      "ferestre-pvc",
+      "ferestre-pvc-1",
       "viscomplast",
       "veka",
       "gealan",
@@ -59,7 +60,7 @@ export async function generateMetadata({
       locale: locale === "ro" ? "ro_RO" : locale === "ru" ? "ru_RU" : "en_US",
       images: [
         {
-          url: "/opengraph-image.jpg",
+          url: "/assets/images/logo.png",
           width: 1200,
           height: 630,
           alt: "Viscomplast",
@@ -89,10 +90,12 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider messages={messages}>
-          <Heading />
-          {children}{" "}
-        </NextIntlClientProvider>
+        <QueryProvider>
+          <NextIntlClientProvider messages={messages}>
+            <Heading />
+            {children}
+          </NextIntlClientProvider>
+        </QueryProvider>
       </body>
     </html>
   );

@@ -9,14 +9,18 @@ type ProfileCardProps = {
   profile: {
     id: number;
     image: string;
-    title: string;
-    description: string;
-    characteristics: string[];
+    title: Record<string, string>;
+    description: Record<string, string>;
+    characteristics: Record<string, string[]>;
   };
   activeToggle: "description" | "characteristics";
   onToggle: (id: number, toggle: "description" | "characteristics") => void;
   isEven: boolean;
-  togglers: { description: string; characteristics: string };
+  togglers: {
+    description: Record<string, string>;
+    characteristics: Record<string, string>;
+  };
+  locale: string;
 };
 
 function ProfileCard({
@@ -25,6 +29,7 @@ function ProfileCard({
   onToggle,
   isEven,
   togglers,
+  locale,
 }: ProfileCardProps) {
   const [isLoading, setIsLoading] = useState(true);
   return (
@@ -36,7 +41,7 @@ function ProfileCard({
         <Image
           priority
           src={profile.image}
-          alt={profile.title}
+          alt={profile.title[locale]}
           fill
           sizes="(min-width: 1350px) 43%, (max-width: 860px) 81%"
           quality={80}
@@ -53,7 +58,7 @@ function ProfileCard({
             }`}
             onClick={() => onToggle(profile.id, "description")}
           >
-            {togglers.description}
+            {togglers?.description[locale]}
           </button>
           <button
             type="button"
@@ -62,18 +67,18 @@ function ProfileCard({
             }`}
             onClick={() => onToggle(profile.id, "characteristics")}
           >
-            {togglers.characteristics}
+            {togglers?.characteristics[locale]}
           </button>
         </div>
         <div className={styles.profileInfoBox}>
-          <div className={styles.profileInfoTitle}>{profile.title}</div>
+          <div className={styles.profileInfoTitle}>{profile.title[locale]}</div>
           {activeToggle === "description" ? (
             <div className={styles.profileDescription}>
-              {profile.description}
+              {profile?.description[locale]}
             </div>
           ) : (
             <ul className={styles.profileCharacteristics}>
-              {profile.characteristics.map((item) => (
+              {profile.characteristics[locale].map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

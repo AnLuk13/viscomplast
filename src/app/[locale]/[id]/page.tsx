@@ -1,33 +1,30 @@
 "use client";
 
-// import { useRouter } from '@/i18n/routing';
-
+import CatalogPage from "@/app/pages/CatalogPage";
 import { useParams } from "next/navigation";
-import { useLocale } from "next-intl";
-import { usePathname } from "@/i18n/routing";
+import ExportPage from "@/app/pages/ExportPage";
+import { routeToCamelCase } from "@/app/lib/utils/routeToCamelCase";
+import {
+  catalogRoutes,
+  exportRoutes,
+  specialRoutes,
+} from "@/app/lib/consts/common";
+import InvalidPage from "@/app/pages/InvalidPage";
 
-export default function Page() {
-  const params = useParams();
-  const locale = useLocale();
-  const pathname = usePathname();
-  console.log("params", params);
-  console.log(locale);
-  console.log(pathname);
-  const id = params.id;
-
-  // const router = useRouter();
-  // console.log(router);
-  // const { id } = router.query;
-
-  if (!id) {
-    return <p>Loading...</p>; // Handle cases where `id` is undefined
+function Page() {
+  const { id } = useParams();
+  const route = routeToCamelCase(id as string);
+  if (specialRoutes[route]) {
+    const Component = specialRoutes[route];
+    return <Component route={route} />;
   }
-
-  return (
-    <div>
-      <h1>Dynamic Page</h1>
-      <p>The ID is: {id}</p>
-      {/* <button onClick={() => router2.push('/')} /> */}
-    </div>
+  return exportRoutes.includes(route) ? (
+    <ExportPage route={route} />
+  ) : catalogRoutes.includes(route) ? (
+    <CatalogPage route={route} />
+  ) : (
+    <InvalidPage />
   );
 }
+
+export default Page;

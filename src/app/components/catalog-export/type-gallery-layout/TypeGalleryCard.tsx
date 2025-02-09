@@ -6,19 +6,30 @@ import styles from "@/app/styles/catalog-export/typeGallerySection.module.scss";
 import CarouselSlider from "./CarouselSlider";
 
 type TypeGalleryCardProps = {
-  title: string;
-  description: string;
+  title: Record<string, string> | string;
+  description: Record<string, string> | string;
+  gallery: { id: number; src: string; alt: string }[];
+  locale?: string;
 };
 
-function TypeGalleryCard({ title, description }: TypeGalleryCardProps) {
+function TypeGalleryCard({
+  title,
+  description,
+  gallery,
+  locale,
+}: TypeGalleryCardProps) {
   return (
     <div className={styles.typeGalleryCard}>
       <div className={styles.typeGalleryCardContent}>
-        <div className={styles.typeGalleryCardTitle}>{title}</div>
-        <div className={styles.typeGalleryCardDescription}>{description}</div>
+        <div className={styles.typeGalleryCardTitle}>
+          {typeof title === "object" ? title[locale] : title}
+        </div>
+        <div className={styles.typeGalleryCardDescription}>
+          {typeof description === "object" ? description[locale] : description}
+        </div>
         <OfferButton />
       </div>
-      <CarouselSlider />
+      <CarouselSlider gallery={gallery} />
     </div>
   );
 }
