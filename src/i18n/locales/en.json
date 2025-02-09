@@ -1522,5 +1522,9 @@
   "successText": "Sent successfully!",
   "formSubmit": "Request an Offer"
 },
-  "offerBtn": "Request an offer"
+  "offerBtn": "Request an offer",
+  "togglers": {
+    "description": "Description",
+    "characteristics": "Characteristics"
+  }
 }

@@ -14,10 +14,6 @@ type ProfilesGridProps = {
   }[];
   activeToggles: Record<number, "description" | "characteristics">;
   onToggle: (id: number, toggle: "description" | "characteristics") => void;
-  togglers: {
-    description: Record<string, string>;
-    characteristics: Record<string, string>;
-  };
   locale: string;
 };
 
@@ -25,14 +21,12 @@ function ProfilesGridLayout({
   profiles,
   activeToggles,
   onToggle,
-  togglers,
   locale,
 }: ProfilesGridProps) {
   return (
     <div className={styles.profilesGrid}>
       {profiles?.map((profile, index) => (
         <ProfileCard
-          togglers={togglers}
           key={profile.id}
           profile={profile}
           activeToggle={activeToggles[profile.id]}

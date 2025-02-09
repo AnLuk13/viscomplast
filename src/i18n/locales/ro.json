@@ -1521,6 +1521,10 @@
     "successText": "Trimis cu succes!",
     "formSubmit": "Solicită oferta"
   },
-  "offerBtn": "Solicită oferta"
+  "offerBtn": "Solicită oferta",
+  "togglers": {
+    "description": "Descriere",
+    "characteristics": "Caracteristici"
+  }
 }
 

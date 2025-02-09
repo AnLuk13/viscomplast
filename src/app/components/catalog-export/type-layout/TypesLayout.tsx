@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import React from "react";
 import styles from "@/app/styles/catalog-export/typesSection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
@@ -15,8 +16,9 @@ type TypesLayoutProps = {
   }[];
   title: string | Record<string, string>;
   locale?: string;
+  imgStyles: CSSProperties;
 };
-function TypesLayout({ data, title, locale }: TypesLayoutProps) {
+function TypesLayout({ data, title, locale, imgStyles }: TypesLayoutProps) {
   return (
     <div className="sectionContainer">
       <div className={styles.typesSectionTitle}>
@@ -32,6 +34,7 @@ function TypesLayout({ data, title, locale }: TypesLayoutProps) {
             name={typeof card.name === "object" ? card.name[locale] : card.name}
             description={card.description || ""}
             hex={card.hex || ""}
+            imgStyles={imgStyles}
           />
         ))}
       </div>

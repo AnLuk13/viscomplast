@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import React, { useState } from "react";
 import styles from "@/app/styles/catalog-export/typesSection.module.scss";
 import Image from "next/image";
@@ -9,8 +10,9 @@ type TypeCardProps = {
   name: string;
   description: string;
   hex: string;
+  imgStyles: CSSProperties;
 };
-function TypeCard({ src, name, description, hex }: TypeCardProps) {
+function TypeCard({ src, name, description, hex, imgStyles }: TypeCardProps) {
   const [isLoading, setIsLoading] = useState(true);
   return (
     <div className={styles.typeCard}>
@@ -32,6 +34,7 @@ function TypeCard({ src, name, description, hex }: TypeCardProps) {
             height={230}
             className={`${styles.cardImage} ${isLoading ? "imageLoading" : ""}`}
             onLoad={() => setIsLoading(false)}
+            style={imgStyles}
           />
         </div>
       ) : (

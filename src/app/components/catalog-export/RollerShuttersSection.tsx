@@ -8,7 +8,6 @@ import { v4 as uuidv4 } from "uuid";
 import manifest from "@/app/lib/assets-manifest.json";
 
 function RollerShuttersSection({ content }) {
-  const gallery = manifest.rollerShutters;
   return (
     <section className="sectionContainer">
       <div className={styles.typeGallerySectionTitle}>

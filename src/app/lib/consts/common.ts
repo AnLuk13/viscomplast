@@ -4,7 +4,7 @@ import InstagramIcon from "@/app/components/svg-icons/socials/InstagramIcon";
 import ViberIcon from "@/app/components/svg-icons/socials/ViberIcon";
 import TextPage from "@/app/pages/TextPage";
 import AboutUs from "@/app/pages/AboutUs";
-import type React from "react";
+import type React, { CSSProperties } from "react";
 
 export const socialLinks = [
   { href: "https://www.facebook.com/Viscomplast/", Icon: FacebookIcon },
@@ -52,3 +52,7 @@ export const handlesDoorsPvcAluminum = ["usiPvc", "usiAluminiu"];
 //   'ferestreAluminiu',
 //   'inchideriTerase',
 // ];
+export const objectFit: Record<string, CSSProperties> = {
+  cover: { objectFit: "cover" },
+  contain: { objectFit: "contain" },
+};

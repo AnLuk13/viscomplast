@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import OfferButton from "@/app/components/buttons/OfferButton";
 import styles from "@/app/styles/catalog-export/profilesSection.module.scss";
+import { useTranslations } from "next-intl";
 
 type ProfileCardProps = {
   profile: {
@@ -16,10 +17,6 @@ type ProfileCardProps = {
   activeToggle: "description" | "characteristics";
   onToggle: (id: number, toggle: "description" | "characteristics") => void;
   isEven: boolean;
-  togglers: {
-    description: Record<string, string>;
-    characteristics: Record<string, string>;
-  };
   locale: string;
 };
 
@@ -28,10 +25,10 @@ function ProfileCard({
   activeToggle,
   onToggle,
   isEven,
-  togglers,
   locale,
 }: ProfileCardProps) {
   const [isLoading, setIsLoading] = useState(true);
+  const t = useTranslations();
   return (
     <div
       className={`${styles.profileCard} ${isEven ? styles.even : styles.odd}`}
@@ -58,7 +55,7 @@ function ProfileCard({
             }`}
             onClick={() => onToggle(profile.id, "description")}
           >
-            {togglers?.description[locale]}
+            {t("togglers.description")}
           </button>
           <button
             type="button"
@@ -67,7 +64,7 @@ function ProfileCard({
             }`}
             onClick={() => onToggle(profile.id, "characteristics")}
           >
-            {togglers?.characteristics[locale]}
+            {t("togglers.characteristics")}
           </button>
         </div>
         <div className={styles.profileInfoBox}>

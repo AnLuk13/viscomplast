@@ -6,7 +6,7 @@ import { MoonLoader } from "react-spinners";
 import { useLocale } from "next-intl";
 import { useQuery } from "@tanstack/react-query";
 import { fetchFirestoreDocument } from "@/app/lib/hooks/useRetrieveData";
-import { handlesDoorsPvcAluminum } from "@/app/lib/consts/common";
+import { handlesDoorsPvcAluminum, objectFit } from "@/app/lib/consts/common";
 
 function HandlesSection({ route }: { route: string }) {
   const locale = useLocale();
@@ -36,8 +36,7 @@ function HandlesSection({ route }: { route: string }) {
           data={data!.types}
           title={data!.title}
           locale={locale}
-          // data={content.raw("handlesSection.types")}
-          // title={content("handlesSection.title")}
+          imgStyles={objectFit.contain}
         />
       )}
     </>
