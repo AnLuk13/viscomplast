@@ -13,7 +13,7 @@ type FirestoreSectionProps = {
 
 function FirestoreSection({ route, Component }: FirestoreSectionProps) {
   const locale = useLocale();
-  const documentId = documentIdToCamelCase(Component.name);
+  const documentId = documentIdToCamelCase(Component?.displayName);
   const { data, isLoading, error } = useFirestoreQuery(
     route,
     documentId,
@@ -23,7 +23,7 @@ function FirestoreSection({ route, Component }: FirestoreSectionProps) {
   console.log("componentName", documentId);
 
   if (!isLoading && (error || !data)) {
-    return <div className="errorMessage">{error}</div>;
+    return <div className="errorMessage">{error.message}</div>;
   }
 
   return (
