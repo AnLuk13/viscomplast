@@ -19,4 +19,5 @@ function HardwareSection({ data, locale }) {
   );
 }
 
+HardwareSection.displayName = "HardwareSection";
 export default HardwareSection;

@@ -28,4 +28,5 @@ function SlidingSystemsSection({ data, locale }) {
   );
 }
 
+SlidingSystemsSection.displayName = "SlidingSystemsSection"; // Prevents renaming in production
 export default SlidingSystemsSection;

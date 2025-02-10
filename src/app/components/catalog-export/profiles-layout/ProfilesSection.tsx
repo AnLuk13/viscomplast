@@ -51,4 +51,5 @@ function ProfilesSection({ data, locale }) {
   );
 }
 
+ProfilesSection.displayName = "ProfilesSection";
 export default ProfilesSection;
