@@ -19,9 +19,11 @@ function FirestoreSection({ route, Component }: FirestoreSectionProps) {
     documentId,
     `${route}-${documentId}`,
   );
+  console.log("route", route);
+  console.log("componentName", documentId);
 
   if (!isLoading && (error || !data)) {
-    return <div className="errorMessage">Error fetching data!</div>;
+    return <div className="errorMessage">{error}</div>;
   }
 
   return (
