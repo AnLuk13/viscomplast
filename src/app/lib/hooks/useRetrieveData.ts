@@ -4,9 +4,12 @@ import { useQuery } from "@tanstack/react-query";
 import { getDoc, doc, getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from "@/app/lib/config/firebaseConfig";
+import type { FirebaseStorage } from "@firebase/storage";
+import { getStorage } from "@firebase/storage";
 
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+export const db = getFirestore(app);
+export const storage: FirebaseStorage = getStorage(app); // Ensure correct type
 
 export const fetchFirestoreDocument = async (
   collectionPath: string,
