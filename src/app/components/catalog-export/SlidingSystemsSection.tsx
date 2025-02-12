@@ -4,7 +4,6 @@ import React from "react";
 import styles from "@/app/styles/catalog-export/typeGallerySection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import TypeGalleryCard from "@/app/components/catalog-export/type-gallery-layout/TypeGalleryCard";
-import { v4 as uuidv4 } from "uuid";
 
 function SlidingSystemsSection({ data, locale }) {
   return (
@@ -17,7 +16,7 @@ function SlidingSystemsSection({ data, locale }) {
       <div className={styles.description}>{data?.description[locale]}</div>
       {data?.typeGalleryCards.map((card) => (
         <TypeGalleryCard
-          key={uuidv4()}
+          key={typeof card.title === "object" ? card.title[locale] : card.title}
           title={card.title}
           description={card.description}
           gallery={card.gallery}

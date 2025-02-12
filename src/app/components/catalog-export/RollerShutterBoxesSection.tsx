@@ -4,11 +4,9 @@ import React from "react";
 import styles from "@/app/styles/catalog-export/typeGallerySection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import TypeGalleryCard from "@/app/components/catalog-export/type-gallery-layout/TypeGalleryCard";
-import { v4 as uuidv4 } from "uuid";
 import manifest from "@/app/lib/assets-manifest.json";
 
 function RollerShutterBoxesSection({ content }) {
-  const gallery = manifest.rollerShutterBoxes;
   return (
     <section className="sectionContainer">
       <div className={styles.typeGallerySectionTitle}>
@@ -21,10 +19,10 @@ function RollerShutterBoxesSection({ content }) {
       </div>
       {content.raw("rollerShutterBoxesSection.typeGalleryCards").map((card) => (
         <TypeGalleryCard
-          key={uuidv4()}
+          key={card.title}
           title={card.title}
           description={card.description}
-          gallery={gallery}
+          gallery={manifest.rollerShutterBoxes}
         />
       ))}
     </section>

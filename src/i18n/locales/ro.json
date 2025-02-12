@@ -75,73 +75,6 @@
       "catalogHeroTitle": "Ferestre din PVC",
       "qualityText": "excelent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "WHS by VEKA",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori.",
-          "characteristics": [
-            "Marcă România",
-            "Profil Clasa B",
-            "Adâncime de 60 mm",
-            "4 camere",
-            "Etanșare în două rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Două rânduri de sticlă de 24mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 1,5mm",
-            "Coeficient termic de 1,67 W/m2K"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 70",
-          "description": "Profilul VEKA 70 oferă un echilibru excelent între design, performanță și izolare termică.",
-          "characteristics": [
-            "Marcă Germania",
-            "Profil Clasa A",
-            "Adâncime de 70 mm",
-            "5 camere",
-            "Etanșare în trei rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Trei rânduri de sticlă de 32mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 1,5mm",
-            "Coeficient termic de 1,3 W/m2K"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 82",
-          "description": "Profilul VEKA 82 asigură o eficiență energetică excepțională și o performanță superioară.",
-          "characteristics": [
-            "Marcă Germania",
-            "Profil Clasa A",
-            "Adâncime de 82 mm",
-            "7 camere",
-            "Etanșare în trei rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Trei rânduri de sticlă de 44mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 2mm",
-            "Coeficient termic de 0,9 W/m2K"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
-    },
     "colorsSection": {
       "title": "Culori",
       "types": [
@@ -168,16 +101,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -192,49 +115,6 @@
       "catalogHeroTitle": "Ferestre din Aluminiu",
       "qualityText": "excelent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 60T",
-          "description": "Profilul Kurtoglu 60T este ideal pentru sisteme de aluminiu utilizate în construcții rezidențiale și comerciale. Combina designul modern cu performanțele de izolare termică.",
-          "characteristics": [
-            "Adâncime de 60 mm",
-            "Sistem de aluminiu termoizolant",
-            "Geam dublu sau triplu până la 24mm",
-            "Durabilitate ridicată pentru utilizare intensivă",
-            "Design modern și elegant",
-            "Etanșare cu garnituri multiple",
-            "Opțiuni diverse de culori și finisaje"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Alutech 75T",
-          "description": "Profilul Alutech 75T oferă performanțe excepționale de izolare termică și acustică, fiind perfect pentru construcții moderne și economii de energie.",
-          "characteristics": [
-            "Adâncime de 75 mm",
-            "Sistem termoizolant avansat",
-            "Camere multiple pentru izolare optimă",
-            "Geam triplu până la 44mm",
-            "Rezistență structurală ridicată",
-            "Etanșare cu garnituri EPDM",
-            "Potrivit pentru fațade și ferestre mari"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Feroneria MACO reprezintă standardul de excelență în industria feroneriei pentru ferestre și uși. Proiectată în Austria, aceasta oferă un nivel superior de securitate, durabilitate și ușurință în utilizare. Soluțiile inteligente MACO asigură o performanță optimă, eficiență energetică și confort sporit."
-    },
     "colorsSection": {
       "title": "Culori",
       "types": [
@@ -262,16 +142,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portofoliu",
       "buttons": {
@@ -283,73 +153,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Uși din PVC",
       "qualityText": "excelent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "WHS by VEKA",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori.",
-          "characteristics": [
-            "Marcă România",
-            "Profil Clasa B",
-            "Adâncime de 60 mm",
-            "4 camere",
-            "Etanșare în două rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Două rânduri de sticlă de 24mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 1,5mm",
-            "Coeficient termic de 1,67 W/m2K"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 70",
-          "description": "Profilul VEKA 70 oferă un echilibru excelent între design, performanță și izolare termică.",
-          "characteristics": [
-            "Marcă Germania",
-            "Profil Clasa A",
-            "Adâncime de 70 mm",
-            "5 camere",
-            "Etanșare în trei rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Trei rânduri de sticlă de 32mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 1,5mm",
-            "Coeficient termic de 1,3 W/m2K"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 82",
-          "description": "Profilul VEKA 82 asigură o eficiență energetică excepțională și o performanță superioară.",
-          "characteristics": [
-            "Marcă Germania",
-            "Profil Clasa A",
-            "Adâncime de 82 mm",
-            "7 camere",
-            "Etanșare în trei rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Trei rânduri de sticlă de 44mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 2mm",
-            "Coeficient termic de 0,9 W/m2K"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
     },
     "colorsSection": {
       "title": "Culori",
@@ -379,16 +182,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portofoliu",
       "buttons": {
@@ -400,49 +193,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Uși din Aluminiu",
       "qualityText": "excelent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 60T",
-          "description": "Profilul Kurtoglu 60T este ideal pentru sisteme de aluminiu utilizate în construcții rezidențiale și comerciale. Combina designul modern cu performanțele de izolare termică.",
-          "characteristics": [
-            "Adâncime de 60 mm",
-            "Sistem de aluminiu termoizolant",
-            "Geam dublu sau triplu până la 24mm",
-            "Durabilitate ridicată pentru utilizare intensivă",
-            "Design modern și elegant",
-            "Etanșare cu garnituri multiple",
-            "Opțiuni diverse de culori și finisaje"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Alutech 75T",
-          "description": "Profilul Alutech 75T oferă performanțe excepționale de izolare termică și acustică, fiind perfect pentru construcții moderne și economii de energie.",
-          "characteristics": [
-            "Adâncime de 75 mm",
-            "Sistem termoizolant avansat",
-            "Camere multiple pentru izolare optimă",
-            "Geam triplu până la 44mm",
-            "Rezistență structurală ridicată",
-            "Etanșare cu garnituri EPDM",
-            "Potrivit pentru fațade și ferestre mari"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Feroneria MACO reprezintă standardul de excelență în industria feroneriei pentru ferestre și uși. Proiectată în Austria, aceasta oferă un nivel superior de securitate, durabilitate și ușurință în utilizare. Soluțiile inteligente MACO asigură o performanță optimă, eficiență energetică și confort sporit."
     },
     "colorsSection": {
       "title": "Culori",
@@ -471,16 +221,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portofoliu",
       "buttons": {
@@ -492,73 +232,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Glisante din PVC",
       "qualityText": "excelent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "WHS by VEKA",
-          "description": "Sistemul WHS by VEKA combină în mod optim practicitatea și accesibilitatea. Este proiectat pentru fabricarea ferestrelor în configurații standard pentru consumatori.",
-          "characteristics": [
-            "Marcă România",
-            "Profil Clasa B",
-            "Adâncime de 60 mm",
-            "4 camere",
-            "Etanșare în două rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Două rânduri de sticlă de 24mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 1,5mm",
-            "Coeficient termic de 1,67 W/m2K"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 70",
-          "description": "Profilul VEKA 70 oferă un echilibru excelent între design, performanță și izolare termică.",
-          "characteristics": [
-            "Marcă Germania",
-            "Profil Clasa A",
-            "Adâncime de 70 mm",
-            "5 camere",
-            "Etanșare în trei rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Trei rânduri de sticlă de 32mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 1,5mm",
-            "Coeficient termic de 1,3 W/m2K"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 82",
-          "description": "Profilul VEKA 82 asigură o eficiență energetică excepțională și o performanță superioară.",
-          "characteristics": [
-            "Marcă Germania",
-            "Profil Clasa A",
-            "Adâncime de 82 mm",
-            "7 camere",
-            "Etanșare în trei rânduri de garnituri",
-            "Pantă interioară de 5 grade",
-            "Trei rânduri de sticlă de 44mm",
-            "Feronerie germană Winkhaus",
-            "Armătură de oțel zincat de 2mm",
-            "Coeficient termic de 0,9 W/m2K"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Sistemele din aluminiu sunt cunoscute pentru fiabilitatea ridicată, durabilitatea și estetica modernă. Utilizăm feronerie de calitate premium pentru a garanta funcționalitate și siguranță."
     },
     "colorsSection": {
       "title": "Culori",
@@ -600,43 +273,6 @@
       "catalogHeroTitle": "Glisante din Aluminiu",
       "qualityText": "excelent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profil KURTOGLU 51SL",
-          "description": "Profilul KURTOGLU 51SL este ideal pentru sisteme glisante, oferind performanță optimă și durabilitate pentru spațiile rezidențiale și comerciale.",
-          "characteristics": [
-            "Adâncime de 51 mm",
-            "Performanță excelentă de etanșare",
-            "Potrivit pentru spații interioare și exterioare",
-            "Durabilitate ridicată pentru utilizare intensă"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profil KURTOGLU 70SL",
-          "description": "Profilul KURTOGLU 70SL oferă soluții avansate pentru ferestre și uși glisante, combinând estetica cu performanța termică ridicată.",
-          "characteristics": [
-            "Adâncime de 70 mm",
-            "Izolație termică și acustică avansată",
-            "Compatibilitate cu sticlă dublă și triplă",
-            "Design elegant pentru proiecte moderne"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Feroneria SIEGENIA oferă soluții de înaltă calitate pentru ferestre și uși, garantând funcționalitate optimă, siguranță avansată și confort. Produsele SIEGENIA se remarcă prin tehnologia inovatoare, rezistența îndelungată și posibilitatea de a personaliza soluțiile în funcție de cerințele fiecărui proiect."
-    },
     "colorsSection": {
       "title": "Culori",
       "types": [
@@ -675,33 +311,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Glisante VEKA MOTION",
       "qualityText": "excelent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA MOTION",
-          "description": "Profilul VEKA MOTION reprezintă o soluție premium pentru sisteme glisante, combinând tehnologia inovatoare cu designul modern pentru a oferi funcționalitate optimă și confort.",
-          "characteristics": [
-            "Adâncime de 82 mm",
-            "Izolație termică și fonică excelentă",
-            "Potrivit pentru geamuri duble și triple",
-            "Durabilitate ridicată și întreținere ușoară",
-            "Design ergonomic și modern",
-            "Etanșeitate avansată împotriva curenților de aer"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
     },
     "colorsSection": {
       "title": "Culori",
@@ -743,29 +352,6 @@
       "catalogHeroTitle": "Închideri terase",
       "qualityText": "excelent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profil KURTOGLU 30C",
-          "description": "Profilul KURTOGLU 30C este o soluție eficientă pentru sisteme de ferestre și uși din aluminiu, oferind o combinație excelentă între performanță și costuri reduse.",
-          "characteristics": [
-            "Adâncime de 30 mm",
-            "Sistem robust și economic",
-            "Ideal pentru utilizări interioare",
-            "Design minimalist și modern",
-            "Potrivit pentru spații comerciale și rezidențiale",
-            "Rezistență la coroziune și întreținere ușoară"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
     "colorsSection": {
       "title": "Culori",
       "types": [
@@ -793,16 +379,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
       ]
     },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portofoliu",
       "buttons": {
@@ -814,29 +390,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Fațade aluminiu",
       "qualityText": "excelent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profil KURTOGLU 50F",
-          "description": "Profilul KURTOGLU 50F este proiectat pentru sisteme fixe și pereți despărțitori, oferind un design robust și estetic modern.",
-          "characteristics": [
-            "Adâncime de 50 mm",
-            "Sistem fix și stabil",
-            "Potrivit pentru pereți despărțitori din sticlă",
-            "Design minimalist și modern",
-            "Construcție durabilă și întreținere redusă",
-            "Rezistență ridicată la uzură și coroziune"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
     },
     "colorsSection": {
       "title": "Culori",
@@ -862,106 +415,13 @@
       "catalogHeroTitle": "Ferestre și uși pentru casa ta din Italia",
       "qualityText": "excelent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 70",
-          "description": "Profilul VEKA 70 oferă performanțe excelente de izolare termică și fonică, fiind ideal pentru proiecte rezidențiale și comerciale.",
-          "characteristics": [
-            "Adâncime de 70 mm",
-            "Sistem cu 5 camere",
-            "Etanșare avansată cu garnituri duble",
-            "Potrivit pentru geamuri duble și triple",
-            "Durabilitate ridicată și întreținere minimă"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 70 cu toc de renovare de 35mm",
-          "description": "Profilul VEKA 70 cu toc de renovare de 35mm este proiectat special pentru proiecte de renovare, oferind performanță și eficiență termică.",
-          "characteristics": [
-            "Adâncime de 70 mm",
-            "Toc de renovare de 35 mm",
-            "5 camere pentru izolare termică optimă",
-            "Potrivit pentru proiecte de modernizare",
-            "Design modern și funcțional"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 70 cu toc de renovare de 65mm",
-          "description": "Profilul VEKA 70 cu toc de renovare de 65mm oferă soluții excelente pentru renovări, menținând standarde ridicate de calitate și eficiență.",
-          "characteristics": [
-            "Adâncime de 70 mm",
-            "Toc de renovare de 65 mm",
-            "Izolație termică avansată",
-            "Potrivit pentru geamuri duble și triple",
-            "Durabilitate și design atractiv"
-          ]
-        },
-        {
-          "id": 4,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 82",
-          "description": "Profilul VEKA 82 reprezintă soluția premium pentru eficiență energetică ridicată și confort maxim.",
-          "characteristics": [
-            "Adâncime de 82 mm",
-            "Sistem cu 7 camere pentru izolare termică superioară",
-            "Potrivit pentru case pasive",
-            "Etanșare avansată cu garnituri multiple",
-            "Design modern și elegant"
-          ]
-        },
-        {
-          "id": 5,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 82 cu toc de renovare de 65mm",
-          "description": "Profilul VEKA 82 cu toc de renovare de 65mm oferă cea mai bună combinație de eficiență energetică și soluții de renovare.",
-          "characteristics": [
-            "Adâncime de 82 mm",
-            "Toc de renovare de 65 mm",
-            "Sistem cu 7 camere pentru izolare optimă",
-            "Potrivit pentru geamuri triple",
-            "Rezistență ridicată și întreținere ușoară"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "slidingSystemsSection": {
-      "title": "Glisante",
-      "description": "Sistemele glisante sunt soluții moderne pentru ferestre și uși mari, combinând funcționalitatea ușoară cu designul contemporan și eficiența energetică.",
-      "typeGalleryCards": [
-        {
-          "title": "Glisante osciloculisante pe profil VEKA 70 sau 82",
-          "description": "Sistemele osciloculisante sunt construite pe profil VEKA 70 sau 82, oferind izolație termică superioară și o manipulare ușoară. Acestea sunt ideale pentru spații care necesită ventilație controlată și accesibilitate ridicată."
-        },
-        {
-          "title": "Glisante cu ridicare pe profil de aluminiu",
-          "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt proiectate pentru deschideri mari, oferind durabilitate, eficiență termică și design elegant. Sunt ideale pentru utilizare intensă în spații comerciale și rezidențiale."
-        }
-      ]
-    },
     "rollerShutterBoxesSection": {
       "title": "Casonete",
       "description": "Casonetele sunt soluții practice pentru sisteme de rulouri, oferind protecție și estetică pentru ferestrele dumneavoastră.",
       "typeGalleryCards": [
         {
           "title": "Un singur tip",
-          "description": "Casonetele sunt concepute pentru a oferi durabilitate și o integrare perfectă în designul arhitectural al clădirilor.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "description": "Casonetele sunt concepute pentru a oferi durabilitate și o integrare perfectă în designul arhitectural al clădirilor."
         }
       ]
     },
@@ -972,21 +432,11 @@
         {
           "title": "Tapparele manuale",
           "description": "Sistemele de tapparele manuale oferă un control simplu și eficient, fiind ideale pentru spații rezidențiale.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ],
           "isManual": "true"
         },
         {
           "title": "Tapparele electrice",
           "description": "Tapparele electrice adaugă confort și funcționalitate, permițând o operare automată cu telecomandă sau sistem smart.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ],
           "isManual": "false"
         }
       ]
@@ -997,12 +447,7 @@
       "typeGalleryCards": [
         {
           "title": "Zanzariere plisse",
-          "description": "Zanzarierele plisse sunt proiectate pentru a fi ușor de utilizat și de întreținut, oferind o barieră eficientă împotriva insectelor.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "description": "Zanzarierele plisse sunt proiectate pentru a fi ușor de utilizat și de întreținut, oferind o barieră eficientă împotriva insectelor."
         }
       ]
     },
@@ -1036,16 +481,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1060,76 +495,6 @@
       "catalogHeroTitle": "Ferestre și uși pentru casa ta din Irlanda",
       "qualityText": "excelent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 70",
-          "description": "Profilul VEKA 70 oferă performanțe excelente de izolare termică și fonică, fiind ideal pentru proiecte rezidențiale și comerciale.",
-          "characteristics": [
-            "Adâncime de 70 mm",
-            "Sistem cu 5 camere",
-            "Etanșare avansată cu garnituri duble",
-            "Potrivit pentru geamuri duble și triple",
-            "Durabilitate ridicată și întreținere minimă"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 82",
-          "description": "Profilul VEKA 82 reprezintă soluția premium pentru eficiență energetică ridicată și confort maxim.",
-          "characteristics": [
-            "Adâncime de 82 mm",
-            "Sistem cu 7 camere pentru izolare termică superioară",
-            "Potrivit pentru case pasive",
-            "Etanșare avansată cu garnituri multiple",
-            "Design modern și elegant"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profil Alutech 75 (Aluminiu)",
-          "description": "Profilul Alutech 75 este o soluție premium pentru sisteme de aluminiu, oferind rezistență și performanță termică avansată.",
-          "characteristics": [
-            "Adâncime de 75 mm",
-            "Sistem de izolare termică performant",
-            "Potrivit pentru utilizare în spații comerciale și rezidențiale",
-            "Rezistență ridicată la coroziune",
-            "Design modern și versatil"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "slidingSystemsSection": {
-      "title": "Glisante",
-      "description": "Sistemele glisante sunt soluții ideale pentru spații moderne, oferind o combinație perfectă între confort, funcționalitate și design inovator.",
-      "typeGalleryCards": [
-        {
-          "title": "Glisante osciloculisante pe profil VEKA 70 sau 82",
-          "description": "Aceste sisteme oferă izolație termică superioară și o manipulare ușoară. Sunt ideale pentru ferestre și uși mari care necesită ventilație controlată și un design elegant."
-        },
-        {
-          "title": "Glisante cu ridicare pe profil de aluminiu",
-          "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt create pentru deschideri largi, combinând durabilitatea aluminiului cu eficiența energetică și estetica modernă."
-        },
-        {
-          "title": "VEKA MOTION",
-          "description": "VEKA MOTION este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
-        }
-      ]
-    },
-    "hardwareSection": {
-      "title": "Feronerie",
-      "description": "Feroneria WINKHAUS este renumită pentru fiabilitatea și longevitatea sa. Proiectată în Germania, aceasta oferă un grad înalt de securitate, funcționalitate și durabilitate. Sistemele inteligente permit închiderea perfectă și o operare lină a ferestrelor și ușilor."
-    },
     "colorsSection": {
       "title": "Culori",
       "types": [
@@ -1156,16 +521,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1180,72 +535,6 @@
       "catalogHeroTitle": "Ferestre și uși pentru casa ta din Franța/Belgia",
       "qualityText": "excelent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiluri",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 70",
-          "description": "Profilul VEKA 70 oferă performanțe excelente de izolare termică și fonică, fiind ideal pentru proiecte rezidențiale și comerciale.",
-          "characteristics": [
-            "Adâncime de 70 mm",
-            "Sistem cu 5 camere",
-            "Etanșare avansată cu garnituri duble",
-            "Potrivit pentru geamuri duble și triple",
-            "Durabilitate ridicată și întreținere minimă"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profil VEKA 82",
-          "description": "Profilul VEKA 82 reprezintă soluția premium pentru eficiență energetică ridicată și confort maxim.",
-          "characteristics": [
-            "Adâncime de 82 mm",
-            "Sistem cu 7 camere pentru izolare termică superioară",
-            "Potrivit pentru case pasive",
-            "Etanșare avansată cu garnituri multiple",
-            "Design modern și elegant"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profil Alutech 75 (Aluminiu)",
-          "description": "Profilul Alutech 75 este o soluție premium pentru sisteme de aluminiu, oferind rezistență și performanță termică avansată.",
-          "characteristics": [
-            "Adâncime de 75 mm",
-            "Sistem de izolare termică performant",
-            "Potrivit pentru utilizare în spații comerciale și rezidențiale",
-            "Rezistență ridicată la coroziune",
-            "Design modern și versatil"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Descriere",
-        "characteristics": "Caracteristici"
-      }
-    },
-    "slidingSystemsSection": {
-      "title": "Glisante",
-      "description": "Sistemele glisante sunt soluții ideale pentru spații moderne, oferind o combinație perfectă între confort, funcționalitate și design inovator.",
-      "typeGalleryCards": [
-        {
-          "title": "Glisante osciloculisante pe profil VEKA 70 sau 82",
-          "description": "Aceste sisteme oferă izolație termică superioară și o manipulare ușoară. Sunt ideale pentru ferestre și uși mari care necesită ventilație controlată și un design elegant."
-        },
-        {
-          "title": "Glisante cu ridicare pe profil de aluminiu",
-          "description": "Sistemele glisante cu ridicare pe profil de aluminiu sunt create pentru deschideri largi, combinând durabilitatea aluminiului cu eficiența energetică și estetica modernă."
-        },
-        {
-          "title": "VEKA MOTION",
-          "description": "VEKA MOTION este un sistem glisant premium care combină tehnologia avansată cu un design modern, oferind o funcționalitate excelentă și un aspect estetic deosebit."
-        }
-      ]
-    },
     "blindsSection": {
       "title": "Rulouri",
       "description": "Rulourile sunt soluții versatile pentru ferestre, disponibile în două variante: manuale și electrice. Acestea combină protecția cu funcționalitatea practică și un design modern.",
@@ -1253,20 +542,12 @@
         {
           "title": "Rulouri manuale",
           "description": "Rulourile manuale oferă un control simplu și eficient, fiind ideale pentru utilizare în spații rezidențiale și comerciale.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "isManual": "true"
         },
         {
           "title": "Rulouri electrice",
           "description": "Rulourile electrice adaugă confort și modernitate, permițând controlul automat prin telecomandă sau sisteme smart.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "isManual": "false"
         }
       ]
     },
@@ -1300,16 +581,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant incolor" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet incolor" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicușor incolor" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Tipuri de mânere",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {

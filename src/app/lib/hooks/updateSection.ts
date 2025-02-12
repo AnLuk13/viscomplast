@@ -14,15 +14,15 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const slidingSystemsSection = {
-  title: {
-    en: "Sliding Systems",
-    ro: "Glisante",
-    ru: "Раздвижные системы",
-  },
   description: {
     en: "Sliding systems are ideal solutions for modern spaces, offering the perfect combination of comfort, functionality, and innovative design.",
     ro: "Sistemele glisante sunt soluții ideale pentru spații moderne, oferind o combinație perfectă între confort, funcționalitate și design inovator.",
     ru: "Раздвижные системы — это идеальные решения для современных помещений, обеспечивающие идеальное сочетание комфорта, функциональности и инновационного дизайна.",
+  },
+  title: {
+    en: "Sliding Systems",
+    ro: "Glisante",
+    ru: "Раздвижные системы",
   },
   typeGalleryCards: [
     {
@@ -37,21 +37,10 @@ const slidingSystemsSection = {
         ru: "Эти системы обеспечивают превосходную теплоизоляцию и легкость управления. Они идеально подходят для больших окон и дверей, требующих контролируемой вентиляции и элегантного дизайна.",
       },
       gallery: [
-        {
-          id: 1,
-          src: "/assets/images/slide1.png",
-          alt: "Tilt-and-Slide System 1",
-        },
-        {
-          id: 2,
-          src: "/assets/images/slide2.png",
-          alt: "Tilt-and-Slide System 2",
-        },
-        {
-          id: 3,
-          src: "/assets/images/slide3.png",
-          alt: "Tilt-and-Slide System 3",
-        },
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Faaa.jpeg?alt=media&token=059f1f35-8b16-48da-98ff-79b8dcafff75",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fsss.jpeg?alt=media&token=844ec119-e6f8-4ad0-8636-95d4a7a1839d",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fddd.jpg?alt=media&token=aa5e8316-9c34-45ae-b8e9-edcf099c4ac9",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fffff.jpg?alt=media&token=cb88a17e-7ba9-4c24-841e-b458f50c33f5",
       ],
     },
     {
@@ -66,21 +55,11 @@ const slidingSystemsSection = {
         ru: "Подъемно-раздвижные системы на алюминиевом профиле разработаны для широких проемов, сочетая долговечность алюминия с энергоэффективностью и современным дизайном.",
       },
       gallery: [
-        {
-          id: 1,
-          src: "/assets/images/slide4.png",
-          alt: "Lift-and-Slide System 1",
-        },
-        {
-          id: 2,
-          src: "/assets/images/slide5.png",
-          alt: "Lift-and-Slide System 2",
-        },
-        {
-          id: 3,
-          src: "/assets/images/slide6.png",
-          alt: "Lift-and-Slide System 3",
-        },
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fg.jpeg?alt=media&token=447c425b-6e19-4a06-b5cd-67f96e4a0090",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fh.jpg?alt=media&token=e604a8a9-bd62-4801-8b0c-09930cc821e9",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fj.jpg?alt=media&token=fd311579-e580-4b12-8774-72e7f5bfff6e",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fk.jpg?alt=media&token=583478c0-1f22-470b-ba3e-daadc4badce5",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fl.jpg?alt=media&token=7020eb92-c319-4431-8df7-39e334bd4795",
       ],
     },
     {
@@ -95,29 +74,24 @@ const slidingSystemsSection = {
         ru: "VEKA MOTION — это премиальная раздвижная система, которая сочетает передовые технологии с современным дизайном, обеспечивая отличную функциональность и выдающуюся эстетику.",
       },
       gallery: [
-        { id: 1, src: "/assets/images/slide7.png", alt: "VEKA MOTION 1" },
-        { id: 2, src: "/assets/images/slide8.png", alt: "VEKA MOTION 2" },
-        { id: 3, src: "/assets/images/slide9.png", alt: "VEKA MOTION 3" },
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fvvv.jpg?alt=media&token=11be3997-15ba-4df9-9b58-26edd11fe72e",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fbbb.png?alt=media&token=b52f2356-2952-4e9e-96f8-64f00eae6bc7",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fmmm.jpg?alt=media&token=071ae597-f22b-4b67-b38d-f838db23373b",
+        "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/export%2Fnnn.jpg?alt=media&token=07010529-c0d9-4546-bb64-c97e278b06c0",
       ],
     },
   ],
 };
-
-// ✅ Firestore update function
 async function updateProfilesSection() {
-  // const cleanedProfilesSection = JSON.parse(JSON.stringify(profilesSection));
-
   try {
     const docRef = doc(db, "exportFrantaBelgia", "slidingSystemsSection"); // ✅ Reference to Firestore document
     await deleteDoc(docRef);
 
-    // 🔹 Write the new data
     await setDoc(docRef, slidingSystemsSection, { merge: true });
-    console.log("✅ profilesSection updated successfully!");
+    console.log("✅ Updated successfully!");
   } catch (error) {
-    console.error("❌ Error updating profilesSection:", error);
+    console.error("❌ Error updating:", error);
   }
 }
 
-// ✅ Run the function
 updateProfilesSection();

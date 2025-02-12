@@ -5,7 +5,6 @@ import styles from "@/app/styles/catalog-export/catalogHeroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
 import OfferButton from "@/app/components/buttons/OfferButton";
-import { v4 as uuidv4 } from "uuid";
 import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 
 function CatalogHeroSection({ imageSrc, content }) {
@@ -37,8 +36,9 @@ function CatalogHeroSection({ imageSrc, content }) {
         <div className={styles.qualityStars}>
           {Array(5)
             .fill(undefined, undefined, undefined)
-            .map(() => (
-              <StarIcon key={uuidv4()} />
+            .map((_, index) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <StarIcon key={`Star icon ${index}`} />
             ))}
           <div className={styles.qualityText}>
             {content(`catalogHeroSection.qualityText`)}

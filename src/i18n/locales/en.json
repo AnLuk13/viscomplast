@@ -75,73 +75,6 @@
       "catalogHeroTitle": "PVC Windows",
       "qualityText": "excellent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "WHS by VEKA",
-          "description": "The WHS by VEKA system optimally combines practicality and affordability. It is designed for manufacturing standard window configurations for consumers.",
-          "characteristics": [
-            "Brand Romania",
-            "Class B Profile",
-            "Depth of 60 mm",
-            "4 chambers",
-            "Sealing with two rows of gaskets",
-            "5-degree interior slope",
-            "Two rows of 24mm glass",
-            "German Winkhaus hardware",
-            "1.5mm galvanized steel reinforcement",
-            "Thermal coefficient of 1.67 W/m2K"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 70",
-          "description": "The VEKA 70 profile offers an excellent balance between design, performance, and thermal insulation.",
-          "characteristics": [
-            "Brand Germany",
-            "Class A Profile",
-            "Depth of 70 mm",
-            "5 chambers",
-            "Sealing with three rows of gaskets",
-            "5-degree interior slope",
-            "Three rows of 32mm glass",
-            "German Winkhaus hardware",
-            "1.5mm galvanized steel reinforcement",
-            "Thermal coefficient of 1.3 W/m2K"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 82",
-          "description": "The VEKA 82 profile ensures exceptional energy efficiency and superior performance.",
-          "characteristics": [
-            "Brand Germany",
-            "Class A Profile",
-            "Depth of 82 mm",
-            "7 chambers",
-            "Sealing with three rows of gaskets",
-            "5-degree interior slope",
-            "Three rows of 44mm glass",
-            "German Winkhaus hardware",
-            "2mm galvanized steel reinforcement",
-            "Thermal coefficient of 0.9 W/m2K"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
-    },
     "colorsSection": {
       "title": "Colors",
       "types": [
@@ -168,16 +101,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -192,49 +115,6 @@
       "catalogHeroTitle": "Aluminum Windows",
       "qualityText": "excellent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 60T",
-          "description": "The Kurtoglu 60T profile is ideal for aluminum systems used in residential and commercial construction. It combines modern design with thermal insulation performance.",
-          "characteristics": [
-            "60 mm depth",
-            "Thermally insulated aluminum system",
-            "Double or triple glazing up to 24mm",
-            "High durability for intensive use",
-            "Modern and elegant design",
-            "Sealing with multiple gaskets",
-            "Various color and finish options"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Alutech 75T",
-          "description": "The Alutech 75T profile provides exceptional thermal and acoustic insulation, making it perfect for modern construction and energy savings.",
-          "characteristics": [
-            "75 mm depth",
-            "Advanced thermal insulation system",
-            "Multi-chamber design for optimal insulation",
-            "Triple glazing up to 44mm",
-            "High structural strength",
-            "Sealing with EPDM gaskets",
-            "Suitable for large facades and windows"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "MACO hardware sets the standard of excellence in the industry for window and door fittings. Designed in Austria, it delivers superior security, durability, and ease of use. MACO's intelligent solutions ensure optimal performance, energy efficiency, and enhanced comfort."
-    },
     "colorsSection": {
       "title": "Colors",
       "types": [
@@ -262,16 +142,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portfolio",
       "buttons": {
@@ -283,73 +153,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "PVC Doors",
       "qualityText": "excellent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "WHS by VEKA",
-          "description": "The WHS by VEKA system optimally combines practicality and affordability. It is designed for manufacturing standard window configurations for consumers.",
-          "characteristics": [
-            "Brand Romania",
-            "Class B Profile",
-            "Depth of 60 mm",
-            "4 chambers",
-            "Sealing with two rows of gaskets",
-            "5-degree interior slope",
-            "Two rows of 24mm glass",
-            "German Winkhaus hardware",
-            "1.5mm galvanized steel reinforcement",
-            "Thermal coefficient of 1.67 W/m2K"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 70",
-          "description": "The VEKA 70 profile offers an excellent balance between design, performance, and thermal insulation.",
-          "characteristics": [
-            "Brand Germany",
-            "Class A Profile",
-            "Depth of 70 mm",
-            "5 chambers",
-            "Sealing with three rows of gaskets",
-            "5-degree interior slope",
-            "Three rows of 32mm glass",
-            "German Winkhaus hardware",
-            "1.5mm galvanized steel reinforcement",
-            "Thermal coefficient of 1.3 W/m2K"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 82",
-          "description": "The VEKA 82 profile ensures exceptional energy efficiency and superior performance.",
-          "characteristics": [
-            "Brand Germany",
-            "Class A Profile",
-            "Depth of 82 mm",
-            "7 chambers",
-            "Sealing with three rows of gaskets",
-            "5-degree interior slope",
-            "Three rows of 44mm glass",
-            "German Winkhaus hardware",
-            "2mm galvanized steel reinforcement",
-            "Thermal coefficient of 0.9 W/m2K"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
@@ -379,16 +182,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portfolio",
       "buttons": {
@@ -400,49 +193,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Aluminum Doors",
       "qualityText": "excellent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Kurtoglu 60T",
-          "description": "The Kurtoglu 60T profile is ideal for aluminum systems used in residential and commercial construction. It combines modern design with thermal insulation performance.",
-          "characteristics": [
-            "60 mm depth",
-            "Thermally insulated aluminum system",
-            "Double or triple glazing up to 24mm",
-            "High durability for intensive use",
-            "Modern and elegant design",
-            "Sealing with multiple gaskets",
-            "Various color and finish options"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Alutech 75T",
-          "description": "The Alutech 75T profile provides exceptional thermal and acoustic insulation, making it perfect for modern construction and energy savings.",
-          "characteristics": [
-            "75 mm depth",
-            "Advanced thermal insulation system",
-            "Multi-chamber design for optimal insulation",
-            "Triple glazing up to 44mm",
-            "High structural strength",
-            "Sealing with EPDM gaskets",
-            "Suitable for large facades and windows"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "MACO hardware sets the standard of excellence in the industry for window and door fittings. Designed in Austria, it delivers superior security, durability, and ease of use. MACO's intelligent solutions ensure optimal performance, energy efficiency, and enhanced comfort."
     },
     "colorsSection": {
       "title": "Colors",
@@ -471,16 +221,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portfolio",
       "buttons": {
@@ -492,73 +232,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Sliding systems made of PVC",
       "qualityText": "excellent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "WHS by VEKA",
-          "description": "The WHS by VEKA system optimally combines practicality and affordability. It is designed for manufacturing standard window configurations for consumers.",
-          "characteristics": [
-            "Brand Romania",
-            "Class B Profile",
-            "Depth of 60 mm",
-            "4 chambers",
-            "Sealing with two rows of gaskets",
-            "5-degree interior slope",
-            "Two rows of 24mm glass",
-            "German Winkhaus hardware",
-            "1.5mm galvanized steel reinforcement",
-            "Thermal coefficient of 1.67 W/m2K"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 70",
-          "description": "The VEKA 70 profile offers an excellent balance between design, performance, and thermal insulation.",
-          "characteristics": [
-            "Brand Germany",
-            "Class A Profile",
-            "Depth of 70 mm",
-            "5 chambers",
-            "Sealing with three rows of gaskets",
-            "5-degree interior slope",
-            "Three rows of 32mm glass",
-            "German Winkhaus hardware",
-            "1.5mm galvanized steel reinforcement",
-            "Thermal coefficient of 1.3 W/m2K"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "VEKA 82",
-          "description": "The VEKA 82 profile ensures exceptional energy efficiency and superior performance.",
-          "characteristics": [
-            "Brand Germany",
-            "Class A Profile",
-            "Depth of 82 mm",
-            "7 chambers",
-            "Sealing with three rows of gaskets",
-            "5-degree interior slope",
-            "Three rows of 44mm glass",
-            "German Winkhaus hardware",
-            "2mm galvanized steel reinforcement",
-            "Thermal coefficient of 0.9 W/m2K"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "Aluminum systems are known for their high reliability, durability, and modern aesthetics. We use premium-quality hardware to guarantee functionality and safety."
     },
     "colorsSection": {
       "title": "Colors",
@@ -600,43 +273,6 @@
       "catalogHeroTitle": "Sliding systems made of Aluminium",
       "qualityText": "excellent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profile KURTOGLU 51SL",
-          "description": "The KURTOGLU 51SL profile is ideal for sliding systems, providing optimal performance and durability for residential and commercial spaces.",
-          "characteristics": [
-            "Depth of 51 mm",
-            "Excellent sealing performance",
-            "Suitable for indoor and outdoor spaces",
-            "High durability for heavy use"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profile KURTOGLU 70SL",
-          "description": "The KURTOGLU 70SL profile offers advanced solutions for sliding windows and doors, combining aesthetics with high thermal performance.",
-          "characteristics": [
-            "Depth of 70 mm",
-            "Advanced thermal and acoustic insulation",
-            "Compatible with double and triple glazing",
-            "Elegant design for modern projects"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "SIEGENIA hardware provides high-quality solutions for windows and doors, ensuring optimal functionality, advanced security, and comfort. SIEGENIA products stand out for their innovative technology, long-lasting durability, and the ability to customize solutions to meet the requirements of any project."
-    },
     "colorsSection": {
       "title": "Colors",
       "types": [
@@ -675,33 +311,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Sliding systems VEKA MOTION",
       "qualityText": "excellent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA MOTION",
-          "description": "The VEKA MOTION profile is a premium solution for sliding systems, combining innovative technology with modern design to deliver optimal functionality and comfort.",
-          "characteristics": [
-            "Depth of 82 mm",
-            "Excellent thermal and sound insulation",
-            "Compatible with double and triple glazing",
-            "High durability and easy maintenance",
-            "Ergonomic and modern design",
-            "Advanced sealing against air drafts"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
     },
     "colorsSection": {
       "title": "Colors",
@@ -743,29 +352,6 @@
       "catalogHeroTitle": "Terrace closures",
       "qualityText": "excellent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profile KURTOGLU 30C",
-          "description": "The KURTOGLU 30C profile is a cost-effective solution for aluminum window and door systems, offering a great balance between performance and affordability.",
-          "characteristics": [
-            "Depth of 30 mm",
-            "Robust and economical system",
-            "Ideal for interior applications",
-            "Minimalist and modern design",
-            "Suitable for commercial and residential spaces",
-            "Corrosion resistance and easy maintenance"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
     "colorsSection": {
       "title": "Colors",
       "types": [
@@ -793,16 +379,6 @@
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
       ]
     },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
-      ]
-    },
     "sliderSection": {
       "title": "Portfolio",
       "buttons": {
@@ -814,29 +390,6 @@
     "catalogHeroSection": {
       "catalogHeroTitle": "Aluminum facades",
       "qualityText": "excellent"
-    },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profile KURTOGLU 50F",
-          "description": "The KURTOGLU 50F profile is designed for fixed systems and partition walls, providing a robust structure and modern aesthetics.",
-          "characteristics": [
-            "Depth of 50 mm",
-            "Fixed and stable system",
-            "Suitable for glass partition walls",
-            "Minimalist and modern design",
-            "Durable construction with low maintenance",
-            "High resistance to wear and corrosion"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
     },
     "colorsSection": {
       "title": "Colors",
@@ -862,106 +415,13 @@
       "catalogHeroTitle": "Windows and doors for your home in Italy",
       "qualityText": "excellent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 70",
-          "description": "The VEKA 70 profile provides excellent thermal and sound insulation, making it ideal for residential and commercial projects.",
-          "characteristics": [
-            "Depth of 70 mm",
-            "5-chamber system",
-            "Advanced sealing with double gaskets",
-            "Compatible with double and triple glazing",
-            "High durability and low maintenance"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 70 with 35mm Renovation Frame",
-          "description": "The VEKA 70 profile with a 35mm renovation frame is specially designed for renovation projects, offering performance and thermal efficiency.",
-          "characteristics": [
-            "Depth of 70 mm",
-            "35 mm renovation frame",
-            "5 chambers for optimal insulation",
-            "Ideal for modernization projects",
-            "Modern and functional design"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 70 with 65mm Renovation Frame",
-          "description": "The VEKA 70 profile with a 65mm renovation frame offers excellent solutions for renovations while maintaining high standards of quality and efficiency.",
-          "characteristics": [
-            "Depth of 70 mm",
-            "65 mm renovation frame",
-            "Advanced thermal insulation",
-            "Compatible with double and triple glazing",
-            "Durability and attractive design"
-          ]
-        },
-        {
-          "id": 4,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 82",
-          "description": "The VEKA 82 profile is the premium solution for high energy efficiency and maximum comfort.",
-          "characteristics": [
-            "Depth of 82 mm",
-            "7-chamber system for superior insulation",
-            "Suitable for passive houses",
-            "Advanced sealing with multiple gaskets",
-            "Modern and elegant design"
-          ]
-        },
-        {
-          "id": 5,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 82 with 65mm Renovation Frame",
-          "description": "The VEKA 82 profile with a 65mm renovation frame offers the best combination of energy efficiency and renovation solutions.",
-          "characteristics": [
-            "Depth of 82 mm",
-            "65 mm renovation frame",
-            "7-chamber system for optimal insulation",
-            "Compatible with triple glazing",
-            "High resistance and easy maintenance"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "slidingSystemsSection": {
-      "title": "Sliding Systems",
-      "description": "Sliding systems are modern solutions for large windows and doors, combining easy functionality with contemporary design and energy efficiency.",
-      "typeGalleryCards": [
-        {
-          "title": "Tilt-and-Slide Systems on VEKA 70 or 82 Profiles",
-          "description": "Tilt-and-slide systems are built on VEKA 70 or 82 profiles, offering superior thermal insulation and easy handling. These systems are ideal for spaces requiring controlled ventilation and high accessibility."
-        },
-        {
-          "title": "Lift-and-Slide Systems on Aluminum Profiles",
-          "description": "Lift-and-slide systems on aluminum profiles are designed for large openings, offering durability, thermal efficiency, and elegant design. They are perfect for heavy use in commercial and residential spaces."
-        }
-      ]
-    },
     "rollerShutterBoxesSection": {
       "title": "Roller Shutter Boxes",
       "description": "Roller shutter boxes are practical solutions for shutter systems, providing protection and aesthetics for your windows.",
       "typeGalleryCards": [
         {
           "title": "Single type",
-          "description": "Roller shutter boxes are designed to offer durability and seamless integration into the architectural design of buildings.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "description": "Roller shutter boxes are designed to offer durability and seamless integration into the architectural design of buildings."
         }
       ]
     },
@@ -972,22 +432,11 @@
         {
           "title": "Manual roller shutters",
           "description": "Manual roller shutter systems offer simple and efficient control, ideal for residential spaces.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-
-          ],
           "isManual": "true"
         },
         {
           "title": "Electric roller shutters",
           "description": "Electric roller shutters add convenience and functionality, allowing automatic operation with remote control or smart systems.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ],
           "isManual": "false"
         }
       ]
@@ -998,12 +447,7 @@
       "typeGalleryCards": [
         {
           "title": "Plisse mosquito nets",
-          "description": "Plisse mosquito nets are designed to be easy to use and maintain, providing an effective barrier against insects.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "description": "Plisse mosquito nets are designed to be easy to use and maintain, providing an effective barrier against insects."
         }
       ]
     },
@@ -1037,16 +481,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1061,76 +495,6 @@
       "catalogHeroTitle": "Windows and doors for your home in Ireland",
       "qualityText": "excellent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 70",
-          "description": "The VEKA 70 profile provides excellent thermal and sound insulation, making it ideal for residential and commercial projects.",
-          "characteristics": [
-            "Depth of 70 mm",
-            "5-chamber system",
-            "Advanced sealing with double gaskets",
-            "Compatible with double and triple glazing",
-            "High durability and low maintenance"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 82",
-          "description": "The VEKA 82 profile is the premium solution for high energy efficiency and maximum comfort.",
-          "characteristics": [
-            "Depth of 82 mm",
-            "7-chamber system for superior insulation",
-            "Suitable for passive houses",
-            "Advanced sealing with multiple gaskets",
-            "Modern and elegant design"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profile Alutech 75 (Aluminum)",
-          "description": "The Alutech 75 profile is a premium solution for aluminum systems, offering durability and advanced thermal performance.",
-          "characteristics": [
-            "Depth of 75 mm",
-            "High-performance thermal insulation system",
-            "Suitable for commercial and residential spaces",
-            "High resistance to corrosion",
-            "Modern and versatile design"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "slidingSystemsSection": {
-      "title": "Sliding Systems",
-      "description": "Sliding systems are ideal solutions for modern spaces, offering the perfect combination of comfort, functionality, and innovative design.",
-      "typeGalleryCards": [
-        {
-          "title": "Tilt-and-Slide Systems on VEKA 70 or 82 Profiles",
-          "description": "These systems provide superior thermal insulation and easy handling. They are ideal for large windows and doors requiring controlled ventilation and an elegant design."
-        },
-        {
-          "title": "Lift-and-Slide Systems on Aluminum Profiles",
-          "description": "Lift-and-slide systems on aluminum profiles are designed for wide openings, combining the durability of aluminum with energy efficiency and modern aesthetics."
-        },
-        {
-          "title": "VEKA MOTION",
-          "description": "VEKA MOTION is a premium sliding system that combines advanced technology with modern design, offering excellent functionality and outstanding aesthetics."
-        }
-      ]
-    },
-    "hardwareSection": {
-      "title": "Hardware",
-      "description": "WINKHAUS hardware is renowned for its reliability and longevity. Designed in Germany, it offers a high level of security, functionality, and durability. The intelligent systems ensure perfect sealing and smooth operation of windows and doors."
-    },
     "colorsSection": {
       "title": "Colors",
       "types": [
@@ -1157,16 +521,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {
@@ -1181,72 +535,6 @@
       "catalogHeroTitle": "Windows and doors for your home in France/Belgium",
       "qualityText": "excellent"
     },
-    "profilesSection": {
-      "sectionTitle": "Profiles",
-      "profiles": [
-        {
-          "id": 1,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 70",
-          "description": "The VEKA 70 profile provides excellent thermal and sound insulation, making it ideal for residential and commercial projects.",
-          "characteristics": [
-            "Depth of 70 mm",
-            "5-chamber system",
-            "Advanced sealing with double gaskets",
-            "Compatible with double and triple glazing",
-            "High durability and low maintenance"
-          ]
-        },
-        {
-          "id": 2,
-          "image": "/assets/images/office.png",
-          "title": "Profile VEKA 82",
-          "description": "The VEKA 82 profile is the premium solution for high energy efficiency and maximum comfort.",
-          "characteristics": [
-            "Depth of 82 mm",
-            "7-chamber system for superior insulation",
-            "Suitable for passive houses",
-            "Advanced sealing with multiple gaskets",
-            "Modern and elegant design"
-          ]
-        },
-        {
-          "id": 3,
-          "image": "/assets/images/office.png",
-          "title": "Profile Alutech 75 (Aluminum)",
-          "description": "The Alutech 75 profile is a premium solution for aluminum systems, offering durability and advanced thermal performance.",
-          "characteristics": [
-            "Depth of 75 mm",
-            "High-performance thermal insulation system",
-            "Suitable for commercial and residential spaces",
-            "High resistance to corrosion",
-            "Modern and versatile design"
-          ]
-        }
-      ],
-      "togglers": {
-        "description": "Description",
-        "characteristics": "Characteristics"
-      }
-    },
-    "slidingSystemsSection": {
-      "title": "Sliding Systems",
-      "description": "Sliding systems are ideal solutions for modern spaces, offering the perfect combination of comfort, functionality, and innovative design.",
-      "typeGalleryCards": [
-        {
-          "title": "Tilt-and-Slide Systems on VEKA 70 or 82 Profiles",
-          "description": "These systems provide superior thermal insulation and easy handling. They are ideal for large windows and doors requiring controlled ventilation and an elegant design."
-        },
-        {
-          "title": "Lift-and-Slide Systems on Aluminum Profiles",
-          "description": "Lift-and-slide systems on aluminum profiles are designed for wide openings, combining the durability of aluminum with energy efficiency and modern aesthetics."
-        },
-        {
-          "title": "VEKA MOTION",
-          "description": "VEKA MOTION is a premium sliding system that combines advanced technology with modern design, offering excellent functionality and outstanding aesthetics."
-        }
-      ]
-    },
     "blindsSection": {
       "title": "Blinds",
       "description": "Blinds are versatile solutions for windows, available in two types: manual and electric. They combine protection with practical functionality and a modern design.",
@@ -1254,20 +542,12 @@
         {
           "title": "Manual blinds",
           "description": "Manual blinds offer simple and efficient control, making them ideal for use in residential and commercial spaces.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "isManual": "true"
         },
         {
           "title": "Electric blinds",
           "description": "Electric blinds add convenience and modernity, allowing automatic control through remote or smart systems.",
-          "gallery": [
-            { "id": 1, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 2, "src": "/assets/images/office.png", "alt": "" },
-            { "id": 3, "src": "/assets/images/office.png", "alt": "" }
-          ]
+          "isManual": "false"
         }
       ]
     },
@@ -1301,16 +581,6 @@
         { "id": 8, "src": "/assets/images/glasses/8.jpg", "name": "Diamant Clear" },
         { "id": 9, "src": "/assets/images/glasses/9.jpg", "name": "Krizet Clear" },
         { "id": 10, "src": "/assets/images/glasses/10.jpg", "name": "Spicusor Clear" }
-      ]
-    },
-    "handlesSection": {
-      "title": "Types of Handles",
-      "types": [
-        { "id": 1, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 2, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 3, "src": "/assets/images/office.png", "name": "Metal" },
-        { "id": 4, "src": "/assets/images/office.png", "name": "Plastic" },
-        { "id": 5, "src": "/assets/images/office.png", "name": "Metal" }
       ]
     },
     "sliderSection": {

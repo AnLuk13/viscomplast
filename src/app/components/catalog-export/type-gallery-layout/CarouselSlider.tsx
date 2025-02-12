@@ -7,11 +7,13 @@ import LeftArrow from "@/app/components/svg-icons/slider/LeftArrow";
 import RightArrow from "@/app/components/svg-icons/slider/RightArrow";
 import styles from "@/app/styles/catalog-export/typeGallerySection.module.scss";
 
-type GalleryProps = {
-  id: number;
-  src: string;
-  alt: string;
-};
+type GalleryProps =
+  | {
+      src: string;
+      id?: number;
+      alt?: string;
+    }
+  | string;
 
 function CarouselSlider({ gallery }: { gallery: GalleryProps[] }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -54,13 +56,13 @@ function CarouselSlider({ gallery }: { gallery: GalleryProps[] }) {
     >
       {gallery.map((image) => (
         <div
-          key={`slider-image-${image.id}`}
+          key={typeof image === "string" ? image : image.id}
           className={styles.typeGalleryCardGalleryImageBox}
         >
           {isLoading && <div className="imageBlur" />}
           <Image
-            src={image.src}
-            alt={image.alt}
+            src={typeof image === "string" ? image : image.src}
+            alt={`Gallery image ${typeof image === "string" ? image.trim().slice(0, 10) : image.alt}`}
             fill
             sizes="100%"
             priority

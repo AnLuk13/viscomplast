@@ -1,7 +1,6 @@
 import React from "react";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import styles from "@/app/styles/globals/aboutSection.module.scss";
-import { v4 as uuidv4 } from "uuid";
 
 function AboutContent({ content }) {
   return (
@@ -13,7 +12,10 @@ function AboutContent({ content }) {
       </div>
       <div className={styles.descriptionBox}>
         {content.raw("aboutDescription").map((descriptionText) => (
-          <div key={uuidv4()} className={styles.description}>
+          <div
+            key={descriptionText.trim().slice(0, 10)}
+            className={styles.description}
+          >
             {descriptionText}
           </div>
         ))}

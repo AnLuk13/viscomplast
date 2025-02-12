@@ -4,7 +4,6 @@ import React from "react";
 import styles from "@/app/styles/catalog-export/typeGallerySection.module.scss";
 import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
 import TypeGalleryCard from "@/app/components/catalog-export/type-gallery-layout/TypeGalleryCard";
-import { v4 as uuidv4 } from "uuid";
 import manifest from "@/app/lib/assets-manifest.json";
 
 function RollerShuttersSection({ content }) {
@@ -20,7 +19,7 @@ function RollerShuttersSection({ content }) {
       </div>
       {content.raw("rollerShuttersSection.typeGalleryCards").map((card) => (
         <TypeGalleryCard
-          key={uuidv4()}
+          key={card.title}
           title={card.title}
           description={card.description}
           gallery={

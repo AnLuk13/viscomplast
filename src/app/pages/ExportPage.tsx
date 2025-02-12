@@ -17,7 +17,12 @@ import RollerShuttersSection from "@/app/components/catalog-export/RollerShutter
 import MosquitoNetsSection from "@/app/components/catalog-export/MosquitoNetsSection";
 import BlindsSection from "@/app/components/catalog-export/BlindsSection";
 import manifest from "@/app/lib/assets-manifest.json";
-import FirestoreSection from "@/app/components/wrapper/FireStoreSection";
+import dynamic from "next/dynamic";
+
+const FirestoreSection = dynamic(
+  () => import("@/app/components/wrapper/FireStoreSection"),
+  { ssr: false },
+);
 
 function ExportPage({ route }: { route: string }) {
   const t = useTranslations(route);

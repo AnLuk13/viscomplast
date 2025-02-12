@@ -1,15 +1,26 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
+import type { Firestore } from "firebase/firestore";
 import { getDoc, doc, getFirestore } from "firebase/firestore";
+import type { FirebaseApp } from "firebase/app";
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from "@/app/lib/config/firebaseConfig";
 import type { FirebaseStorage } from "@firebase/storage";
 import { getStorage } from "@firebase/storage";
 
-const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
-export const storage: FirebaseStorage = getStorage(app); // Ensure correct type
+let firebaseApp: FirebaseApp;
+let firestoreDb: Firestore;
+let firebaseStorage: FirebaseStorage;
+
+if (!firebaseApp) {
+  firebaseApp = initializeApp(firebaseConfig);
+  firestoreDb = getFirestore(firebaseApp);
+  firebaseStorage = getStorage(firebaseApp);
+}
+
+export const db = firestoreDb;
+export const storage = firebaseStorage;
 
 export const fetchFirestoreDocument = async (
   collectionPath: string,

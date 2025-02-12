@@ -11,8 +11,13 @@ import SponsorsSection from "@/app/components/globals/SponsorsSection";
 import Footer from "@/app/components/footer/Footer";
 import { useTranslations } from "next-intl";
 import manifest from "@/app/lib/assets-manifest.json";
-import FirestoreSection from "@/app/components/wrapper/FireStoreSection";
 import ProfilesSection from "@/app/components/catalog-export/profiles-layout/ProfilesSection";
+import dynamic from "next/dynamic";
+
+const FirestoreSection = dynamic(
+  () => import("@/app/components/wrapper/FireStoreSection"),
+  { ssr: false },
+);
 
 function CatalogPage({ route }: { route: string }) {
   const t = useTranslations(route);
