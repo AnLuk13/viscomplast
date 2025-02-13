@@ -742,7 +742,7 @@
         { "label": "infoviscomplast@gmail.com", "type": "email", "href": "mailto:infoviscomplast@gmail.com" }
       ]
     },
-    "developedBy": "Dezvoltat de @NiceGuy"
+    "copyright": "©Viscomplast {year}. Toate drepturile rezervate"
   },
   "sponsorsSection": {
     "title": "Partenerii noștri",

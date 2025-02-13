@@ -805,7 +805,7 @@
         { "label": "infoviscomplast@gmail.com", "type": "email", "href": "mailto:infoviscomplast@gmail.com" }
       ]
     },
-    "developedBy": "Разработано @NiceGuy"
+    "copyright": "©Viscomplast {year}. Все права защищены"
   },
   "sponsorsSection": {
   "title": "Наши партнеры",

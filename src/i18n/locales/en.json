@@ -742,7 +742,7 @@
         { "label": "infoviscomplast@gmail.com", "type": "email", "href": "mailto:infoviscomplast@gmail.com" }
       ]
     },
-    "developedBy": "Developed by @NiceGuy"
+    "copyright": "©Viscomplast {year}. All rights reserved"
   },
   "sponsorsSection": {
   "title": "Our Partners",

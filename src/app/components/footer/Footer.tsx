@@ -9,13 +9,16 @@ import { useTranslations } from "next-intl";
 
 function Footer() {
   const t = useTranslations("footer");
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
         <div className={styles.largeLogoSection}>
           <LargeLogo width={200} />
-          <div className={styles.developedBy}>{t("developedBy")}</div>
+          <div className={styles.developedBy}>
+            {t("copyright", { year: currentYear })}
+          </div>
         </div>
         <div className={styles.menuSection}>
           <div className={styles.sectionTitle}>{t("catalog.title")}</div>
@@ -49,7 +52,9 @@ function Footer() {
         </div>
         <div className={styles.mediumLogoSection}>
           <MediumLogo />
-          <div className={styles.developedBy}>{t("developedBy")}</div>
+          <div className={styles.developedBy}>
+            {t("copyright", { year: currentYear })}
+          </div>
         </div>
       </div>
     </footer>
