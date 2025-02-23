@@ -4,8 +4,7 @@ import React from "react";
 import TypesLayout from "@/app/components/catalog-export/type-layout/TypesLayout";
 import { MoonLoader } from "react-spinners";
 import { useLocale } from "next-intl";
-import { useQuery } from "@tanstack/react-query";
-import { fetchFirestoreDocument } from "@/app/lib/hooks/useRetrieveData";
+import { useFirestoreQuery } from "@/app/lib/hooks/useRetrieveData";
 import { handlesDoorsPvcAluminum, objectFit } from "@/app/lib/consts/common";
 
 function HandlesSection({ route }: { route: string }) {
@@ -14,12 +13,11 @@ function HandlesSection({ route }: { route: string }) {
   const collectionPath = isDoorHandle
     ? "handlesDoorsPvcAluminum"
     : "handlesWindowsPvcAluminum";
-  const { data, isLoading, error } = useQuery({
-    queryKey: [collectionPath],
-    queryFn: () => fetchFirestoreDocument(collectionPath, collectionPath),
-    staleTime: Infinity,
-    gcTime: 30 * 60 * 1000,
-  });
+  const { data, isLoading, error } = useFirestoreQuery(
+    collectionPath,
+    collectionPath,
+    `${collectionPath}`,
+  );
 
   if (!isLoading && (error || !data)) {
     return <div className="errorMessage">Error fetching data!</div>;
