@@ -44,7 +44,7 @@ function CatalogPage({ route }: { route: string }) {
         <FirestoreSection route={route} Component={HardwareSection} />
       )}
       <ColorsSection content={t} />
-      {!isFatade && <GlassesSection content={t} />}
+      {!isFatade && <GlassesSection content={t} route={route} />}
       {!isGlisante && !isInchideriSauFatade && <HandlesSection route={route} />}
       <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
       <SliderSection content={t} route={route} />
