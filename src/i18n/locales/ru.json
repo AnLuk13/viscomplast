@@ -19,7 +19,7 @@
             { "name": "ПВХ", "href": "/ferestre-pvc" },
             { "name": "АЛЮМИНИЙ", "href": "/ferestre-aluminiu" }
           ],
-          "imageUrl": "/assets/images/catalogSection/ferestre.jpg"
+          "imageUrl": "/assets/images/catalogSection/ferestre.png"
         },
         {
           "title": "Двери",
@@ -27,7 +27,7 @@
             { "name": "ПВХ", "href": "/usi-pvc" },
             { "name": "АЛЮМИНИЙ", "href": "/usi-aluminiu" }
           ],
-          "imageUrl": "/assets/images/catalogSection/usi.png"
+          "imageUrl": "/assets/images/catalogSection/usi.jpg"
         },
         {
           "title": "Раздвижные системы",
@@ -43,7 +43,7 @@
           "items": [
             { "name": "АЛЮМИНИЙ", "href": "/inchideri-terase" }
           ],
-          "imageUrl": "/assets/images/catalogSection/inchideri-terase.png"
+          "imageUrl": "/assets/images/catalogSection/inchideri-terase.jpg"
         },
         {
           "title": "Фасады",

@@ -19,7 +19,7 @@
             { "name": "PVC", "href": "/ferestre-pvc" },
             { "name": "ALUMINIU", "href": "/ferestre-aluminiu" }
           ],
-          "imageUrl": "/assets/images/catalogSection/ferestre.jpg"
+          "imageUrl": "/assets/images/catalogSection/ferestre.png"
         },
         {
           "title": "Uși",
@@ -27,7 +27,7 @@
             { "name": "PVC", "href": "/usi-pvc" },
             { "name": "ALUMINIU", "href": "/usi-aluminiu" }
           ],
-          "imageUrl": "/assets/images/catalogSection/usi.png"
+          "imageUrl": "/assets/images/catalogSection/usi.jpg"
         },
         {
           "title": "Glisante",
@@ -43,7 +43,7 @@
           "items": [
             { "name": "ALUMINIU", "href": "/inchideri-terase-aluminiu" }
           ],
-          "imageUrl": "/assets/images/catalogSection/inchideri-terase.png"
+          "imageUrl": "/assets/images/catalogSection/inchideri-terase.jpg"
         },
         {
           "title": "Fațade",

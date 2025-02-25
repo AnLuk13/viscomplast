@@ -172,7 +172,7 @@
 
     .typeGalleryCardGalleryImage {
       width: 100%;
-      height: 480px !important; // imageBox is defined 100%, image from next is 100%, but ensures the height
+      height: 480px; // imageBox is defined 100%, image from next is 100%, but ensures the height
       object-fit: contain;
     }
   }

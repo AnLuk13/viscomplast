@@ -1,172 +1,193 @@
-const { initializeApp } = require("firebase/app");
-const { getFirestore, doc, setDoc, deleteDoc } = require("firebase/firestore");
+const { initializeApp } = require('firebase/app');
+const { getFirestore, doc, setDoc, deleteDoc } = require('firebase/firestore');
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBhLkHzfJU7FcXVZTjjHR61i7uYJ1LaqNM",
-  authDomain: "viscomplast-6d417.firebaseapp.com",
-  projectId: "viscomplast-6d417",
-  storageBucket: "viscomplast-6d417.firebasestorage.app",
-  messagingSenderId: "483989952801",
-  appId: "1:483989952801:web:9f4764659a2fbaaeb80660",
+  apiKey: 'AIzaSyBhLkHzfJU7FcXVZTjjHR61i7uYJ1LaqNM',
+  authDomain: 'viscomplast-6d417.firebaseapp.com',
+  projectId: 'viscomplast-6d417',
+  storageBucket: 'viscomplast-6d417.firebasestorage.app',
+  messagingSenderId: '483989952801',
+  appId: '1:483989952801:web:9f4764659a2fbaaeb80660',
 };
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const slidingSystemsSection = {
-  title: {
-    en: "Types of Handles",
-    ro: "Tipuri de mânere",
-    ru: "Типы ручек",
+  sectionTitle: {
+    en: 'Profiles',
+    ro: 'Profiluri',
+    ru: 'Профили',
   },
-  types: [
+  togglers: {
+    characteristics: {
+      en: 'Characteristics',
+      ro: 'Caracteristici',
+      ru: 'Характеристики',
+    },
+    description: {
+      en: 'Description',
+      ro: 'Descriere',
+      ru: 'Описание',
+    },
+  },
+  profiles: [
     {
       id: 1,
-      name: {
-        en: "Saturn RAL7016",
-        ro: "Saturn RAL7016",
-        ru: "Saturn RAL7016",
+      title: {
+        en: 'VEKA 70',
+        ro: 'VEKA 70',
+        ru: 'VEKA 70',
       },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu8.jpg?alt=media&token=d926d471-a919-41dc-aeea-c47bc6d441b4",
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/profiles%2FVEKA-705.png?alt=media&token=de506b22-dd7b-4b56-8bb5-d7f867dbfb62',
+      description: {
+        en: 'The VEKA 70 PVC profile provides superior thermal and sound insulation, contributing to energy efficiency. It is resistant to extreme weather conditions and UV radiation, offering long-lasting durability. Easy to maintain and featuring a modern design, it ensures long-term comfort and protection.',
+        ro: 'Profilul PVC VEKA de 70mm asigură izolație termică și fonică superioară, contribuind la eficiența energetică. Este rezistent la condiții meteo extreme și UV, având o durabilitate excelentă. Ușor de întreținut și cu un design modern, oferă confort și protecție pe termen lung.',
+        ru: 'Профиль PVC VEKA 70 мм обеспечивает превосходную тепло- и звукоизоляцию, способствуя энергоэффективности. Он устойчив к экстремальным погодным условиям и УФ-излучению, обладая высокой долговечностью. Легок в уходе и имеет современный дизайн, обеспечивая комфорт и защиту на долгие годы.',
+      },
+      characteristics: {
+        en: [
+          'Brand Germany',
+          'Class A Profile',
+          'Depth of 70 mm',
+          '5 chambers',
+          'Advanced sealing with double gaskets',
+          'Compatible with double and triple glazing',
+          'German Winkhaus hardware',
+          '1.5-2mm galvanized steel reinforcement',
+          'Thermal coefficient of 1.0-1.3 W/m²K',
+        ],
+        ro: [
+          'Marcă Germania',
+          'Profil Clasa A',
+          'Adâncime de 70 mm',
+          '5 camere',
+          'Etanșare avansată cu garnituri duble',
+          'Potrivit pentru geamuri duble și triple',
+          'Feronerie germană Winkhaus',
+          'Armătură de oțel zincat de 1,5-2mm',
+          'Coeficient termic de 1,0-1,3 W/m²K',
+        ],
+        ru: [
+          'Бренд Германия',
+          'Профиль класса A',
+          'Глубина 70 мм',
+          '5 камер',
+          'Продвинутая герметизация с двойными уплотнителями',
+          'Совместимость с двойным и тройным остеклением',
+          'Немецкая фурнитура Winkhaus',
+          'Оцинкованное стальное армирование 1,5-2 мм',
+          'Тепловой коэффициент 1,0-1,3 Вт/м²K',
+        ],
+      },
     },
     {
       id: 2,
-      name: {
-        en: "Victory RAL8003",
-        ro: "Victory RAL8003",
-        ru: "Victory RAL8003",
+      title: {
+        en: 'VEKA 82',
+        ro: 'VEKA 82',
+        ru: 'VEKA 82',
       },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu6.jpg?alt=media&token=a5f746b0-e416-40ca-992d-b92463ff4566",
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/profiles%2FVEKA-825.png?alt=media&token=abb74890-730a-455f-a433-fa92d612d16f',
+      description: {
+        en: 'The VEKA 82 profile provides excellent thermal and sound insulation, significantly reducing heat loss. It is resistant to extreme weather conditions and UV radiation, ensuring high durability. Its modern design and advanced technology improve energy efficiency, offering enhanced comfort and long-term protection, making it ideal for energy-efficient homes.',
+        ro: 'Profilul VEKA 82 asigură o izolație termică și fonică excelentă, reducând semnificativ pierderile de căldură. Este rezistent la intemperii și UV, având o durabilitate mare. Designul modern și tehnologia avansată îmbunătățesc eficiența energetică, oferind confort sporit și protecție pe termen lung, fiind ideal pentru locuințe eficiente energetic.',
+        ru: 'Профиль VEKA 82 обеспечивает отличную тепло- и звукоизоляцию, значительно снижая потери тепла. Он устойчив к суровым погодным условиям и УФ-излучению, гарантируя высокую долговечность. Современный дизайн и передовые технологии повышают энергоэффективность, обеспечивая дополнительный комфорт и долгосрочную защиту, что делает его идеальным для энергоэффективных домов.',
+      },
+      characteristics: {
+        en: [
+          'Brand Germany',
+          'Class A Profile',
+          'Depth of 82 mm',
+          '7 chambers',
+          'Triple gasket sealing',
+          'Triple glazing',
+          'German Winkhaus hardware',
+          '2mm galvanized steel reinforcement',
+          'Thermal coefficient of 1.0-0.67 W/m²K',
+        ],
+        ro: [
+          'Marcă Germania',
+          'Profil Clasa A',
+          'Adâncime de 82 mm',
+          '7 camere',
+          'Etanșare în trei rânduri de garnituri',
+          'Vitrare în 3 rânduri de sticlă',
+          'Feronerie germană Winkhaus',
+          'Armătură de oțel zincat de 2mm',
+          'Coeficient termic de 1,0-0,67 W/m²K',
+        ],
+        ru: [
+          'Бренд Германия',
+          'Профиль класса A',
+          'Глубина 82 мм',
+          '7 камер',
+          'Уплотнение с тремя рядами уплотнителей',
+          'Тройное остекление',
+          'Немецкая фурнитура Winkhaus',
+          'Оцинкованное стальное армирование 2 мм',
+          'Тепловой коэффициент 1,0-0,67 Вт/м²K',
+        ],
+      },
     },
     {
       id: 3,
-      name: { en: "Dublin F9", ro: "Dublin F9", ru: "Dublin F9" },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu18.jpg?alt=media&token=8a27510b-4158-4d4c-bd21-a072847ec160",
-    },
-    {
-      id: 4,
-      name: {
-        en: "Dublin RAL7016",
-        ro: "Dublin RAL7016",
-        ru: "Dublin RAL7016",
+      title: {
+        en: 'Alutech 75T (Aluminum)',
+        ro: 'Alutech 75T (Aluminiu)',
+        ru: 'Alutech 75T (Алюминий)',
       },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu17.jpg?alt=media&token=fb65fd38-fa38-40d6-9418-7b4805d5c494",
-    },
-    {
-      id: 5,
-      name: {
-        en: "Dublin RAL9005",
-        ro: "Dublin RAL9005",
-        ru: "Dublin RAL9005",
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/profiles%2FAlutech-755.jpg?alt=media&token=4191175d-07f3-449b-a8a1-cf950c669ebd',
+      description: {
+        en: 'The Alutech 75T profile provides exceptional thermal and acoustic insulation, making it perfect for modern construction and energy savings.',
+        ro: 'Profilul Alutech 75T oferă performanțe excepționale de izolare termică și acustică, fiind perfect pentru construcții moderne și economii de energie.',
+        ru: 'Профиль Alutech 75T обеспечивает исключительную тепло и звукоизоляцию, идеально подходя для современных построек и энергосбережения.',
       },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu16.jpg?alt=media&token=8ee2535e-ffbf-4615-88e9-fa2718d103c8",
-    },
-    {
-      id: 6,
-      name: { en: "Dublin White", ro: "Dublin Alb", ru: "Dublin Белый" },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu14.jpg?alt=media&token=a9f65ac5-82b3-46cf-bf32-35780e856b9e",
-    },
-    {
-      id: 7,
-      name: {
-        en: "Dublin RAL8077",
-        ro: "Dublin RAL8077",
-        ru: "Dublin RAL8077",
+      characteristics: {
+        en: [
+          'Depth of 75 mm',
+          'Thermal barrier of 34mm',
+          'High energy efficiency',
+          'Double or triple glazing',
+          'High structural strength',
+          'Sealing with two or three gasket rows',
+          'Excellent for large windows',
+        ],
+        ro: [
+          'Adâncime de 75 mm',
+          'Barieră termică de 34mm',
+          'Eficiență energetică ridicată',
+          'Vitrare în 2 sau 3 rânduri de sticlă',
+          'Rezistență structurală ridicată',
+          'Etanșare în două sau trei rânduri de garnituri',
+          'Excelent pentru ferestre mari',
+        ],
+        ru: [
+          'Глубина 75 мм',
+          'Термический барьер 34 мм',
+          'Высокая энергоэффективность',
+          'Двойное или тройное остекление',
+          'Высокая структурная прочность',
+          'Уплотнение с двумя или тремя рядами уплотнителей',
+          'Отлично подходит для больших окон',
+        ],
       },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu15.jpg?alt=media&token=b1e42b9f-7ee9-4c01-9350-af9f6b328fce",
-    },
-    {
-      id: 8,
-      name: { en: "Victory Gold", ro: "Victory Auriu", ru: "Victory Золотой" },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu1.jpg?alt=media&token=c004b17b-48d9-4ca4-b69a-0f57ac88ff47",
-    },
-    {
-      id: 9,
-      name: { en: "Saturn Gold", ro: "Saturn Auriu", ru: "Saturn Золотой" },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu3.jpg?alt=media&token=c28a5a3f-e662-4fa6-8c93-d9aee9c6b042",
-    },
-    {
-      id: 10,
-      name: {
-        en: "Hoppe Liege White",
-        ro: "Hoppe Liege Alb",
-        ru: "Hoppe Liege Белый",
-      },
-    },
-    {
-      id: 11,
-      name: {
-        en: "Victory RAL9005",
-        ro: "Victory RAL9005",
-        ru: "Victory RAL9005",
-      },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu9.jpg?alt=media&token=00a3a7cf-4f6c-4470-ae18-eb1d9d4549e8",
-    },
-    {
-      id: 12,
-      name: {
-        en: "Victory RAL7016",
-        ro: "Victory RAL7016",
-        ru: "Victory RAL7016",
-      },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu5.jpg?alt=media&token=a9409cb9-f183-4c1a-b4d6-f0929a251b43",
-    },
-    {
-      id: 13,
-      name: {
-        en: "Saturn RAL9005",
-        ro: "Saturn RAL9005",
-        ru: "Saturn RAL9005",
-      },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu12.jpg?alt=media&token=cbf14bea-e206-4032-b2ce-bf8f6a221d0a",
-    },
-    {
-      id: 14,
-      name: { en: "Victory White", ro: "Victory Alb", ru: "Victory Белый" },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu2.jpg?alt=media&token=2a311bb1-db16-4f57-8c11-c37cdd8d0bc7",
-    },
-    {
-      id: 15,
-      name: {
-        en: "Hoppe Liege RAL8077",
-        ro: "Hoppe Liege RAL8077",
-        ru: "Hoppe Liege RAL8077",
-      },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu4.jpg?alt=media&token=98c1bc29-2a15-4107-823a-602ca1b1a3bd",
-    },
-    {
-      id: 16,
-      name: {
-        en: "Hoppe Liege F9",
-        ro: "Hoppe Liege F9",
-        ru: "Hoppe Liege F9",
-      },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu10.jpg?alt=media&token=dcc2b088-e0dd-46b8-b7d6-a97a1d55e078",
-    },
-    {
-      id: 17,
-      name: {
-        en: "Hoppe Liege RAL7016",
-        ro: "Hoppe Liege RAL7016",
-        ru: "Hoppe Liege RAL7016",
-      },
-      src: "https://firebasestorage.googleapis.com/v0/b/viscomplast-6d417.firebasestorage.app/o/handlesSection%2Faluminiu13.jpg?alt=media&token=37415682-f613-44bf-b4b4-e8a56e139d61",
     },
   ],
 };
+
 async function updateProfilesSection() {
   try {
-    const docRef = doc(
-      db,
-      "handlesDoorsPvcAluminum",
-      "handlesDoorsPvcAluminum",
-    );
+    const docRef = doc(db, 'exportFrantaBelgia', 'profilesSection');
     await deleteDoc(docRef);
 
     await setDoc(docRef, slidingSystemsSection, { merge: true });
-    console.log("✅ Updated successfully!");
+    console.log('✅ Updated successfully!');
   } catch (error) {
-    console.error("❌ Error updating:", error);
+    console.error('❌ Error updating:', error);
   }
 }
 

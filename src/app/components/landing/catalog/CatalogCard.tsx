@@ -1,8 +1,8 @@
-import styles from "@/app/styles/landing/catalogSection.module.scss";
-import LinkArrowIcon from "@/app/components/svg-icons/LinkArrowIcon";
-import Image from "next/image";
-import React, { useState } from "react";
-import { Link } from "@/i18n/routing";
+import styles from '@/app/styles/landing/catalogSection.module.scss';
+import LinkArrowIcon from '@/app/components/svg-icons/LinkArrowIcon';
+import Image from 'next/image';
+import React, { useState } from 'react';
+import { Link } from '@/i18n/routing';
 
 function CatalogCard({
   title,
@@ -24,19 +24,19 @@ function CatalogCard({
         fill
         sizes="(min-width: 1350px) 33.3%, (max-width: 1249px) 100vw, 50vw, 33vw"
         quality={100}
-        className={`${styles.cardImage} ${isLoading ? "imageLoading" : ""}`}
+        className={`${styles.cardImage} ${isLoading ? 'imageLoading' : ''}`}
         onLoad={() => setIsLoading(false)}
       />
       <div className="fadeOverlay" />
       <div className={styles.cardTitle}>{title}</div>
       <div className={styles.listItemContainer}>
-        {items.map((item) => (
-          <div key={item.name} className={styles.listItemBox}>
+        {items.map(item => (
+          <Link href={item.href} key={item.name} className={styles.listItemBox}>
             <div className={styles.listItem}>{item.name}</div>
-            <Link href={item.href} className={styles.actionButton}>
+            <div className={styles.actionButton}>
               <LinkArrowIcon />
-            </Link>
-          </div>
+            </div>
+          </Link>
         ))}
       </div>
     </div>
