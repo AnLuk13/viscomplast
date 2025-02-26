@@ -64,21 +64,25 @@
     bottom: 0;
     height: 132px;
     display: flex;
-    padding: 20px 80px;
+    padding: 20px 172px 20px 80px;
     box-sizing: border-box;
 
     .imageMessageBox {
-      max-width: 600px;
+      //max-width: 610px;
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      //justify-content: space-between;
       align-items: center;
+      gap: 20px;
 
       .imageBox {
         display: flex;
-        justify-content: space-between;
+        //justify-content: space-between;
         align-items: center;
-        width: 140px;
+        min-width: 160px;
+        //max-width: 190px;
+        //width: 100%;
+        gap: 16px;
 
         .reviewImage {
           border-radius: 99px;
@@ -107,14 +111,16 @@
 
       .messageText {
         width: 100%;
-        height: 48px;
-        max-width: 400px;
+        //height: 48px;
+        max-width: 500px;
         font-family: var(--font-family);
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: -0.02em;
         color: var(--primary);
+        padding-right: 8px;
+        box-sizing: border-box;
       }
     }
 
@@ -165,6 +171,7 @@
   }
 
   .heroSectionBox {
+    top: 86px !important;
     height: 274px !important;
     left: 16px !important;
 
@@ -191,18 +198,19 @@
     height: 200px !important;
     max-height: 200px;
     padding-left: 16px !important;
-    padding-right: 152px !important;
+    padding-right: 122px !important;
     padding-bottom: 12px !important;
 
     .messageText {
       height: fit-content !important;
+      padding: 0 !important;
     }
 
     .imageMessageBox {
       flex-direction: column;
       justify-content: flex-end !important;
       align-items: self-start !important;
-      gap: 16px;
+      gap: 16px !important;
       width: fit-content !important;
     }
   }

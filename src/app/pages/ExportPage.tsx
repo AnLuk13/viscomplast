@@ -44,7 +44,11 @@ function ExportPage({ route }: { route: string }) {
       <ColorsSection content={t} />
       <GlassesSection content={t} />
       <HandlesSection route={route} />
-      <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
+      <OfferSection
+        bgColor="var(--primary)"
+        cardColor="var(--white)"
+        route={route}
+      />
       <SliderSection content={t} route={route} />
       <AboutSection showAboutInfo={false} />
       <SponsorsSection color="var(--primary)" />

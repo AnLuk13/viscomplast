@@ -25,7 +25,7 @@ export const languages = [
   { value: 'en', label: 'English', flag: 'https://flagcdn.com/w320/us.png' },
 ];
 
-export const catalogRoutes: string[] = [
+export const catalogRoutes = new Set([
   'ferestrePvc',
   'ferestreAluminiu',
   'usiPvc',
@@ -35,13 +35,13 @@ export const catalogRoutes: string[] = [
   'glisanteVekaMotion',
   'inchideriTerase',
   'fatadeAluminiu',
-];
+]);
 
-export const exportRoutes: string[] = [
+export const exportRoutes = new Set([
   'exportItalia',
   'exportIrlanda',
   'exportFrantaBelgia',
-];
+]);
 
 export const specialRoutes: Record<string, React.FC<{ route?: string }>> = {
   termeniSiConditii: TextPage,
@@ -49,7 +49,7 @@ export const specialRoutes: Record<string, React.FC<{ route?: string }>> = {
   despreNoi: AboutUs,
 };
 
-export const handlesDoorsPvcAluminum = ['usiPvc', 'usiAluminiu'];
+export const handlesDoorsPvcAluminum = new Set(['usiPvc', 'usiAluminiu']);
 // export const handlesWindowsPvcAluminum = [
 //   'ferestrePvc',
 //   'ferestreAluminiu',
@@ -59,3 +59,18 @@ export const objectFit: Record<string, CSSProperties> = {
   cover: { objectFit: 'cover' },
   contain: { objectFit: 'contain' },
 };
+
+export const isFerestreUsiPvcInchideri = new Set([
+  'ferestrePvc',
+  'usiPvc',
+  'inchideriTerase',
+]);
+
+export const isFerestreUsiAluminiuGlisanteFatade = new Set([
+  'ferestreAluminiu',
+  'usiAluminiu',
+  'glisantePvc',
+  'glisanteAluminiu',
+  'glisanteVekaMotion',
+  'fatadeAluminiu',
+]);

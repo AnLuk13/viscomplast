@@ -1,18 +1,18 @@
-"use client";
+'use client';
 
-import React from "react";
-import TypesLayout from "@/app/components/catalog-export/type-layout/TypesLayout";
-import { MoonLoader } from "react-spinners";
-import { useLocale } from "next-intl";
-import { useFirestoreQuery } from "@/app/lib/hooks/useRetrieveData";
-import { handlesDoorsPvcAluminum, objectFit } from "@/app/lib/consts/common";
+import React from 'react';
+import TypesLayout from '@/app/components/catalog-export/type-layout/TypesLayout';
+import { MoonLoader } from 'react-spinners';
+import { useLocale } from 'next-intl';
+import { useFirestoreQuery } from '@/app/lib/hooks/useRetrieveData';
+import { handlesDoorsPvcAluminum, objectFit } from '@/app/lib/consts/common';
 
 function HandlesSection({ route }: { route: string }) {
   const locale = useLocale();
-  const isDoorHandle = handlesDoorsPvcAluminum.includes(route);
+  const isDoorHandle = handlesDoorsPvcAluminum.has(route);
   const collectionPath = isDoorHandle
-    ? "handlesDoorsPvcAluminum"
-    : "handlesWindowsPvcAluminum";
+    ? 'handlesDoorsPvcAluminum'
+    : 'handlesWindowsPvcAluminum';
   const { data, isLoading, error } = useFirestoreQuery(
     collectionPath,
     collectionPath,

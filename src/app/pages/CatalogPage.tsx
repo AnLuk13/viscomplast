@@ -46,7 +46,11 @@ function CatalogPage({ route }: { route: string }) {
       <ColorsSection content={t} />
       {!isFatade && <GlassesSection content={t} route={route} />}
       {!isGlisante && !isInchideriSauFatade && <HandlesSection route={route} />}
-      <OfferSection bgColor="var(--primary)" cardColor="var(--white)" />
+      <OfferSection
+        bgColor="var(--primary)"
+        cardColor="var(--white)"
+        route={route}
+      />
       <SliderSection content={t} route={route} />
       <AboutSection showAboutInfo={false} />
       <SponsorsSection color="var(--primary)" />
