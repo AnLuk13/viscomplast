@@ -4,12 +4,8 @@ import React from 'react';
 import styles from '@/app/styles/globals/offerSection.module.scss';
 import BlinkIcon from '@/app/components/svg-icons/BlinkIcon';
 import OfferCard from '@/app/components/globals/offer/OfferCard';
-import { useLocale, useTranslations } from 'next-intl';
-
-import {
-  getLocation,
-  getOfferStepsValues,
-} from '@/app/lib/hooks/getOfferStepsValues';
+import { useOfferSteps } from '@/app/lib/hooks/useOfferSteps';
+import { useTranslations } from 'next-intl';
 
 interface OfferSectionProps {
   bgColor: string;
@@ -17,20 +13,9 @@ interface OfferSectionProps {
   route: string;
 }
 function OfferSection({ bgColor, cardColor, route }: OfferSectionProps) {
-  const locale = useLocale();
   const t = useTranslations('offerSection');
-  const { min, max } = getOfferStepsValues(route);
-  const location = getLocation(route);
-  const steps = t
-    .raw('offerSteps')
-    .slice(0, route === 'exportFrantaBelgia' ? -1 : undefined)
-    .map((step: any) => ({
-      ...step,
-      description: step.description
-        .replace('{min}', min)
-        .replace('{max}', max)
-        .replace('{location}', location[locale]),
-    }));
+  const steps = useOfferSteps(route, t);
+
   return (
     <section className={styles.offerSection} style={{ background: bgColor }}>
       <div className={styles.titleBox}>

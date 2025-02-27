@@ -18,6 +18,7 @@ import MosquitoNetsSection from '@/app/components/catalog-export/MosquitoNetsSec
 import BlindsSection from '@/app/components/catalog-export/BlindsSection';
 import manifest from '@/app/lib/assets-manifest.json';
 import dynamic from 'next/dynamic';
+import { isExportFrantaBelgia, isSpecialExport } from '@/app/lib/consts/common';
 
 const FirestoreSection = dynamic(
   () => import('@/app/components/wrapper/FireStoreSection'),
@@ -26,9 +27,6 @@ const FirestoreSection = dynamic(
 
 function ExportPage({ route }: { route: string }) {
   const t = useTranslations(route);
-  const isExportFrantaBelgia = route === 'exportFrantaBelgia';
-  const isSpecialExport =
-    route === 'exportIrlanda' || route === 'exportFrantaBelgia';
   const heroImage = manifest.hero.find(image => image.alt === route);
 
   return (
@@ -36,10 +34,10 @@ function ExportPage({ route }: { route: string }) {
       <CatalogHeroSection content={t} imageSrc={heroImage.src} />
       <FirestoreSection route={route} Component={ProfilesSection} />
       <FirestoreSection route={route} Component={SlidingSystemsSection} />
-      {!isSpecialExport && <RollerShutterBoxesSection content={t} />}
-      {!isSpecialExport && <RollerShuttersSection content={t} />}
-      {!isSpecialExport && <MosquitoNetsSection content={t} />}
-      {isExportFrantaBelgia && <BlindsSection content={t} />}
+      {!isSpecialExport.has(route) && <RollerShutterBoxesSection content={t} />}
+      {!isSpecialExport.has(route) && <RollerShuttersSection content={t} />}
+      {!isSpecialExport.has(route) && <MosquitoNetsSection content={t} />}
+      {isExportFrantaBelgia.has(route) && <BlindsSection content={t} />}
       <FirestoreSection route={route} Component={HardwareSection} />
       <ColorsSection content={t} />
       <GlassesSection content={t} />

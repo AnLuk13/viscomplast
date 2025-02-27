@@ -14,6 +14,12 @@ import manifest from '@/app/lib/assets-manifest.json';
 import ProfilesSection from '@/app/components/catalog-export/profiles-layout/ProfilesSection';
 import dynamic from 'next/dynamic';
 import SlidingSystemsSection from '@/app/components/catalog-export/SlidingSystemsSection';
+import {
+  isFatade,
+  isGlisante,
+  isGlisantePvc,
+  isInchideriSauFatade,
+} from '@/app/lib/consts/common';
 
 const FirestoreSection = dynamic(
   () => import('@/app/components/wrapper/FireStoreSection'),
@@ -22,30 +28,25 @@ const FirestoreSection = dynamic(
 
 function CatalogPage({ route }: { route: string }) {
   const t = useTranslations(route);
-  const isGlisantePvc = route === 'glisantePvc';
-  const isGlisante =
-    route === 'glisantePvc' ||
-    route === 'glisanteAluminiu' ||
-    route === 'glisanteVekaMotion';
-  const isInchideriSauFatade =
-    route === 'inchideriTerase' || route === 'fatadeAluminiu';
-  const isFatade = route === 'fatadeAluminiu';
+
   const heroImage = manifest.hero.find(image => image.alt === route);
   return (
     <main>
       <CatalogHeroSection content={t} imageSrc={heroImage.src} />
-      {isGlisantePvc && (
+      {isGlisantePvc.has(route) && (
         <FirestoreSection route={route} Component={SlidingSystemsSection} />
       )}
-      {!isGlisantePvc && (
+      {!isGlisantePvc.has(route) && (
         <FirestoreSection route={route} Component={ProfilesSection} />
       )}
-      {!isInchideriSauFatade && (
+      {!isInchideriSauFatade.has(route) && (
         <FirestoreSection route={route} Component={HardwareSection} />
       )}
       <ColorsSection content={t} />
-      {!isFatade && <GlassesSection content={t} route={route} />}
-      {!isGlisante && !isInchideriSauFatade && <HandlesSection route={route} />}
+      {!isFatade.has(route) && <GlassesSection content={t} route={route} />}
+      {!isGlisante.has(route) && !isInchideriSauFatade.has(route) && (
+        <HandlesSection route={route} />
+      )}
       <OfferSection
         bgColor="var(--primary)"
         cardColor="var(--white)"

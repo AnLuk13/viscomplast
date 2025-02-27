@@ -49,17 +49,21 @@ export const specialRoutes: Record<string, React.FC<{ route?: string }>> = {
   despreNoi: AboutUs,
 };
 
+// handlesSection
 export const handlesDoorsPvcAluminum = new Set(['usiPvc', 'usiAluminiu']);
 // export const handlesWindowsPvcAluminum = [
 //   'ferestrePvc',
 //   'ferestreAluminiu',
 //   'inchideriTerase',
 // ];
+
+// typesCards
 export const objectFit: Record<string, CSSProperties> = {
   cover: { objectFit: 'cover' },
   contain: { objectFit: 'contain' },
 };
 
+// getOfferSteps
 export const isFerestreUsiPvcInchideri = new Set([
   'ferestrePvc',
   'usiPvc',
@@ -74,3 +78,20 @@ export const isFerestreUsiAluminiuGlisanteFatade = new Set([
   'glisanteVekaMotion',
   'fatadeAluminiu',
 ]);
+
+// catalogPage
+export const isGlisantePvc = new Set(['glisantePvc']);
+export const isGlisante = new Set([
+  'glisantePvc',
+  'glisanteAluminiu',
+  'glisanteVekaMotion',
+]);
+export const isInchideriSauFatade = new Set([
+  'inchideriTerase',
+  'fatadeAluminiu',
+]);
+export const isFatade = new Set(['fatadeAluminiu']);
+
+// exportPage
+export const isExportFrantaBelgia = new Set(['exportFrantaBelgia']);
+export const isSpecialExport = new Set(['exportIrlanda', 'exportFrantaBelgia']);
