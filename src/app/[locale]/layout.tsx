@@ -25,9 +25,9 @@ export async function generateMetadata({
   };
 
   const localizedDescription = {
-    ro: "VISCOMPLAST reprezintă o companie clădită pe valorile unui business de familie a cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
-    ru: "VISCOMPLAST - компания, основанная на ценностях семейного бизнеса, цель которой - производство окон и дверей из ПВХ и алюминия самого высокого качества.",
-    en: "VISCOMPLAST is a company built on the values of a family business with the intention to produce PVC and aluminum joinery at the highest level.",
+    ro: "Viscomplast reprezintă o companie clădită pe valorile unui business de familie a cărei intenție este să producă tâmplărie PVC și Aluminiu la cel mai înalt nivel.",
+    ru: "Viscomplast - компания, основанная на ценностях семейного бизнеса, цель которой - производство окон и дверей из ПВХ и алюминия самого высокого качества.",
+    en: "Viscomplast is a company built on the values of a family business with the intention to produce PVC and aluminum joinery at the highest level.",
   };
 
   return {
@@ -60,7 +60,7 @@ export async function generateMetadata({
       locale: locale === "ro" ? "ro_RO" : locale === "ru" ? "ru_RU" : "en_US",
       images: [
         {
-          url: "/assets/images/logo.png",
+          url: "/assets/images/meta-logo.jpg",
           width: 1200,
           height: 630,
           alt: "Viscomplast",
