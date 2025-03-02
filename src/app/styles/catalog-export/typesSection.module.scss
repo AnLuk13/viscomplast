@@ -78,6 +78,11 @@
   //.typesSection {
   //  padding: 24px 16px;
 
+  .typesSectionTitle {
+    //max-width: 295px !important;
+    font-size: 36px !important;
+  }
+
   .cardsBox {
     row-gap: 28px;
     column-gap: 24px;
@@ -105,9 +110,29 @@
   }
 }
 
-@media (max-width: 860px) {
-  .typesSectionTitle {
-    //max-width: 295px !important;
-    font-size: 36px !important;
+@media (max-width: 400px) {
+  .cardsBox {
+    row-gap: 24px;
+    column-gap: 20px;
+
+    .typeCard {
+      width: 140px !important;
+
+      .cardContent {
+        padding: 14px 16px !important;
+        height: 64px !important;
+
+        .cardText {
+          font-size: 17px !important;
+        }
+      }
+
+      .cardImage {
+        min-width: 140px !important;
+        max-width: 140px !important;
+        min-height: 140px !important;
+        max-height: 140px !important;
+      }
+    }
   }
 }

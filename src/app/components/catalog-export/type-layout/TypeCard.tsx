@@ -12,6 +12,7 @@ type TypeCardProps = {
   hex: string;
   imgStyles: CSSProperties;
 };
+
 function TypeCard({ src, name, description, hex, imgStyles }: TypeCardProps) {
   const [isLoading, setIsLoading] = useState(true);
   return (
