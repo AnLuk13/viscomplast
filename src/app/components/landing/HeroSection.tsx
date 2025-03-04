@@ -47,7 +47,9 @@ function HeroSection({ content }) {
             .map(() => (
               <StarIcon key={Math.random()} />
             ))}
-          <div className={styles.qualityText}>{randomReview?.qualityText}</div>
+          <div className={styles.qualityText}>
+            {content('heroSection.qualityText')}
+          </div>
         </div>
         <div className={styles.heroSectionContent}>
           <div>

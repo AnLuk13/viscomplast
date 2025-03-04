@@ -3,61 +3,54 @@
     "heroSection": {
       "titleLine1": "Окна и двери",
       "titleLine2": "из ПВХ и алюминия",
+      "qualityText": "отлично",
       "reviews": [
         {
           "name": "Емилия К.",
           "date": "недавно",
           "text": "Отличное качество, современный дизайн и безупречный сервис – рекомендую!",
-          "qualityText": "отлично",
           "src": "/assets/images/reviews/foto1.jpg"
         },
         {
           "name": "Евгений Фусу",
           "date": "3 месяца назад",
           "text": "Хочу поблагодарить за проделанную работу и скорость выполнения заказа! Через 3 недели окна прибыли в Бельгию.",
-          "qualityText": "отлично",
           "src": "/assets/images/reviews/foto2.jpg"
         },
         {
           "name": "Богдан Мамалыга",
           "date": "год назад",
           "text": "Компания, которая действительно воплощает ваши мечты в реальность и поднимает настроение.",
-          "qualityText": "очень хорошо",
           "src": "/assets/images/reviews/foto10.jpg"
         },
         {
           "name": "Ortim Smart Masters",
           "date": "год назад",
           "text": "Успешная компания! Браво! Рекомендую с уверенностью!",
-          "qualityText": "рекомендую",
           "src": "/assets/images/reviews/foto4.jpg"
         },
         {
           "name": "Cristina T.",
           "date": "2 месяца назад",
           "text": "Отличный сервис! Окна высочайшего качества, а команда была очень профессиональна.",
-          "qualityText": "отлично",
           "src": "/assets/images/reviews/foto5.jpg"
         },
         {
           "name": "Valeriu P.",
           "date": "6 месяцев назад",
           "text": "Быстрая доставка и безупречный монтаж! Очень доволен результатом.",
-          "qualityText": "очень хорошо",
           "src": "/assets/images/reviews/foto6.jpg"
         },
         {
           "name": "Elena D.",
           "date": "8 месяцев назад",
           "text": "Очень хорошо организованная команда, качественные продукты и приятный опыт в целом.",
-          "qualityText": "рекомендовано",
           "src": "/assets/images/reviews/foto7.jpg"
         },
         {
           "name": "Mihai G.",
           "date": "год назад",
           "text": "Они предлагают исключительные продукты и услуги! Обязательно порекомендую другим.",
-          "qualityText": "отлично",
           "src": "/assets/images/reviews/foto9.jpg"
         }
       ]

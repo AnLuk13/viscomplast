@@ -3,61 +3,54 @@
     "heroSection": {
       "titleLine1": "Ferestre și uși",
       "titleLine2": "din PVC și aluminiu",
+      "qualityText": "excelent",
       "reviews": [
         {
           "name": "Emilia C.",
           "date": "recent",
           "text": "Calitate excelentă, design modern și servicii impecabile – recomand cu încredere!",
-          "qualityText": "excelent",
           "src": "/assets/images/reviews/foto1.jpg"
         },
         {
           "name": "Eugeniu Fusu",
           "date": "3 luni în urmă",
           "text": "Vreau să mulțumesc pentru munca depusă și rapiditatea executării comenzii! În 3 săptămâni, geamurile au ajuns în Belgia.",
-          "qualityText": "excelent",
           "src": "/assets/images/reviews/foto2.jpg"
         },
         {
           "name": "Bogdan Mamaliga",
           "date": "acum un an",
           "text": "Compania care cu adevărat îți face visele realitate și dispoziția minunată.",
-          "qualityText": "foarte bun",
           "src": "/assets/images/reviews/foto10.jpg"
         },
         {
           "name": "Ortim Smart Masters",
           "date": "acum un an",
           "text": "O companie de succes! Bravo! Recomand cu încredere!",
-          "qualityText": "recomandat",
           "src": "/assets/images/reviews/foto4.jpg"
         },
         {
           "name": "Cristina T.",
           "date": "acum 2 luni",
           "text": "Un serviciu excelent! Geamurile sunt de o calitate superioară și echipa a fost foarte profesionistă.",
-          "qualityText": "excelent",
           "src": "/assets/images/reviews/foto5.jpg"
         },
         {
           "name": "Valeriu P.",
           "date": "acum 6 luni",
           "text": "Livrare rapidă și montaj impecabil! Foarte mulțumit de rezultat.",
-          "qualityText": "foarte bun",
           "src": "/assets/images/reviews/foto6.jpg"
         },
         {
           "name": "Elena D.",
           "date": "acum 8 luni",
           "text": "Echipa foarte bine organizată, produse de calitate și o experiență plăcută per total.",
-          "qualityText": "recomandat",
           "src": "/assets/images/reviews/foto7.jpg"
         },
         {
           "name": "Mihai G.",
           "date": "acum un an",
           "text": "Oferă produse și servicii excepționale! Cu siguranță voi recomanda și altora.",
-          "qualityText": "excelent",
           "src": "/assets/images/reviews/foto9.jpg"
         }
       ]

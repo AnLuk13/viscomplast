@@ -3,61 +3,54 @@
     "heroSection": {
       "titleLine1": "Windows and doors",
       "titleLine2": "made of PVC and aluminum",
+      "qualityText": "excellent",
       "reviews": [
         {
           "name": "Emilia C.",
           "date": "recently",
           "text": "Excellent quality, modern design, and flawless service – highly recommended!",
-          "qualityText": "excellent",
           "src": "/assets/images/reviews/foto1.jpg"
         },
         {
           "name": "Eugeniu Fusu",
           "date": "3 months ago",
           "text": "I want to thank you for the work done and the speed of order execution! In 3 weeks, the windows arrived in Belgium.",
-          "qualityText": "excellent",
           "src": "/assets/images/reviews/foto2.jpg"
         },
         {
           "name": "Bogdan Mamaliga",
           "date": "a year ago",
           "text": "The company that truly makes your dreams come true and brightens your mood.",
-          "qualityText": "very good",
           "src": "/assets/images/reviews/foto10.jpg"
         },
         {
           "name": "Ortim Smart Masters",
           "date": "a year ago",
           "text": "A successful company! Bravo! I highly recommend it!",
-          "qualityText": "recommended",
           "src": "/assets/images/reviews/foto4.jpg"
         },
         {
           "name": "Cristina T.",
           "date": "2 months ago",
           "text": "Excellent service! The windows are of superior quality, and the team was very professional.",
-          "qualityText": "excellent",
           "src": "/assets/images/reviews/foto5.jpg"
         },
         {
           "name": "Valeriu P.",
           "date": "6 months ago",
           "text": "Fast delivery and flawless installation! Very satisfied with the result.",
-          "qualityText": "very good",
           "src": "/assets/images/reviews/foto6.jpg"
         },
         {
           "name": "Elena D.",
           "date": "8 months ago",
           "text": "A very well-organized team, high-quality products, and an overall pleasant experience.",
-          "qualityText": "recommended",
           "src": "/assets/images/reviews/foto7.jpg"
         },
         {
           "name": "Mihai G.",
           "date": "one year ago",
           "text": "They offer exceptional products and services! I will definitely recommend them to others.",
-          "qualityText": "excellent",
           "src": "/assets/images/reviews/foto9.jpg"
         }
       ]
