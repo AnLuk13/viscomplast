@@ -29,7 +29,7 @@ export function useOfferSteps(route: string, content) {
     .filter(
       (step: Step) =>
         !(exportRoutes.has(route) && step.stepNumber === 2) &&
-        (!exportRoutes.has(route) || step.stepNumber !== 4),
+        (exportRoutes.has(route) || step.stepNumber !== 4),
     ) // Remove step 4 if not an export route, if export route remove step 2
     .map((step: Step, index: number) => ({
       ...step,
