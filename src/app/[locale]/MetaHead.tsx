@@ -22,16 +22,6 @@ function MetaHead() {
         href="https://fonts.gstatic.com"
         crossOrigin="anonymous"
       />
-
-      {/* ✅ Load Fonts Efficiently (with non-blocking print hack) */}
-      <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
-        rel="stylesheet"
-        media="print"
-        onLoad={(e) => {
-          e.currentTarget.media = "all";
-        }}
-      />
     </Head>
   );
 }
