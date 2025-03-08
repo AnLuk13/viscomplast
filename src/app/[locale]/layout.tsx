@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import QueryProvider from "@/app/components/helper/QueryProvider";
+import MetaHead from "@/app/[locale]/MetaHead";
 
 export async function generateMetadata({
   params: rawParams,
@@ -89,6 +90,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <MetaHead />
       <body>
         <QueryProvider>
           <NextIntlClientProvider messages={messages}>
