@@ -45,11 +45,9 @@ function HeroSection({ content }) {
       <div className="fadeBackground" />
       <div className={styles.heroSectionBox}>
         <div className={styles.qualityStars}>
-          {Array(5)
-            .fill(undefined, undefined, undefined)
-            .map(() => (
-              <StarIcon key={Math.random()} />
-            ))}
+          {Array.from({ length: 5 }, (_, index) => (
+            <StarIcon key={index} />
+          ))}
           <div className={styles.qualityText}>
             {content("heroSection.qualityText")}
           </div>
