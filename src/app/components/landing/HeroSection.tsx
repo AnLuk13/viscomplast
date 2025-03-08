@@ -33,11 +33,9 @@ function HeroSection({ content }) {
         priority
         src="/assets/images/hero-section.webp"
         alt="Hero section"
-        // fill // test performance with removed fill
+        fill // test performance with removed fill
         sizes="100vw"
-        height={100}
-        width={100}
-        quality={100}
+        quality={90}
         className={`${styles.heroSectionImage} ${isLoading.hero ? "imageLoading" : ""}`}
         onLoad={() =>
           setIsLoading((prevState) => ({ ...prevState, hero: false }))
