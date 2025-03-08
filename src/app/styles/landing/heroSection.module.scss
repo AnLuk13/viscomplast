@@ -7,6 +7,8 @@
   overflow: hidden;
 
   .heroSectionImage {
+    position: absolute; // this and below
+    width: 100%; // instead of fill
     object-position: center;
     object-fit: cover;
     min-height: 720px;
