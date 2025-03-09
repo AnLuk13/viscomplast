@@ -14,7 +14,13 @@ function LanguageDropdown({ isMobileNav }: { isMobileNav: boolean }) {
   const languageOptions = languages.map(({ value, label, flag }) => ({
     value,
     label: (
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <span
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <img
           src={flag}
           alt={label}
@@ -25,7 +31,7 @@ function LanguageDropdown({ isMobileNav }: { isMobileNav: boolean }) {
             objectFit: "cover",
           }}
         />
-      </div>
+      </span>
     ),
   }));
 
@@ -57,11 +63,13 @@ function LanguageDropdown({ isMobileNav }: { isMobileNav: boolean }) {
     }),
     menu: (provided) => ({
       ...provided,
+      width: 56,
       padding: 0,
       ...(isMobileNav && { top: "-140px" }),
     }),
     menuList: (provided) => ({
       ...provided,
+      width: 56,
       padding: 0,
       borderRadius: 4,
     }),
@@ -90,6 +98,7 @@ function LanguageDropdown({ isMobileNav }: { isMobileNav: boolean }) {
     }),
     option: (provided, state) => ({
       ...provided,
+      width: 56,
       cursor: "pointer",
       "&:hover": {
         backgroundColor: state.isSelected ? {} : "var(--background)", // Red hover for non-selected items
@@ -108,6 +117,8 @@ function LanguageDropdown({ isMobileNav }: { isMobileNav: boolean }) {
         router.push(pathname, { locale: selected?.value, scroll: false });
       }}
       instanceId="language-select"
+      inputId="language-select"
+      aria-label="Select language"
     />
   );
 }
