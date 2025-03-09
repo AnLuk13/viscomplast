@@ -89,7 +89,12 @@ function MobileMenu({
           <div className={styles.socialsLanguageBox}>
             <div className={styles.mobileSocialLinks}>
               {socialLinks.map(({ href, Icon }) => (
-                <Link target="_blank" key={href} href={href}>
+                <Link
+                  target="_blank"
+                  key={href}
+                  href={href}
+                  aria-label="Social link"
+                >
                   <Icon />
                 </Link>
               ))}

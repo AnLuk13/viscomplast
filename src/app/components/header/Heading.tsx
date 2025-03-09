@@ -31,7 +31,11 @@ function Heading() {
       <div className={styles.headerSection}>
         <div className={styles.headerContentBox}>
           <div className={styles.logoScheduleBox}>
-            <Link href="/" style={{ cursor: "pointer" }}>
+            <Link
+              href="/"
+              style={{ cursor: "pointer" }}
+              aria-label="Company logo"
+            >
               <Logo width={isLargeScreen ? 84 : 72} />
             </Link>
             <ScheduleBox content={t} />
@@ -51,7 +55,12 @@ function Heading() {
             </div>
             <div className={styles.socialLinks}>
               {socialLinks.map(({ href, Icon }) => (
-                <Link target="_blank" key={href} href={href}>
+                <Link
+                  target="_blank"
+                  key={href}
+                  href={href}
+                  aria-label="Social link"
+                >
                   <Icon />
                 </Link>
               ))}

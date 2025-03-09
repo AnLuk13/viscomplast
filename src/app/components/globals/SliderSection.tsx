@@ -80,13 +80,23 @@ function SliderSection({ content, route }) {
         ))}
       </Carousel>
       <div className={styles.carouselBtns}>
-        <button type="button" className={styles.navButton} onClick={handlePrev}>
+        <button
+          type="button"
+          className={styles.navButton}
+          onClick={handlePrev}
+          aria-label="Previous Slide"
+        >
           <LeftArrow />
         </button>
         {/* <button type="button" className={styles.viewAllButton}> */}
         {/*  {content("sliderSection.buttons.viewAll")} */}
         {/* </button> */}
-        <button type="button" className={styles.navButton} onClick={handleNext}>
+        <button
+          type="button"
+          className={styles.navButton}
+          onClick={handleNext}
+          aria-label="Next slide"
+        >
           <RightArrow />
         </button>
       </div>
