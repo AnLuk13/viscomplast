@@ -19,7 +19,7 @@ function Heading() {
   const t = useTranslations("header");
   const [isMobileNav, setIsMobileNav] = useState<boolean>(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const isLargeScreen = useIsLargeScreen();
+  const { isLargeScreen } = useIsLargeScreen();
 
   const handleItemClick = () => {
     setIsMobileNav(false);

@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
 function Logo({ width }) {
   return (
     <div
       style={{
         minWidth: width,
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <svg
         width={width}
-        height="229"
+        height="fit-content"
         viewBox="0 0 341 229"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -4,7 +4,7 @@ function LargeLogo({ width }) {
   return (
     <svg
       width={width}
-      height="229"
+      height="fit-content"
       viewBox="0 0 341 229"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

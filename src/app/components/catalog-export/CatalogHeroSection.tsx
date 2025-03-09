@@ -9,7 +9,7 @@ import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 
 function CatalogHeroSection({ imageSrc, content }) {
   const [isLoading, setIsLoading] = useState(true);
-  const isLargeScreen = useIsLargeScreen(860);
+  const { isLargeScreen } = useIsLargeScreen(860);
   const [imageLoaded, setImageLoaded] = useState(false);
   useEffect(() => {
     if (isLargeScreen && imageLoaded) {

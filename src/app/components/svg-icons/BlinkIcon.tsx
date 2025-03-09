@@ -2,7 +2,7 @@ import React from "react";
 import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 
 function BlinkIcon({ color }: { color: string }) {
-  const isLargeScreen = useIsLargeScreen(860);
+  const { isLargeScreen } = useIsLargeScreen(860);
   const size = isLargeScreen ? 48 : 32;
 
   return (
