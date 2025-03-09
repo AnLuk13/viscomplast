@@ -12,7 +12,7 @@ function Logo({ width }) {
     >
       <svg
         width={width}
-        height="fit-content"
+        height="100%"
         viewBox="0 0 341 229"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -1,9 +1,9 @@
-import { useLocale } from 'next-intl';
+import { useLocale } from "next-intl";
 import {
   getLocation,
   getOfferStepsValues,
-} from '@/app/lib/hooks/getOfferStepsValues';
-import { exportRoutes } from '@/app/lib/consts/common';
+} from "@/app/lib/hooks/getOfferStepsValues";
+import { exportRoutes } from "@/app/lib/consts/common";
 
 type Step = {
   stepNumber: number;
@@ -17,15 +17,15 @@ export function useOfferSteps(route: string, content) {
   const location = getLocation(route);
 
   return content
-    .raw('offerSteps')
+    .raw("offerSteps")
     .map((step: Step) => ({
       ...step,
       description: step.description
-        .replace('{min}', min)
-        .replace('{max}', max)
-        .replace('{location}', location[locale]),
+        .replace("{min}", String(min))
+        .replace("{max}", String(max))
+        .replace("{location}", location[locale]),
     }))
-    .slice(0, route === 'exportFrantaBelgia' ? -1 : undefined) // Remove last step if exportFrantaBelgia
+    .slice(0, route === "exportFrantaBelgia" ? -1 : undefined) // Remove last step if exportFrantaBelgia
     .filter(
       (step: Step) =>
         !(exportRoutes.has(route) && step.stepNumber === 2) &&

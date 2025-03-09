@@ -23,6 +23,7 @@ function TypeCard({ src, name, description, hex, imgStyles }: TypeCardProps) {
             position: "relative",
             overflow: "hidden",
             borderRadius: "24px 24px 0 0",
+            height: "100%",
           }}
         >
           {isLoading && <div className="imageBlur" />}
