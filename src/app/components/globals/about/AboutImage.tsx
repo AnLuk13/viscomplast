@@ -1,3 +1,5 @@
+"use client";
+
 import type { CSSProperties } from "react";
 import React, { useState } from "react";
 import Image from "next/image";
@@ -24,7 +26,7 @@ function AboutImage({
         className={`${styles.image} ${isLoading ? "imageLoading" : ""}`}
         style={styleProps}
         onLoad={() => setIsLoading(false)}
-        loading="lazy" // better perfomance
+        // loading="lazy" // better perfomance
       />
       <div className="fadeOverlay" />
     </div>

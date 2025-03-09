@@ -7,15 +7,34 @@ import dynamic from "next/dynamic";
 import { useLocale } from "next-intl";
 import { useQuery } from "@tanstack/react-query";
 import { MoonLoader } from "react-spinners";
-import Image from "next/image";
 import { doc, getDoc } from "firebase/firestore";
 import { db, storage } from "@/app/lib/hooks/useRetrieveData";
 import { getDownloadURL, listAll, ref } from "@firebase/storage";
 import type { SponsorsData } from "@/app/lib/consts/types";
 
-const Marquee = dynamic(() =>
-  import("react-fast-marquee").then((mod) => mod.default),
+const Marquee = dynamic(
+  () => import("react-fast-marquee").then((mod) => mod.default),
+  {
+    ssr: false,
+  },
 );
+
+const OptimizedImage = dynamic(() => import("next/image"), {
+  ssr: false,
+  loading: () => (
+    <div
+      className="loadingSpinner"
+      style={{
+        height: 64,
+        padding: 0,
+        background: "transparent",
+        marginRight: 128,
+      }}
+    >
+      <MoonLoader color="var(--secondary)" size={44} />
+    </div>
+  ),
+});
 
 function SponsorsSection({ color }: { color: string }) {
   const locale = useLocale();
@@ -105,7 +124,7 @@ function SponsorsSection({ color }: { color: string }) {
                     }}
                   />
                 )}
-                <Image
+                <OptimizedImage
                   width={100}
                   height={64}
                   key={sponsor.id}

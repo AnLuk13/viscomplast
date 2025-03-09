@@ -4,11 +4,19 @@ import React, { useEffect, useState } from "react";
 import styles from "@/app/styles/landing/heroSection.module.scss";
 import Image from "next/image";
 import StarIcon from "@/app/components/svg-icons/StarIcon";
-import LargeLogo from "@/app/components/svg-icons/logo/LargeLogo";
-import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
 import OfferButton from "@/app/components/buttons/OfferButton";
+import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
+import HeroLoadingSpinner from "@/app/components/landing/helper/HeroLoadingSpinner";
+import LargeLogo from "@/app/components/svg-icons/logo/LargeLogo";
+import dynamic from "next/dynamic";
+
+const OptimizedImage = dynamic(() => import("next/image"), {
+  ssr: false,
+  loading: () => <div className="imageLoading" />,
+});
 
 function HeroSection({ content }) {
+  const { isLargeScreen, largeScreenLoading } = useIsLargeScreen(860);
   const [isLoading, setIsLoading] = useState({ hero: true, review: true });
   const [randomReview, setRandomReview] = useState<{
     name: string;
@@ -29,7 +37,7 @@ function HeroSection({ content }) {
   return (
     <section className={styles.heroSection}>
       {isLoading.hero && <div className="imageBlur" />}
-      <Image
+      <OptimizedImage
         priority
         src="/assets/images/hero-section.webp"
         alt="Hero section"
@@ -98,16 +106,20 @@ function HeroSection({ content }) {
             <div className={styles.messageText}>{randomReview?.text || ""}</div>
           </div>
         )}
-        <div
-          className={styles.logoBox}
-          style={
-            useIsLargeScreen(860)
-              ? { height: 132, width: 172, borderRadius: "64px 0 0 0" }
-              : { height: 80, width: 100, borderRadius: "36px 0 0 0" }
-          }
-        >
-          <LargeLogo width={useIsLargeScreen(860) ? 126 : 72} />
-        </div>
+        {!largeScreenLoading ? (
+          <div
+            className={styles.logoBox}
+            style={
+              isLargeScreen
+                ? { height: 132, width: 172, borderRadius: "64px 0 0 0" }
+                : { height: 80, width: 100, borderRadius: "36px 0 0 0" }
+            }
+          >
+            <LargeLogo width={isLargeScreen ? 126 : 72} />
+          </div>
+        ) : (
+          <HeroLoadingSpinner />
+        )}
       </div>
     </section>
   );
