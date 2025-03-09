@@ -23,7 +23,6 @@ function TypeCard({ src, name, description, hex, imgStyles }: TypeCardProps) {
             position: "relative",
             overflow: "hidden",
             borderRadius: "24px 24px 0 0",
-            height: "100%",
           }}
         >
           {isLoading && <div className="imageBlur" />}
@@ -32,8 +31,8 @@ function TypeCard({ src, name, description, hex, imgStyles }: TypeCardProps) {
             src={src}
             alt="Image type"
             quality={100}
-            width={230}
-            height={230}
+            width={100}
+            height={100}
             className={`${styles.cardImage} ${isLoading ? "imageLoading" : ""}`}
             onLoad={() => setIsLoading(false)}
             style={imgStyles}
