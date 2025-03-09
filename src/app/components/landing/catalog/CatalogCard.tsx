@@ -2,9 +2,14 @@
 
 import styles from "@/app/styles/landing/catalogSection.module.scss";
 import LinkArrowIcon from "@/app/components/svg-icons/LinkArrowIcon";
-import Image from "next/image";
 import React, { useState } from "react";
 import { Link } from "@/i18n/routing";
+import dynamic from "next/dynamic";
+
+const OptimizedImage = dynamic(() => import("next/image"), {
+  ssr: false,
+  loading: () => <div className="imageLoading" />,
+});
 
 function CatalogCard({
   title,
@@ -19,7 +24,7 @@ function CatalogCard({
   return (
     <div className={styles.card}>
       {isLoading && <div className="imageBlur" />}
-      <Image
+      <OptimizedImage
         priority
         src={imageUrl}
         alt="Card image"
