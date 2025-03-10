@@ -118,7 +118,7 @@ function HeroSection({ content }) {
             <LargeLogo width={isLargeScreen ? 126 : 72} />
           </div>
         ) : (
-          <HeroLoadingSpinner />
+          <HeroLoadingSpinner/>
         )}
       </div>
     </section>

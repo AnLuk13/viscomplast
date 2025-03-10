@@ -8,11 +8,11 @@ function HeroLoadingSpinner() {
         position: "absolute",
         right: 0,
         bottom: 0,
-        marginRight: "5vw",
-        marginBottom: "4vw",
+        marginRight: "4vw",
+        marginBottom: "3vw",
       }}
     >
-      <MoonLoader color="var(--primary)" size={50} />
+      <MoonLoader color="var(--primary)" size={46} />
     </div>
   );
 }

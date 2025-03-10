@@ -20,7 +20,6 @@ const nextConfig = {
       },
     ],
     formats: ['image/avif', 'image/webp'], // ✅ Use modern formats for better performance
-    unoptimized: true,
   },
   eslint: {
     ignoreDuringBuilds: true, // Add this line to ignore ESLint errors in production build
