@@ -115,14 +115,11 @@ export default async function LocaleLayout({
     notFound();
   }
   const messages = await getMessages();
-  const metadata = await generateMetadata({ params: resolvedParams });
-  const structuredData = metadata.other?.structuredData
-    ? JSON.parse(metadata.other.structuredData as string)
-    : null;
+  await generateMetadata({ params: resolvedParams });
 
   return (
     <html lang={locale}>
-      <MetaHead structuredData={structuredData} />
+      <MetaHead />
       <body>
         <QueryProvider>
           <NextIntlClientProvider messages={messages}>
