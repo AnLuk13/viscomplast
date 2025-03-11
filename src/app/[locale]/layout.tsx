@@ -40,6 +40,9 @@ export async function generateMetadata({
       template: '%s | Viscomplast',
     },
     description: localizedDescription[locale],
+    verification: {
+      google: '0OsCdd_J0HLeN007NIOlwLs7nst7c-uQSlfAXqi1VA8', // ✅ Google verification
+    },
     keywords: [
       'uși',
       'ferestre',

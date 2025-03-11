@@ -5,10 +5,6 @@ function MetaHead({ structuredData }: { structuredData: object }) {
   return (
     <head>
       <Head>
-        <meta
-          name="google-site-verification"
-          content="0OsCdd_J0HLeN007NIOlwLs7nst7c-uQSlfAXqi1VA8"
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
