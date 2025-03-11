@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import React, { useEffect, useState } from "react";
-import styles from "@/app/styles/landing/heroSection.module.scss";
-import Image from "next/image";
-import StarIcon from "@/app/components/svg-icons/StarIcon";
-import OfferButton from "@/app/components/buttons/OfferButton";
-import useIsLargeScreen from "@/app/lib/hooks/useIsLargeScreen";
-import HeroLoadingSpinner from "@/app/components/landing/helper/HeroLoadingSpinner";
-import LargeLogo from "@/app/components/svg-icons/logo/LargeLogo";
-import dynamic from "next/dynamic";
+import React, { useEffect, useState } from 'react';
+import styles from '@/app/styles/landing/heroSection.module.scss';
+import Image from 'next/image';
+import StarIcon from '@/app/components/svg-icons/StarIcon';
+import OfferButton from '@/app/components/buttons/OfferButton';
+import useIsLargeScreen from '@/app/lib/hooks/useIsLargeScreen';
+import HeroLoadingSpinner from '@/app/components/landing/helper/HeroLoadingSpinner';
+import LargeLogo from '@/app/components/svg-icons/logo/LargeLogo';
+import dynamic from 'next/dynamic';
 
-const OptimizedImage = dynamic(() => import("next/image"), {
+const OptimizedImage = dynamic(() => import('next/image'), {
   ssr: false,
   loading: () => <div className="imageLoading" />,
 });
@@ -25,7 +25,7 @@ function HeroSection({ content }) {
     text: string;
     src?: string;
   } | null>(null);
-  const reviews = content.raw("heroSection.reviews");
+  const reviews = content.raw('heroSection.reviews');
 
   useEffect(() => {
     if (reviews.length > 0) {
@@ -41,14 +41,13 @@ function HeroSection({ content }) {
         priority
         src="/assets/images/hero-section.webp"
         alt="Hero section"
-        fill // test performance with removed fill
+        fill
         sizes="100vw"
-        quality={90}
-        className={`${styles.heroSectionImage} ${isLoading.hero ? "imageLoading" : ""}`}
+        className={`${styles.heroSectionImage} ${isLoading.hero ? 'imageLoading' : ''}`}
         onLoad={() =>
-          setIsLoading((prevState) => ({ ...prevState, hero: false }))
+          setIsLoading(prevState => ({ ...prevState, hero: false }))
         }
-        style={{ contain: "paint" }} // for better loading
+        style={{ contain: 'paint' }} // for better loading
       />
       <div className="fadeBackground" />
       <div className={styles.heroSectionBox}>
@@ -57,16 +56,16 @@ function HeroSection({ content }) {
             <StarIcon key={index} />
           ))}
           <div className={styles.qualityText}>
-            {content("heroSection.qualityText")}
+            {content('heroSection.qualityText')}
           </div>
         </div>
         <div className={styles.heroSectionContent}>
           <div>
             <div className={styles.heroSectionContentTitle}>
-              {content("heroSection.titleLine1")}
+              {content('heroSection.titleLine1')}
             </div>
             <div className={styles.heroSectionContentTitle}>
-              {content("heroSection.titleLine2")}
+              {content('heroSection.titleLine2')}
             </div>
           </div>
           <OfferButton />
@@ -78,9 +77,9 @@ function HeroSection({ content }) {
             <div className={styles.imageBox}>
               <div
                 style={{
-                  position: "relative",
-                  borderRadius: "99px",
-                  overflow: "hidden",
+                  position: 'relative',
+                  borderRadius: '99px',
+                  overflow: 'hidden',
                 }}
               >
                 {isLoading.review && <div className="imageBlur" />}
@@ -89,9 +88,9 @@ function HeroSection({ content }) {
                   width={48}
                   height={48}
                   src={randomReview.src}
-                  className={`${styles.reviewImage} ${isLoading.review ? "imageLoading" : ""}`}
+                  className={`${styles.reviewImage} ${isLoading.review ? 'imageLoading' : ''}`}
                   onLoad={() =>
-                    setIsLoading((prevState) => ({
+                    setIsLoading(prevState => ({
                       ...prevState,
                       review: false,
                     }))
@@ -103,7 +102,7 @@ function HeroSection({ content }) {
                 <div className={styles.dateText}>{randomReview.date}</div>
               </div>
             </div>
-            <div className={styles.messageText}>{randomReview?.text || ""}</div>
+            <div className={styles.messageText}>{randomReview?.text || ''}</div>
           </div>
         )}
         {!largeScreenLoading ? (
@@ -111,14 +110,14 @@ function HeroSection({ content }) {
             className={styles.logoBox}
             style={
               isLargeScreen
-                ? { height: 132, width: 172, borderRadius: "64px 0 0 0" }
-                : { height: 80, width: 100, borderRadius: "36px 0 0 0" }
+                ? { height: 132, width: 172, borderRadius: '64px 0 0 0' }
+                : { height: 80, width: 100, borderRadius: '36px 0 0 0' }
             }
           >
             <LargeLogo width={isLargeScreen ? 126 : 72} />
           </div>
         ) : (
-          <HeroLoadingSpinner/>
+          <HeroLoadingSpinner />
         )}
       </div>
     </section>

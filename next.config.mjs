@@ -31,6 +31,35 @@ const nextConfig = {
   experimental: {
     optimizeCss: true, // ✅ Reduce render-blocking CSS
   },
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/ro/api/sitemap', // Default sitemap (RO)
+      },
+      {
+        source: '/:locale/sitemap.xml',
+        destination: '/:locale/api/sitemap', // Dynamic locale-based sitemap
+      },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Frame-Options', value: 'DENY' }, // ✅ Prevent Clickjacking
+          { key: 'X-XSS-Protection', value: '1; mode=block' }, // ✅ Prevent XSS attacks
+          { key: 'X-Content-Type-Options', value: 'nosniff' }, // ✅ Prevent MIME sniffing
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' }, // ✅ Improve security
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=()',
+          }, // ✅ Restrict sensitive APIs
+        ],
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import type { CSSProperties } from "react";
-import React, { useState } from "react";
-import styles from "@/app/styles/globals/aboutSection.module.scss";
-import dynamic from "next/dynamic";
+import type { CSSProperties } from 'react';
+import React, { useState } from 'react';
+import styles from '@/app/styles/globals/aboutSection.module.scss';
+import dynamic from 'next/dynamic';
 
-const OptimizedImage = dynamic(() => import("next/image"), {
+const OptimizedImage = dynamic(() => import('next/image'), {
   ssr: false,
   loading: () => <div className="imageLoading" />,
 });
@@ -27,8 +27,7 @@ function AboutImage({
         width={100}
         height={100}
         src={src}
-        quality={100}
-        className={`${styles.image} ${isLoading ? "imageLoading" : ""}`}
+        className={`${styles.image} ${isLoading ? 'imageLoading' : ''}`}
         style={styleProps}
         onLoad={() => setIsLoading(false)}
         // loading="lazy" // better perfomance

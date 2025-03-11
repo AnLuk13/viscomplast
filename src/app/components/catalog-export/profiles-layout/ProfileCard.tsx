@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import Image from "next/image";
-import OfferButton from "@/app/components/buttons/OfferButton";
-import styles from "@/app/styles/catalog-export/profilesSection.module.scss";
-import { useTranslations } from "next-intl";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import OfferButton from '@/app/components/buttons/OfferButton';
+import styles from '@/app/styles/catalog-export/profilesSection.module.scss';
+import { useTranslations } from 'next-intl';
 
 type ProfileCardProps = {
   profile: {
@@ -14,8 +14,8 @@ type ProfileCardProps = {
     description: Record<string, string>;
     characteristics: Record<string, string[]>;
   };
-  activeToggle: "description" | "characteristics";
-  onToggle: (id: number, toggle: "description" | "characteristics") => void;
+  activeToggle: 'description' | 'characteristics';
+  onToggle: (id: number, toggle: 'description' | 'characteristics') => void;
   isEven: boolean;
   locale: string;
 };
@@ -41,8 +41,7 @@ function ProfileCard({
           alt={profile.title[locale]}
           fill
           sizes="(min-width: 1350px) 43%, (max-width: 860px) 81%"
-          quality={80}
-          className={`${styles.profileImage} ${isLoading ? "imageLoading" : ""}`}
+          className={`${styles.profileImage} ${isLoading ? 'imageLoading' : ''}`}
           onLoad={() => setIsLoading(false)}
         />
       </div>
@@ -51,31 +50,31 @@ function ProfileCard({
           <button
             type="button"
             className={`${styles.tab} ${
-              activeToggle === "description" ? styles.activeTab : ""
+              activeToggle === 'description' ? styles.activeTab : ''
             }`}
-            onClick={() => onToggle(profile.id, "description")}
+            onClick={() => onToggle(profile.id, 'description')}
           >
-            {t("togglers.description")}
+            {t('togglers.description')}
           </button>
           <button
             type="button"
             className={`${styles.tab} ${
-              activeToggle === "characteristics" ? styles.activeTab : ""
+              activeToggle === 'characteristics' ? styles.activeTab : ''
             }`}
-            onClick={() => onToggle(profile.id, "characteristics")}
+            onClick={() => onToggle(profile.id, 'characteristics')}
           >
-            {t("togglers.characteristics")}
+            {t('togglers.characteristics')}
           </button>
         </div>
         <div className={styles.profileInfoBox}>
           <div className={styles.profileInfoTitle}>{profile.title[locale]}</div>
-          {activeToggle === "description" ? (
+          {activeToggle === 'description' ? (
             <div className={styles.profileDescription}>
               {profile?.description[locale]}
             </div>
           ) : (
             <ul className={styles.profileCharacteristics}>
-              {profile.characteristics[locale].map((item) => (
+              {profile.characteristics[locale].map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

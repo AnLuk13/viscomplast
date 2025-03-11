@@ -694,7 +694,8 @@
     ]
   },
   "invalidPage": {
-    "text": "Go home"
+    "message": "Page not found",
+    "text": "Home"
   },
   "header": {
     "schedule": {

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://viscomplast.md/ro/sitemap.xml
+Sitemap: https://viscomplast.md/ru/sitemap.xml
+Sitemap: https://viscomplast.md/en/sitemap.xml

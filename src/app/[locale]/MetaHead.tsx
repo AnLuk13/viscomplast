@@ -1,9 +1,15 @@
-import React from "react";
-import Head from "next/head";
+import React from 'react';
+import Head from 'next/head';
 
-function MetaHead() {
+function MetaHead({ structuredData }: { structuredData: object }) {
   return (
     <Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData),
+        }}
+      />
       <link
         rel="preload"
         as="image"

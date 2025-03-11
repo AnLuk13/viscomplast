@@ -757,7 +757,8 @@
     ]
   },
   "invalidPage": {
-    "text": "Домой"
+    "message": "Страница не найдена",
+    "text": "Главная"
   },
   "header": {
     "schedule": {

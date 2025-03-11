@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import type { CSSProperties } from "react";
-import React, { useState } from "react";
-import styles from "@/app/styles/catalog-export/typesSection.module.scss";
-import Image from "next/image";
+import type { CSSProperties } from 'react';
+import React, { useState } from 'react';
+import styles from '@/app/styles/catalog-export/typesSection.module.scss';
+import Image from 'next/image';
 
 type TypeCardProps = {
   src: string;
@@ -20,9 +20,9 @@ function TypeCard({ src, name, description, hex, imgStyles }: TypeCardProps) {
       {src ? (
         <div
           style={{
-            position: "relative",
-            overflow: "hidden",
-            borderRadius: "24px 24px 0 0",
+            position: 'relative',
+            overflow: 'hidden',
+            borderRadius: '24px 24px 0 0',
           }}
         >
           {isLoading && <div className="imageBlur" />}
@@ -30,10 +30,9 @@ function TypeCard({ src, name, description, hex, imgStyles }: TypeCardProps) {
             priority
             src={src}
             alt="Image type"
-            quality={100}
             width={100}
             height={100}
-            className={`${styles.cardImage} ${isLoading ? "imageLoading" : ""}`}
+            className={`${styles.cardImage} ${isLoading ? 'imageLoading' : ''}`}
             onLoad={() => setIsLoading(false)}
             style={imgStyles}
           />

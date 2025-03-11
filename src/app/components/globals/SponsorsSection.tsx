@@ -1,25 +1,25 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import styles from "@/app/styles/globals/sponsorsSection.module.scss";
-import BlinkIcon from "@/app/components/svg-icons/BlinkIcon";
-import dynamic from "next/dynamic";
-import { useLocale } from "next-intl";
-import { useQuery } from "@tanstack/react-query";
-import { MoonLoader } from "react-spinners";
-import { doc, getDoc } from "firebase/firestore";
-import { db, storage } from "@/app/lib/hooks/useRetrieveData";
-import { getDownloadURL, listAll, ref } from "@firebase/storage";
-import type { SponsorsData } from "@/app/lib/consts/types";
+import React, { useState } from 'react';
+import styles from '@/app/styles/globals/sponsorsSection.module.scss';
+import BlinkIcon from '@/app/components/svg-icons/BlinkIcon';
+import dynamic from 'next/dynamic';
+import { useLocale } from 'next-intl';
+import { useQuery } from '@tanstack/react-query';
+import { MoonLoader } from 'react-spinners';
+import { doc, getDoc } from 'firebase/firestore';
+import { db, storage } from '@/app/lib/hooks/useRetrieveData';
+import { getDownloadURL, listAll, ref } from '@firebase/storage';
+import type { SponsorsData } from '@/app/lib/consts/types';
 
 const Marquee = dynamic(
-  () => import("react-fast-marquee").then((mod) => mod.default),
+  () => import('react-fast-marquee').then(mod => mod.default),
   {
     ssr: false,
   },
 );
 
-const OptimizedImage = dynamic(() => import("next/image"), {
+const OptimizedImage = dynamic(() => import('next/image'), {
   ssr: false,
   loading: () => (
     <div
@@ -27,7 +27,7 @@ const OptimizedImage = dynamic(() => import("next/image"), {
       style={{
         height: 64,
         padding: 0,
-        background: "transparent",
+        background: 'transparent',
         marginRight: 128,
       }}
     >
@@ -41,16 +41,16 @@ function SponsorsSection({ color }: { color: string }) {
 
   const fetchSponsorsData = async (): Promise<SponsorsData> => {
     try {
-      const docRef = doc(db, "sponsorsSection", "sponsorsSection");
+      const docRef = doc(db, 'sponsorsSection', 'sponsorsSection');
       const docSnap = await getDoc(docRef);
 
       if (!docSnap.exists()) {
-        throw new Error("Sponsors metadata not found in Firestore.");
+        throw new Error('Sponsors metadata not found in Firestore.');
       }
 
-      const metadata = docSnap.data() as SponsorsData["metadata"];
+      const metadata = docSnap.data() as SponsorsData['metadata'];
 
-      const storageRef = ref(storage, "sponsorsSection");
+      const storageRef = ref(storage, 'sponsorsSection');
       const listResult = await listAll(storageRef);
       const images = await Promise.all(
         listResult.items.map(async (itemRef, index) => {
@@ -65,13 +65,13 @@ function SponsorsSection({ color }: { color: string }) {
 
       return { metadata, images };
     } catch (error) {
-      console.error("Error fetching sponsors data:", error);
+      console.error('Error fetching sponsors data:', error);
       throw error;
     }
   };
 
   const { data, isLoading, error } = useQuery({
-    queryKey: ["sponsorsSection"],
+    queryKey: ['sponsorsSection'],
     queryFn: fetchSponsorsData,
     staleTime: Infinity,
     gcTime: 30 * 60 * 1000,
@@ -110,16 +110,16 @@ function SponsorsSection({ color }: { color: string }) {
             autoFill
             className={styles.marquee}
           >
-            {data?.images.map((sponsor) => (
+            {data?.images.map(sponsor => (
               <div
                 key={sponsor.id}
-                style={{ position: "relative", height: "100%" }} // instead of top
+                style={{ position: 'relative', height: '100%' }} // instead of top
               >
                 {loadingImages[sponsor.id] && (
                   <div
                     className="imageBlur"
                     style={{
-                      background: "none",
+                      background: 'none',
                       // top: 0 // remove top
                     }}
                   />
@@ -130,13 +130,12 @@ function SponsorsSection({ color }: { color: string }) {
                   key={sponsor.id}
                   alt={sponsor.alt}
                   src={sponsor.src}
-                  quality={60}
                   className={`${styles.sponsorImage} ${
-                    loadingImages[sponsor.id] ? "imageLoading" : ""
+                    loadingImages[sponsor.id] ? 'imageLoading' : ''
                   }`}
                   priority
                   onLoad={() =>
-                    setLoadingImages((prev) => ({
+                    setLoadingImages(prev => ({
                       ...prev,
                       [sponsor.id]: false,
                     }))

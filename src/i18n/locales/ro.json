@@ -694,6 +694,7 @@
     ]
   },
   "invalidPage": {
+    "message": "Pagina nu a fost găsită",
     "text": "Acasă"
   },
   "header": {
