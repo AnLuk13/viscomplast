@@ -3,6 +3,20 @@ import React from 'react';
 function MetaHead() {
   return (
     <head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-P52007PXSX"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P52007PXSX');
+          `,
+        }}
+      />
       <link
         rel="preload"
         as="image"
