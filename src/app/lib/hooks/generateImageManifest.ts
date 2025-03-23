@@ -7,7 +7,7 @@ const outputFile = path.join(process.cwd(), "src/app/lib/assets-manifest.json");
 
 const isImageFile = (file) => /\.(png|jpe?g|svg|gif)$/i.test(file);
 
-function generateManifest() {
+function generateImageManifest() {
   const manifest = {};
 
   fs.readdirSync(assetsDir).forEach((folder) => {
@@ -30,4 +30,4 @@ function generateManifest() {
   fs.writeFileSync(outputFile, JSON.stringify(manifest, null, 2), "utf-8");
 }
 
-generateManifest();
+generateImageManifest();

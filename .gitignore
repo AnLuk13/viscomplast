@@ -40,5 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#scripts
+#scripts and json
 src/app/lib/assets-manifest.json
+src/app/lib/hooks/updateSection.ts
