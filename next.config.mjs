@@ -41,6 +41,11 @@ const nextConfig = {
         source: '/:locale/sitemap.xml',
         destination: '/:locale/api/sitemap', // Dynamic locale-based sitemap
       },
+      {
+        source: '/:locale/google94aaa1a28b8f641e.html',
+        destination: '/google94aaa1a28b8f641e.html',
+        locale: false,
+      },
     ];
   },
   async headers() {

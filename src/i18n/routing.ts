@@ -1,4 +1,3 @@
-// i18n/routing.ts
 import { defineRouting } from "next-intl/routing";
 import { locales, defaultLocale } from "@/app/lib/config/locale-config";
 import { createNavigation } from "next-intl/navigation";
